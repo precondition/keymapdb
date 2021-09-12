@@ -34,11 +34,14 @@ class SearchPosts {
 
       return;
     }
-
+    let getMethods = (obj) => Object.getOwnPropertyNames(obj)
     const matchedPosts = this.posts.filter((post) => {
       const postTitle = post.title.toLowerCase();
 
-      return postTitle.indexOf(query) !== -1;
+      console.log("post.title is " + post.title);
+      console.log("post.stagger is " + post.stagger);
+      console.log(getMethods(post))
+      return (postTitle.indexOf(query) !== -1 || post.stagger == query);
     });
 
     if (matchedPosts.length === 0) {
