@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<article class="max-w-5xl mx-auto">
+    <header class="mb-14">
+        <h1 class="text-3xl text-center font-bold leading-normal text-gray-900 mt-0 mb-3">{{ title }}</h1>
+        {% if thumb %}
+        <div class="mt-10 -mx-7 md:mx-0">
+            <img class="w-full max-w-2xl mx-auto" src="{{ thumb | url }}" width="960" height="500" alt="Picture of {{ title }}">
+        </div>
+        {% endif %}
+    </header>
+    <div id="content" class="prose text-gray-800 max-w-none">
+        <ul>
+        <li>url: <a href={{ url }}>{{ url }}</a></li>
+        <li>author: {{ keymap_author }}</li>
+        <li>image: <a href={{ thumb }}>{{ thumb }}</a></li>
+        <li>keyCount: {{ keyCount }}</li>
+        <li>firmware: {{ firmware }}</li>
+        <li>keyboard: {{ keyboard }}</li>
+        <li>stagger: {{ stagger }}</li>
+        <li>split: {{ split }}</li>
+        <li>languages: {{ languages }}</li>
+        <li>name: {{ title }}</li>
+        <li>summary: {{ summary }}</li>
+        <li>OS: {{ OS }}</li>
+        <li>writeup: <a href={{ writeup }}>{{ writeup }}</a></li>
+        <li>hasLetterOnThumb: {{ hasLetterOnThumb }}</li>
+        <li>layerCount: {{ layerCount }}</li>
+        <li>imageDate: {{ imageDate }}</li>
+        <li>hasVerticalCombos: {{ hasVerticalCombos }}</li>
+        <li>hasHomeRowMods: {{ hasHomeRowMods }}</li>
+        </ul>
+    </div>
+</article>
