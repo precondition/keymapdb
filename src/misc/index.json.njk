@@ -5,9 +5,26 @@ permalink: "/index.json"
     {% for post in collections.posts %}
     {
         "url": "{{ post.url | url }}",
-        "title": "{{ post.data.title }}",
+        "title": "{{ post.data.title | safe}}",
         "date": "{{ post.data.page.date | readableDate }}",
-        "stagger": "{{post.data.stagger}}"
+        "keymap_url": "{{ post.data.keymap_url }}",
+        "author": "{{ post.data.keymap_author }}",
+        "image": "{{ post.data.thumb }}",
+        "keycount": "{{ post.data.keyCount }}",
+        "firmware": "{{ post.data.firmware }}",
+        "keyboard": "{{ post.data.keyboard }}",
+        "stagger": "{{ post.data.stagger }}",
+        "split": "{{ post.data.split }}",
+        "languages": "{{ post.data.languages }}",
+        "name": "{{ post.data.title }}",
+        "summary": "{{ post.data.summary }}",
+        "os": "{{ post.data.OS }}",
+        "writeup": "{{ post.data.writeup }}",
+        "hasletteronthumb": "{{ post.data.hasLetterOnThumb }}",
+        "layercount": "{{ post.data.layerCount }}",
+        "imagedate": "{{ post.data.imageDate }}",
+        "hasverticalcombos": "{{ post.data.hasVerticalCombos }}",
+        "hashomerowmods": "{{ post.data.hasHomeRowMods }}"
     }{% if not loop.last %},{% endif %}
     {% endfor %}
 ]

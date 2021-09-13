@@ -38,10 +38,19 @@ class SearchPosts {
     const matchedPosts = this.posts.filter((post) => {
       const postTitle = post.title.toLowerCase();
 
-      console.log("post.title is " + post.title);
-      console.log("post.stagger is " + post.stagger);
-      console.log(getMethods(post))
-      return (postTitle.indexOf(query) !== -1 || post.stagger == query);
+      const brokenDownQuery = query.split(' ').map(x => {return x.split(';')});
+      console.log(brokenDownQuery);
+      const searchFilters = brokenDownQuery.filter(e => {return e.length == 2;});
+      console.log("searchFilters is : " + searchFilters);
+      const titleSearch = brokenDownQuery.filter(e => {return e.length == 1;}).join(" ");
+      console.log("titleSearch is : " + titleSearch);
+      const mask = searchFilters.map(qualifier => {return post[qualifier[0]] == qualifier[1]});
+      console.log(post.title +  ' ' + typeof post.title)
+      if (titleSearch == "") {
+        return (mask.every(Boolean));
+      } else {
+        return (postTitle.indexOf(titleSearch) !== -1 && mask.every(Boolean));
+      }
     });
 
     if (matchedPosts.length === 0) {
