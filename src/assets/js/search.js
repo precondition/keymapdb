@@ -87,7 +87,7 @@ class SearchPosts {
   }
 }
 
-if (location.pathname === '/search/') {
+if (location.pathname === "{{'/search/' | url }}") {
   const searchBoxEl = document.getElementById('searchbox');
   const searchPosts = new SearchPosts();
 
