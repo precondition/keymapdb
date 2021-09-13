@@ -13,7 +13,7 @@ keyboard: ECO
 languages: ['English']
 layerCount: 2
 title: "ECO Layout by fsck"
-split: False
+split: True
 stagger: ortholinear
 summary: 
 keymap_url: https://github.com/fsck/qmk_firmware/tree/master/keyboards/eco/keymaps/fsck
