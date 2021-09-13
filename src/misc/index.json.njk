@@ -12,7 +12,7 @@ permalink: "/index.json"
         "image": "{{ post.data.thumb }}",
         "keycount": "{{ post.data.keyCount }}",
         "firmware": "{{ post.data.firmware }}",
-        "keyboard": "{{ post.data.keyboard }}",
+        "keyboard": "{{ post.data.keyboard | safe | lower }}",
         "stagger": "{{ post.data.stagger }}",
         "split": "{{ post.data.split }}",
         "languages": "{{ post.data.languages }}",

@@ -30,7 +30,7 @@ class SearchPosts {
     wrapperEl.innerHTML = '';
 
     if (query === '') {
-      infoEl.textContent = 'Enter keywords in the search box above';
+      infoEl.innerHTML = '<p>Enter keywords in the search box above<br>You can use space-separated search qualifiers using the following syntax : <code>field;value</code>.<br>Examples:<br>hashomerowmods;false stagger;columnar g heavy<br>ifo keyboard;ergodash<br>the rootiest<p><br>See the "Tag List" for a list of the available fields'
 
       return;
     }
@@ -45,7 +45,7 @@ class SearchPosts {
       const titleSearch = brokenDownQuery.filter(e => {return e.length == 1;}).join(" ");
       console.log("titleSearch is : " + titleSearch);
       const mask = searchFilters.map(qualifier => {return post[qualifier[0]] == qualifier[1]});
-      console.log(post.title +  ' ' + typeof post.title)
+      console.log(post.keyboard +  ' ' + typeof post.keyboard)
       if (titleSearch == "") {
         return (mask.every(Boolean));
       } else {
