@@ -72,12 +72,13 @@ class SearchPosts {
     slicedPosts.forEach((post) => {
       const { url, title, date } = post;
 
+      const splitStatus = Boolean(post.split) ? "split" : "non-split"
       wrapperEl.innerHTML += `
         <div class="w-full sm:w-1/2 md:w-1/3 self-stretch p-2 mb-2">
           <a href="${url}">
             <div class="rounded shadow-md h-full px-6 py-5">
               <div class="font-semibold text-lg mb-2">${title}</div>
-              <p class="text-gray-700 mb-1" title="Published date">${date}</p>
+              <p class="text-gray-700 mb-1">${post.stagger} stagger, ${post.keycount} keys, ${splitStatus}</p>
             </div>
           </a>
         </div>
