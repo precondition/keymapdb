@@ -1,0 +1,22 @@
+{
+  "fields": [
+    "keymap_url",
+    "keymap_author",
+    "thumb",
+    "keyCount",
+    "firmware",
+    "keyboard",
+    "stagger",
+    "split",
+    "languages",
+    "name",
+    "summary",
+    "OS",
+    "writeup",
+    "hasLetterOnThumb",
+    "layerCount",
+    "imageDate",
+    "hasVerticalCombos",
+    "hasHomeRowMods"
+  ]
+}
