@@ -16,6 +16,6 @@ title: "brandonschlack's Macropad/Lightroom layout for BDN9"
 split: False
 stagger: ortholinear
 summary: 
-url: https://github.com/brandonschlack/qmk_firmware/tree/master/keyboards/keebio/bdn9/keymaps/brandonschlack
+keymap_url: https://github.com/brandonschlack/qmk_firmware/tree/master/keyboards/keebio/bdn9/keymaps/brandonschlack
 writeup: https://github.com/brandonschlack/qmk_firmware/tree/master/keyboards/keebio/bdn9/keymaps/brandonschlack/readme.md
 ---

@@ -16,6 +16,6 @@ title: "nfriend's ErgoDox EZ configuration"
 split: False
 stagger: columnar
 summary: 
-url: https://github.com/nfriend/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/nfriend
+keymap_url: https://github.com/nfriend/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/nfriend
 writeup: https://github.com/nfriend/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/nfriend/readme.md
 ---

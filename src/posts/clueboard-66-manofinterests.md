@@ -16,6 +16,6 @@ title: "Default Clueboard Layout"
 split: False
 stagger: row
 summary: 
-url: https://github.com/manofinterests/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/manofinterests
+keymap_url: https://github.com/manofinterests/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/manofinterests
 writeup: https://github.com/manofinterests/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/manofinterests/readme.md
 ---

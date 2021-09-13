@@ -16,6 +16,6 @@ title: "Ishtob's personal planck layout"
 split: False
 stagger: ortholinear
 summary: 
-url: https://github.com/ishtob/qmk_firmware/tree/master/keyboards/planck/keymaps/ishtob
+keymap_url: https://github.com/ishtob/qmk_firmware/tree/master/keyboards/planck/keymaps/ishtob
 writeup: https://github.com/ishtob/qmk_firmware/tree/master/keyboards/planck/keymaps/ishtob/readme.md
 ---

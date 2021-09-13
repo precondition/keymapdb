@@ -16,6 +16,6 @@ title: "fsck's Planck Layout"
 split: False
 stagger: ortholinear
 summary: 
-url: https://github.com/fsck/qmk_firmware/tree/master/keyboards/planck/keymaps/fsck
+keymap_url: https://github.com/fsck/qmk_firmware/tree/master/keyboards/planck/keymaps/fsck
 writeup: https://github.com/fsck/qmk_firmware/tree/master/keyboards/planck/keymaps/fsck/readme.md
 ---

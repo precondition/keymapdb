@@ -16,6 +16,6 @@ title: "default Satan GH60 layout"
 split: False
 stagger: row
 summary: 
-url: https://github.com/abhixec/qmk_firmware/tree/master/keyboards/gh60/satan/keymaps/abhixec
+keymap_url: https://github.com/abhixec/qmk_firmware/tree/master/keyboards/gh60/satan/keymaps/abhixec
 writeup: https://github.com/abhixec/qmk_firmware/tree/master/keyboards/gh60/satan/keymaps/abhixec/readme.md
 ---

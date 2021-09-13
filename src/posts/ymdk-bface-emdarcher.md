@@ -16,6 +16,6 @@ title: "emdarcher's keymap"
 split: False
 stagger: row
 summary: 
-url: https://github.com/emdarcher/qmk_firmware/tree/master/keyboards/ymdk/bface/keymaps/emdarcher
+keymap_url: https://github.com/emdarcher/qmk_firmware/tree/master/keyboards/ymdk/bface/keymaps/emdarcher
 writeup: https://github.com/emdarcher/qmk_firmware/tree/master/keyboards/ymdk/bface/keymaps/emdarcher/readme.md
 ---

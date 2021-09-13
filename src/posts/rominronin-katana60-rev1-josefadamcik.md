@@ -16,6 +16,6 @@ title: "Multi OS Katana60 layout"
 split: False
 stagger: row
 summary: 
-url: https://github.com/josefadamcik/qmk_firmware/tree/master/keyboards/rominronin/katana60/rev1/keymaps/josefadamcik
+keymap_url: https://github.com/josefadamcik/qmk_firmware/tree/master/keyboards/rominronin/katana60/rev1/keymaps/josefadamcik
 writeup: https://github.com/josefadamcik/qmk_firmware/tree/master/keyboards/rominronin/katana60/rev1/keymaps/josefadamcik/readme.md
 ---

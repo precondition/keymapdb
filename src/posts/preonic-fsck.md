@@ -16,6 +16,6 @@ title: "fsck's Preonic Layout"
 split: False
 stagger: ortholinear
 summary: 
-url: https://github.com/fsck/qmk_firmware/tree/master/keyboards/preonic/keymaps/fsck
+keymap_url: https://github.com/fsck/qmk_firmware/tree/master/keyboards/preonic/keymaps/fsck
 writeup: https://github.com/fsck/qmk_firmware/tree/master/keyboards/preonic/keymaps/fsck/readme.md
 ---

@@ -16,6 +16,6 @@ title: "A tweaked keymap for Redox"
 split: True
 stagger: row
 summary: 
-url: https://github.com/fculpo/qmk_firmware/tree/master/keyboards/redox/keymaps/fculpo
+keymap_url: https://github.com/fculpo/qmk_firmware/tree/master/keyboards/redox/keymaps/fculpo
 writeup: https://github.com/fculpo/qmk_firmware/tree/master/keyboards/redox/keymaps/fculpo/readme.md
 ---

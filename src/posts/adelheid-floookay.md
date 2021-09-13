@@ -16,6 +16,6 @@ title: "The default keymap for the Adelheid"
 split: False
 stagger: row
 summary: 
-url: https://github.com/floookay/qmk_firmware/tree/master/keyboards/adelheid/keymaps/floookay
+keymap_url: https://github.com/floookay/qmk_firmware/tree/master/keyboards/adelheid/keymaps/floookay
 writeup: https://github.com/floookay/qmk_firmware/tree/master/keyboards/adelheid/keymaps/floookay/readme.md
 ---

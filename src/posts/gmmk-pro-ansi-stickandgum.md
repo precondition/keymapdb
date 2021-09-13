@@ -16,6 +16,6 @@ title: "Glorious GMMK Pro / ANSI - Enhanced Keyboard"
 split: False
 stagger: row
 summary: 
-url: https://github.com/stickandgum/qmk_firmware/tree/master/keyboards/gmmk/pro/ansi/keymaps/stickandgum
+keymap_url: https://github.com/stickandgum/qmk_firmware/tree/master/keyboards/gmmk/pro/ansi/keymaps/stickandgum
 writeup: https://github.com/stickandgum/qmk_firmware/tree/master/keyboards/gmmk/pro/ansi/keymaps/stickandgum/readme.md
 ---

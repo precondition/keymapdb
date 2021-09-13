@@ -16,6 +16,6 @@ title: "Minidox Layout by Khitsule"
 split: True
 stagger: row
 summary: 
-url: https://github.com/khitsule/qmk_firmware/tree/master/keyboards/minidox/keymaps/khitsule
+keymap_url: https://github.com/khitsule/qmk_firmware/tree/master/keyboards/minidox/keymaps/khitsule
 writeup: https://github.com/khitsule/qmk_firmware/tree/master/keyboards/minidox/keymaps/khitsule/readme.md
 ---

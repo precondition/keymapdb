@@ -16,6 +16,6 @@ title: "Iris Layout by Khitsule"
 split: True
 stagger: columnar
 summary: 
-url: https://github.com/khitsule/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/khitsule
+keymap_url: https://github.com/khitsule/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/khitsule
 writeup: https://github.com/khitsule/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/khitsule/readme.md
 ---

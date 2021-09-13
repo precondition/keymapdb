@@ -16,6 +16,6 @@ title: "Atreus Layout by Khitsule"
 split: False
 stagger: columnar
 summary: 
-url: https://github.com/khitsule/qmk_firmware/tree/master/keyboards/atreus/keymaps/khitsule
+keymap_url: https://github.com/khitsule/qmk_firmware/tree/master/keyboards/atreus/keymaps/khitsule
 writeup: https://github.com/khitsule/qmk_firmware/tree/master/keyboards/atreus/keymaps/khitsule/readme.md
 ---

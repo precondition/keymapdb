@@ -16,6 +16,6 @@ title: "UT47.2 Planck-style layout switching"
 split: False
 stagger: row
 summary: 
-url: https://github.com/annihilator6000/qmk_firmware/tree/master/keyboards/ut472/keymaps/annihilator6000
+keymap_url: https://github.com/annihilator6000/qmk_firmware/tree/master/keyboards/ut472/keymaps/annihilator6000
 writeup: https://github.com/annihilator6000/qmk_firmware/tree/master/keyboards/ut472/keymaps/annihilator6000/readme.md
 ---

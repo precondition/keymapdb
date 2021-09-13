@@ -16,6 +16,6 @@ title: "The nathanvercaemert ErgoDox EZ configuration"
 split: False
 stagger: columnar
 summary: 
-url: https://github.com/nathanvercaemert/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/nathanvercaemert
+keymap_url: https://github.com/nathanvercaemert/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/nathanvercaemert
 writeup: https://github.com/nathanvercaemert/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/nathanvercaemert/readme.md
 ---

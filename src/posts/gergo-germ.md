@@ -16,6 +16,6 @@ title: "Gergo! By g Heavy Industries"
 split: False
 stagger: columnar
 summary: 
-url: https://github.com/germ/qmk_firmware/tree/master/keyboards/gergo/keymaps/germ
+keymap_url: https://github.com/germ/qmk_firmware/tree/master/keyboards/gergo/keymaps/germ
 writeup: https://github.com/germ/qmk_firmware/tree/master/keyboards/gergo/keymaps/germ/readme.md
 ---

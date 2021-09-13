@@ -16,6 +16,6 @@ title: "The Rootiest Planck Layout"
 split: False
 stagger: ortholinear
 summary: 
-url: https://github.com/rootiest/qmk_firmware/tree/master/keyboards/planck/keymaps/rootiest
+keymap_url: https://github.com/rootiest/qmk_firmware/tree/master/keyboards/planck/keymaps/rootiest
 writeup: https://github.com/rootiest/qmk_firmware/tree/master/keyboards/planck/keymaps/rootiest/readme.md
 ---

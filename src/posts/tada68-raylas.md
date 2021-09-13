@@ -16,6 +16,6 @@ title: "raylas's TADA68 layout"
 split: False
 stagger: row
 summary: 
-url: https://github.com/raylas/qmk_firmware/tree/master/keyboards/tada68/keymaps/raylas
+keymap_url: https://github.com/raylas/qmk_firmware/tree/master/keyboards/tada68/keymaps/raylas
 writeup: https://github.com/raylas/qmk_firmware/tree/master/keyboards/tada68/keymaps/raylas/readme.md
 ---

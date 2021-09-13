@@ -16,6 +16,6 @@ title: "MacOS standard 60% keymap with Vim-like arrows"
 split: False
 stagger: row
 summary: 
-url: https://github.com/bingocaller/qmk_firmware/tree/master/keyboards/dz60/keymaps/bingocaller
+keymap_url: https://github.com/bingocaller/qmk_firmware/tree/master/keyboards/dz60/keymaps/bingocaller
 writeup: https://github.com/bingocaller/qmk_firmware/tree/master/keyboards/dz60/keymaps/bingocaller/readme.md
 ---

@@ -16,6 +16,6 @@ title: "Iris layout by fluffactually"
 split: True
 stagger: columnar
 summary: 
-url: https://github.com/fluffactually/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/fluffactually
+keymap_url: https://github.com/fluffactually/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/fluffactually
 writeup: https://github.com/fluffactually/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/fluffactually/readme.md
 ---

@@ -16,6 +16,6 @@ title: "emdarcher's keymap for lattice60"
 split: False
 stagger: row
 summary: 
-url: https://github.com/emdarcher/qmk_firmware/tree/master/keyboards/lattice60/keymaps/emdarcher
+keymap_url: https://github.com/emdarcher/qmk_firmware/tree/master/keyboards/lattice60/keymaps/emdarcher
 writeup: https://github.com/emdarcher/qmk_firmware/tree/master/keyboards/lattice60/keymaps/emdarcher/readme.md
 ---

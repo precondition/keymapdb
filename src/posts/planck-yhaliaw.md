@@ -16,6 +16,6 @@ title: "yhaliaw Planck layout"
 split: False
 stagger: ortholinear
 summary: 
-url: https://github.com/yhaliaw/qmk_firmware/tree/master/keyboards/planck/keymaps/yhaliaw
+keymap_url: https://github.com/yhaliaw/qmk_firmware/tree/master/keyboards/planck/keymaps/yhaliaw
 writeup: https://github.com/yhaliaw/qmk_firmware/tree/master/keyboards/planck/keymaps/yhaliaw/readme.md
 ---

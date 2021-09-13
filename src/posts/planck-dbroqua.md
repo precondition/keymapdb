@@ -16,6 +16,6 @@ title: "Dbroqua Layout"
 split: False
 stagger: ortholinear
 summary: 
-url: https://github.com/dbroqua/qmk_firmware/tree/master/keyboards/planck/keymaps/dbroqua
+keymap_url: https://github.com/dbroqua/qmk_firmware/tree/master/keyboards/planck/keymaps/dbroqua
 writeup: https://github.com/dbroqua/qmk_firmware/tree/master/keyboards/planck/keymaps/dbroqua/readme.md
 ---

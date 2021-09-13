@@ -16,6 +16,6 @@ title: "IFo Hancroft's ErgoDash Layout"
 split: True
 stagger: columnar
 summary: 
-url: https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/ergodash/rev1/keymaps/ifohancroft
+keymap_url: https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/ergodash/rev1/keymaps/ifohancroft
 writeup: https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/ergodash/rev1/keymaps/ifohancroft/readme.md
 ---

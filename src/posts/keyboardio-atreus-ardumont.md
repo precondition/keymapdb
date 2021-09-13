@@ -16,6 +16,6 @@ title: "ardumont layout"
 split: False
 stagger: columnar
 summary: 
-url: https://github.com/ardumont/qmk_firmware/tree/master/keyboards/keyboardio/atreus/keymaps/ardumont
+keymap_url: https://github.com/ardumont/qmk_firmware/tree/master/keyboards/keyboardio/atreus/keymaps/ardumont
 writeup: https://github.com/ardumont/qmk_firmware/tree/master/keyboards/keyboardio/atreus/keymaps/ardumont/readme.md
 ---

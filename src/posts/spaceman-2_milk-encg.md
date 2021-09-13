@@ -16,6 +16,6 @@ title: "encg's Keymap"
 split: False
 stagger: columnar
 summary: 
-url: https://github.com/encg/qmk_firmware/tree/master/keyboards/spaceman/2_milk/keymaps/encg
+keymap_url: https://github.com/encg/qmk_firmware/tree/master/keyboards/spaceman/2_milk/keymaps/encg
 writeup: https://github.com/encg/qmk_firmware/tree/master/keyboards/spaceman/2_milk/keymaps/encg/readme.md
 ---

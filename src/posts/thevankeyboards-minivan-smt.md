@@ -16,6 +16,6 @@ title: "smt's TV44 keymap"
 split: False
 stagger: row
 summary: 
-url: https://github.com/smt/qmk_firmware/tree/master/keyboards/thevankeyboards/minivan/keymaps/smt
+keymap_url: https://github.com/smt/qmk_firmware/tree/master/keyboards/thevankeyboards/minivan/keymaps/smt
 writeup: https://github.com/smt/qmk_firmware/tree/master/keyboards/thevankeyboards/minivan/keymaps/smt/readme.md
 ---

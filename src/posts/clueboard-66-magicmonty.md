@@ -16,6 +16,6 @@ title: "Layout of @magicmonty"
 split: False
 stagger: row
 summary: 
-url: https://github.com/magicmonty/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/magicmonty
+keymap_url: https://github.com/magicmonty/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/magicmonty
 writeup: https://github.com/magicmonty/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/magicmonty/readme.md
 ---

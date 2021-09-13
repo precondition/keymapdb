@@ -16,6 +16,6 @@ title: "IFo Hancroft's Idobo Layout"
 split: False
 stagger: ortholinear
 summary: 
-url: https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/idobo/keymaps/ifohancroft
+keymap_url: https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/idobo/keymaps/ifohancroft
 writeup: https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/idobo/keymaps/ifohancroft/readme.md
 ---

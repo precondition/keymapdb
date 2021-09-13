@@ -16,6 +16,6 @@ title: "brandonschlack's Nightmare Keymap"
 split: False
 stagger: row
 summary: 
-url: https://github.com/brandonschlack/qmk_firmware/tree/master/keyboards/nightmare/keymaps/brandonschlack
+keymap_url: https://github.com/brandonschlack/qmk_firmware/tree/master/keyboards/nightmare/keymaps/brandonschlack
 writeup: https://github.com/brandonschlack/qmk_firmware/tree/master/keyboards/nightmare/keymaps/brandonschlack/readme.md
 ---

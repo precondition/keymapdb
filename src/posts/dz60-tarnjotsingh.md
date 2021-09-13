@@ -16,6 +16,6 @@ title: "DZ60 ISO Keymap"
 split: False
 stagger: row
 summary: 
-url: https://github.com/tarnjotsingh/qmk_firmware/tree/master/keyboards/dz60/keymaps/tarnjotsingh
+keymap_url: https://github.com/tarnjotsingh/qmk_firmware/tree/master/keyboards/dz60/keymaps/tarnjotsingh
 writeup: https://github.com/tarnjotsingh/qmk_firmware/tree/master/keyboards/dz60/keymaps/tarnjotsingh/readme.md
 ---

@@ -16,6 +16,6 @@ title: "jwon's Programmer Dvorak"
 split: False
 stagger: row
 summary: 
-url: https://github.com/jwon/qmk_firmware/tree/master/keyboards/kinesis/keymaps/jwon
+keymap_url: https://github.com/jwon/qmk_firmware/tree/master/keyboards/kinesis/keymaps/jwon
 writeup: https://github.com/jwon/qmk_firmware/tree/master/keyboards/kinesis/keymaps/jwon/readme.md
 ---

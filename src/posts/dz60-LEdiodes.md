@@ -16,6 +16,6 @@ title: "LEdiodes Keymap for XD60 60% PCB"
 split: False
 stagger: row
 summary: 
-url: https://github.com/LEdiodes/qmk_firmware/tree/master/keyboards/dz60/keymaps/LEdiodes
+keymap_url: https://github.com/LEdiodes/qmk_firmware/tree/master/keyboards/dz60/keymaps/LEdiodes
 writeup: https://github.com/LEdiodes/qmk_firmware/tree/master/keyboards/dz60/keymaps/LEdiodes/readme.md
 ---

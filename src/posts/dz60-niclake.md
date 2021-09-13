@@ -16,6 +16,6 @@ title: "Nic Lake's DZ60 Layout"
 split: False
 stagger: row
 summary: 
-url: https://github.com/niclake/qmk_firmware/tree/master/keyboards/dz60/keymaps/niclake
+keymap_url: https://github.com/niclake/qmk_firmware/tree/master/keyboards/dz60/keymaps/niclake
 writeup: https://github.com/niclake/qmk_firmware/tree/master/keyboards/dz60/keymaps/niclake/readme.md
 ---

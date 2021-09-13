@@ -16,6 +16,6 @@ title: "Ergodox EZ Layout by bpruitt-goddard"
 split: False
 stagger: columnar
 summary: 
-url: https://github.com/bpruitt-goddard/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/bpruitt-goddard
+keymap_url: https://github.com/bpruitt-goddard/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/bpruitt-goddard
 writeup: https://github.com/bpruitt-goddard/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/bpruitt-goddard/readme.md
 ---

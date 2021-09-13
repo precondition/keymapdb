@@ -16,6 +16,6 @@ title: "ECO Layout by fsck"
 split: False
 stagger: ortholinear
 summary: 
-url: https://github.com/fsck/qmk_firmware/tree/master/keyboards/eco/keymaps/fsck
+keymap_url: https://github.com/fsck/qmk_firmware/tree/master/keyboards/eco/keymaps/fsck
 writeup: https://github.com/fsck/qmk_firmware/tree/master/keyboards/eco/keymaps/fsck/readme.md
 ---

@@ -16,6 +16,6 @@ title: "A personal keymap for Play Keyboard60 based on the minila layout"
 split: False
 stagger: row
 summary: 
-url: https://github.com/rfvizarra/qmk_firmware/tree/master/keyboards/playkbtw/pk60/keymaps/rfvizarra
+keymap_url: https://github.com/rfvizarra/qmk_firmware/tree/master/keyboards/playkbtw/pk60/keymaps/rfvizarra
 writeup: https://github.com/rfvizarra/qmk_firmware/tree/master/keyboards/playkbtw/pk60/keymaps/rfvizarra/readme.md
 ---

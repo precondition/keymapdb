@@ -16,6 +16,6 @@ title: "IFo Hancroft's KBParadise V60 Type R Layout"
 split: False
 stagger: row
 summary: 
-url: https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/v60_type_r/keymaps/ifohancroft
+keymap_keymap_url: https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/v60_type_r/keymaps/ifohancroft
 writeup: https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/v60_type_r/keymaps/ifohancroft/readme.md
 ---

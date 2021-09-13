@@ -16,6 +16,6 @@ title: "smt Clueboard Layout (HHKB variant)"
 split: False
 stagger: row
 summary: 
-url: https://github.com/smt/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/smt
+keymap_url: https://github.com/smt/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/smt
 writeup: https://github.com/smt/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/smt/readme.md
 ---

@@ -16,6 +16,6 @@ title: "@shwilliam's Preonic Layout"
 split: False
 stagger: ortholinear
 summary: 
-url: https://github.com/shwilliam/qmk_firmware/tree/master/keyboards/preonic/keymaps/shwilliam
+keymap_url: https://github.com/shwilliam/qmk_firmware/tree/master/keyboards/preonic/keymaps/shwilliam
 writeup: https://github.com/shwilliam/qmk_firmware/tree/master/keyboards/preonic/keymaps/shwilliam/readme.md
 ---

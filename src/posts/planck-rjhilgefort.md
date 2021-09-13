@@ -16,6 +16,6 @@ title: "🐦 @rjhilgefort Planck Layout"
 split: False
 stagger: ortholinear
 summary: 
-url: https://github.com/rjhilgefort/qmk_firmware/tree/master/keyboards/planck/keymaps/rjhilgefort
+keymap_url: https://github.com/rjhilgefort/qmk_firmware/tree/master/keyboards/planck/keymaps/rjhilgefort
 writeup: https://github.com/rjhilgefort/qmk_firmware/tree/master/keyboards/planck/keymaps/rjhilgefort/readme.md
 ---
