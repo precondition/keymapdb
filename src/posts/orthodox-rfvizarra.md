@@ -14,7 +14,7 @@ languages: ['English']
 layerCount: 9
 title: "A personal Orthodox Layout"
 split: True
-stagger: columnar
+stagger: ortholinear
 summary: 
 keymap_url: https://github.com/rfvizarra/qmk_firmware/tree/master/keyboards/orthodox/keymaps/rfvizarra
 writeup: https://github.com/rfvizarra/qmk_firmware/tree/master/keyboards/orthodox/keymaps/rfvizarra/readme.md

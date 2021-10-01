@@ -673,7 +673,7 @@
       "layerCount": 9,
       "name": "A personal Orthodox Layout",
       "split": true,
-      "stagger": "columnar",
+      "stagger": "ortholinear",
       "summary": "",
       "url": "https://github.com/rfvizarra/qmk_firmware/tree/master/keyboards/orthodox/keymaps/rfvizarra",
       "writeup": "https://github.com/rfvizarra/qmk_firmware/tree/master/keyboards/orthodox/keymaps/rfvizarra/readme.md"
