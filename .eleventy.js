@@ -1,10 +1,12 @@
 const pluginTailwind = require('eleventy-plugin-tailwindcss');
+const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
 module.exports = (config) => {
   config.addPlugin(pluginTailwind, {
     src: 'src/assets/css/*'
   });
 
+  config.addPlugin(UpgradeHelper);
   config.setDataDeepMerge(true);
 
   config.addPassthroughCopy('src/assets/img/**/*');
@@ -30,7 +32,7 @@ module.exports = (config) => {
       input: 'src',
       output: 'dist'
     },
-     pathPrefix: "/keymapdb-poc/",
+    pathPrefix: "/keymapdb-poc/",
     templateFormats: ['md', 'njk', 'html'],
     dataTemplateEngine: 'njk',
     markdownTemplateEngine: 'njk'
