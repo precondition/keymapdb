@@ -1,0 +1,161 @@
+{% from "macros/yes-no-switch-field.njk" import YesNo %}
+
+Key Count:
+<input type="range" max="100" value="70" class="range range-accent">
+
+<br>
+
+Firmware:
+<div class="flex flex-col">
+    <label class="inline-flex mt-3">
+        <input type="radio", name="firmware", class="form-radio h-5 w-5 text-blue-500 border-gray-300 transition duration-100 ease-in-out shadow-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none focus:ring-opacity-50 focus:ring-offset-0  disabled:opacity-50 disabled:cursor-not-allowed"><span class="ml-2 text-gray-700">QMK</span>
+    </label>
+
+    <label class="inline-flex mt-3">
+        <input type="radio", name="firmware", class="form-radio h-5 w-5"><span class="ml-2 text-gray-700">ZMK</span>
+    </label>
+
+    <label class="inline-flex mt-3">
+        <input type="radio", name="firmware", class="form-radio h-5 w-5"><span class="ml-2 text-gray-700">KMonad</span>
+    </label>
+</div>
+
+<br>
+
+<div class="flex">
+  <div class="mb-3 xl:w-96">
+    <label class="form-check-label inline-block text-gray-800" for="baseLayoutSelection">
+      Base layout:
+    </label>
+    <select id="keyboardSelection" name="baseLayoutSelection" class="form-select
+      block
+      px-3
+      py-1.5
+      text-base
+      font-normal
+      text-gray-700
+      bg-white bg-clip-padding bg-no-repeat
+      border border-solid border-gray-300
+      rounded
+      transition
+      ease-in-out
+      m-0
+      focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example">
+        <option selected>Any</option>
+        <option value="QWERTY">QWERTY</option>
+        <option value="AZERTY">AZERTY</option>
+        <option value="QWERTZ">QWERTZ</option>
+        <option value="Colemak">Colemak</option>
+    </select>
+  </div>
+</div>
+
+<br>
+
+<div class="flex">
+  <div class="mb-3 xl:w-96">
+    <label class="form-check-label inline-block text-gray-800" for="keyboardSelection">
+      Keyboard:
+    </label>
+    <select id="keyboardSelection" name="keyboardSelection" class="form-select
+      block
+      px-3
+      py-1.5
+      text-base
+      font-normal
+      text-gray-700
+      bg-white bg-clip-padding bg-no-repeat
+      border border-solid border-gray-300
+      rounded
+      transition
+      ease-in-out
+      m-0
+      focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example">
+        <option selected>Any</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+    </select>
+  </div>
+</div>
+
+<br>
+
+Stagger:
+<div class="flex flex-col">
+    <label class="inline-flex mt-3">
+        <input type="radio", name="stagger", class="form-radio h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">row</span>
+    </label>
+
+    <label class="inline-flex mt-3">
+        <input type="radio", name="stagger", class="form-radio h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">columnar</span>
+    </label>
+
+    <label class="inline-flex mt-3">
+        <input type="radio", name="stagger", class="form-radio h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">ortholinear</span>
+    </label>
+</div>
+
+<br>
+
+Split:
+{{ YesNo("split") }}
+
+<br>
+
+<label class="block text-left" style="max-width: 300px">
+  Language(s):
+  <select class="form-multiselect block w-full mt-1" style="border-width: 2px" multiple>
+    <option>English</option>
+    <option>French</option>
+    <option>Japanese</option>
+    <option>Spanish</option>
+  </select>
+</label>
+
+<br>
+
+OS:
+<div class="flex flex-col">
+    <div class="flex flex-col">
+        <label class="inline-flex items-center mt-3">
+            <input type="checkbox" class="form-checkbox h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">Windows</span>
+        </label>
+        <label class="inline-flex items-center mt-3">
+            <input type="checkbox" class="form-checkbox h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">MacOS</span>
+        </label>
+        <label class="inline-flex items-center mt-3">
+            <input type="checkbox" class="form-checkbox h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">GNU+Linux</span>
+        </label>
+    </div>
+</div>
+
+<br>
+
+Letter(s) on thumb:
+{{ YesNo("letter-on-thumb") }}
+
+<br>
+
+Layer Count:
+<input type="range" max="32" value="4" class="range range-accent">
+
+<br>
+
+Combos:
+{{ YesNo("combos") }}
+
+<br>
+
+Tap dance:
+{{ YesNo("tap-dance") }}
+
+<br>
+
+Auto Shift:
+{{ YesNo("auto-shift") }}
+
+<br>
+
+Home row mods:
+{{ YesNo("home-row-mods") }}

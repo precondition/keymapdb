@@ -1,0 +1,8 @@
+{% macro YesNo(yesNoId="radio-switch-field") %}
+<div class="switch-field">
+    <input type="radio" id="{{ yesNoId }}-yes" name="{{ yesNoId }}-switch-field" value="true"/>
+    <label for="{{ yesNoId }}-yes">Yes</label>
+    <input type="radio" id="{{ yesNoId }}-no" name="{{ yesNoId }}-switch-field" value="false"/>
+    <label for="{{ yesNoId }}-no">No</label>
+</div>
+{% endmacro %}

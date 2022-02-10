@@ -47,7 +47,7 @@
         {% if layout === "post" %}
         {{ content | safe }}
         {% else %}
-        <div class="max-w-5xl mx-auto">
+        <div class=""> <!-- FIXME : Remove this useless div -->
             {{ content | safe }}
         </div>
         {% endif %}

@@ -7,8 +7,13 @@ pagination:
 permalink: "{% if paged.number > 1 %}page/{{ paged.number }}/{% endif %}index.html"
 ---
 
-<div class="flex flex-wrap -mx-2">
+<div class="flex">
+    <aside class="h-screen top-0" style="height:min-content;">
+        {% include "partials/sidebar.njk" %}
+    </aside>
+    <div class="flex flex-wrap -mx-2">
     {% include "partials/post-grid.njk" %}
+    </div>
 </div>
 
 {% if collections.posts.length > site.paginate %}
