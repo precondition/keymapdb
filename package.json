@@ -32,6 +32,7 @@
 	"dependencies": {
 		"@11ty/eleventy-upgrade-help": "^1.0.1",
 		"@tailwindcss/forms": "^0.2.1",
-		"eleventy-plugin-tailwindcss": "github:dafiulh/eleventy-plugin-tailwindcss"
+		"eleventy-plugin-tailwindcss": "^0.3.0",
+		"nouislider": "^15.5.1"
 	}
 }
