@@ -453,30 +453,6 @@
       "writeup": "https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/idobo/keymaps/ifohancroft/readme.md"
     },
     {
-      "OS": [
-        "MacOS"
-      ],
-      "author": "brandonschlack",
-      "firmware": "QMK",
-      "hasHomeRowMods": false,
-      "hasLetterOnThumb": false,
-      "hasVerticalCombos": false,
-      "image": "https://i.imgur.com/pai9M0m.jpg",
-      "imageDate": "idk",
-      "keyCount": 9,
-      "keyboard": "Keebio BDN9",
-      "languages": [
-        "English"
-      ],
-      "layerCount": 9,
-      "name": "brandonschlack's Macropad/Lightroom layout for BDN9",
-      "split": false,
-      "stagger": "ortholinear",
-      "summary": "",
-      "url": "https://github.com/brandonschlack/qmk_firmware/tree/master/keyboards/keebio/bdn9/keymaps/brandonschlack",
-      "writeup": "https://github.com/brandonschlack/qmk_firmware/tree/master/keyboards/keebio/bdn9/keymaps/brandonschlack/readme.md"
-    },
-    {
       "OS": [],
       "author": "shadyproject",
       "firmware": "QMK",
@@ -928,30 +904,6 @@
       "summary": "",
       "url": "https://github.com/josefadamcik/qmk_firmware/tree/master/keyboards/rominronin/katana60/rev1/keymaps/josefadamcik",
       "writeup": "https://github.com/josefadamcik/qmk_firmware/tree/master/keyboards/rominronin/katana60/rev1/keymaps/josefadamcik/readme.md"
-    },
-    {
-      "OS": [
-        "MacOS"
-      ],
-      "author": "encg",
-      "firmware": "QMK",
-      "hasHomeRowMods": false,
-      "hasLetterOnThumb": false,
-      "hasVerticalCombos": false,
-      "image": "https://i.imgur.com/rUc3IOn.gif",
-      "imageDate": "idk",
-      "keyCount": 2,
-      "keyboard": "2% Milk",
-      "languages": [
-        "English"
-      ],
-      "layerCount": 1,
-      "name": "encg's Keymap",
-      "split": false,
-      "stagger": "columnar",
-      "summary": "",
-      "url": "https://github.com/encg/qmk_firmware/tree/master/keyboards/spaceman/2_milk/keymaps/encg",
-      "writeup": "https://github.com/encg/qmk_firmware/tree/master/keyboards/spaceman/2_milk/keymaps/encg/readme.md"
     },
     {
       "OS": [
