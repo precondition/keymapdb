@@ -36,7 +36,7 @@ module.exports = (config) => {
       input: 'src',
       output: 'dist'
     },
-    pathPrefix: "/keymapdb-poc/",
+    pathPrefix: "/keymapdb/",
     templateFormats: ['md', 'njk', 'html'],
     dataTemplateEngine: 'njk',
     markdownTemplateEngine: 'njk'
