@@ -1,44 +1,62 @@
 let keyCountSlider = document.getElementById('keyCountSlider');
 let layerCountSlider = document.getElementById('layerCountSlider');
 
+const MAX_KEY_COUNT = 120;
+const keyCountPipsStep = 20;
+let keyCountPips = [1]
+for (let v = keyCountPipsStep; v <= MAX_KEY_COUNT ; v += keyCountPipsStep) {
+    keyCountPips.push(v);
+}
+
 noUiSlider.create(keyCountSlider, {
-    start: [30, 60],
+    start: [1, MAX_KEY_COUNT],
     connect: true,
     step: 1,
     tooltips: true,
     format: {
-        to: (numberValue) => Math.ceil(numberValue),
+        to: (numberValue) => Math.round(numberValue),
         from: (stringValue) => Number(stringValue.replace(',-', ''))
     },
     pips: {
         mode: 'values',
-        values: [1, 20, 40, 60, 80, 100, 120],
+        values: keyCountPips,
         density: 4
     },
     range: {
         'min': 1,
-        'max': 120
+        'max': MAX_KEY_COUNT
     }
 });
 
-// TODO: Show "16+" as last element of slider
+/* Layers can go up to 32 in QMK but it's very unlikely to encounter more than
+ * 16 layers in a keymap so in order to make the slider more comfortable to use,
+ * we limit the max to 16. However, we can and should change that if we do find
+ * a keymap with more 16 layers.
+ */
+const MAX_LAYER_COUNT = 16;
+const layerCountPipsStep = 4;
+let layerCountPips = [1]
+for (let v = layerCountPipsStep; v <= MAX_LAYER_COUNT ; v += layerCountPipsStep) {
+    layerCountPips.push(v);
+}
+
 noUiSlider.create(layerCountSlider, {
-    start: [1, 32],
+    start: [1, MAX_LAYER_COUNT],
     connect: true,
     step: 1,
     tooltips: true,
     format: {
-        to: (numberValue) => Math.ceil(numberValue),
+        to: (numberValue) => Math.round(numberValue),
         from: (stringValue) => Number(stringValue.replace(',-', ''))
     },
     pips: {
         mode: 'values',
-        values: [1, 4, 8, 16],
-        density: 4
+        values: layerCountPips,
+        density: 7,
     },
     range: {
         'min': 1,
-        'max': 16,
+        'max': MAX_LAYER_COUNT,
     }
 });
 
@@ -110,8 +128,11 @@ function mergeTooltips(slider, threshold, separator) {
                     var lastOffset = 1000 - poolPositions[poolIndex][last];
                     offset = (textIsRtl && !isVertical ? 100 : 0) + (offset / handlesInPool) - lastOffset;
 
+                    // Filter out duplicate tool tip values
+                    var tooltipValues = poolValues[poolIndex].filter((v, i, a) => a.indexOf(v) === i);
+
                     // Center this tooltip over the affected handles
-                    tooltips[handleNumber].innerHTML = poolValues[poolIndex].join(separator);
+                    tooltips[handleNumber].innerHTML = tooltipValues.join(separator);
                     tooltips[handleNumber].style.display = 'block';
                     tooltips[handleNumber].style[direction] = offset + '%';
                 } else {
