@@ -64,3 +64,36 @@
 .switch-field label:last-of-type {
 	border-radius: 0 4px 4px 0;
 }
+
+.slider-styled,
+.slider-styled .noUi-handle {
+    box-shadow: none;
+}
+
+/* Hide markers on slider handles */
+.slider-styled .noUi-handle::before,
+.slider-styled .noUi-handle::after {
+    display: none;
+}
+
+.slider-styled {
+    height: 10px;
+    margin: 50px 20px 30px 0px;
+}
+
+.noUi-connect {
+    background: #3584e4;
+}
+
+.noUi-horizontal .noUi-handle {
+    height: 18px;
+    width: 18px;
+    top: -5px;
+    /* !important is used to avoid `right`
+     * from being overriden by the `right` rule
+     * in `html:not([dir="rtl"]) .noUi-horizontal .noUi-handle`
+     * in the nouislider.css file.
+     */
+    right: -9px !important; /* half the width */
+    border-radius: 9px;
+}
