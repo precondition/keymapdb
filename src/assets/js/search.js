@@ -22,7 +22,7 @@ class SearchPosts {
           if (!(lowerbound <= postCount && postCount <= upperbound)) {
             return false;
           }
-        } else if (Array.isArray(post[queryKey])) {
+        } else if (post[queryKey] instanceof Array) {
             const selectedValues = value.split(",");
             if (!selectedValues.some(x => new Set(post[queryKey]).has(x))) {
                 return false;
@@ -47,11 +47,4 @@ if (location.pathname === "{{'/' | url }}") {
 } else if (pageRegExp.test(location.pathname)) {
   const searchPosts = new SearchPosts();
   searchPosts.init("../../index.json");
-}
-
-// Array.isArray polyfill
-if (!Array.isArray) {
-    Array.isArray = function (arg) {
-        return Object.prototype.toString.call(arg) === '[object Array]';
-    };
 }
