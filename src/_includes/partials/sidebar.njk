@@ -9,16 +9,11 @@ Key Count:
 
 <div class="flex flex-col">
 Firmware:
+        {% for firmware, keymapEntry in collections.posts | sort(false, false, "data.firmware") | groupby("data.firmware")  %}
     <label class="inline-flex mt-3">
-        <input type="radio", name="firmware", class="form-radio h-5 w-5 text-blue-500 border-gray-300 transition duration-100 ease-in-out shadow-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none focus:ring-opacity-50 focus:ring-offset-0  disabled:opacity-50 disabled:cursor-not-allowed"><span class="ml-2 text-gray-700">QMK</span>
+        <input type="radio", name="firmware" value="{{ firmware }}" class="form-radio h-5 w-5 text-blue-500 border-gray-300 transition duration-100 ease-in-out shadow-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none focus:ring-opacity-50 focus:ring-offset-0  disabled:opacity-50 disabled:cursor-not-allowed"><span class="ml-2 text-gray-700">{{ firmware }}</span>
     </label>
-
-    <label class="inline-flex mt-3">
-        <input type="radio", name="firmware", class="form-radio h-5 w-5"><span class="ml-2 text-gray-700">ZMK</span>
-    </label>
-
-    <label class="inline-flex mt-3">
-        <input type="radio", name="firmware", class="form-radio h-5 w-5"><span class="ml-2 text-gray-700">KMonad</span>
+        {% endfor %}
     </label>
 </div>
 
@@ -29,7 +24,7 @@ Firmware:
     <label class="form-check-label inline-block text-gray-800" for="baseLayoutSelection">
       Base layout:
     </label>
-    <select id="keyboardSelection" name="baseLayoutSelection" class="form-select
+    <select id="baseLayoutSelection" name="baseLayoutSelection" class="form-select
       block
       px-3
       py-1.5
@@ -44,10 +39,9 @@ Firmware:
       m-0
       focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example">
         <option selected>Any</option>
-        <option value="QWERTY">QWERTY</option>
-        <option value="AZERTY">AZERTY</option>
-        <option value="QWERTZ">QWERTZ</option>
-        <option value="Colemak">Colemak</option>
+        {% for baseLayoutName in collections.posts | mapToDbField("baseLayouts") | flatten | sort | uniq  %}
+        <option value="{{ baseLayoutName }}">{{ baseLayoutName }}</option>
+        {% endfor %}
     </select>
   </div>
 </div>
@@ -74,9 +68,11 @@ Firmware:
       m-0
       focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example">
         <option selected>Any</option>
-        <option value="1">One</option>
-        <option value="2">Two</option>
-        <option value="3">Three</option>
+        {# FIXME This procedure of sorting entries by keyboard name and
+        dropping duplicates could probably be sped up #}
+        {% for keyboardName, keymapEntry in collections.posts | sort(false, false, "data.keyboard") | groupby("data.keyboard")  %}
+        <option value="{{ keyboardName }}">{{ keyboardName }}</option>
+        {% endfor %}
     </select>
   </div>
 </div>
@@ -108,10 +104,9 @@ Split:
 <label class="block text-left" style="max-width: 300px">
   Language(s): (Ctrl+Click to select more than one)
   <select class="form-multiselect block w-full mt-1" style="border-width: 2px" multiple>
-    <option>English</option>
-    <option>French</option>
-    <option>Japanese</option>
-    <option>Spanish</option>
+        {% for language in collections.posts | mapToDbField("languages") | flatten | sort | uniq  %}
+        <option value="{{ language }}">{{ language }}</option>
+        {% endfor %}
   </select>
 </label>
 

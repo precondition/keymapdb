@@ -31,6 +31,16 @@ module.exports = (config) => {
   config.addCollection('pagedPosts', require('./lib/collections/pagedPosts'));
   config.addCollection('pagedPostsByTag', require('./lib/collections/pagedPostsByTag'));
 
+  // The difference between `uniq` and `unique` is that the former assumes the input collection
+  // is already sorted, which lets it drop the duplicates in a more efficient way.
+  config.addNunjucksFilter("uniq", sortedColl => sortedColl.filter(function(item, pos, ar) {
+        if (pos === 0) { return true; }
+        return item != ar[pos - 1];
+      }));
+  config.addNunjucksFilter("unique", coll => [...new Set(coll)]);
+  config.addNunjucksFilter("flatten", coll => coll.flat());
+  config.addNunjucksFilter("mapToDbField", (coll, dbField) => coll.map(x => x.data[dbField]));
+
   return {
     dir: {
       input: 'src',
