@@ -1,5 +1,4 @@
-{
-  "fields": [
+[
     "keymap_url",
     "keymap_author",
     "thumb",
@@ -9,7 +8,6 @@
     "stagger",
     "split",
     "languages",
-    "name",
     "summary",
     "OS",
     "writeup",
@@ -18,5 +16,4 @@
     "imageDate",
     "hasVerticalCombos",
     "hasHomeRowMods"
-  ]
-}
+]
