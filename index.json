@@ -14,6 +14,8 @@
         
         "keyboard": "YMDK Bface",
         
+        "baseLayouts": ["QWERTY"],
+        
         "stagger": "row",
         
         "split": false,
@@ -51,6 +53,8 @@
         "firmware": "QMK",
         
         "keyboard": "V60 Type R",
+        
+        "baseLayouts": ["QWERTY"],
         
         "stagger": "row",
         
@@ -90,6 +94,8 @@
         
         "keyboard": "UT47.2",
         
+        "baseLayouts": ["QWERTY","Workman","Colemak","Dvorak"],
+        
         "stagger": "row",
         
         "split": false,
@@ -127,6 +133,8 @@
         "firmware": "QMK",
         
         "keyboard": "tv44",
+        
+        "baseLayouts": ["QWERTY"],
         
         "stagger": "row",
         
@@ -166,6 +174,8 @@
         
         "keyboard": "Tada68",
         
+        "baseLayouts": ["QWERTY"],
+        
         "stagger": "row",
         
         "split": false,
@@ -203,6 +213,8 @@
         "firmware": "QMK",
         
         "keyboard": "Katana60 rev1",
+        
+        "baseLayouts": ["QWERTY"],
         
         "stagger": "row",
         
@@ -242,6 +254,8 @@
         
         "keyboard": "Redox",
         
+        "baseLayouts": ["QWERTY"],
+        
         "stagger": "row",
         
         "split": true,
@@ -279,6 +293,8 @@
         "firmware": "QMK",
         
         "keyboard": "Preonic",
+        
+        "baseLayouts": ["QWERTY"],
         
         "stagger": "ortholinear",
         
@@ -318,6 +334,8 @@
         
         "keyboard": "Preonic",
         
+        "baseLayouts": ["QWERTY"],
+        
         "stagger": "ortholinear",
         
         "split": false,
@@ -355,6 +373,8 @@
         "firmware": "QMK",
         
         "keyboard": "pk60",
+        
+        "baseLayouts": ["QWERTY"],
         
         "stagger": "row",
         
@@ -394,6 +414,8 @@
         
         "keyboard": "Planck",
         
+        "baseLayouts": ["QWERTY"],
+        
         "stagger": "ortholinear",
         
         "split": false,
@@ -431,6 +453,8 @@
         "firmware": "QMK",
         
         "keyboard": "Planck",
+        
+        "baseLayouts": ["QWERTY"],
         
         "stagger": "ortholinear",
         
@@ -470,6 +494,8 @@
         
         "keyboard": "Planck",
         
+        "baseLayouts": ["QWERTY"],
+        
         "stagger": "ortholinear",
         
         "split": false,
@@ -507,6 +533,8 @@
         "firmware": "QMK",
         
         "keyboard": "Planck",
+        
+        "baseLayouts": ["QWERTY"],
         
         "stagger": "ortholinear",
         
@@ -546,6 +574,8 @@
         
         "keyboard": "Planck",
         
+        "baseLayouts": ["QWERTY"],
+        
         "stagger": "ortholinear",
         
         "split": false,
@@ -583,6 +613,8 @@
         "firmware": "QMK",
         
         "keyboard": "Planck",
+        
+        "baseLayouts": ["QWERTY"],
         
         "stagger": "ortholinear",
         
@@ -622,6 +654,8 @@
         
         "keyboard": "Nightmare",
         
+        "baseLayouts": ["QWERTY"],
+        
         "stagger": "row",
         
         "split": false,
@@ -659,6 +693,8 @@
         "firmware": "QMK",
         
         "keyboard": "MiniDox",
+        
+        "baseLayouts": ["QWERTY"],
         
         "stagger": "row",
         
@@ -698,6 +734,8 @@
         
         "keyboard": "lattice60",
         
+        "baseLayouts": ["QWERTY"],
+        
         "stagger": "row",
         
         "split": false,
@@ -735,6 +773,8 @@
         "firmware": "QMK",
         
         "keyboard": "Kinesis",
+        
+        "baseLayouts": ["QWERTY"],
         
         "stagger": "row",
         
@@ -774,6 +814,8 @@
         
         "keyboard": "Keyboardio Atreus",
         
+        "baseLayouts": ["QWERTY"],
+        
         "stagger": "columnar",
         
         "split": false,
@@ -811,6 +853,8 @@
         "firmware": "QMK",
         
         "keyboard": "Iris",
+        
+        "baseLayouts": ["QWERTY"],
         
         "stagger": "columnar",
         
@@ -850,6 +894,8 @@
         
         "keyboard": "Iris",
         
+        "baseLayouts": ["QWERTY"],
+        
         "stagger": "columnar",
         
         "split": true,
@@ -887,6 +933,8 @@
         "firmware": "QMK",
         
         "keyboard": "Keebio BFO-9000",
+        
+        "baseLayouts": ["QWERTY"],
         
         "stagger": "ortholinear",
         
@@ -926,6 +974,8 @@
         
         "keyboard": "IDOBO",
         
+        "baseLayouts": ["QWERTY"],
+        
         "stagger": "ortholinear",
         
         "split": false,
@@ -963,6 +1013,8 @@
         "firmware": "QMK",
         
         "keyboard": "GMMK Pro (ANSI)",
+        
+        "baseLayouts": ["QWERTY"],
         
         "stagger": "row",
         
@@ -1002,6 +1054,8 @@
         
         "keyboard": "GH60 Satan",
         
+        "baseLayouts": ["QWERTY"],
+        
         "stagger": "row",
         
         "split": false,
@@ -1039,6 +1093,8 @@
         "firmware": "QMK",
         
         "keyboard": "Gergo",
+        
+        "baseLayouts": ["QWERTY"],
         
         "stagger": "columnar",
         
@@ -1078,6 +1134,8 @@
         
         "keyboard": "ErgoDox EZ",
         
+        "baseLayouts": ["QWERTY"],
+        
         "stagger": "columnar",
         
         "split": false,
@@ -1115,6 +1173,8 @@
         "firmware": "QMK",
         
         "keyboard": "ErgoDox EZ",
+        
+        "baseLayouts": ["QWERTY"],
         
         "stagger": "columnar",
         
@@ -1154,6 +1214,8 @@
         
         "keyboard": "ErgoDox EZ",
         
+        "baseLayouts": ["QWERTY"],
+        
         "stagger": "columnar",
         
         "split": false,
@@ -1191,6 +1253,8 @@
         "firmware": "QMK",
         
         "keyboard": "ErgoDash rev1.2",
+        
+        "baseLayouts": ["QWERTY"],
         
         "stagger": "columnar",
         
@@ -1230,6 +1294,8 @@
         
         "keyboard": "ECO",
         
+        "baseLayouts": ["QWERTY"],
+        
         "stagger": "ortholinear",
         
         "split": true,
@@ -1267,6 +1333,8 @@
         "firmware": "QMK",
         
         "keyboard": "DZ60",
+        
+        "baseLayouts": ["QWERTY"],
         
         "stagger": "row",
         
@@ -1306,6 +1374,8 @@
         
         "keyboard": "DZ60",
         
+        "baseLayouts": ["QWERTY"],
+        
         "stagger": "row",
         
         "split": false,
@@ -1343,6 +1413,8 @@
         "firmware": "QMK",
         
         "keyboard": "DZ60",
+        
+        "baseLayouts": ["QWERTY"],
         
         "stagger": "row",
         
@@ -1382,6 +1454,8 @@
         
         "keyboard": "DZ60",
         
+        "baseLayouts": ["QWERTY"],
+        
         "stagger": "row",
         
         "split": false,
@@ -1419,6 +1493,8 @@
         "firmware": "QMK",
         
         "keyboard": "Contra",
+        
+        "baseLayouts": ["QWERTY"],
         
         "stagger": "ortholinear",
         
@@ -1458,6 +1534,8 @@
         
         "keyboard": "Clueboard 66%",
         
+        "baseLayouts": ["QWERTY"],
+        
         "stagger": "row",
         
         "split": false,
@@ -1495,6 +1573,8 @@
         "firmware": "QMK",
         
         "keyboard": "Clueboard 66%",
+        
+        "baseLayouts": ["QWERTY"],
         
         "stagger": "row",
         
@@ -1534,6 +1614,8 @@
         
         "keyboard": "Clueboard 66%",
         
+        "baseLayouts": ["QWERTY"],
+        
         "stagger": "row",
         
         "split": false,
@@ -1572,6 +1654,8 @@
         
         "keyboard": "Atreus",
         
+        "baseLayouts": ["QWERTY"],
+        
         "stagger": "columnar",
         
         "split": false,
@@ -1609,6 +1693,8 @@
         "firmware": "QMK",
         
         "keyboard": "Adelheid",
+        
+        "baseLayouts": ["QWERTY"],
         
         "stagger": "row",
         
