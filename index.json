@@ -1,1035 +1,1637 @@
 [
     
     {
-        "url": "/keymapdb/ymdk_bface-emdarcher/",
-        "title": "emdarcher's keymap",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/emdarcher/qmk_firmware/tree/master/keyboards/ymdk/bface/keymaps/emdarcher",
-        "author": "emdarcher",
-        "image": "https://i.imgur.com/ie5aF7d.jpg",
-        "keycount": "62",
+        
+        "keymap_author": "emdarcher",
+        
+        "thumb": "https://i.imgur.com/ie5aF7d.jpg",
+        
+        "keyCount": 62,
+        
         "firmware": "QMK",
-        "keyboard": "ymdk bface",
+        
+        "keyboard": "YMDK Bface",
+        
         "stagger": "row",
-        "split": "false",
-        "languages": "English",
-        "name": "emdarcher&#39;s keymap",
-        "summary": "",
-        "os": "MacOS",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": ["MacOS"],
+        
         "writeup": "https://github.com/emdarcher/qmk_firmware/tree/master/keyboards/ymdk/bface/keymaps/emdarcher/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "5",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 5,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/v60_type_r-ifohancroft/",
-        "title": "IFo Hancroft's KBParadise V60 Type R Layout",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/v60_type_r/keymaps/ifohancroft",
-        "author": "ifohancroft",
-        "image": "https://i.imgur.com/3BGQS75.png",
-        "keycount": "61",
+        
+        "keymap_author": "ifohancroft",
+        
+        "thumb": "https://i.imgur.com/3BGQS75.png",
+        
+        "keyCount": 61,
+        
         "firmware": "QMK",
-        "keyboard": "v60 type r",
+        
+        "keyboard": "V60 Type R",
+        
         "stagger": "row",
-        "split": "false",
-        "languages": "English",
-        "name": "IFo Hancroft&#39;s KBParadise V60 Type R Layout",
-        "summary": "",
-        "os": "",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/v60_type_r/keymaps/ifohancroft/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "4",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 4,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/ut472-annihilator6000/",
-        "title": "UT47.2 Planck-style layout switching",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/annihilator6000/qmk_firmware/tree/master/keyboards/ut472/keymaps/annihilator6000",
-        "author": "annihilator6000",
-        "image": "https://i.imgur.com/lICX4uz.png",
-        "keycount": "47",
+        
+        "keymap_author": "annihilator6000",
+        
+        "thumb": "https://i.imgur.com/lICX4uz.png",
+        
+        "keyCount": 47,
+        
         "firmware": "QMK",
-        "keyboard": "ut47.2",
+        
+        "keyboard": "UT47.2",
+        
         "stagger": "row",
-        "split": "false",
-        "languages": "English",
-        "name": "UT47.2 Planck-style layout switching",
-        "summary": "",
-        "os": "",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/annihilator6000/qmk_firmware/tree/master/keyboards/ut472/keymaps/annihilator6000/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "9",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 9,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/thevankeyboards_minivan-smt/",
-        "title": "smt's TV44 keymap",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/smt/qmk_firmware/tree/master/keyboards/thevankeyboards/minivan/keymaps/smt",
-        "author": "smt",
-        "image": "https://i.imgur.com/Y4n6eHj.png",
-        "keycount": "45",
+        
+        "keymap_author": "smt",
+        
+        "thumb": "https://i.imgur.com/Y4n6eHj.png",
+        
+        "keyCount": 45,
+        
         "firmware": "QMK",
+        
         "keyboard": "tv44",
+        
         "stagger": "row",
-        "split": "false",
-        "languages": "English",
-        "name": "smt&#39;s TV44 keymap",
-        "summary": "",
-        "os": "MacOS",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": ["MacOS"],
+        
         "writeup": "https://github.com/smt/qmk_firmware/tree/master/keyboards/thevankeyboards/minivan/keymaps/smt/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "6",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 6,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/tada68-raylas/",
-        "title": "raylas's TADA68 layout",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/raylas/qmk_firmware/tree/master/keyboards/tada68/keymaps/raylas",
-        "author": "raylas",
-        "image": "https://i.imgur.com/cV9niMC.jpg",
-        "keycount": "68",
+        
+        "keymap_author": "raylas",
+        
+        "thumb": "https://i.imgur.com/cV9niMC.jpg",
+        
+        "keyCount": 68,
+        
         "firmware": "QMK",
-        "keyboard": "tada68",
+        
+        "keyboard": "Tada68",
+        
         "stagger": "row",
-        "split": "false",
-        "languages": "English",
-        "name": "raylas&#39;s TADA68 layout",
-        "summary": "",
-        "os": "MacOS",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": ["MacOS"],
+        
         "writeup": "https://github.com/raylas/qmk_firmware/tree/master/keyboards/tada68/keymaps/raylas/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "2",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 2,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/rominronin_katana60_rev1-josefadamcik/",
-        "title": "Multi OS Katana60 layout",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/josefadamcik/qmk_firmware/tree/master/keyboards/rominronin/katana60/rev1/keymaps/josefadamcik",
-        "author": "josefadamcik",
-        "image": "https://i.imgur.com/1w2OA1o.png",
-        "keycount": "70",
+        
+        "keymap_author": "josefadamcik",
+        
+        "thumb": "https://i.imgur.com/1w2OA1o.png",
+        
+        "keyCount": 70,
+        
         "firmware": "QMK",
-        "keyboard": "katana60 rev1",
+        
+        "keyboard": "Katana60 rev1",
+        
         "stagger": "row",
-        "split": "false",
-        "languages": "English",
-        "name": "Multi OS Katana60 layout",
-        "summary": "",
-        "os": "Windows,MacOS,GNU+Linux",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": ["Windows","MacOS","Linux"],
+        
         "writeup": "https://github.com/josefadamcik/qmk_firmware/tree/master/keyboards/rominronin/katana60/rev1/keymaps/josefadamcik/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "8",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 8,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/redox-fculpo/",
-        "title": "A tweaked keymap for Redox",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/fculpo/qmk_firmware/tree/master/keyboards/redox/keymaps/fculpo",
-        "author": "fculpo",
-        "image": "https://i.imgur.com/OXT8boJ.png",
-        "keycount": "70",
+        
+        "keymap_author": "fculpo",
+        
+        "thumb": "https://i.imgur.com/OXT8boJ.png",
+        
+        "keyCount": 70,
+        
         "firmware": "QMK",
-        "keyboard": "redox",
+        
+        "keyboard": "Redox",
+        
         "stagger": "row",
-        "split": "true",
-        "languages": "English",
-        "name": "A tweaked keymap for Redox",
-        "summary": "",
-        "os": "MacOS",
+        
+        "split": true,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": ["MacOS"],
+        
         "writeup": "https://github.com/fculpo/qmk_firmware/tree/master/keyboards/redox/keymaps/fculpo/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "4",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 4,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/preonic-shwilliam/",
-        "title": "@shwilliam's Preonic Layout",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/shwilliam/qmk_firmware/tree/master/keyboards/preonic/keymaps/shwilliam",
-        "author": "shwilliam",
-        "image": "https://user-images.githubusercontent.com/38357771/84585088-dc536380-adc0-11ea-8378-6fb8ffbc6a8d.png",
-        "keycount": "60",
+        
+        "keymap_author": "shwilliam",
+        
+        "thumb": "https://user-images.githubusercontent.com/38357771/84585088-dc536380-adc0-11ea-8378-6fb8ffbc6a8d.png",
+        
+        "keyCount": 60,
+        
         "firmware": "QMK",
-        "keyboard": "preonic",
+        
+        "keyboard": "Preonic",
+        
         "stagger": "ortholinear",
-        "split": "false",
-        "languages": "English",
-        "name": "@shwilliam&#39;s Preonic Layout",
-        "summary": "",
-        "os": "",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/shwilliam/qmk_firmware/tree/master/keyboards/preonic/keymaps/shwilliam/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "4",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 4,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/preonic-fsck/",
-        "title": "fsck's Preonic Layout",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/fsck/qmk_firmware/tree/master/keyboards/preonic/keymaps/fsck",
-        "author": "fsck",
-        "image": "https://i.imgur.com/nI8fBco.png",
-        "keycount": "60",
+        
+        "keymap_author": "fsck",
+        
+        "thumb": "https://i.imgur.com/nI8fBco.png",
+        
+        "keyCount": 60,
+        
         "firmware": "QMK",
-        "keyboard": "preonic",
+        
+        "keyboard": "Preonic",
+        
         "stagger": "ortholinear",
-        "split": "false",
-        "languages": "English",
-        "name": "fsck&#39;s Preonic Layout",
-        "summary": "",
-        "os": "",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/fsck/qmk_firmware/tree/master/keyboards/preonic/keymaps/fsck/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "4",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 4,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/playkbtw_pk60-rfvizarra/",
-        "title": "A personal keymap for Play Keyboard60 based on the minila layout",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/rfvizarra/qmk_firmware/tree/master/keyboards/playkbtw/pk60/keymaps/rfvizarra",
-        "author": "rfvizarra",
-        "image": "https://i.imgur.com/K7ONE1k.jpg",
-        "keycount": "67",
+        
+        "keymap_author": "rfvizarra",
+        
+        "thumb": "https://i.imgur.com/K7ONE1k.jpg",
+        
+        "keyCount": 67,
+        
         "firmware": "QMK",
+        
         "keyboard": "pk60",
+        
         "stagger": "row",
-        "split": "false",
-        "languages": "English",
-        "name": "A personal keymap for Play Keyboard60 based on the minila layout",
-        "summary": "",
-        "os": "",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/rfvizarra/qmk_firmware/tree/master/keyboards/playkbtw/pk60/keymaps/rfvizarra/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "3",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 3,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/planck-yhaliaw/",
-        "title": "yhaliaw Planck layout",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/yhaliaw/qmk_firmware/tree/master/keyboards/planck/keymaps/yhaliaw",
-        "author": "yhaliaw",
-        "image": "https://i.imgur.com/HvYva64.png",
-        "keycount": "48",
+        
+        "keymap_author": "yhaliaw",
+        
+        "thumb": "https://i.imgur.com/HvYva64.png",
+        
+        "keyCount": 48,
+        
         "firmware": "QMK",
-        "keyboard": "planck",
+        
+        "keyboard": "Planck",
+        
         "stagger": "ortholinear",
-        "split": "false",
-        "languages": "English",
-        "name": "yhaliaw Planck layout",
-        "summary": "",
-        "os": "",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/yhaliaw/qmk_firmware/tree/master/keyboards/planck/keymaps/yhaliaw/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "4",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 4,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/planck-rootiest/",
-        "title": "The Rootiest Planck Layout",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/rootiest/qmk_firmware/tree/master/keyboards/planck/keymaps/rootiest",
-        "author": "rootiest",
-        "image": "https://github.com/rootiest/rootiest.github.io/raw/main/img/rootiest-planck_legend.png",
-        "keycount": "48",
+        
+        "keymap_author": "rootiest",
+        
+        "thumb": "https://github.com/rootiest/rootiest.github.io/raw/main/img/rootiest-planck_legend.png",
+        
+        "keyCount": 48,
+        
         "firmware": "QMK",
-        "keyboard": "planck",
+        
+        "keyboard": "Planck",
+        
         "stagger": "ortholinear",
-        "split": "false",
-        "languages": "English",
-        "name": "The Rootiest Planck Layout",
-        "summary": "",
-        "os": "",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/rootiest/qmk_firmware/tree/master/keyboards/planck/keymaps/rootiest/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "10",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 10,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/planck-rjhilgefort/",
-        "title": "🐦 @rjhilgefort Planck Layout",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/rjhilgefort/qmk_firmware/tree/master/keyboards/planck/keymaps/rjhilgefort",
-        "author": "rjhilgefort",
-        "image": "https://i.imgur.com/elygxAb.jpg",
-        "keycount": "48",
+        
+        "keymap_author": "rjhilgefort",
+        
+        "thumb": "https://i.imgur.com/elygxAb.jpg",
+        
+        "keyCount": 48,
+        
         "firmware": "QMK",
-        "keyboard": "planck",
+        
+        "keyboard": "Planck",
+        
         "stagger": "ortholinear",
-        "split": "false",
-        "languages": "English",
-        "name": "🐦 @rjhilgefort Planck Layout",
-        "summary": "",
-        "os": "MacOS,GNU+Linux",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": ["MacOS","Linux"],
+        
         "writeup": "https://github.com/rjhilgefort/qmk_firmware/tree/master/keyboards/planck/keymaps/rjhilgefort/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "5",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 5,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/planck-ishtob/",
-        "title": "Ishtob's personal planck layout",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/ishtob/qmk_firmware/tree/master/keyboards/planck/keymaps/ishtob",
-        "author": "ishtob",
-        "image": "https://i.imgur.com/yKewjWW.jpg",
-        "keycount": "48",
+        
+        "keymap_author": "ishtob",
+        
+        "thumb": "https://i.imgur.com/yKewjWW.jpg",
+        
+        "keyCount": 48,
+        
         "firmware": "QMK",
-        "keyboard": "planck",
+        
+        "keyboard": "Planck",
+        
         "stagger": "ortholinear",
-        "split": "false",
-        "languages": "English",
-        "name": "Ishtob&#39;s personal planck layout",
-        "summary": "",
-        "os": "",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/ishtob/qmk_firmware/tree/master/keyboards/planck/keymaps/ishtob/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "10",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 10,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/planck-fsck/",
-        "title": "fsck's Planck Layout",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/fsck/qmk_firmware/tree/master/keyboards/planck/keymaps/fsck",
-        "author": "fsck",
-        "image": "https://i.imgur.com/GOLyPGP.png",
-        "keycount": "48",
+        
+        "keymap_author": "fsck",
+        
+        "thumb": "https://i.imgur.com/GOLyPGP.png",
+        
+        "keyCount": 48,
+        
         "firmware": "QMK",
-        "keyboard": "planck",
+        
+        "keyboard": "Planck",
+        
         "stagger": "ortholinear",
-        "split": "false",
-        "languages": "English",
-        "name": "fsck&#39;s Planck Layout",
-        "summary": "",
-        "os": "",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/fsck/qmk_firmware/tree/master/keyboards/planck/keymaps/fsck/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "4",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 4,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/planck-dbroqua/",
-        "title": "Dbroqua Layout",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/dbroqua/qmk_firmware/tree/master/keyboards/planck/keymaps/dbroqua",
-        "author": "dbroqua",
-        "image": "https://i.imgur.com/XxBtDBy.png",
-        "keycount": "48",
+        
+        "keymap_author": "dbroqua",
+        
+        "thumb": "https://i.imgur.com/XxBtDBy.png",
+        
+        "keyCount": 48,
+        
         "firmware": "QMK",
-        "keyboard": "planck",
+        
+        "keyboard": "Planck",
+        
         "stagger": "ortholinear",
-        "split": "false",
-        "languages": "English",
-        "name": "Dbroqua Layout",
-        "summary": "",
-        "os": "",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/dbroqua/qmk_firmware/tree/master/keyboards/planck/keymaps/dbroqua/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "5",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 5,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/nightmare-brandonschlack/",
-        "title": "brandonschlack's Nightmare Keymap",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/brandonschlack/qmk_firmware/tree/master/keyboards/nightmare/keymaps/brandonschlack",
-        "author": "brandonschlack",
-        "image": "https://i.imgur.com/08759vK.png",
-        "keycount": "49",
+        
+        "keymap_author": "brandonschlack",
+        
+        "thumb": "https://i.imgur.com/08759vK.png",
+        
+        "keyCount": 49,
+        
         "firmware": "QMK",
-        "keyboard": "nightmare",
+        
+        "keyboard": "Nightmare",
+        
         "stagger": "row",
-        "split": "false",
-        "languages": "English",
-        "name": "brandonschlack&#39;s Nightmare Keymap",
-        "summary": "",
-        "os": "MacOS",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": ["MacOS"],
+        
         "writeup": "https://github.com/brandonschlack/qmk_firmware/tree/master/keyboards/nightmare/keymaps/brandonschlack/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "8",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 8,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/minidox-khitsule/",
-        "title": "Minidox Layout by Khitsule",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/khitsule/qmk_firmware/tree/master/keyboards/minidox/keymaps/khitsule",
-        "author": "khitsule",
-        "image": "https://i.imgur.com/bEdqotb.png",
-        "keycount": "36",
+        
+        "keymap_author": "khitsule",
+        
+        "thumb": "https://i.imgur.com/bEdqotb.png",
+        
+        "keyCount": 36,
+        
         "firmware": "QMK",
-        "keyboard": "minidox",
+        
+        "keyboard": "MiniDox",
+        
         "stagger": "row",
-        "split": "true",
-        "languages": "English",
-        "name": "Minidox Layout by Khitsule",
-        "summary": "",
-        "os": "",
+        
+        "split": true,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/khitsule/qmk_firmware/tree/master/keyboards/minidox/keymaps/khitsule/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "4",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 4,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/lattice60-emdarcher/",
-        "title": "emdarcher's keymap for lattice60",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/emdarcher/qmk_firmware/tree/master/keyboards/lattice60/keymaps/emdarcher",
-        "author": "emdarcher",
-        "image": "https://i.imgur.com/9g3fDqL.png",
-        "keycount": "60",
+        
+        "keymap_author": "emdarcher",
+        
+        "thumb": "https://i.imgur.com/9g3fDqL.png",
+        
+        "keyCount": 60,
+        
         "firmware": "QMK",
+        
         "keyboard": "lattice60",
+        
         "stagger": "row",
-        "split": "false",
-        "languages": "English",
-        "name": "emdarcher&#39;s keymap for lattice60",
-        "summary": "",
-        "os": "",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/emdarcher/qmk_firmware/tree/master/keyboards/lattice60/keymaps/emdarcher/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "3",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 3,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/kinesis-jwon/",
-        "title": "jwon's Programmer Dvorak",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/jwon/qmk_firmware/tree/master/keyboards/kinesis/keymaps/jwon",
-        "author": "jwon",
-        "image": "https://i.imgur.com/3llBswG.png",
-        "keycount": "86",
+        
+        "keymap_author": "jwon",
+        
+        "thumb": "https://i.imgur.com/3llBswG.png",
+        
+        "keyCount": 86,
+        
         "firmware": "QMK",
-        "keyboard": "kinesis",
+        
+        "keyboard": "Kinesis",
+        
         "stagger": "row",
-        "split": "false",
-        "languages": "English",
-        "name": "jwon&#39;s Programmer Dvorak",
-        "summary": "",
-        "os": "",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/jwon/qmk_firmware/tree/master/keyboards/kinesis/keymaps/jwon/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "4",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 4,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/keyboardio_atreus-ardumont/",
-        "title": "ardumont layout",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/ardumont/qmk_firmware/tree/master/keyboards/keyboardio/atreus/keymaps/ardumont",
-        "author": "ardumont",
-        "image": "https://i.imgur.com/tuk64AI.png",
-        "keycount": "44",
+        
+        "keymap_author": "ardumont",
+        
+        "thumb": "https://i.imgur.com/tuk64AI.png",
+        
+        "keyCount": 44,
+        
         "firmware": "QMK",
-        "keyboard": "keyboardio atreus",
+        
+        "keyboard": "Keyboardio Atreus",
+        
         "stagger": "columnar",
-        "split": "false",
-        "languages": "English",
-        "name": "ardumont layout",
-        "summary": "",
-        "os": "MacOS",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": ["MacOS"],
+        
         "writeup": "https://github.com/ardumont/qmk_firmware/tree/master/keyboards/keyboardio/atreus/keymaps/ardumont/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "3",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 3,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/keebio_iris-khitsule/",
-        "title": "Iris Layout by Khitsule",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/khitsule/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/khitsule",
-        "author": "khitsule",
-        "image": "https://i.imgur.com/BIzu3RZ.png",
-        "keycount": "56",
+        
+        "keymap_author": "khitsule",
+        
+        "thumb": "https://i.imgur.com/BIzu3RZ.png",
+        
+        "keyCount": 56,
+        
         "firmware": "QMK",
-        "keyboard": "iris",
+        
+        "keyboard": "Iris",
+        
         "stagger": "columnar",
-        "split": "true",
-        "languages": "English",
-        "name": "Iris Layout by Khitsule",
-        "summary": "",
-        "os": "",
+        
+        "split": true,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/khitsule/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/khitsule/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "5",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 5,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/keebio_iris-fluffactually/",
-        "title": "Iris layout by fluffactually",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/fluffactually/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/fluffactually",
-        "author": "fluffactually",
-        "image": "https://i.imgur.com/vmJSa9n.png",
-        "keycount": "56",
+        
+        "keymap_author": "fluffactually",
+        
+        "thumb": "https://i.imgur.com/vmJSa9n.png",
+        
+        "keyCount": 56,
+        
         "firmware": "QMK",
-        "keyboard": "iris",
+        
+        "keyboard": "Iris",
+        
         "stagger": "columnar",
-        "split": "true",
-        "languages": "English",
-        "name": "Iris layout by fluffactually",
-        "summary": "",
-        "os": "",
+        
+        "split": true,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/fluffactually/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/fluffactually/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "4",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 4,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/keebio_bfo9000-shadyproject/",
-        "title": "Shadyproject BFO-9000 layout",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/shadyproject/qmk_firmware/tree/master/keyboards/keebio/bfo9000/keymaps/shadyproject",
-        "author": "shadyproject",
-        "image": "http://shadyproject.net/images/bfo9000-layout.png",
-        "keycount": "108",
+        
+        "keymap_author": "shadyproject",
+        
+        "thumb": "http://shadyproject.net/images/bfo9000-layout.png",
+        
+        "keyCount": 108,
+        
         "firmware": "QMK",
-        "keyboard": "keebio bfo-9000",
+        
+        "keyboard": "Keebio BFO-9000",
+        
         "stagger": "ortholinear",
-        "split": "true",
-        "languages": "English",
-        "name": "Shadyproject BFO-9000 layout",
-        "summary": "",
-        "os": "",
+        
+        "split": true,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/shadyproject/qmk_firmware/tree/master/keyboards/keebio/bfo9000/keymaps/shadyproject/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "2",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 2,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/idobo-ifohancroft/",
-        "title": "IFo Hancroft's Idobo Layout",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/idobo/keymaps/ifohancroft",
-        "author": "ifohancroft",
-        "image": "https://i.imgur.com/ml1olw4.png",
-        "keycount": "75",
+        
+        "keymap_author": "ifohancroft",
+        
+        "thumb": "https://i.imgur.com/ml1olw4.png",
+        
+        "keyCount": 75,
+        
         "firmware": "QMK",
-        "keyboard": "idobo",
+        
+        "keyboard": "IDOBO",
+        
         "stagger": "ortholinear",
-        "split": "false",
-        "languages": "English",
-        "name": "IFo Hancroft&#39;s Idobo Layout",
-        "summary": "",
-        "os": "",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/idobo/keymaps/ifohancroft/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "4",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 4,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/gmmk_pro_ansi-stickandgum/",
-        "title": "Glorious GMMK Pro / ANSI - Enhanced Keyboard",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/stickandgum/qmk_firmware/tree/master/keyboards/gmmk/pro/ansi/keymaps/stickandgum",
-        "author": "stickandgum",
-        "image": "https://user-images.githubusercontent.com/22257588/130371838-875ba65b-88ea-4f81-a44a-bb24194c4989.png",
-        "keycount": "83",
+        
+        "keymap_author": "stickandgum",
+        
+        "thumb": "https://user-images.githubusercontent.com/22257588/130371838-875ba65b-88ea-4f81-a44a-bb24194c4989.png",
+        
+        "keyCount": 83,
+        
         "firmware": "QMK",
-        "keyboard": "gmmk pro (ansi)",
+        
+        "keyboard": "GMMK Pro (ANSI)",
+        
         "stagger": "row",
-        "split": "false",
-        "languages": "English",
-        "name": "Glorious GMMK Pro / ANSI - Enhanced Keyboard",
-        "summary": "",
-        "os": "MacOS",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": ["MacOS"],
+        
         "writeup": "https://github.com/stickandgum/qmk_firmware/tree/master/keyboards/gmmk/pro/ansi/keymaps/stickandgum/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "2",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 2,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/gh60_satan-abhixec/",
-        "title": "default Satan GH60 layout",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/abhixec/qmk_firmware/tree/master/keyboards/gh60/satan/keymaps/abhixec",
-        "author": "abhixec",
-        "image": "https://i.imgur.com/Eqp8hov.jpg",
-        "keycount": "62",
+        
+        "keymap_author": "abhixec",
+        
+        "thumb": "https://i.imgur.com/Eqp8hov.jpg",
+        
+        "keyCount": 62,
+        
         "firmware": "QMK",
-        "keyboard": "gh60 satan",
+        
+        "keyboard": "GH60 Satan",
+        
         "stagger": "row",
-        "split": "false",
-        "languages": "English",
-        "name": "default Satan GH60 layout",
-        "summary": "",
-        "os": "",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/abhixec/qmk_firmware/tree/master/keyboards/gh60/satan/keymaps/abhixec/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "4",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 4,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/gergo-germ/",
-        "title": "Gergo! By g Heavy Industries",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/germ/qmk_firmware/tree/master/keyboards/gergo/keymaps/germ",
-        "author": "germ",
-        "image": "https://4.bp.blogspot.com/-889nMXxgSM0/XCNxwnO5kUI/AAAAAAAA6mI/tZbWgZVCBW0dyZOCGJDkjN06DVax7j8XwCLcBGAs/s1600/48422820_967732713413298_485744639215665152_n.jpg",
-        "keycount": "50",
+        
+        "keymap_author": "germ",
+        
+        "thumb": "https://4.bp.blogspot.com/-889nMXxgSM0/XCNxwnO5kUI/AAAAAAAA6mI/tZbWgZVCBW0dyZOCGJDkjN06DVax7j8XwCLcBGAs/s1600/48422820_967732713413298_485744639215665152_n.jpg",
+        
+        "keyCount": 50,
+        
         "firmware": "QMK",
-        "keyboard": "gergo",
+        
+        "keyboard": "Gergo",
+        
         "stagger": "columnar",
-        "split": "false",
-        "languages": "English",
-        "name": "Gergo! By g Heavy Industries",
-        "summary": "",
-        "os": "",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/germ/qmk_firmware/tree/master/keyboards/gergo/keymaps/germ/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "4",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 4,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/ergodox_ez-nfriend/",
-        "title": "nfriend's ErgoDox EZ configuration",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/nfriend/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/nfriend",
-        "author": "nfriend",
-        "image": "https://i.imgur.com/CMMmdBc.png",
-        "keycount": "76",
+        
+        "keymap_author": "nfriend",
+        
+        "thumb": "https://i.imgur.com/CMMmdBc.png",
+        
+        "keyCount": 76,
+        
         "firmware": "QMK",
-        "keyboard": "ergodox ez",
+        
+        "keyboard": "ErgoDox EZ",
+        
         "stagger": "columnar",
-        "split": "false",
-        "languages": "English",
-        "name": "nfriend&#39;s ErgoDox EZ configuration",
-        "summary": "",
-        "os": "Windows,MacOS",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": ["Windows","MacOS"],
+        
         "writeup": "https://github.com/nfriend/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/nfriend/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "12",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 12,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/ergodox_ez-nathanvercaemert/",
-        "title": "The nathanvercaemert ErgoDox EZ configuration",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/nathanvercaemert/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/nathanvercaemert",
-        "author": "nathanvercaemert",
-        "image": "https://i.imgur.com/x6VgH9Z.png",
-        "keycount": "76",
+        
+        "keymap_author": "nathanvercaemert",
+        
+        "thumb": "https://i.imgur.com/x6VgH9Z.png",
+        
+        "keyCount": 76,
+        
         "firmware": "QMK",
-        "keyboard": "ergodox ez",
+        
+        "keyboard": "ErgoDox EZ",
+        
         "stagger": "columnar",
-        "split": "false",
-        "languages": "English",
-        "name": "The nathanvercaemert ErgoDox EZ configuration",
-        "summary": "",
-        "os": "",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/nathanvercaemert/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/nathanvercaemert/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "15",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "true"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 15,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": true
+        
     },
     
     {
-        "url": "/keymapdb/ergodox_ez-bpruitt-goddard/",
-        "title": "Ergodox EZ Layout by bpruitt-goddard",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/bpruitt-goddard/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/bpruitt-goddard",
-        "author": "bpruitt-goddard",
-        "image": "https://i.imgur.com/kVPmpFG.png",
-        "keycount": "76",
+        
+        "keymap_author": "bpruitt-goddard",
+        
+        "thumb": "https://i.imgur.com/kVPmpFG.png",
+        
+        "keyCount": 76,
+        
         "firmware": "QMK",
-        "keyboard": "ergodox ez",
+        
+        "keyboard": "ErgoDox EZ",
+        
         "stagger": "columnar",
-        "split": "false",
-        "languages": "English",
-        "name": "Ergodox EZ Layout by bpruitt-goddard",
-        "summary": "",
-        "os": "MacOS",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": ["MacOS"],
+        
         "writeup": "https://github.com/bpruitt-goddard/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/bpruitt-goddard/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "4",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 4,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/ergodash_rev1-ifohancroft/",
-        "title": "IFo Hancroft's ErgoDash Layout",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/ergodash/rev1/keymaps/ifohancroft",
-        "author": "ifohancroft",
-        "image": "https://i.imgur.com/vANNhro.png",
-        "keycount": "68",
+        
+        "keymap_author": "ifohancroft",
+        
+        "thumb": "https://i.imgur.com/vANNhro.png",
+        
+        "keyCount": 68,
+        
         "firmware": "QMK",
-        "keyboard": "ergodash rev1.2",
+        
+        "keyboard": "ErgoDash rev1.2",
+        
         "stagger": "columnar",
-        "split": "true",
-        "languages": "English",
-        "name": "IFo Hancroft&#39;s ErgoDash Layout",
-        "summary": "",
-        "os": "",
+        
+        "split": true,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/ergodash/rev1/keymaps/ifohancroft/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "4",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 4,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/eco-fsck/",
-        "title": "ECO Layout by fsck",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/fsck/qmk_firmware/tree/master/keyboards/eco/keymaps/fsck",
-        "author": "fsck",
-        "image": "https://i.imgur.com/Sb8n8B0.png",
-        "keycount": "56",
+        
+        "keymap_author": "fsck",
+        
+        "thumb": "https://i.imgur.com/Sb8n8B0.png",
+        
+        "keyCount": 56,
+        
         "firmware": "QMK",
-        "keyboard": "eco",
+        
+        "keyboard": "ECO",
+        
         "stagger": "ortholinear",
-        "split": "true",
-        "languages": "English",
-        "name": "ECO Layout by fsck",
-        "summary": "",
-        "os": "",
+        
+        "split": true,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/fsck/qmk_firmware/tree/master/keyboards/eco/keymaps/fsck/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "2",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 2,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/dz60-tarnjotsingh/",
-        "title": "DZ60 ISO Keymap",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/tarnjotsingh/qmk_firmware/tree/master/keyboards/dz60/keymaps/tarnjotsingh",
-        "author": "tarnjotsingh",
-        "image": "https://i.imgur.com/UV0t6aL.png",
-        "keycount": "62",
+        
+        "keymap_author": "tarnjotsingh",
+        
+        "thumb": "https://i.imgur.com/UV0t6aL.png",
+        
+        "keyCount": 62,
+        
         "firmware": "QMK",
-        "keyboard": "dz60",
+        
+        "keyboard": "DZ60",
+        
         "stagger": "row",
-        "split": "false",
-        "languages": "English",
-        "name": "DZ60 ISO Keymap",
-        "summary": "",
-        "os": "",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/tarnjotsingh/qmk_firmware/tree/master/keyboards/dz60/keymaps/tarnjotsingh/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "3",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 3,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/dz60-niclake/",
-        "title": "Nic Lake's DZ60 Layout",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/niclake/qmk_firmware/tree/master/keyboards/dz60/keymaps/niclake",
-        "author": "niclake",
-        "image": "https://i.imgur.com/Lmw08LT.jpg",
-        "keycount": "67",
+        
+        "keymap_author": "niclake",
+        
+        "thumb": "https://i.imgur.com/Lmw08LT.jpg",
+        
+        "keyCount": 67,
+        
         "firmware": "QMK",
-        "keyboard": "dz60",
+        
+        "keyboard": "DZ60",
+        
         "stagger": "row",
-        "split": "false",
-        "languages": "English",
-        "name": "Nic Lake&#39;s DZ60 Layout",
-        "summary": "",
-        "os": "MacOS",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": ["MacOS"],
+        
         "writeup": "https://github.com/niclake/qmk_firmware/tree/master/keyboards/dz60/keymaps/niclake/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "5",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 5,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/dz60-bingocaller/",
-        "title": "MacOS standard 60% keymap with Vim-like arrows",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/bingocaller/qmk_firmware/tree/master/keyboards/dz60/keymaps/bingocaller",
-        "author": "bingocaller",
-        "image": "https://i.imgur.com/lFP2O41.png",
-        "keycount": "67",
+        
+        "keymap_author": "bingocaller",
+        
+        "thumb": "https://i.imgur.com/lFP2O41.png",
+        
+        "keyCount": 67,
+        
         "firmware": "QMK",
-        "keyboard": "dz60",
+        
+        "keyboard": "DZ60",
+        
         "stagger": "row",
-        "split": "false",
-        "languages": "English",
-        "name": "MacOS standard 60% keymap with Vim-like arrows",
-        "summary": "",
-        "os": "MacOS",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": ["MacOS"],
+        
         "writeup": "https://github.com/bingocaller/qmk_firmware/tree/master/keyboards/dz60/keymaps/bingocaller/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "6",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 6,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/dz60-LEdiodes/",
-        "title": "LEdiodes Keymap for XD60 60% PCB",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/LEdiodes/qmk_firmware/tree/master/keyboards/dz60/keymaps/LEdiodes",
-        "author": "LEdiodes",
-        "image": "https://i.imgur.com/pDneawX.jpg",
-        "keycount": "67",
+        
+        "keymap_author": "LEdiodes",
+        
+        "thumb": "https://i.imgur.com/pDneawX.jpg",
+        
+        "keyCount": 67,
+        
         "firmware": "QMK",
-        "keyboard": "dz60",
+        
+        "keyboard": "DZ60",
+        
         "stagger": "row",
-        "split": "false",
-        "languages": "English",
-        "name": "LEdiodes Keymap for XD60 60% PCB",
-        "summary": "",
-        "os": "",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/LEdiodes/qmk_firmware/tree/master/keyboards/dz60/keymaps/LEdiodes/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "3",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 3,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/contra-alper/",
-        "title": "Alper's Contra Layout",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/alper/qmk_firmware/tree/master/keyboards/contra/keymaps/alper",
-        "author": "alper",
-        "image": "https://i.imgur.com/BvBYgpz.png",
-        "keycount": "47",
+        
+        "keymap_author": "alper",
+        
+        "thumb": "https://i.imgur.com/BvBYgpz.png",
+        
+        "keyCount": 47,
+        
         "firmware": "QMK",
-        "keyboard": "contra",
+        
+        "keyboard": "Contra",
+        
         "stagger": "ortholinear",
-        "split": "false",
-        "languages": "English",
-        "name": "Alper&#39;s Contra Layout",
-        "summary": "",
-        "os": "Windows,MacOS",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": ["Windows","MacOS"],
+        
         "writeup": "https://github.com/alper/qmk_firmware/tree/master/keyboards/contra/keymaps/alper/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "6",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 6,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/clueboard_66-smt/",
-        "title": "smt Clueboard Layout (HHKB variant)",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/smt/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/smt",
-        "author": "smt",
-        "image": "http://i.imgur.com/Ll5gGte.png",
-        "keycount": "66",
+        
+        "keymap_author": "smt",
+        
+        "thumb": "http://i.imgur.com/Ll5gGte.png",
+        
+        "keyCount": 66,
+        
         "firmware": "QMK",
-        "keyboard": "clueboard 66%",
+        
+        "keyboard": "Clueboard 66%",
+        
         "stagger": "row",
-        "split": "false",
-        "languages": "English",
-        "name": "smt Clueboard Layout (HHKB variant)",
-        "summary": "",
-        "os": "",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/smt/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/smt/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "5",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 5,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/clueboard_66-manofinterests/",
-        "title": "Default Clueboard Layout",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/manofinterests/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/manofinterests",
-        "author": "manofinterests",
-        "image": "http://i.imgur.com/7Capi8W.png",
-        "keycount": "66",
+        
+        "keymap_author": "manofinterests",
+        
+        "thumb": "http://i.imgur.com/7Capi8W.png",
+        
+        "keyCount": 66,
+        
         "firmware": "QMK",
-        "keyboard": "clueboard 66%",
+        
+        "keyboard": "Clueboard 66%",
+        
         "stagger": "row",
-        "split": "false",
-        "languages": "English",
-        "name": "Default Clueboard Layout",
-        "summary": "",
-        "os": "",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/manofinterests/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/manofinterests/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "3",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 3,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/clueboard_66-magicmonty/",
-        "title": "Layout of @magicmonty",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/magicmonty/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/magicmonty",
-        "author": "magicmonty",
-        "image": "http://i.imgur.com/eEwjLEj.png",
-        "keycount": "66",
+        
+        "keymap_author": "magicmonty",
+        
+        "thumb": "http://i.imgur.com/eEwjLEj.png",
+        
+        "keyCount": 66,
+        
         "firmware": "QMK",
-        "keyboard": "clueboard 66%",
+        
+        "keyboard": "Clueboard 66%",
+        
         "stagger": "row",
-        "split": "false",
-        "languages": "English",
-        "name": "Layout of @magicmonty",
-        "summary": "",
-        "os": "",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/magicmonty/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/magicmonty/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "7",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 7,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/atreus-khitsule/",
-        "title": "Atreus Layout by Khitsule",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/khitsule/qmk_firmware/tree/master/keyboards/atreus/keymaps/khitsule",
-        "author": "khitsule",
-        "image": "https://i.imgur.com/wuki3aM.png",
-        "keycount": "42",
+        
+        "keymap_author": "khitsule",
+        
+        "thumb": "https://i.imgur.com/wuki3aM.png",
+        
+        "keyCount": 42,
+        
         "firmware": "QMK",
-        "keyboard": "atreus",
+        
+        "keyboard": "Atreus",
+        
         "stagger": "columnar",
-        "split": "false",
-        "languages": "English",
-        "name": "Atreus Layout by Khitsule",
-        "summary": "",
-        "os": "",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/khitsule/qmk_firmware/tree/master/keyboards/atreus/keymaps/khitsule/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "5",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 5,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     },
     
     {
-        "url": "/keymapdb/adelheid-floookay/",
-        "title": "The default keymap for the Adelheid",
-        "date": "12 February 2022 08:18 PM",
+        
         "keymap_url": "https://github.com/floookay/qmk_firmware/tree/master/keyboards/adelheid/keymaps/floookay",
-        "author": "floookay",
-        "image": "https://gist.githubusercontent.com/floookay/7bf6511a8d84804d32de4d7bbe3bd0fb/raw/dffd622a762463f341466ffecefad3b31ad3ee4f/layout.png",
-        "keycount": "82",
+        
+        "keymap_author": "floookay",
+        
+        "thumb": "https://gist.githubusercontent.com/floookay/7bf6511a8d84804d32de4d7bbe3bd0fb/raw/dffd622a762463f341466ffecefad3b31ad3ee4f/layout.png",
+        
+        "keyCount": 82,
+        
         "firmware": "QMK",
-        "keyboard": "adelheid",
+        
+        "keyboard": "Adelheid",
+        
         "stagger": "row",
-        "split": "false",
-        "languages": "English",
-        "name": "The default keymap for the Adelheid",
-        "summary": "",
-        "os": "",
+        
+        "split": false,
+        
+        "languages": ["English"],
+        
+        "summary": null,
+        
+        "OS": [],
+        
         "writeup": "https://github.com/floookay/qmk_firmware/tree/master/keyboards/adelheid/keymaps/floookay/readme.md",
-        "hasletteronthumb": "false",
-        "layercount": "2",
-        "imagedate": "idk",
-        "hasverticalcombos": "false",
-        "hashomerowmods": "false"
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 2,
+        
+        "imageDate": "idk",
+        
+        "hasVerticalCombos": false,
+        
+        "hasHomeRowMods": false
+        
     }
     
 ]
