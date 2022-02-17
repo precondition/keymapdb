@@ -1,7 +1,7 @@
 class SearchPosts {
-  async init() {
+  async init(indexJSONpath) {
     const params = new URL(location.href).searchParams;
-    this.posts = await fetch("index.json").then((res) => {
+    this.posts = await fetch(indexJSONpath).then((res) => {
       return res.json();
     });
     this.render(params);
@@ -40,10 +40,13 @@ class SearchPosts {
 }
 
 
+const pageRegExp = new RegExp("{{ '/page/' | url }}[0-9]+");
 if (location.pathname === "{{'/' | url }}") {
-
   const searchPosts = new SearchPosts();
-  searchPosts.init();
+  searchPosts.init("index.json");
+} else if (pageRegExp.test(location.pathname)) {
+  const searchPosts = new SearchPosts();
+  searchPosts.init("../../index.json");
 }
 
 // Array.isArray polyfill
