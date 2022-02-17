@@ -3,12 +3,12 @@ module.exports = {
   title: 'Untitled',
   eleventyComputed: {
     permalink: (data) => `${data.page.fileSlug}/index.html`,
-    thumb: (data) => {
-      if (data.thumb) {
-        if (data.thumb.search(/^https?:\/\//) !== -1) {
-          return data.thumb;
+    keymap_image: (data) => {
+      if (data.keymap_image) {
+        if (data.keymap_image.search(/^https?:\/\//) !== -1) {
+          return data.keymap_image;
         }
-        return `/assets/img/${data.thumb}`;
+        return `/assets/img/${data.keymap_image}`;
       } else {
         return false;
       }

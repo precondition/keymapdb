@@ -6,7 +6,7 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 hasVerticalCombos: False
-thumb: http://i.imgur.com/Ll5gGte.png
+keymap_image: http://i.imgur.com/Ll5gGte.png
 imageDate: idk
 keyCount: 66
 keyboard: Clueboard 66%

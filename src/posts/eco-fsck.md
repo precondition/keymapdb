@@ -6,7 +6,7 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 hasVerticalCombos: False
-thumb: https://i.imgur.com/Sb8n8B0.png
+keymap_image: https://i.imgur.com/Sb8n8B0.png
 imageDate: idk
 keyCount: 56
 keyboard: ECO

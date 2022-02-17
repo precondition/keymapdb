@@ -6,7 +6,7 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 hasVerticalCombos: False
-thumb: https://i.imgur.com/ie5aF7d.jpg
+keymap_image: https://i.imgur.com/ie5aF7d.jpg
 imageDate: idk
 keyCount: 62
 keyboard: YMDK Bface

@@ -6,7 +6,7 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 hasVerticalCombos: False
-thumb: https://i.imgur.com/1w2OA1o.png
+keymap_image: https://i.imgur.com/1w2OA1o.png
 imageDate: idk
 keyCount: 70
 keyboard: Katana60 rev1

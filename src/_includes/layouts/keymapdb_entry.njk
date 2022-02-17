@@ -5,9 +5,9 @@ layout: default
 <article class="max-w-5xl mx-auto">
     <header class="mb-14">
         <h1 class="text-3xl text-center font-bold leading-normal text-gray-900 mt-0 mb-3">{{ title }}</h1>
-        {% if thumb %}
+        {% if keymap_image %}
         <div class="mt-10 -mx-7 md:mx-0">
-            <img class="w-full max-w-2xl mx-auto" src="{{ thumb | url }}" width="960" height="500" alt="Picture of {{ title }}">
+            <img class="w-full max-w-2xl mx-auto" src="{{ keymap_image | url }}" width="960" height="500" alt="Picture of {{ title }}">
         </div>
         {% endif %}
     </header>
@@ -15,7 +15,7 @@ layout: default
         <ul>
         <li>url: <a href={{ keymap_url }}>{{ keymap_url }}</a></li>
         <li>author: {{ keymap_author }}</li>
-        <li>image: <a href={{ thumb }}>{{ thumb }}</a></li>
+        <li>image: <a href={{ keymap_image }}>{{ keymap_image }}</a></li>
         <li>keyCount: {{ keyCount }}</li>
         <li>firmware: {{ firmware }}</li>
         <li>keyboard: {{ keyboard }}</li>

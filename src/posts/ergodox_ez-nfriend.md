@@ -6,7 +6,7 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 hasVerticalCombos: False
-thumb: https://i.imgur.com/CMMmdBc.png
+keymap_image: https://i.imgur.com/CMMmdBc.png
 imageDate: idk
 keyCount: 76
 keyboard: ErgoDox EZ

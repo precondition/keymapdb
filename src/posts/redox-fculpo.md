@@ -6,7 +6,7 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 hasVerticalCombos: False
-thumb: https://i.imgur.com/OXT8boJ.png
+keymap_image: https://i.imgur.com/OXT8boJ.png
 imageDate: idk
 keyCount: 70
 keyboard: Redox

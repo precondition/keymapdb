@@ -19,7 +19,7 @@ for keymap in json_data["keymaps"]:
         if key == "author":
             key = "keymap_author"
         elif key == "image":
-            key = "thumb"
+            key = "keymap_image"
         elif key == "name":
             # The name often has apostrophes (possessive 's) 
             # so they must be escaped in YAML fashion.

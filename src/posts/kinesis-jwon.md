@@ -6,7 +6,7 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 hasVerticalCombos: False
-thumb: https://i.imgur.com/3llBswG.png
+keymap_image: https://i.imgur.com/3llBswG.png
 imageDate: idk
 keyCount: 86
 keyboard: Kinesis

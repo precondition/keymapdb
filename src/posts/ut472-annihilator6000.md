@@ -6,7 +6,7 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 hasVerticalCombos: False
-thumb: https://i.imgur.com/lICX4uz.png
+keymap_image: https://i.imgur.com/lICX4uz.png
 imageDate: idk
 keyCount: 47
 keyboard: UT47.2

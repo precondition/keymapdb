@@ -6,7 +6,7 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 hasVerticalCombos: False
-thumb: https://i.imgur.com/BIzu3RZ.png
+keymap_image: https://i.imgur.com/BIzu3RZ.png
 imageDate: idk
 keyCount: 56
 keyboard: Iris

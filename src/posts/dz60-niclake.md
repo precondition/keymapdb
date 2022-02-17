@@ -6,7 +6,7 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 hasVerticalCombos: False
-thumb: https://i.imgur.com/Lmw08LT.jpg
+keymap_image: https://i.imgur.com/Lmw08LT.jpg
 imageDate: idk
 keyCount: 67
 keyboard: DZ60

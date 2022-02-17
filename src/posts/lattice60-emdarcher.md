@@ -6,7 +6,7 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 hasVerticalCombos: False
-thumb: https://i.imgur.com/9g3fDqL.png
+keymap_image: https://i.imgur.com/9g3fDqL.png
 imageDate: idk
 keyCount: 60
 keyboard: lattice60

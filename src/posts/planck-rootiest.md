@@ -6,7 +6,7 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 hasVerticalCombos: False
-thumb: https://github.com/rootiest/rootiest.github.io/raw/main/img/rootiest-planck_legend.png
+keymap_image: https://github.com/rootiest/rootiest.github.io/raw/main/img/rootiest-planck_legend.png
 imageDate: idk
 keyCount: 48
 keyboard: Planck

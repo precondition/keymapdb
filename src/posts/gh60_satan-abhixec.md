@@ -6,7 +6,7 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 hasVerticalCombos: False
-thumb: https://i.imgur.com/Eqp8hov.jpg
+keymap_image: https://i.imgur.com/Eqp8hov.jpg
 imageDate: idk
 keyCount: 62
 keyboard: GH60 Satan

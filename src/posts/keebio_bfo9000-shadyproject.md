@@ -6,7 +6,7 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 hasVerticalCombos: False
-thumb: http://shadyproject.net/images/bfo9000-layout.png
+keymap_image: http://shadyproject.net/images/bfo9000-layout.png
 imageDate: idk
 keyCount: 108
 keyboard: Keebio BFO-9000

@@ -6,7 +6,7 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 hasVerticalCombos: False
-thumb: https://i.imgur.com/wuki3aM.png
+keymap_image: https://i.imgur.com/wuki3aM.png
 imageDate: idk
 keyCount: 42
 keyboard: Atreus

@@ -6,7 +6,7 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 hasVerticalCombos: False
-thumb: https://i.imgur.com/K7ONE1k.jpg
+keymap_image: https://i.imgur.com/K7ONE1k.jpg
 imageDate: idk
 keyCount: 67
 keyboard: pk60

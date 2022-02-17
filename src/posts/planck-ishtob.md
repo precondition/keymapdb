@@ -6,7 +6,7 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 hasVerticalCombos: False
-thumb: https://i.imgur.com/yKewjWW.jpg
+keymap_image: https://i.imgur.com/yKewjWW.jpg
 imageDate: idk
 keyCount: 48
 keyboard: Planck
