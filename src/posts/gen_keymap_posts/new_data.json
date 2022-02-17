@@ -723,7 +723,7 @@
     {
       "OS": [
         "MacOS",
-        "GNU+Linux"
+        "Linux"
       ],
       "author": "rjhilgefort",
       "firmware": "QMK",
@@ -883,7 +883,7 @@
       "OS": [
         "Windows",
         "MacOS",
-        "GNU+Linux"
+        "Linux"
       ],
       "author": "josefadamcik",
       "firmware": "QMK",

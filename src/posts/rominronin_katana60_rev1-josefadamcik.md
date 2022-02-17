@@ -1,6 +1,6 @@
 ---
 layout: layouts/keymapdb_entry.njk
-OS: ['Windows', 'MacOS', 'GNU+Linux']
+OS: ['Windows', 'MacOS', 'Linux']
 keymap_author: josefadamcik
 firmware: QMK
 hasHomeRowMods: False
