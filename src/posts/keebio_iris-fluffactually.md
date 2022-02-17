@@ -10,6 +10,7 @@ keymap_image: https://i.imgur.com/vmJSa9n.png
 imageDate: idk
 keyCount: 56
 keyboard: Iris
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 4
 title: "Iris layout by fluffactually"

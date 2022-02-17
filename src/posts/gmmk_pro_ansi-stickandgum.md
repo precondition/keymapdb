@@ -10,6 +10,7 @@ keymap_image: https://user-images.githubusercontent.com/22257588/130371838-875ba
 imageDate: idk
 keyCount: 83
 keyboard: GMMK Pro (ANSI)
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 2
 title: "Glorious GMMK Pro / ANSI - Enhanced Keyboard"

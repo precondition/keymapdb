@@ -10,6 +10,7 @@ keymap_image: http://i.imgur.com/eEwjLEj.png
 imageDate: idk
 keyCount: 66
 keyboard: Clueboard 66%
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 7
 title: "Layout of @magicmonty"

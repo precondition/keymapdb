@@ -10,6 +10,7 @@ keymap_image: https://i.imgur.com/CMMmdBc.png
 imageDate: idk
 keyCount: 76
 keyboard: ErgoDox EZ
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 12
 title: "nfriend's ErgoDox EZ configuration"

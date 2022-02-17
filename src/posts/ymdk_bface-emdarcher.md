@@ -10,6 +10,7 @@ keymap_image: https://i.imgur.com/ie5aF7d.jpg
 imageDate: idk
 keyCount: 62
 keyboard: YMDK Bface
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 5
 title: "emdarcher's keymap"

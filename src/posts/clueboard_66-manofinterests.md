@@ -10,6 +10,7 @@ keymap_image: http://i.imgur.com/7Capi8W.png
 imageDate: idk
 keyCount: 66
 keyboard: Clueboard 66%
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 3
 title: "Default Clueboard Layout"

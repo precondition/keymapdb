@@ -10,6 +10,7 @@ keymap_image: https://i.imgur.com/vANNhro.png
 imageDate: idk
 keyCount: 68
 keyboard: ErgoDash rev1.2
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 4
 title: "IFo Hancroft's ErgoDash Layout"

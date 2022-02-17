@@ -10,6 +10,7 @@ keymap_image: https://i.imgur.com/pDneawX.jpg
 imageDate: idk
 keyCount: 67
 keyboard: DZ60
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 3
 title: "LEdiodes Keymap for XD60 60% PCB"

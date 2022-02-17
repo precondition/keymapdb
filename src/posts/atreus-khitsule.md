@@ -10,6 +10,7 @@ keymap_image: https://i.imgur.com/wuki3aM.png
 imageDate: idk
 keyCount: 42
 keyboard: Atreus
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 5
 title: "Atreus Layout by Khitsule"

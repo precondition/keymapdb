@@ -10,6 +10,7 @@ keymap_image: https://i.imgur.com/Lmw08LT.jpg
 imageDate: idk
 keyCount: 67
 keyboard: DZ60
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 5
 title: "Nic Lake's DZ60 Layout"

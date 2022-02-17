@@ -10,6 +10,7 @@ keymap_image: https://i.imgur.com/BvBYgpz.png
 imageDate: idk
 keyCount: 47
 keyboard: Contra
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 6
 title: "Alper's Contra Layout"

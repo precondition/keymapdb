@@ -10,6 +10,7 @@ keymap_image: https://i.imgur.com/3llBswG.png
 imageDate: idk
 keyCount: 86
 keyboard: Kinesis
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 4
 title: "jwon's Programmer Dvorak"

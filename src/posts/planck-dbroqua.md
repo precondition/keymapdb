@@ -10,6 +10,7 @@ keymap_image: https://i.imgur.com/XxBtDBy.png
 imageDate: idk
 keyCount: 48
 keyboard: Planck
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 5
 title: "Dbroqua Layout"

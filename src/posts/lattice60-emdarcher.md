@@ -10,6 +10,7 @@ keymap_image: https://i.imgur.com/9g3fDqL.png
 imageDate: idk
 keyCount: 60
 keyboard: lattice60
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 3
 title: "emdarcher's keymap for lattice60"

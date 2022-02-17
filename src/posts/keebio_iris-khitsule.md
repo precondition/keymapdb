@@ -10,6 +10,7 @@ keymap_image: https://i.imgur.com/BIzu3RZ.png
 imageDate: idk
 keyCount: 56
 keyboard: Iris
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 5
 title: "Iris Layout by Khitsule"

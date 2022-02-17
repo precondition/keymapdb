@@ -10,6 +10,7 @@ keymap_image: https://github.com/rootiest/rootiest.github.io/raw/main/img/rootie
 imageDate: idk
 keyCount: 48
 keyboard: Planck
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 10
 title: "The Rootiest Planck Layout"

@@ -10,6 +10,7 @@ keymap_image: https://i.imgur.com/tuk64AI.png
 imageDate: idk
 keyCount: 44
 keyboard: Keyboardio Atreus
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 3
 title: "ardumont layout"

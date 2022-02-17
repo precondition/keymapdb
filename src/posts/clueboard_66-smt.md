@@ -10,6 +10,7 @@ keymap_image: http://i.imgur.com/Ll5gGte.png
 imageDate: idk
 keyCount: 66
 keyboard: Clueboard 66%
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 5
 title: "smt Clueboard Layout (HHKB variant)"

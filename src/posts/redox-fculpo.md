@@ -10,6 +10,7 @@ keymap_image: https://i.imgur.com/OXT8boJ.png
 imageDate: idk
 keyCount: 70
 keyboard: Redox
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 4
 title: "A tweaked keymap for Redox"

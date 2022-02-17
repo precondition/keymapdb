@@ -10,6 +10,7 @@ keymap_image: https://i.imgur.com/UV0t6aL.png
 imageDate: idk
 keyCount: 62
 keyboard: DZ60
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 3
 title: "DZ60 ISO Keymap"

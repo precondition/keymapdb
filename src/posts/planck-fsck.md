@@ -10,6 +10,7 @@ keymap_image: https://i.imgur.com/GOLyPGP.png
 imageDate: idk
 keyCount: 48
 keyboard: Planck
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 4
 title: "fsck's Planck Layout"

@@ -10,6 +10,7 @@ keymap_image: https://i.imgur.com/elygxAb.jpg
 imageDate: idk
 keyCount: 48
 keyboard: Planck
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 5
 title: "🐦 @rjhilgefort Planck Layout"

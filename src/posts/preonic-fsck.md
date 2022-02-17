@@ -10,6 +10,7 @@ keymap_image: https://i.imgur.com/nI8fBco.png
 imageDate: idk
 keyCount: 60
 keyboard: Preonic
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 4
 title: "fsck's Preonic Layout"

@@ -10,6 +10,7 @@ keymap_image: https://gist.githubusercontent.com/floookay/7bf6511a8d84804d32de4d
 imageDate: idk
 keyCount: 82
 keyboard: Adelheid
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 2
 title: "The default keymap for the Adelheid"

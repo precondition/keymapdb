@@ -10,6 +10,7 @@ keymap_image: https://4.bp.blogspot.com/-889nMXxgSM0/XCNxwnO5kUI/AAAAAAAA6mI/tZb
 imageDate: idk
 keyCount: 50
 keyboard: Gergo
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 4
 title: "Gergo! By g Heavy Industries"

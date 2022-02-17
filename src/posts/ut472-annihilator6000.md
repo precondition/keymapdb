@@ -10,6 +10,7 @@ keymap_image: https://i.imgur.com/lICX4uz.png
 imageDate: idk
 keyCount: 47
 keyboard: UT47.2
+baseLayouts: ["QWERTY", "Workman", "Colemak", "Dvorak"]
 languages: ['English']
 layerCount: 9
 title: "UT47.2 Planck-style layout switching"

@@ -10,6 +10,7 @@ keymap_image: https://i.imgur.com/bEdqotb.png
 imageDate: idk
 keyCount: 36
 keyboard: MiniDox
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 4
 title: "Minidox Layout by Khitsule"

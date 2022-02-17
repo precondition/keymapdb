@@ -10,6 +10,7 @@ keymap_image: https://user-images.githubusercontent.com/38357771/84585088-dc5363
 imageDate: idk
 keyCount: 60
 keyboard: Preonic
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 4
 title: "@shwilliam's Preonic Layout"

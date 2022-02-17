@@ -10,6 +10,7 @@ keymap_image: http://shadyproject.net/images/bfo9000-layout.png
 imageDate: idk
 keyCount: 108
 keyboard: Keebio BFO-9000
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 2
 title: "Shadyproject BFO-9000 layout"

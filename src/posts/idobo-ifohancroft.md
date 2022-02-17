@@ -10,6 +10,7 @@ keymap_image: https://i.imgur.com/ml1olw4.png
 imageDate: idk
 keyCount: 75
 keyboard: IDOBO
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 4
 title: "IFo Hancroft's Idobo Layout"

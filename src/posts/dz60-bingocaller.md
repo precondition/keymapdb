@@ -10,6 +10,7 @@ keymap_image: https://i.imgur.com/lFP2O41.png
 imageDate: idk
 keyCount: 67
 keyboard: DZ60
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 6
 title: "MacOS standard 60% keymap with Vim-like arrows"

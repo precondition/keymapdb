@@ -10,6 +10,7 @@ keymap_image: https://i.imgur.com/cV9niMC.jpg
 imageDate: idk
 keyCount: 68
 keyboard: Tada68
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 2
 title: "raylas's TADA68 layout"

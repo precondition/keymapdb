@@ -10,6 +10,7 @@ keymap_image: https://i.imgur.com/Sb8n8B0.png
 imageDate: idk
 keyCount: 56
 keyboard: ECO
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 2
 title: "ECO Layout by fsck"

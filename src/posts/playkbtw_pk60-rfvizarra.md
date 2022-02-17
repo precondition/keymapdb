@@ -10,6 +10,7 @@ keymap_image: https://i.imgur.com/K7ONE1k.jpg
 imageDate: idk
 keyCount: 67
 keyboard: pk60
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 3
 title: "A personal keymap for Play Keyboard60 based on the minila layout"

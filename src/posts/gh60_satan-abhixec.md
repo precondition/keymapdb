@@ -10,6 +10,7 @@ keymap_image: https://i.imgur.com/Eqp8hov.jpg
 imageDate: idk
 keyCount: 62
 keyboard: GH60 Satan
+baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 4
 title: "default Satan GH60 layout"
