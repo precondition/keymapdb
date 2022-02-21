@@ -13,7 +13,7 @@
     <legend>Firmware</legend>
         {% for firmware, keymapEntry in collections.posts | sort(false, false, "data.firmware") | groupby("data.firmware")  %}
         <div class="inline-flex mt-3">
-            <input type="radio",
+            <input type="radio"
                    name="firmware"
                    value="{{ firmware }}"
                    id="{{ firmware }}-radio"
@@ -87,15 +87,15 @@
 <fieldset class="flex flex-col">
     <legend>Stagger</legend>
     <label class="inline-flex mt-3">
-        <input type="radio", name="stagger", class="form-radio h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">row</span>
+        <input type="radio" name="stagger" class="form-radio h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">row</span>
     </label>
 
     <label class="inline-flex mt-3">
-        <input type="radio", name="stagger", class="form-radio h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">columnar</span>
+        <input type="radio" name="stagger" class="form-radio h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">columnar</span>
     </label>
 
     <label class="inline-flex mt-3">
-        <input type="radio", name="stagger", class="form-radio h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">ortholinear</span>
+        <input type="radio" name="stagger" class="form-radio h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">ortholinear</span>
     </label>
 </fieldset>
 
