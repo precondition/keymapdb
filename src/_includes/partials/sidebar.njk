@@ -1,7 +1,7 @@
 {% from "macros/yes-no-switch-field.njk" import YesNo %}
 
 <fieldset>
-    <legend>Key Count:</legend>
+    <legend>Key Count</legend>
     <div class="slider-styled" id="keyCountSlider"></div>
     <br>
     <input type="number" min="1" max="120" step="1" value="10">
@@ -10,7 +10,7 @@
 <br>
 
 <fieldset class="flex flex-col">
-    <legend>Firmware:</legend>
+    <legend>Firmware</legend>
         {% for firmware, keymapEntry in collections.posts | sort(false, false, "data.firmware") | groupby("data.firmware")  %}
         <div class="inline-flex mt-3">
             <input type="radio",
@@ -85,7 +85,7 @@
 <br>
 
 <fieldset class="flex flex-col">
-    <legend>Stagger:</legend>
+    <legend>Stagger</legend>
     <label class="inline-flex mt-3">
         <input type="radio", name="stagger", class="form-radio h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">row</span>
     </label>
@@ -101,7 +101,7 @@
 
 <br>
 
-{{ YesNo("Split:") }}
+{{ YesNo("Split") }}
 
 <br>
 
@@ -117,7 +117,7 @@
 <br>
 
 <fieldset class="flex flex-col">
-    <legend>OS:</legend>
+    <legend>OS</legend>
     <label class="inline-flex items-center mt-3">
         <input type="checkbox" class="form-checkbox h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">Windows</span>
     </label>
@@ -131,27 +131,27 @@
 
 <br>
 
-{{ YesNo("Letter(s) on thumb:") }}
+{{ YesNo("Letter(s) on thumb") }}
 
 <br>
 
 <fieldset>
-    <legend>Layer Count:</legend>
+    <legend>Layer Count</legend>
     <div class="slider-styled" id="layerCountSlider"></div>
 </fieldset>
 
 <br>
 
-{{ YesNo("Combos:") }}
+{{ YesNo("Combos") }}
 
 <br>
 
-{{ YesNo("Tap dance:") }}
+{{ YesNo("Tap dance") }}
 
 <br>
 
-{{ YesNo("Auto Shift:") }}
+{{ YesNo("Auto Shift") }}
 
 <br>
 
-{{ YesNo("Home row mods:") }}
+{{ YesNo("Home row mods") }}
