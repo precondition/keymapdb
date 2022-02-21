@@ -1,29 +1,35 @@
 {% from "macros/yes-no-switch-field.njk" import YesNo %}
 
-Key Count:
-<div class="slider-styled" id="keyCountSlider"></div>
-<br>
-<input type="number" min="1" max="120" step="1" value="10">
+<fieldset>
+    <legend>Key Count:</legend>
+    <div class="slider-styled" id="keyCountSlider"></div>
+    <br>
+    <input type="number" min="1" max="120" step="1" value="10">
+</fieldset>
 
 <br>
 
-<div class="flex flex-col">
-Firmware:
+<fieldset class="flex flex-col">
+    <legend>Firmware:</legend>
         {% for firmware, keymapEntry in collections.posts | sort(false, false, "data.firmware") | groupby("data.firmware")  %}
-    <label class="inline-flex mt-3">
-        <input type="radio", name="firmware" value="{{ firmware }}" class="form-radio h-5 w-5 text-blue-500 border-gray-300 transition duration-100 ease-in-out shadow-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none focus:ring-opacity-50 focus:ring-offset-0  disabled:opacity-50 disabled:cursor-not-allowed"><span class="ml-2 text-gray-700">{{ firmware }}</span>
-    </label>
+        <div class="inline-flex mt-3">
+            <input type="radio",
+                   name="firmware"
+                   value="{{ firmware }}"
+                   id="{{ firmware }}-radio"
+                   class="form-radio h-5 w-5 text-blue-500 border-gray-300 transition duration-100 ease-in-out shadow-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none focus:ring-opacity-50 focus:ring-offset-0  disabled:opacity-50 disabled:cursor-not-allowed">
+            <label for="{{ firmware }}-radio" class="ml-2 text-gray-700">{{ firmware }}
+            </label>
+        </div>
         {% endfor %}
-    </label>
-</div>
+</fieldset>
 
 <br>
 
-<div class="flex">
-  <div class="mb-3 xl:w-96">
-    <label class="form-check-label inline-block text-gray-800" for="baseLayoutSelection">
-      Base layout:
-    </label>
+<fieldset class="mb-3 xl:w-96">
+    <legend class="form-check-label inline-block text-gray-800" id="baseLayoutSelectionLegend">
+      Base layout
+    </legend>
     <select id="baseLayoutSelection" name="baseLayoutSelection" class="form-select
       block
       px-3
@@ -37,50 +43,49 @@ Firmware:
       transition
       ease-in-out
       m-0
-      focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example">
+      focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" 
+      aria-labelledby="baseLayoutSelectionLegend">
         <option selected>Any</option>
         {% for baseLayoutName in collections.posts | mapToDbField("baseLayouts") | flatten | sort | uniq  %}
         <option value="{{ baseLayoutName }}">{{ baseLayoutName }}</option>
         {% endfor %}
     </select>
-  </div>
-</div>
+</fieldset>
 
 <br>
 
-<div class="flex">
-  <div class="mb-3 xl:w-96">
-    <label class="form-check-label inline-block text-gray-800" for="keyboardSelection">
-      Keyboard:
-    </label>
+<fieldset class="mb-3 xl:w-96">
+    <legend class="form-check-label inline-block text-gray-800" id="keyboardSelectionLegend">
+      Keyboard
+    </legend>
     <select id="keyboardSelection" name="keyboardSelection" class="form-select
-      block
-      px-3
-      py-1.5
-      text-base
-      font-normal
-      text-gray-700
-      bg-white bg-clip-padding bg-no-repeat
-      border border-solid border-gray-300
-      rounded
-      transition
-      ease-in-out
-      m-0
-      focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example">
+          block
+          px-3
+          py-1.5
+          text-base
+          font-normal
+          text-gray-700
+          bg-white bg-clip-padding bg-no-repeat
+          border border-solid border-gray-300
+          rounded
+          transition
+          ease-in-out
+          m-0
+          focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" 
+          aria-labelledby="keyboardSelectionLegend">
         <option selected>Any</option>
-        {# FIXME This procedure of sorting entries by keyboard name and
-        dropping duplicates could probably be sped up #}
-        {% for keyboardName, keymapEntry in collections.posts | sort(false, false, "data.keyboard") | groupby("data.keyboard")  %}
-        <option value="{{ keyboardName }}">{{ keyboardName }}</option>
-        {% endfor %}
+            {# FIXME This procedure of sorting entries by keyboard name and
+            dropping duplicates could probably be sped up #}
+            {% for keyboardName, keymapEntry in collections.posts | sort(false, false, "data.keyboard") | groupby("data.keyboard")  %}
+            <option value="{{ keyboardName }}">{{ keyboardName }}</option>
+            {% endfor %}
     </select>
-  </div>
-</div>
+</fieldset>
 
 <br>
 
-Stagger:
-<div class="flex flex-col">
+<fieldset class="flex flex-col">
+    <legend>Stagger:</legend>
     <label class="inline-flex mt-3">
         <input type="radio", name="stagger", class="form-radio h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">row</span>
     </label>
@@ -92,67 +97,61 @@ Stagger:
     <label class="inline-flex mt-3">
         <input type="radio", name="stagger", class="form-radio h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">ortholinear</span>
     </label>
-</div>
+</fieldset>
 
 <br>
 
-Split:
-{{ YesNo("split") }}
+{{ YesNo("Split:") }}
 
 <br>
 
-<label class="block text-left" style="max-width: 300px">
-  Language(s): (Ctrl+Click to select more than one)
-  <select class="form-multiselect block w-full mt-1" style="border-width: 2px" multiple>
-        {% for language in collections.posts | mapToDbField("languages") | flatten | sort | uniq  %}
-        <option value="{{ language }}">{{ language }}</option>
-        {% endfor %}
-  </select>
-</label>
+<fieldset class="block text-left" style="max-width: 300px">
+    <legend>Language(s) (Ctrl+Click to select more than one)</legend>
+    <select class="form-multiselect block w-full mt-1" style="border-width: 2px" multiple>
+       {% for language in collections.posts | mapToDbField("languages") | flatten | sort | uniq  %}
+           <option value="{{ language }}">{{ language }}</option>
+       {% endfor %}
+     </select>
+</fieldset>
 
 <br>
 
-OS:
-<div class="flex flex-col">
-    <div class="flex flex-col">
-        <label class="inline-flex items-center mt-3">
-            <input type="checkbox" class="form-checkbox h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">Windows</span>
-        </label>
-        <label class="inline-flex items-center mt-3">
-            <input type="checkbox" class="form-checkbox h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">MacOS</span>
-        </label>
-        <label class="inline-flex items-center mt-3">
-            <input type="checkbox" class="form-checkbox h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">Linux</span>
-        </label>
-    </div>
-</div>
+<fieldset class="flex flex-col">
+    <legend>OS:</legend>
+    <label class="inline-flex items-center mt-3">
+        <input type="checkbox" class="form-checkbox h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">Windows</span>
+    </label>
+    <label class="inline-flex items-center mt-3">
+        <input type="checkbox" class="form-checkbox h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">MacOS</span>
+    </label>
+    <label class="inline-flex items-center mt-3">
+        <input type="checkbox" class="form-checkbox h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">Linux</span>
+    </label>
+</fieldset>
 
 <br>
 
-Letter(s) on thumb:
-{{ YesNo("letter-on-thumb") }}
+{{ YesNo("Letter(s) on thumb:") }}
 
 <br>
 
-Layer Count:
-<div class="slider-styled" id="layerCountSlider"></div>
+<fieldset>
+    <legend>Layer Count:</legend>
+    <div class="slider-styled" id="layerCountSlider"></div>
+</fieldset>
 
 <br>
 
-Combos:
-{{ YesNo("combos") }}
+{{ YesNo("Combos:") }}
 
 <br>
 
-Tap dance:
-{{ YesNo("tap-dance") }}
+{{ YesNo("Tap dance:") }}
 
 <br>
 
-Auto Shift:
-{{ YesNo("auto-shift") }}
+{{ YesNo("Auto Shift:") }}
 
 <br>
 
-Home row mods:
-{{ YesNo("home-row-mods") }}
+{{ YesNo("Home row mods:") }}
