@@ -1,9 +1,9 @@
-{% macro YesNo(legend="Yes or No?") %}
+{% macro YesNo(legend, dbFieldName) %}
 <fieldset class="switch-field">
     <legend>{{ legend }}</legend>
-    <input type="radio" id="{{ legend | slugify }}-yes" name="{{ legend | slugify }}-switch-field" value="true"/>
+    <input type="radio" id="{{ legend | slugify }}-yes" name="{{ dbFieldName }}" value="true"  onclick="updateUrlSearchParams(this)"/>
     <label for="{{ legend | slugify }}-yes">Yes</label>
-    <input type="radio" id="{{ legend | slugify }}-no" name="{{ legend | slugify }}-switch-field" value="false"/>
+    <input type="radio" id="{{ legend | slugify }}-no"  name="{{ dbFieldName }}" value="false" onclick="updateUrlSearchParams(this)"/>
     <label for="{{ legend | slugify }}-no">No</label>
 </fieldset>
 {% endmacro %}

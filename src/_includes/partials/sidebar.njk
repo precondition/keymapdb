@@ -2,7 +2,7 @@
 
 <fieldset>
     <legend>Key Count</legend>
-    <div class="slider-styled" id="keyCountSlider"></div>
+    <div onkeyup="updateUrlSearchParams(this)" onclick="updateUrlSearchParams(this)" class="slider-styled" name="keyCount" id="keyCountSlider"></div>
     <br>
     <input type="number" min="1" max="120" step="1" value="10">
 </fieldset>
@@ -17,6 +17,7 @@
                    name="firmware"
                    value="{{ firmware }}"
                    id="{{ firmware }}-radio"
+                   onclick="updateUrlSearchParams(this)"
                    class="form-radio h-5 w-5 text-blue-500 border-gray-300 transition duration-100 ease-in-out shadow-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none focus:ring-opacity-50 focus:ring-offset-0  disabled:opacity-50 disabled:cursor-not-allowed">
             <label for="{{ firmware }}-radio" class="ml-2 text-gray-700">{{ firmware }}
             </label>
@@ -30,7 +31,7 @@
     <legend class="form-check-label inline-block text-gray-800" id="baseLayoutSelectionLegend">
       Base layout
     </legend>
-    <select id="baseLayoutSelection" name="baseLayoutSelection" class="form-select
+    <select id="baseLayoutSelection" name="baseLayouts" onchange="updateUrlSearchParams(this)" class="form-select
       block
       px-3
       py-1.5
@@ -45,7 +46,7 @@
       m-0
       focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" 
       aria-labelledby="baseLayoutSelectionLegend">
-        <option selected>Any</option>
+        <option value="" selected>Any</option>
         {% for baseLayoutName in collections.posts | mapToDbField("baseLayouts") | flatten | sort | uniq  %}
         <option value="{{ baseLayoutName }}">{{ baseLayoutName }}</option>
         {% endfor %}
@@ -58,7 +59,7 @@
     <legend class="form-check-label inline-block text-gray-800" id="keyboardSelectionLegend">
       Keyboard
     </legend>
-    <select id="keyboardSelection" name="keyboardSelection" class="form-select
+    <select id="keyboardSelection" name="keyboard" onchange="updateUrlSearchParams(this)" class="form-select
           block
           px-3
           py-1.5
@@ -73,12 +74,12 @@
           m-0
           focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" 
           aria-labelledby="keyboardSelectionLegend">
-        <option selected>Any</option>
-            {# FIXME This procedure of sorting entries by keyboard name and
-            dropping duplicates could probably be sped up #}
-            {% for keyboardName, keymapEntry in collections.posts | sort(false, false, "data.keyboard") | groupby("data.keyboard")  %}
-            <option value="{{ keyboardName }}">{{ keyboardName }}</option>
-            {% endfor %}
+        <option value="" selected>Any</option>
+        {# FIXME This procedure of sorting entries by keyboard name and
+        dropping duplicates could probably be sped up #}
+        {% for keyboardName, keymapEntry in collections.posts | sort(false, false, "data.keyboard") | groupby("data.keyboard")  %}
+        <option value="{{ keyboardName }}">{{ keyboardName }}</option>
+        {% endfor %}
     </select>
 </fieldset>
 
@@ -87,27 +88,30 @@
 <fieldset class="flex flex-col">
     <legend>Stagger</legend>
     <label class="inline-flex mt-3">
-        <input type="radio" name="stagger" class="form-radio h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">row</span>
+        <input type="radio" name="stagger" value="row" onclick="updateUrlSearchParams(this)" class="form-radio h-5 w-5 text-gray-600">
+        <span class="ml-2 text-gray-700">row</span>
     </label>
 
     <label class="inline-flex mt-3">
-        <input type="radio" name="stagger" class="form-radio h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">columnar</span>
+        <input type="radio" name="stagger" value="columnar" onclick="updateUrlSearchParams(this)" class="form-radio h-5 w-5 text-gray-600">
+        <span class="ml-2 text-gray-700">columnar</span>
     </label>
 
     <label class="inline-flex mt-3">
-        <input type="radio" name="stagger" class="form-radio h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">ortholinear</span>
+        <input type="radio" name="stagger" value="ortholinear" onclick="updateUrlSearchParams(this)" class="form-radio h-5 w-5 text-gray-600">
+        <span class="ml-2 text-gray-700">ortholinear</span>
     </label>
 </fieldset>
 
 <br>
 
-{{ YesNo("Split") }}
+{{ YesNo("Split", "split") }}
 
 <br>
 
 <fieldset class="block text-left" style="max-width: 300px">
     <legend>Language(s) (Ctrl+Click to select more than one)</legend>
-    <select class="form-multiselect block w-full mt-1" style="border-width: 2px" multiple>
+    <select name="languages" id="languages-multi-select" onchange="updateUrlSearchParams(this)" class="form-multiselect block w-full mt-1" style="border-width: 2px" multiple>
        {% for language in collections.posts | mapToDbField("languages") | flatten | sort | uniq  %}
            <option value="{{ language }}">{{ language }}</option>
        {% endfor %}
@@ -119,39 +123,42 @@
 <fieldset class="flex flex-col">
     <legend>OS</legend>
     <label class="inline-flex items-center mt-3">
-        <input type="checkbox" class="form-checkbox h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">Windows</span>
+        <input type="checkbox" name="OS" value="Windows" onclick="updateUrlSearchParams(this)" class="form-checkbox h-5 w-5 text-gray-600">
+        <span class="ml-2 text-gray-700">Windows</span>
     </label>
     <label class="inline-flex items-center mt-3">
-        <input type="checkbox" class="form-checkbox h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">MacOS</span>
+        <input type="checkbox" name="OS" value="MacOS" onclick="updateUrlSearchParams(this)" class="form-checkbox h-5 w-5 text-gray-600">
+        <span class="ml-2 text-gray-700">MacOS</span>
     </label>
     <label class="inline-flex items-center mt-3">
-        <input type="checkbox" class="form-checkbox h-5 w-5 text-gray-600"><span class="ml-2 text-gray-700">Linux</span>
+        <input type="checkbox" name="OS" value="Linux" onclick="updateUrlSearchParams(this)" class="form-checkbox h-5 w-5 text-gray-600">
+        <span class="ml-2 text-gray-700">Linux</span>
     </label>
 </fieldset>
 
 <br>
 
-{{ YesNo("Letter(s) on thumb") }}
+{{ YesNo("Letter(s) on thumb", "hasLetterOnThumb") }}
 
 <br>
 
 <fieldset>
     <legend>Layer Count</legend>
-    <div class="slider-styled" id="layerCountSlider"></div>
+    <div onkeyup="updateUrlSearchParams(this)" onclick="updateUrlSearchParams(this)" class="slider-styled" name="layerCount" id="layerCountSlider"></div>
 </fieldset>
 
 <br>
 
-{{ YesNo("Combos") }}
+{{ YesNo("Combos", "isComboEnabled") }}
 
 <br>
 
-{{ YesNo("Tap dance") }}
+{{ YesNo("Tap dance", "isTapDanceEnabled") }}
 
 <br>
 
-{{ YesNo("Auto Shift") }}
+{{ YesNo("Auto Shift", "isAutoShiftEnabled") }}
 
 <br>
 
-{{ YesNo("Home row mods") }}
+{{ YesNo("Home row mods", "hasHomeRowMods") }}
