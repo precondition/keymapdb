@@ -1,6 +1,9 @@
 [
     
     {
+        "url": "/keymapdb/ymdk_bface-emdarcher/",
+        
+        "title": "emdarcher's keymap",
         
         "keymap_url": "https://github.com/emdarcher/qmk_firmware/tree/master/keyboards/ymdk/bface/keymaps/emdarcher",
         
@@ -18,7 +21,7 @@
         
         "stagger": "row",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -41,6 +44,9 @@
     },
     
     {
+        "url": "/keymapdb/v60_type_r-ifohancroft/",
+        
+        "title": "IFo Hancroft's KBParadise V60 Type R Layout",
         
         "keymap_url": "https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/v60_type_r/keymaps/ifohancroft",
         
@@ -58,7 +64,7 @@
         
         "stagger": "row",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -81,6 +87,9 @@
     },
     
     {
+        "url": "/keymapdb/ut472-annihilator6000/",
+        
+        "title": "UT47.2 Planck-style layout switching",
         
         "keymap_url": "https://github.com/annihilator6000/qmk_firmware/tree/master/keyboards/ut472/keymaps/annihilator6000",
         
@@ -98,7 +107,7 @@
         
         "stagger": "row",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -121,6 +130,9 @@
     },
     
     {
+        "url": "/keymapdb/thevankeyboards_minivan-smt/",
+        
+        "title": "smt's TV44 keymap",
         
         "keymap_url": "https://github.com/smt/qmk_firmware/tree/master/keyboards/thevankeyboards/minivan/keymaps/smt",
         
@@ -138,7 +150,7 @@
         
         "stagger": "row",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -161,6 +173,9 @@
     },
     
     {
+        "url": "/keymapdb/tada68-raylas/",
+        
+        "title": "raylas's TADA68 layout",
         
         "keymap_url": "https://github.com/raylas/qmk_firmware/tree/master/keyboards/tada68/keymaps/raylas",
         
@@ -178,7 +193,7 @@
         
         "stagger": "row",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -201,6 +216,9 @@
     },
     
     {
+        "url": "/keymapdb/rominronin_katana60_rev1-josefadamcik/",
+        
+        "title": "Multi OS Katana60 layout",
         
         "keymap_url": "https://github.com/josefadamcik/qmk_firmware/tree/master/keyboards/rominronin/katana60/rev1/keymaps/josefadamcik",
         
@@ -218,7 +236,7 @@
         
         "stagger": "row",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -241,6 +259,9 @@
     },
     
     {
+        "url": "/keymapdb/redox-fculpo/",
+        
+        "title": "A tweaked keymap for Redox",
         
         "keymap_url": "https://github.com/fculpo/qmk_firmware/tree/master/keyboards/redox/keymaps/fculpo",
         
@@ -258,7 +279,7 @@
         
         "stagger": "row",
         
-        "split": true,
+        "isSplit": true,
         
         "languages": ["English"],
         
@@ -281,6 +302,9 @@
     },
     
     {
+        "url": "/keymapdb/preonic-shwilliam/",
+        
+        "title": "@shwilliam's Preonic Layout",
         
         "keymap_url": "https://github.com/shwilliam/qmk_firmware/tree/master/keyboards/preonic/keymaps/shwilliam",
         
@@ -298,7 +322,7 @@
         
         "stagger": "ortholinear",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -321,6 +345,9 @@
     },
     
     {
+        "url": "/keymapdb/preonic-fsck/",
+        
+        "title": "fsck's Preonic Layout",
         
         "keymap_url": "https://github.com/fsck/qmk_firmware/tree/master/keyboards/preonic/keymaps/fsck",
         
@@ -338,7 +365,7 @@
         
         "stagger": "ortholinear",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -361,6 +388,9 @@
     },
     
     {
+        "url": "/keymapdb/playkbtw_pk60-rfvizarra/",
+        
+        "title": "A personal keymap for Play Keyboard60 based on the minila layout",
         
         "keymap_url": "https://github.com/rfvizarra/qmk_firmware/tree/master/keyboards/playkbtw/pk60/keymaps/rfvizarra",
         
@@ -378,7 +408,7 @@
         
         "stagger": "row",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -401,6 +431,9 @@
     },
     
     {
+        "url": "/keymapdb/planck-yhaliaw/",
+        
+        "title": "yhaliaw Planck layout",
         
         "keymap_url": "https://github.com/yhaliaw/qmk_firmware/tree/master/keyboards/planck/keymaps/yhaliaw",
         
@@ -418,7 +451,7 @@
         
         "stagger": "ortholinear",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -441,6 +474,9 @@
     },
     
     {
+        "url": "/keymapdb/planck-rootiest/",
+        
+        "title": "The Rootiest Planck Layout",
         
         "keymap_url": "https://github.com/rootiest/qmk_firmware/tree/master/keyboards/planck/keymaps/rootiest",
         
@@ -458,7 +494,7 @@
         
         "stagger": "ortholinear",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -481,6 +517,9 @@
     },
     
     {
+        "url": "/keymapdb/planck-rjhilgefort/",
+        
+        "title": "🐦 @rjhilgefort Planck Layout",
         
         "keymap_url": "https://github.com/rjhilgefort/qmk_firmware/tree/master/keyboards/planck/keymaps/rjhilgefort",
         
@@ -498,7 +537,7 @@
         
         "stagger": "ortholinear",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -521,6 +560,9 @@
     },
     
     {
+        "url": "/keymapdb/planck-ishtob/",
+        
+        "title": "Ishtob's personal planck layout",
         
         "keymap_url": "https://github.com/ishtob/qmk_firmware/tree/master/keyboards/planck/keymaps/ishtob",
         
@@ -538,7 +580,7 @@
         
         "stagger": "ortholinear",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -561,6 +603,9 @@
     },
     
     {
+        "url": "/keymapdb/planck-fsck/",
+        
+        "title": "fsck's Planck Layout",
         
         "keymap_url": "https://github.com/fsck/qmk_firmware/tree/master/keyboards/planck/keymaps/fsck",
         
@@ -578,7 +623,7 @@
         
         "stagger": "ortholinear",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -601,6 +646,9 @@
     },
     
     {
+        "url": "/keymapdb/planck-dbroqua/",
+        
+        "title": "Dbroqua Layout",
         
         "keymap_url": "https://github.com/dbroqua/qmk_firmware/tree/master/keyboards/planck/keymaps/dbroqua",
         
@@ -618,7 +666,7 @@
         
         "stagger": "ortholinear",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -641,6 +689,9 @@
     },
     
     {
+        "url": "/keymapdb/nightmare-brandonschlack/",
+        
+        "title": "brandonschlack's Nightmare Keymap",
         
         "keymap_url": "https://github.com/brandonschlack/qmk_firmware/tree/master/keyboards/nightmare/keymaps/brandonschlack",
         
@@ -658,7 +709,7 @@
         
         "stagger": "row",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -681,6 +732,9 @@
     },
     
     {
+        "url": "/keymapdb/minidox-khitsule/",
+        
+        "title": "Minidox Layout by Khitsule",
         
         "keymap_url": "https://github.com/khitsule/qmk_firmware/tree/master/keyboards/minidox/keymaps/khitsule",
         
@@ -698,7 +752,7 @@
         
         "stagger": "row",
         
-        "split": true,
+        "isSplit": true,
         
         "languages": ["English"],
         
@@ -721,6 +775,9 @@
     },
     
     {
+        "url": "/keymapdb/lattice60-emdarcher/",
+        
+        "title": "emdarcher's keymap for lattice60",
         
         "keymap_url": "https://github.com/emdarcher/qmk_firmware/tree/master/keyboards/lattice60/keymaps/emdarcher",
         
@@ -738,7 +795,7 @@
         
         "stagger": "row",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -761,6 +818,9 @@
     },
     
     {
+        "url": "/keymapdb/kinesis-jwon/",
+        
+        "title": "jwon's Programmer Dvorak",
         
         "keymap_url": "https://github.com/jwon/qmk_firmware/tree/master/keyboards/kinesis/keymaps/jwon",
         
@@ -778,7 +838,7 @@
         
         "stagger": "row",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -801,6 +861,9 @@
     },
     
     {
+        "url": "/keymapdb/keyboardio_atreus-ardumont/",
+        
+        "title": "ardumont layout",
         
         "keymap_url": "https://github.com/ardumont/qmk_firmware/tree/master/keyboards/keyboardio/atreus/keymaps/ardumont",
         
@@ -818,7 +881,7 @@
         
         "stagger": "columnar",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -841,6 +904,9 @@
     },
     
     {
+        "url": "/keymapdb/keebio_iris-khitsule/",
+        
+        "title": "Iris Layout by Khitsule",
         
         "keymap_url": "https://github.com/khitsule/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/khitsule",
         
@@ -858,7 +924,7 @@
         
         "stagger": "columnar",
         
-        "split": true,
+        "isSplit": true,
         
         "languages": ["English"],
         
@@ -881,6 +947,9 @@
     },
     
     {
+        "url": "/keymapdb/keebio_iris-fluffactually/",
+        
+        "title": "Iris layout by fluffactually",
         
         "keymap_url": "https://github.com/fluffactually/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/fluffactually",
         
@@ -898,7 +967,7 @@
         
         "stagger": "columnar",
         
-        "split": true,
+        "isSplit": true,
         
         "languages": ["English"],
         
@@ -921,6 +990,9 @@
     },
     
     {
+        "url": "/keymapdb/keebio_bfo9000-shadyproject/",
+        
+        "title": "Shadyproject BFO-9000 layout",
         
         "keymap_url": "https://github.com/shadyproject/qmk_firmware/tree/master/keyboards/keebio/bfo9000/keymaps/shadyproject",
         
@@ -938,7 +1010,7 @@
         
         "stagger": "ortholinear",
         
-        "split": true,
+        "isSplit": true,
         
         "languages": ["English"],
         
@@ -961,6 +1033,9 @@
     },
     
     {
+        "url": "/keymapdb/idobo-ifohancroft/",
+        
+        "title": "IFo Hancroft's Idobo Layout",
         
         "keymap_url": "https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/idobo/keymaps/ifohancroft",
         
@@ -978,7 +1053,7 @@
         
         "stagger": "ortholinear",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -1001,6 +1076,9 @@
     },
     
     {
+        "url": "/keymapdb/gmmk_pro_ansi-stickandgum/",
+        
+        "title": "Glorious GMMK Pro / ANSI - Enhanced Keyboard",
         
         "keymap_url": "https://github.com/stickandgum/qmk_firmware/tree/master/keyboards/gmmk/pro/ansi/keymaps/stickandgum",
         
@@ -1018,7 +1096,7 @@
         
         "stagger": "row",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -1041,6 +1119,9 @@
     },
     
     {
+        "url": "/keymapdb/gh60_satan-abhixec/",
+        
+        "title": "default Satan GH60 layout",
         
         "keymap_url": "https://github.com/abhixec/qmk_firmware/tree/master/keyboards/gh60/satan/keymaps/abhixec",
         
@@ -1058,7 +1139,7 @@
         
         "stagger": "row",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -1081,6 +1162,9 @@
     },
     
     {
+        "url": "/keymapdb/gergo-germ/",
+        
+        "title": "Gergo! By g Heavy Industries",
         
         "keymap_url": "https://github.com/germ/qmk_firmware/tree/master/keyboards/gergo/keymaps/germ",
         
@@ -1098,7 +1182,7 @@
         
         "stagger": "columnar",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -1121,6 +1205,9 @@
     },
     
     {
+        "url": "/keymapdb/ergodox_ez-nfriend/",
+        
+        "title": "nfriend's ErgoDox EZ configuration",
         
         "keymap_url": "https://github.com/nfriend/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/nfriend",
         
@@ -1138,7 +1225,7 @@
         
         "stagger": "columnar",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -1161,6 +1248,9 @@
     },
     
     {
+        "url": "/keymapdb/ergodox_ez-nathanvercaemert/",
+        
+        "title": "The nathanvercaemert ErgoDox EZ configuration",
         
         "keymap_url": "https://github.com/nathanvercaemert/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/nathanvercaemert",
         
@@ -1178,7 +1268,7 @@
         
         "stagger": "columnar",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -1201,6 +1291,9 @@
     },
     
     {
+        "url": "/keymapdb/ergodox_ez-bpruitt-goddard/",
+        
+        "title": "Ergodox EZ Layout by bpruitt-goddard",
         
         "keymap_url": "https://github.com/bpruitt-goddard/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/bpruitt-goddard",
         
@@ -1218,7 +1311,7 @@
         
         "stagger": "columnar",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -1241,6 +1334,9 @@
     },
     
     {
+        "url": "/keymapdb/ergodash_rev1-ifohancroft/",
+        
+        "title": "IFo Hancroft's ErgoDash Layout",
         
         "keymap_url": "https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/ergodash/rev1/keymaps/ifohancroft",
         
@@ -1258,7 +1354,7 @@
         
         "stagger": "columnar",
         
-        "split": true,
+        "isSplit": true,
         
         "languages": ["English"],
         
@@ -1281,6 +1377,9 @@
     },
     
     {
+        "url": "/keymapdb/eco-fsck/",
+        
+        "title": "ECO Layout by fsck",
         
         "keymap_url": "https://github.com/fsck/qmk_firmware/tree/master/keyboards/eco/keymaps/fsck",
         
@@ -1298,7 +1397,7 @@
         
         "stagger": "ortholinear",
         
-        "split": true,
+        "isSplit": true,
         
         "languages": ["English"],
         
@@ -1321,6 +1420,9 @@
     },
     
     {
+        "url": "/keymapdb/dz60-tarnjotsingh/",
+        
+        "title": "DZ60 ISO Keymap",
         
         "keymap_url": "https://github.com/tarnjotsingh/qmk_firmware/tree/master/keyboards/dz60/keymaps/tarnjotsingh",
         
@@ -1338,7 +1440,7 @@
         
         "stagger": "row",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -1361,6 +1463,9 @@
     },
     
     {
+        "url": "/keymapdb/dz60-niclake/",
+        
+        "title": "Nic Lake's DZ60 Layout",
         
         "keymap_url": "https://github.com/niclake/qmk_firmware/tree/master/keyboards/dz60/keymaps/niclake",
         
@@ -1378,7 +1483,7 @@
         
         "stagger": "row",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -1401,6 +1506,9 @@
     },
     
     {
+        "url": "/keymapdb/dz60-bingocaller/",
+        
+        "title": "MacOS standard 60% keymap with Vim-like arrows",
         
         "keymap_url": "https://github.com/bingocaller/qmk_firmware/tree/master/keyboards/dz60/keymaps/bingocaller",
         
@@ -1418,7 +1526,7 @@
         
         "stagger": "row",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -1441,6 +1549,9 @@
     },
     
     {
+        "url": "/keymapdb/dz60-LEdiodes/",
+        
+        "title": "LEdiodes Keymap for XD60 60% PCB",
         
         "keymap_url": "https://github.com/LEdiodes/qmk_firmware/tree/master/keyboards/dz60/keymaps/LEdiodes",
         
@@ -1458,7 +1569,7 @@
         
         "stagger": "row",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -1481,6 +1592,9 @@
     },
     
     {
+        "url": "/keymapdb/contra-alper/",
+        
+        "title": "Alper's Contra Layout",
         
         "keymap_url": "https://github.com/alper/qmk_firmware/tree/master/keyboards/contra/keymaps/alper",
         
@@ -1498,7 +1612,7 @@
         
         "stagger": "ortholinear",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -1521,6 +1635,9 @@
     },
     
     {
+        "url": "/keymapdb/clueboard_66-smt/",
+        
+        "title": "smt Clueboard Layout (HHKB variant)",
         
         "keymap_url": "https://github.com/smt/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/smt",
         
@@ -1538,7 +1655,7 @@
         
         "stagger": "row",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -1561,6 +1678,9 @@
     },
     
     {
+        "url": "/keymapdb/clueboard_66-manofinterests/",
+        
+        "title": "Default Clueboard Layout",
         
         "keymap_url": "https://github.com/manofinterests/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/manofinterests",
         
@@ -1578,7 +1698,7 @@
         
         "stagger": "row",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -1601,6 +1721,9 @@
     },
     
     {
+        "url": "/keymapdb/clueboard_66-magicmonty/",
+        
+        "title": "Layout of @magicmonty",
         
         "keymap_url": "https://github.com/magicmonty/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/magicmonty",
         
@@ -1618,7 +1741,7 @@
         
         "stagger": "row",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -1641,6 +1764,9 @@
     },
     
     {
+        "url": "/keymapdb/atreus-khitsule/",
+        
+        "title": "Atreus Layout by Khitsule",
         
         "keymap_url": "https://github.com/khitsule/qmk_firmware/tree/master/keyboards/atreus/keymaps/khitsule",
         
@@ -1658,7 +1784,7 @@
         
         "stagger": "columnar",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
@@ -1681,6 +1807,9 @@
     },
     
     {
+        "url": "/keymapdb/adelheid-floookay/",
+        
+        "title": "The default keymap for the Adelheid",
         
         "keymap_url": "https://github.com/floookay/qmk_firmware/tree/master/keyboards/adelheid/keymaps/floookay",
         
@@ -1698,7 +1827,7 @@
         
         "stagger": "row",
         
-        "split": false,
+        "isSplit": false,
         
         "languages": ["English"],
         
