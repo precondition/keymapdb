@@ -24,7 +24,7 @@ function updateUrlSearchParams(element) {
     const name = element.getAttribute("name");
     // Checking an option adds it to the URL so if the user clicks on an option that was already present in the URL,
     // it means they clicked on a checked input element, in which case we uncheck it and remove it from the URL.
-    if (value === "" || element.checked !== undefined && urlSearchParams.get(name) === value) {
+    if (value === "" || "checked" in element && urlSearchParams.get(name) === value) {
         element.checked = false;
         urlSearchParams.delete(name);
     } else {
