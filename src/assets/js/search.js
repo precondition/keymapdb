@@ -38,5 +38,28 @@ if (location.pathname === "{{'/' | url }}" || pageRegExp.test(location.pathname)
       let filteredKeymaps = await getFilteredKeymaps();
       console.log("filtered keymaps ↓");
       console.log(filteredKeymaps);
+      const postGrid = document.getElementById("post-grid");
+      postGrid.innerHTML = "";
+      for (const post of filteredKeymaps) {
+        const splitStatus = Boolean(post.split) ? "split" : "non-split"
+        postGrid.innerHTML += `
+        <div class="w-full ${filteredKeymaps.length >= 3 ? "sm:w-1/2 md:w-1/3" : ""} self-stretch p-2 mb-2" style="height:fit-content;">
+            <div class="rounded shadow-md h-full">
+                <a href="${ post.url}">
+                    <img class="w-full m-0 rounded-t lazy"  src="${post.keymap_image}" width="960" height="500" alt="${post.keymap_author}'s keymap for the ${post.keyboard}">
+                </a>
+                <div class="px-6 py-5">
+                    <div class="font-semibold text-lg mb-2">
+                        <a class="text-gray-900 hover:text-gray-700" href="${post.url}">${post.title}</a>
+                    </div>
+                    <p class="text-gray-700 mb-1">${post.stagger} stagger, ${post.keyCount} keys, ${post.split ? "split" : "non-split"}</p>
+                    <p class="text-gray-800">
+                        ${post.summary === null ? "" : post.summary}
+                    </p>
+                </div>
+            </div>
+        </div>
+        `;
+      }
     })();
 }

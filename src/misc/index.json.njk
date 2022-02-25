@@ -4,6 +4,7 @@ permalink: "/index.json"
 [
     {% for post in collections.posts %}
     {
+        "url": {{ post.url | url | dump | safe }},
         {% for field in db_fields %}
         "{{ field }}": {{ post.data[field] | dump | safe }}{% if not loop.last %},{% endif %}
         {% endfor %}
