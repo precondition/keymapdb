@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 4
 title: "fsck's Planck Layout"
-split: False
+isSplit: False
 stagger: ortholinear
 summary: 
 keymap_url: https://github.com/fsck/qmk_firmware/tree/master/keyboards/planck/keymaps/fsck

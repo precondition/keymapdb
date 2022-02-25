@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 6
 title: "Alper's Contra Layout"
-split: False
+isSplit: False
 stagger: ortholinear
 summary: 
 keymap_url: https://github.com/alper/qmk_firmware/tree/master/keyboards/contra/keymaps/alper

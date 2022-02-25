@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY", "Workman", "Colemak", "Dvorak"]
 languages: ['English']
 layerCount: 9
 title: "UT47.2 Planck-style layout switching"
-split: False
+isSplit: False
 stagger: row
 summary: 
 keymap_url: https://github.com/annihilator6000/qmk_firmware/tree/master/keyboards/ut472/keymaps/annihilator6000

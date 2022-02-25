@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 4
 title: "Gergo! By g Heavy Industries"
-split: False
+isSplit: False
 stagger: columnar
 summary: 
 keymap_url: https://github.com/germ/qmk_firmware/tree/master/keyboards/gergo/keymaps/germ

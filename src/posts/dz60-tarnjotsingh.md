@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 3
 title: "DZ60 ISO Keymap"
-split: False
+isSplit: False
 stagger: row
 summary: 
 keymap_url: https://github.com/tarnjotsingh/qmk_firmware/tree/master/keyboards/dz60/keymaps/tarnjotsingh

@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 10
 title: "The Rootiest Planck Layout"
-split: False
+isSplit: False
 stagger: ortholinear
 summary: 
 keymap_url: https://github.com/rootiest/qmk_firmware/tree/master/keyboards/planck/keymaps/rootiest

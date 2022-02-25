@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 4
 title: "Minidox Layout by Khitsule"
-split: True
+isSplit: True
 stagger: row
 summary: 
 keymap_url: https://github.com/khitsule/qmk_firmware/tree/master/keyboards/minidox/keymaps/khitsule

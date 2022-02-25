@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 12
 title: "nfriend's ErgoDox EZ configuration"
-split: False
+isSplit: False
 stagger: columnar
 summary: 
 keymap_url: https://github.com/nfriend/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/nfriend

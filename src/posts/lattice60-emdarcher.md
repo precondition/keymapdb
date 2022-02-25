@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 3
 title: "emdarcher's keymap for lattice60"
-split: False
+isSplit: False
 stagger: row
 summary: 
 keymap_url: https://github.com/emdarcher/qmk_firmware/tree/master/keyboards/lattice60/keymaps/emdarcher

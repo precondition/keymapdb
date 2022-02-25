@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 5
 title: "Iris Layout by Khitsule"
-split: True
+isSplit: True
 stagger: columnar
 summary: 
 keymap_url: https://github.com/khitsule/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/khitsule

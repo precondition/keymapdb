@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 3
 title: "LEdiodes Keymap for XD60 60% PCB"
-split: False
+isSplit: False
 stagger: row
 summary: 
 keymap_url: https://github.com/LEdiodes/qmk_firmware/tree/master/keyboards/dz60/keymaps/LEdiodes

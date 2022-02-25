@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 2
 title: "Shadyproject BFO-9000 layout"
-split: True
+isSplit: True
 stagger: ortholinear
 summary: 
 keymap_url: https://github.com/shadyproject/qmk_firmware/tree/master/keyboards/keebio/bfo9000/keymaps/shadyproject

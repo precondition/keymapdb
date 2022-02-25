@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 4
 title: "yhaliaw Planck layout"
-split: False
+isSplit: False
 stagger: ortholinear
 summary: 
 keymap_url: https://github.com/yhaliaw/qmk_firmware/tree/master/keyboards/planck/keymaps/yhaliaw

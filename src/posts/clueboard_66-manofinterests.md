@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 3
 title: "Default Clueboard Layout"
-split: False
+isSplit: False
 stagger: row
 summary: 
 keymap_url: https://github.com/manofinterests/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/manofinterests

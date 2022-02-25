@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 4
 title: "Ergodox EZ Layout by bpruitt-goddard"
-split: False
+isSplit: False
 stagger: columnar
 summary: 
 keymap_url: https://github.com/bpruitt-goddard/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/bpruitt-goddard

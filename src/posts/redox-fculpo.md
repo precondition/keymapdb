@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 4
 title: "A tweaked keymap for Redox"
-split: True
+isSplit: True
 stagger: row
 summary: 
 keymap_url: https://github.com/fculpo/qmk_firmware/tree/master/keyboards/redox/keymaps/fculpo

@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 3
 title: "A personal keymap for Play Keyboard60 based on the minila layout"
-split: False
+isSplit: False
 stagger: row
 summary: 
 keymap_url: https://github.com/rfvizarra/qmk_firmware/tree/master/keyboards/playkbtw/pk60/keymaps/rfvizarra

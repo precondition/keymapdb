@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 5
 title: "Atreus Layout by Khitsule"
-split: False
+isSplit: False
 stagger: columnar
 summary: 
 keymap_url: https://github.com/khitsule/qmk_firmware/tree/master/keyboards/atreus/keymaps/khitsule

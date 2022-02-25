@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 6
 title: "smt's TV44 keymap"
-split: False
+isSplit: False
 stagger: row
 summary: 
 keymap_url: https://github.com/smt/qmk_firmware/tree/master/keyboards/thevankeyboards/minivan/keymaps/smt

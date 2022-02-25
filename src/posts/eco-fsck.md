@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 2
 title: "ECO Layout by fsck"
-split: True
+isSplit: True
 stagger: ortholinear
 summary: 
 keymap_url: https://github.com/fsck/qmk_firmware/tree/master/keyboards/eco/keymaps/fsck

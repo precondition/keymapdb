@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 5
 title: "Dbroqua Layout"
-split: False
+isSplit: False
 stagger: ortholinear
 summary: 
 keymap_url: https://github.com/dbroqua/qmk_firmware/tree/master/keyboards/planck/keymaps/dbroqua

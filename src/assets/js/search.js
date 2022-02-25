@@ -41,7 +41,7 @@ if (location.pathname === "{{'/' | url }}" || pageRegExp.test(location.pathname)
       const postGrid = document.getElementById("post-grid");
       postGrid.innerHTML = "";
       for (const post of filteredKeymaps) {
-        const splitStatus = Boolean(post.split) ? "split" : "non-split"
+        const splitStatus = Boolean(post.isSplit) ? "split" : "non-split"
         postGrid.innerHTML += `
         <div class="w-full ${filteredKeymaps.length >= 3 ? "sm:w-1/2 md:w-1/3" : ""} self-stretch p-2 mb-2" style="height:fit-content;">
             <div class="rounded shadow-md h-full">
@@ -52,7 +52,7 @@ if (location.pathname === "{{'/' | url }}" || pageRegExp.test(location.pathname)
                     <div class="font-semibold text-lg mb-2">
                         <a class="text-gray-900 hover:text-gray-700" href="${post.url}">${post.title}</a>
                     </div>
-                    <p class="text-gray-700 mb-1">${post.stagger} stagger, ${post.keyCount} keys, ${post.split ? "split" : "non-split"}</p>
+                    <p class="text-gray-700 mb-1">${post.stagger} stagger, ${post.keyCount} keys, ${post.isSplit ? "split" : "non-split"}</p>
                     <p class="text-gray-800">
                         ${post.summary === null ? "" : post.summary}
                     </p>

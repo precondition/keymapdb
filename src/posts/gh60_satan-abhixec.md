@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 4
 title: "default Satan GH60 layout"
-split: False
+isSplit: False
 stagger: row
 summary: 
 keymap_url: https://github.com/abhixec/qmk_firmware/tree/master/keyboards/gh60/satan/keymaps/abhixec

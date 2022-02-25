@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 4
 title: "Iris layout by fluffactually"
-split: True
+isSplit: True
 stagger: columnar
 summary: 
 keymap_url: https://github.com/fluffactually/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/fluffactually

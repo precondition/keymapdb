@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 2
 title: "The default keymap for the Adelheid"
-split: False
+isSplit: False
 stagger: row
 summary: 
 keymap_url: https://github.com/floookay/qmk_firmware/tree/master/keyboards/adelheid/keymaps/floookay

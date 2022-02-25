@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 7
 title: "Layout of @magicmonty"
-split: False
+isSplit: False
 stagger: row
 summary: 
 keymap_url: https://github.com/magicmonty/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/magicmonty

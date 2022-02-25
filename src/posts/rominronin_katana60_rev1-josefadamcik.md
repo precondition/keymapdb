@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 8
 title: "Multi OS Katana60 layout"
-split: False
+isSplit: False
 stagger: row
 summary: 
 keymap_url: https://github.com/josefadamcik/qmk_firmware/tree/master/keyboards/rominronin/katana60/rev1/keymaps/josefadamcik

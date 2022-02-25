@@ -72,7 +72,7 @@ class SearchPosts {
     slicedPosts.forEach((post) => {
       const { url, title, date } = post;
 
-      const splitStatus = Boolean(post.split) ? "split" : "non-split"
+      const splitStatus = Boolean(post.isSplit) ? "split" : "non-split"
       wrapperEl.innerHTML += `
         <div class="w-full sm:w-1/2 md:w-1/3 self-stretch p-2 mb-2">
           <a href="${url}">

@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 2
 title: "raylas's TADA68 layout"
-split: False
+isSplit: False
 stagger: row
 summary: 
 keymap_url: https://github.com/raylas/qmk_firmware/tree/master/keyboards/tada68/keymaps/raylas

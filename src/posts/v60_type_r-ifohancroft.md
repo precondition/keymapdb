@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 4
 title: "IFo Hancroft's KBParadise V60 Type R Layout"
-split: False
+isSplit: False
 stagger: row
 summary: 
 keymap_url: https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/v60_type_r/keymaps/ifohancroft

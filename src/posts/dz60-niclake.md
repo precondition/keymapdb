@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 5
 title: "Nic Lake's DZ60 Layout"
-split: False
+isSplit: False
 stagger: row
 summary: 
 keymap_url: https://github.com/niclake/qmk_firmware/tree/master/keyboards/dz60/keymaps/niclake

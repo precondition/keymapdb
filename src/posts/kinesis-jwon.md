@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 4
 title: "jwon's Programmer Dvorak"
-split: False
+isSplit: False
 stagger: row
 summary: 
 keymap_url: https://github.com/jwon/qmk_firmware/tree/master/keyboards/kinesis/keymaps/jwon

@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 5
 title: "emdarcher's keymap"
-split: False
+isSplit: False
 stagger: row
 summary: 
 keymap_url: https://github.com/emdarcher/qmk_firmware/tree/master/keyboards/ymdk/bface/keymaps/emdarcher

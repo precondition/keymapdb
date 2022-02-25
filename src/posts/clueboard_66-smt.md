@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 5
 title: "smt Clueboard Layout (HHKB variant)"
-split: False
+isSplit: False
 stagger: row
 summary: 
 keymap_url: https://github.com/smt/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/smt

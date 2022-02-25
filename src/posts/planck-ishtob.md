@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 10
 title: "Ishtob's personal planck layout"
-split: False
+isSplit: False
 stagger: ortholinear
 summary: 
 keymap_url: https://github.com/ishtob/qmk_firmware/tree/master/keyboards/planck/keymaps/ishtob

@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 6
 title: "MacOS standard 60% keymap with Vim-like arrows"
-split: False
+isSplit: False
 stagger: row
 summary: 
 keymap_url: https://github.com/bingocaller/qmk_firmware/tree/master/keyboards/dz60/keymaps/bingocaller

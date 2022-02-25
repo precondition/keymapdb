@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 4
 title: "IFo Hancroft's ErgoDash Layout"
-split: True
+isSplit: True
 stagger: columnar
 summary: 
 keymap_url: https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/ergodash/rev1/keymaps/ifohancroft

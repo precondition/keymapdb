@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 2
 title: "Glorious GMMK Pro / ANSI - Enhanced Keyboard"
-split: False
+isSplit: False
 stagger: row
 summary: 
 keymap_url: https://github.com/stickandgum/qmk_firmware/tree/master/keyboards/gmmk/pro/ansi/keymaps/stickandgum

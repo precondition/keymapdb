@@ -14,7 +14,7 @@ baseLayouts: ["QWERTY"]
 languages: ['English']
 layerCount: 8
 title: "brandonschlack's Nightmare Keymap"
-split: False
+isSplit: False
 stagger: row
 summary: 
 keymap_url: https://github.com/brandonschlack/qmk_firmware/tree/master/keyboards/nightmare/keymaps/brandonschlack
