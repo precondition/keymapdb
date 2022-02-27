@@ -68,3 +68,29 @@ function syncSidebarFilters() {
 }
 
 window.onload = syncSidebarFilters;
+
+function resetSidebarFilters() {
+  const urlSearchParams = new URLSearchParams(location.search);
+  for (const [fieldName, fieldValue] of urlSearchParams.entries()) {
+    let elements = document.getElementsByName(fieldName);
+    for (let element of elements) {
+      if ("checked" in element) {
+        element.checked = false;
+      } else if ("noUiSlider" in element) {
+        const slider = element.noUiSlider;
+        slider.set(slider.options.start);
+      } else if (element instanceof HTMLSelectElement) {
+        if (element.multiple) {
+          const options = element.options;
+          for (const option of options) {
+            option.selected = false;
+          }
+        } else {
+          element.selectedIndex = 0;
+        }
+      }
+    }
+  }
+  // Remove filters from the URL
+  history.replaceState({}, "", location.pathname);
+}
