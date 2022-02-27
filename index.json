@@ -35,10 +35,6 @@
         
         "layerCount": 5,
         
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
-        
         "hasHomeRowMods": false
         
     },
@@ -77,10 +73,6 @@
         "hasLetterOnThumb": false,
         
         "layerCount": 4,
-        
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
         
         "hasHomeRowMods": false
         
@@ -121,10 +113,6 @@
         
         "layerCount": 9,
         
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
-        
         "hasHomeRowMods": false
         
     },
@@ -163,10 +151,6 @@
         "hasLetterOnThumb": false,
         
         "layerCount": 6,
-        
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
         
         "hasHomeRowMods": false
         
@@ -207,10 +191,6 @@
         
         "layerCount": 2,
         
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
-        
         "hasHomeRowMods": false
         
     },
@@ -249,10 +229,6 @@
         "hasLetterOnThumb": false,
         
         "layerCount": 8,
-        
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
         
         "hasHomeRowMods": false
         
@@ -293,10 +269,6 @@
         
         "layerCount": 4,
         
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
-        
         "hasHomeRowMods": false
         
     },
@@ -335,10 +307,6 @@
         "hasLetterOnThumb": false,
         
         "layerCount": 4,
-        
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
         
         "hasHomeRowMods": false
         
@@ -379,10 +347,6 @@
         
         "layerCount": 4,
         
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
-        
         "hasHomeRowMods": false
         
     },
@@ -421,10 +385,6 @@
         "hasLetterOnThumb": false,
         
         "layerCount": 3,
-        
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
         
         "hasHomeRowMods": false
         
@@ -465,10 +425,6 @@
         
         "layerCount": 4,
         
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
-        
         "hasHomeRowMods": false
         
     },
@@ -507,10 +463,6 @@
         "hasLetterOnThumb": false,
         
         "layerCount": 10,
-        
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
         
         "hasHomeRowMods": false
         
@@ -551,10 +503,6 @@
         
         "layerCount": 5,
         
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
-        
         "hasHomeRowMods": false
         
     },
@@ -593,10 +541,6 @@
         "hasLetterOnThumb": false,
         
         "layerCount": 10,
-        
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
         
         "hasHomeRowMods": false
         
@@ -637,10 +581,6 @@
         
         "layerCount": 4,
         
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
-        
         "hasHomeRowMods": false
         
     },
@@ -679,10 +619,6 @@
         "hasLetterOnThumb": false,
         
         "layerCount": 5,
-        
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
         
         "hasHomeRowMods": false
         
@@ -723,10 +659,6 @@
         
         "layerCount": 8,
         
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
-        
         "hasHomeRowMods": false
         
     },
@@ -765,10 +697,6 @@
         "hasLetterOnThumb": false,
         
         "layerCount": 4,
-        
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
         
         "hasHomeRowMods": false
         
@@ -809,11 +737,46 @@
         
         "layerCount": 3,
         
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
-        
         "hasHomeRowMods": false
+        
+    },
+    
+    {
+        "url": "/keymapdb/kprepublic_bm40hsrgb-rafaelromao/",
+        
+        "title": "rafaelromao's keyboard layout",
+        
+        "keymap_url": "https://github.com/rafaelromao/keyboards",
+        
+        "keymap_author": "rafaelromao",
+        
+        "keymap_image": "https://i.imgur.com/c7JLX3k.png",
+        
+        "keyCount": 34,
+        
+        "firmware": "QMK",
+        
+        "keyboard": "BM40 Hotswap RGB",
+        
+        "baseLayouts": ["Romak","QWERTY"],
+        
+        "stagger": "ortholinear",
+        
+        "isSplit": true,
+        
+        "languages": ["Portuguese","English"],
+        
+        "summary": "34 Keys, 3x5+2, Romak or Qwerty, US International, optimized for Portuguese and English, and coding with VIM plugins.",
+        
+        "OS": ["MacOS","Linux","Windows"],
+        
+        "writeup": "https://github.com/rafaelromao/keyboards/blob/main/readme.md",
+        
+        "hasLetterOnThumb": false,
+        
+        "layerCount": 9,
+        
+        "hasHomeRowMods": true
         
     },
     
@@ -851,10 +814,6 @@
         "hasLetterOnThumb": false,
         
         "layerCount": 4,
-        
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
         
         "hasHomeRowMods": false
         
@@ -895,10 +854,6 @@
         
         "layerCount": 3,
         
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
-        
         "hasHomeRowMods": false
         
     },
@@ -937,10 +892,6 @@
         "hasLetterOnThumb": false,
         
         "layerCount": 5,
-        
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
         
         "hasHomeRowMods": false
         
@@ -981,10 +932,6 @@
         
         "layerCount": 4,
         
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
-        
         "hasHomeRowMods": false
         
     },
@@ -1023,10 +970,6 @@
         "hasLetterOnThumb": false,
         
         "layerCount": 2,
-        
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
         
         "hasHomeRowMods": false
         
@@ -1067,10 +1010,6 @@
         
         "layerCount": 4,
         
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
-        
         "hasHomeRowMods": false
         
     },
@@ -1109,10 +1048,6 @@
         "hasLetterOnThumb": false,
         
         "layerCount": 2,
-        
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
         
         "hasHomeRowMods": false
         
@@ -1153,10 +1088,6 @@
         
         "layerCount": 4,
         
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
-        
         "hasHomeRowMods": false
         
     },
@@ -1195,10 +1126,6 @@
         "hasLetterOnThumb": false,
         
         "layerCount": 4,
-        
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
         
         "hasHomeRowMods": false
         
@@ -1239,10 +1166,6 @@
         
         "layerCount": 12,
         
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
-        
         "hasHomeRowMods": false
         
     },
@@ -1281,10 +1204,6 @@
         "hasLetterOnThumb": false,
         
         "layerCount": 15,
-        
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
         
         "hasHomeRowMods": true
         
@@ -1325,10 +1244,6 @@
         
         "layerCount": 4,
         
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
-        
         "hasHomeRowMods": false
         
     },
@@ -1367,10 +1282,6 @@
         "hasLetterOnThumb": false,
         
         "layerCount": 4,
-        
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
         
         "hasHomeRowMods": false
         
@@ -1411,10 +1322,6 @@
         
         "layerCount": 2,
         
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
-        
         "hasHomeRowMods": false
         
     },
@@ -1453,10 +1360,6 @@
         "hasLetterOnThumb": false,
         
         "layerCount": 3,
-        
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
         
         "hasHomeRowMods": false
         
@@ -1497,10 +1400,6 @@
         
         "layerCount": 5,
         
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
-        
         "hasHomeRowMods": false
         
     },
@@ -1539,10 +1438,6 @@
         "hasLetterOnThumb": false,
         
         "layerCount": 6,
-        
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
         
         "hasHomeRowMods": false
         
@@ -1583,10 +1478,6 @@
         
         "layerCount": 3,
         
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
-        
         "hasHomeRowMods": false
         
     },
@@ -1625,10 +1516,6 @@
         "hasLetterOnThumb": false,
         
         "layerCount": 6,
-        
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
         
         "hasHomeRowMods": false
         
@@ -1669,10 +1556,6 @@
         
         "layerCount": 5,
         
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
-        
         "hasHomeRowMods": false
         
     },
@@ -1711,10 +1594,6 @@
         "hasLetterOnThumb": false,
         
         "layerCount": 3,
-        
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
         
         "hasHomeRowMods": false
         
@@ -1755,10 +1634,6 @@
         
         "layerCount": 7,
         
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
-        
         "hasHomeRowMods": false
         
     },
@@ -1798,10 +1673,6 @@
         
         "layerCount": 5,
         
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
-        
         "hasHomeRowMods": false
         
     },
@@ -1840,10 +1711,6 @@
         "hasLetterOnThumb": false,
         
         "layerCount": 2,
-        
-        "imageDate": "idk",
-        
-        "hasVerticalCombos": false,
         
         "hasHomeRowMods": false
         
