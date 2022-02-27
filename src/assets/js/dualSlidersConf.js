@@ -28,6 +28,10 @@ noUiSlider.create(keyCountSlider, {
     }
 });
 
+// Ignore all parameters passed to the callback
+keyCountSlider.noUiSlider.on("change",
+    noUiSliderCallbackArgs => updateUrlSearchParams(keyCountSlider));
+
 /* Layers can go up to 32 in QMK but it's very unlikely to encounter more than
  * 16 layers in a keymap so in order to make the slider more comfortable to use,
  * we limit the max to 16. However, we can and should change that if we do find
@@ -59,6 +63,11 @@ noUiSlider.create(layerCountSlider, {
         'max': MAX_LAYER_COUNT,
     }
 });
+
+// Ignore all parameters passed to the callback
+layerCountSlider.noUiSlider.on("change",
+    noUiSliderCallbackArgs => updateUrlSearchParams(layerCountSlider));
+
 
 // Source: https://refreshless.com/nouislider/examples/#section-merging-tooltips
 /**
