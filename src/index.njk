@@ -8,7 +8,7 @@ permalink: "{% if paged.number > 1 %}page/{{ paged.number }}/{% endif %}index.ht
 ---
 
 <div class="flex">
-    <aside class="h-screen top-0" style="height:min-content;width: 300px;margin-right: 45px;">
+    <aside id="sidebar" class="h-screen top-0" style="height:min-content;width: 300px;margin-right: 45px;">
         {% include "partials/sidebar.njk" %}
     </aside>
     <div id="post-grid" class="flex flex-wrap -mx-2">

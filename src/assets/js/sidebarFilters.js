@@ -33,4 +33,38 @@ function updateUrlSearchParams(element) {
     const newUrl = isIteratorEmpty(urlSearchParams.keys()) ? location.pathname : location.pathname + "?" + urlSearchParams;
     // Update the search params in the URL
     history.replaceState({}, "", newUrl);
+    syncSidebarFilters();
 }
+
+function syncSidebarFilters() {
+  const urlSearchParams = new URLSearchParams(location.search);
+  for (const [fieldName, fieldValue] of urlSearchParams.entries()) {
+    let elements = document.getElementsByName(fieldName);
+    for (let element of elements) {
+      if ("checked" in element) {
+        const fieldValuesArray = fieldValue.split(",");
+        element.checked = fieldValuesArray.includes(element.value);
+      } else if ("noUiSlider" in element) {
+        const slider = element.noUiSlider;
+        const fieldValuesArray = fieldValue.split("-");
+        slider.set(fieldValuesArray);
+      } else if (element instanceof HTMLSelectElement) {
+        if (element.multiple) {
+          const options = element.options;
+          const fieldValuesArray = fieldValue.split(",");
+          for (const option of options) {
+            option.selected = fieldValuesArray.includes(option.value);
+          }
+        } else {
+          element.value = fieldValue;
+          if (element.selectedIndex === -1) {
+            alert(`The ${fieldName} "${fieldValue}" is not present in the database!\nReverting to "Any".`);
+            element.selectedIndex = 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+window.onload = syncSidebarFilters;
