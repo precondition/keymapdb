@@ -40,15 +40,5 @@ function $(id) {
 }
 
 function getKeymapsJSON() {
-    // See misc/index.json.njk
-    return [
-        {% for post in collections.posts %}
-        {
-            "url": {{ post.url | url | dump | safe }},
-            {% for field in db_fields %}
-            "{{ field }}": {{ post.data[field] | dump | safe }}{% if not loop.last %},{% endif %}
-            {% endfor %}
-        }{% if not loop.last %},{% endif %}
-        {% endfor %}
-    ];
+     return {% include "partials/keymaps-metadata.json.njk" %};
 }
