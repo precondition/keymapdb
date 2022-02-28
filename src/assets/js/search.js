@@ -38,7 +38,7 @@ if (location.pathname === "{{'/' | url }}" || pageRegExp.test(location.pathname)
       let filteredKeymaps = await getFilteredKeymaps();
       console.log("filtered keymaps ↓");
       console.log(filteredKeymaps);
-      const postGrid = document.getElementById("post-grid");
+      const postGrid = $("post-grid");
       postGrid.innerHTML = "";
       for (const post of filteredKeymaps) {
         const splitStatus = Boolean(post.isSplit) ? "split" : "non-split"

@@ -1,5 +1,5 @@
-let keyCountSlider = document.getElementById('keyCountSlider');
-let layerCountSlider = document.getElementById('layerCountSlider');
+let keyCountSlider = $('keyCountSlider');
+let layerCountSlider = $('layerCountSlider');
 
 const MAX_KEY_COUNT = 120;
 const keyCountPipsStep = 20;

@@ -34,3 +34,7 @@ menuToggle.addEventListener('click', () => {
   menu.classList.toggle('hidden');
   searchBox.classList.toggle('hidden');
 }, false);
+
+function $(id) {
+    return document.getElementById(id);
+}
