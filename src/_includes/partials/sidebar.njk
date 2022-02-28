@@ -2,7 +2,6 @@
 
 <fieldset>
     <legend>Key Count</legend>
-    <!-- "bug" report: selecting a slider handle with the mouse cursor and releasing the mouse button outside of the slider's area does not call updateUrlSearchParams -->
     <div class="slider-styled" name="keyCount" id="keyCountSlider"></div>
     <br>
     <input type="number" min="1" max="120" step="1" value="10">
@@ -18,7 +17,7 @@
                    name="firmware"
                    value="{{ firmware }}"
                    id="{{ firmware }}-radio"
-                   onclick="updateUrlSearchParams(this)"
+                   onclick="updatePostGrid(this)"
                    class="form-radio h-5 w-5 text-blue-500 border-gray-300 transition duration-100 ease-in-out shadow-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none focus:ring-opacity-50 focus:ring-offset-0  disabled:opacity-50 disabled:cursor-not-allowed">
             <label for="{{ firmware }}-radio" class="ml-2 text-gray-700">{{ firmware }}
             </label>
@@ -32,7 +31,7 @@
     <legend class="form-check-label inline-block text-gray-800" id="baseLayoutSelectionLegend">
       Base layout
     </legend>
-    <select id="baseLayoutSelection" name="baseLayouts" onchange="updateUrlSearchParams(this)" class="form-select
+    <select id="baseLayoutSelection" name="baseLayouts" onchange="updatePostGrid(this)" class="form-select
       block
       px-3
       py-1.5
@@ -60,7 +59,7 @@
     <legend class="form-check-label inline-block text-gray-800" id="keyboardSelectionLegend">
       Keyboard
     </legend>
-    <select id="keyboardSelection" name="keyboard" onchange="updateUrlSearchParams(this)" class="form-select
+    <select id="keyboardSelection" name="keyboard" onchange="updatePostGrid(this)" class="form-select
           block
           px-3
           py-1.5
@@ -89,17 +88,17 @@
 <fieldset class="flex flex-col">
     <legend>Stagger</legend>
     <label class="inline-flex mt-3">
-        <input type="radio" name="stagger" value="row" onclick="updateUrlSearchParams(this)" class="form-radio h-5 w-5 text-gray-600">
+        <input type="radio" name="stagger" value="row" onclick="updatePostGrid(this)" class="form-radio h-5 w-5 text-gray-600">
         <span class="ml-2 text-gray-700">row</span>
     </label>
 
     <label class="inline-flex mt-3">
-        <input type="radio" name="stagger" value="columnar" onclick="updateUrlSearchParams(this)" class="form-radio h-5 w-5 text-gray-600">
+        <input type="radio" name="stagger" value="columnar" onclick="updatePostGrid(this)" class="form-radio h-5 w-5 text-gray-600">
         <span class="ml-2 text-gray-700">columnar</span>
     </label>
 
     <label class="inline-flex mt-3">
-        <input type="radio" name="stagger" value="ortholinear" onclick="updateUrlSearchParams(this)" class="form-radio h-5 w-5 text-gray-600">
+        <input type="radio" name="stagger" value="ortholinear" onclick="updatePostGrid(this)" class="form-radio h-5 w-5 text-gray-600">
         <span class="ml-2 text-gray-700">ortholinear</span>
     </label>
 </fieldset>
@@ -112,7 +111,7 @@
 
 <fieldset class="block text-left" style="max-width: 300px">
     <legend>Language(s) (Ctrl+Click to select more than one)</legend>
-    <select name="languages" id="languages-multi-select" onchange="updateUrlSearchParams(this)" class="form-multiselect block w-full mt-1" style="border-width: 2px" multiple>
+    <select name="languages" id="languages-multi-select" onchange="updatePostGrid(this)" class="form-multiselect block w-full mt-1" style="border-width: 2px" multiple>
        {% for language in collections.posts | mapToDbField("languages") | flatten | sort | uniq  %}
            <option value="{{ language }}">{{ language }}</option>
        {% endfor %}
@@ -124,15 +123,15 @@
 <fieldset class="flex flex-col">
     <legend>OS</legend>
     <label class="inline-flex items-center mt-3">
-        <input type="checkbox" name="OS" value="Windows" onclick="updateUrlSearchParams(this)" class="form-checkbox h-5 w-5 text-gray-600">
+        <input type="checkbox" name="OS" value="Windows" onclick="updatePostGrid(this)" class="form-checkbox h-5 w-5 text-gray-600">
         <span class="ml-2 text-gray-700">Windows</span>
     </label>
     <label class="inline-flex items-center mt-3">
-        <input type="checkbox" name="OS" value="MacOS" onclick="updateUrlSearchParams(this)" class="form-checkbox h-5 w-5 text-gray-600">
+        <input type="checkbox" name="OS" value="MacOS" onclick="updatePostGrid(this)" class="form-checkbox h-5 w-5 text-gray-600">
         <span class="ml-2 text-gray-700">MacOS</span>
     </label>
     <label class="inline-flex items-center mt-3">
-        <input type="checkbox" name="OS" value="Linux" onclick="updateUrlSearchParams(this)" class="form-checkbox h-5 w-5 text-gray-600">
+        <input type="checkbox" name="OS" value="Linux" onclick="updatePostGrid(this)" class="form-checkbox h-5 w-5 text-gray-600">
         <span class="ml-2 text-gray-700">Linux</span>
     </label>
 </fieldset>

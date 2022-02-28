@@ -31,10 +31,13 @@ function updateUrlSearchParams(element) {
     } else {
         urlSearchParams.set(name, value);
     }
-    const urlSearchParamsString = urlSearchParams.toString() === "" ? "" : "?" + urlSearchParams.toString();
-    // Update the search params in the URL
-    location.search = urlSearchParams.toString();
-    //history.replaceState({}, "", urlSearchParamsString);
+    // Go back to page 1 (aka root of the website) and append the URL search params to the URL.
+    const isIteratorEmpty = urlSearchParams.keys().next().done;
+    if (isIteratorEmpty) {
+        history.pushState({}, "", "{{ '/' | url }}");
+    } else {
+        history.pushState({}, "", "{{ '/' | url }}" + "?" + urlSearchParams);
+    }
     syncSidebarFilters();
     syncPaginationButtons();
 }
@@ -136,4 +139,9 @@ function resetSidebarFilters() {
     }
     // Remove filters from the URL
     history.replaceState({}, "", location.pathname);
+}
+
+async function updatePostGrid(element) {
+    updateUrlSearchParams(element);
+    getFilteredKeymaps().then(filteredKeymaps => populatePostGrid(filteredKeymaps));
 }

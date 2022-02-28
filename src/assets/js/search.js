@@ -27,57 +27,61 @@ function isKeymapConforming(query, keymapData) {
 }
 
 async function getFilteredKeymaps() {
-      const keymapsJSON = await fetch("{{'/index.json' | url}}").then(res => res.json());
-      const searchParams = new URLSearchParams(location.search);
-      return keymapsJSON.filter(keymap => isKeymapConforming(searchParams, keymap));
+    const keymapsJSON = await fetch("{{'/index.json' | url}}").then(res => res.json());
+    const searchParams = new URLSearchParams(location.search);
+    return keymapsJSON.filter(keymap => isKeymapConforming(searchParams, keymap));
+}
+
+async function populatePostGrid(filteredKeymaps) {
+    console.log("filtered keymaps ↓");
+    console.log(filteredKeymaps);
+    const postGrid = $("post-grid");
+    postGrid.innerHTML = "";
+    const postsPerPage = {{ site.paginate }};
+    const pageNo = Number((location.pathname.match(/page\/([0-9]+)/) || ["page/1", "1"])[1]);
+    const offset = (pageNo - 1) * postsPerPage;
+    const slicedKeymaps = filteredKeymaps.slice(offset, offset+postsPerPage);
+    console.log("sliced keymaps ↓");
+    console.log(slicedKeymaps);
+    if (offset < filteredKeymaps.length) {
+      $("showing-n-results").innerText = `Showing ${offset + 1} to ${Math.min(offset + postsPerPage, filteredKeymaps.length)} of ${filteredKeymaps.length} results found.`;
+    } else {
+      $("showing-n-results").innerText = `Showing 0 to 0 of ${filteredKeymaps.length} results found.`;
+      const amountOfPages = Math.ceil(filteredKeymaps.length/postsPerPage);
+      if (amountOfPages === 1) {
+          $("showing-n-results").innerText += ` There is only 1 page for this search, not ${pageNo}.`;
+      } else {
+          $("showing-n-results").innerText += ` There are only ${amountOfPages} pages for this search, not ${pageNo}.`;
+      }
+    }
+    syncPaginationButtons();
+    for (const post of slicedKeymaps) {
+      const splitStatus = post.isSplit ? "split" : "non-split"
+      postGrid.innerHTML += `
+      <div class="w-full ${filteredKeymaps.length >= 3 ? "sm:w-1/2 md:w-1/3" : ""} self-stretch p-2 mb-2" style="height:fit-content;">
+          <div class="rounded shadow-md h-full">
+              <a href="${ post.url}">
+                  <img class="w-full m-0 rounded-t lazy"  src="${post.keymap_image}" width="960" height="500" alt="${post.keymap_author}'s keymap for the ${post.keyboard}">
+              </a>
+              <div class="px-6 py-5">
+                  <div class="font-semibold text-lg mb-2">
+                      <a class="text-gray-900 hover:text-gray-700" href="${post.url}">${post.title}</a>
+                  </div>
+                  <p class="text-gray-700 mb-1">${post.stagger} stagger, ${post.keyCount} keys, ${post.isSplit ? "split" : "non-split"}</p>
+                  <p class="text-gray-800">
+                      ${post.summary === null ? "" : post.summary}
+                  </p>
+              </div>
+          </div>
+      </div>
+      `;
+    }
 }
 
 const pageRegExp = new RegExp("{{ '/page/' | url }}[0-9]+");
 if (location.pathname === "{{'/' | url }}" || pageRegExp.test(location.pathname)) {
     (async() => {
       let filteredKeymaps = await getFilteredKeymaps();
-      console.log("filtered keymaps ↓");
-      console.log(filteredKeymaps);
-      const postGrid = $("post-grid");
-      postGrid.innerHTML = "";
-      const postsPerPage = {{ site.paginate }};
-      const pageNo = Number((location.pathname.match(/page\/([0-9]+)/) || ["page/1", "1"])[1]);
-      const offset = (pageNo - 1) * postsPerPage;
-      const slicedKeymaps = filteredKeymaps.slice(offset, offset+postsPerPage);
-      console.log("sliced keymaps ↓");
-      console.log(slicedKeymaps);
-      if (offset < filteredKeymaps.length) {
-        $("showing-n-results").innerText = `Showing ${offset + 1} to ${Math.min(offset + postsPerPage, filteredKeymaps.length)} of ${filteredKeymaps.length} results found.`;
-      } else {
-        $("showing-n-results").innerText = `Showing 0 to 0 of ${filteredKeymaps.length} results found.`;
-        const amountOfPages = Math.ceil(filteredKeymaps.length/postsPerPage);
-        if (amountOfPages === 1) {
-            $("showing-n-results").innerText += ` There is only 1 page for this search, not ${pageNo}.`;
-        } else {
-            $("showing-n-results").innerText += ` There are only ${amountOfPages} pages for this search, not ${pageNo}.`;
-        }
-      }
-      syncPaginationButtons();
-      for (const post of slicedKeymaps) {
-        const splitStatus = Boolean(post.isSplit) ? "split" : "non-split"
-        postGrid.innerHTML += `
-        <div class="w-full ${filteredKeymaps.length >= 3 ? "sm:w-1/2 md:w-1/3" : ""} self-stretch p-2 mb-2" style="height:fit-content;">
-            <div class="rounded shadow-md h-full">
-                <a href="${ post.url}">
-                    <img class="w-full m-0 rounded-t lazy"  src="${post.keymap_image}" width="960" height="500" alt="${post.keymap_author}'s keymap for the ${post.keyboard}">
-                </a>
-                <div class="px-6 py-5">
-                    <div class="font-semibold text-lg mb-2">
-                        <a class="text-gray-900 hover:text-gray-700" href="${post.url}">${post.title}</a>
-                    </div>
-                    <p class="text-gray-700 mb-1">${post.stagger} stagger, ${post.keyCount} keys, ${post.isSplit ? "split" : "non-split"}</p>
-                    <p class="text-gray-800">
-                        ${post.summary === null ? "" : post.summary}
-                    </p>
-                </div>
-            </div>
-        </div>
-        `;
-      }
+      populatePostGrid(filteredKeymaps);
     })();
 }

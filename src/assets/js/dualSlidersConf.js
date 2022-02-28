@@ -30,7 +30,7 @@ noUiSlider.create(keyCountSlider, {
 
 // Ignore all parameters passed to the callback
 keyCountSlider.noUiSlider.on("change",
-    noUiSliderCallbackArgs => updateUrlSearchParams(keyCountSlider));
+    noUiSliderCallbackArgs => updatePostGrid(keyCountSlider));
 
 /* Layers can go up to 32 in QMK but it's very unlikely to encounter more than
  * 16 layers in a keymap so in order to make the slider more comfortable to use,
@@ -66,7 +66,7 @@ noUiSlider.create(layerCountSlider, {
 
 // Ignore all parameters passed to the callback
 layerCountSlider.noUiSlider.on("change",
-    noUiSliderCallbackArgs => updateUrlSearchParams(layerCountSlider));
+    noUiSliderCallbackArgs => updatePostGrid(layerCountSlider));
 
 
 // Source: https://refreshless.com/nouislider/examples/#section-merging-tooltips
