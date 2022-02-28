@@ -40,7 +40,25 @@ if (location.pathname === "{{'/' | url }}" || pageRegExp.test(location.pathname)
       console.log(filteredKeymaps);
       const postGrid = $("post-grid");
       postGrid.innerHTML = "";
-      for (const post of filteredKeymaps) {
+      const postsPerPage = {{ site.paginate }};
+      const pageNo = Number((location.pathname.match(/page\/([0-9]+)/) || ["page/1", "1"])[1]);
+      const offset = (pageNo - 1) * postsPerPage;
+      const slicedKeymaps = filteredKeymaps.slice(offset, offset+postsPerPage);
+      console.log("sliced keymaps ↓");
+      console.log(slicedKeymaps);
+      if (offset < filteredKeymaps.length) {
+        $("showing-n-results").innerText = `Showing ${offset + 1} to ${Math.min(offset + postsPerPage, filteredKeymaps.length)} of ${filteredKeymaps.length} results found.`;
+      } else {
+        $("showing-n-results").innerText = `Showing 0 to 0 of ${filteredKeymaps.length} results found.`;
+        const amountOfPages = Math.ceil(filteredKeymaps.length/postsPerPage);
+        if (amountOfPages === 1) {
+            $("showing-n-results").innerText += ` There is only 1 page for this search, not ${pageNo}.`;
+        } else {
+            $("showing-n-results").innerText += ` There are only ${amountOfPages} pages for this search, not ${pageNo}.`;
+        }
+      }
+      syncPaginationButtons();
+      for (const post of slicedKeymaps) {
         const splitStatus = Boolean(post.isSplit) ? "split" : "non-split"
         postGrid.innerHTML += `
         <div class="w-full ${filteredKeymaps.length >= 3 ? "sm:w-1/2 md:w-1/3" : ""} self-stretch p-2 mb-2" style="height:fit-content;">

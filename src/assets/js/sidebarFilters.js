@@ -1,9 +1,3 @@
-function isIteratorEmpty(iterator) {
-    // See the iterator protocol: 
-    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#the_iterator_protocol
-    return iterator.next().done
-}
-
 function isSliderMinMaxed(slider) {
     return slider.get().length >= 2 && slider.options.range.min === slider.get().at(0) && slider.options.range.max === slider.get().at(-1);
 }
@@ -37,10 +31,49 @@ function updateUrlSearchParams(element) {
     } else {
         urlSearchParams.set(name, value);
     }
-    const newUrl = isIteratorEmpty(urlSearchParams.keys()) ? location.pathname : location.pathname + "?" + urlSearchParams;
+    const urlSearchParamsString = urlSearchParams.toString() === "" ? "" : "?" + urlSearchParams.toString();
     // Update the search params in the URL
-    history.replaceState({}, "", newUrl);
+    location.search = urlSearchParams.toString();
+    //history.replaceState({}, "", urlSearchParamsString);
     syncSidebarFilters();
+    syncPaginationButtons();
+}
+
+function disableHrefButton(a) {
+    // See https://stackoverflow.com/a/10276157
+    // Remove pointer events, gray it out etc.
+    a.classList.add("disabled");
+    // Clearing the link.
+    a.href = "javascript:void(0)";
+    // Prevent a from being selected by tabbing through the page
+    a.setAttribute("tabindex", -1);
+}
+
+function enableHrefButton(a) {
+    // See https://stackoverflow.com/a/10276157
+    a.classList.remove("disabled");
+    a.href = a.getAttribute("href-if-enabled");
+    // Add back a into the "tab tree" of the page
+    a.removeAttribute("tabindex");
+}
+
+function syncPaginationButtons() {
+    const urlSearchParams = new URLSearchParams(location.search);
+    [matchedString, start, end, total] = $("showing-n-results").innerText.match(/Showing ([0-9]+) to ([0-9]+) of ([0-9]+) results found/);
+    // start == 0 is a special case that occurs when the user is on a page that's beyond the total amount of pages for this search.
+    if (Number(start) > 1 || Number(start) === 0) {
+        enableHrefButton($("previous-button"));
+        $("previous-button").search = urlSearchParams;
+    } else {
+        disableHrefButton($("previous-button"));
+    }
+    if (Number(end) < Number(total)) {
+        enableHrefButton($("next-button"));
+        $("next-button").search = urlSearchParams;
+    } else {
+        disableHrefButton($("next-button"));
+    }
+    console.log("search of next button is now = " + $("next-button").search);
 }
 
 function syncSidebarFilters() {
@@ -74,7 +107,10 @@ function syncSidebarFilters() {
     }
 }
 
-window.onload = syncSidebarFilters;
+window.onload = function() {
+    syncSidebarFilters();
+    syncPaginationButtons()
+};
 
 function resetSidebarFilters() {
     const urlSearchParams = new URLSearchParams(location.search);

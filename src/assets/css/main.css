@@ -97,3 +97,7 @@
     right: -9px !important; /* half the width */
     border-radius: 9px;
 }
+
+a.disabled {
+    pointer-events: none;
+}
