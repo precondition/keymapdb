@@ -27,9 +27,8 @@ function isKeymapConforming(query, keymapData) {
 }
 
 async function getFilteredKeymaps() {
-    const keymapsJSON = await fetch("{{'/index.json' | url}}").then(res => res.json());
     const searchParams = new URLSearchParams(location.search);
-    return keymapsJSON.filter(keymap => isKeymapConforming(searchParams, keymap));
+    return getKeymapsJSON().filter(keymap => isKeymapConforming(searchParams, keymap));
 }
 
 async function populatePostGrid(filteredKeymaps) {
