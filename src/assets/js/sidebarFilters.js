@@ -52,31 +52,58 @@ function disableHrefButton(a) {
     a.setAttribute("tabindex", -1);
 }
 
-function enableHrefButton(a) {
+function enableHrefButton(a, href) {
     // See https://stackoverflow.com/a/10276157
     a.classList.remove("disabled");
-    a.href = a.getAttribute("href-if-enabled");
+    if (href !== undefined) {
+        a.href = href;
+    }
     // Add back a into the "tab tree" of the page
     a.removeAttribute("tabindex");
 }
 
+function flipPages(relativeOffset) {
+    const pageNo = Number((location.pathname.match(/page\/([0-9]+)/) || ["page/1", "1"])[1]);
+    const newPageNo = pageNo + relativeOffset;
+    if (newPageNo <= 1) {
+        return "{{ '/' | url }}";
+    } else {
+        return "{{ '/' | url }}" + "page/" + newPageNo;
+    }
+}
+
 function syncPaginationButtons() {
+    if ($("showing-n-results").innerText === "No results found.") {
+        disableHrefButton($("previous-button"));
+        disableHrefButton($("next-button"));
+        return;
+    }
     const urlSearchParams = new URLSearchParams(location.search);
     [matchedString, start, end, total] = $("showing-n-results").innerText.match(/Showing ([0-9]+) to ([0-9]+) of ([0-9]+) results found/);
-    // start == 0 is a special case that occurs when the user is on a page that's beyond the total amount of pages for this search.
-    if (Number(start) > 1 || Number(start) === 0) {
-        enableHrefButton($("previous-button"));
-        $("previous-button").search = urlSearchParams;
-    } else {
-        disableHrefButton($("previous-button"));
-    }
     if (Number(end) < Number(total)) {
-        enableHrefButton($("next-button"));
+        enableHrefButton($("next-button"), flipPages(+1));
         $("next-button").search = urlSearchParams;
     } else {
         disableHrefButton($("next-button"));
     }
-    console.log("search of next button is now = " + $("next-button").search);
+
+    if (Number(start) > 1) {
+        enableHrefButton($("previous-button"), flipPages(-1));
+        $("previous-button").search = urlSearchParams;
+    } else if (Number(start) == 0) {
+        // start == 0 is a special case that occurs when the user is on a page that's beyond the total amount of pages for this search.
+        const postsPerPage = {{ site.paginate }};
+        const amountOfPages = Math.ceil(total/postsPerPage);
+        const pageNo = Number((location.pathname.match(/page\/([0-9]+)/) || ["page/1", "1"])[1]);
+        // Compute the difference between current page number and the number
+        // of the last valid page so that clicking the "Previous" button
+        // leads to the user to the last valid page.
+        enableHrefButton($("previous-button"), flipPages(amountOfPages - pageNo));
+        $("previous-button").search = urlSearchParams;
+        disableHrefButton($("next-button"));
+    } else {
+        disableHrefButton($("previous-button"));
+    }
 }
 
 function syncSidebarFilters() {

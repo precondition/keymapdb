@@ -46,7 +46,11 @@ function populatePostGrid(filteredKeymaps) {
     const slicedKeymaps = filteredKeymaps.slice(offset, offset+postsPerPage);
     console.log("sliced keymaps ↓");
     console.log(slicedKeymaps);
-    if (offset < filteredKeymaps.length) {
+    // Warning: The function syncPaginationButtons relies on the innerText of the "showing-n-results" doc element.
+    // If you change the value of innerText, make sure to reflect that "API" change in syncPaginationButtons too!
+    if (filteredKeymaps.length === 0) {
+        $("showing-n-results").innerText = "No results found.";
+    } else if (offset < filteredKeymaps.length) {
       $("showing-n-results").innerText = `Showing ${offset + 1} to ${Math.min(offset + postsPerPage, filteredKeymaps.length)} of ${filteredKeymaps.length} results found.`;
     } else {
       $("showing-n-results").innerText = `Showing 0 to 0 of ${filteredKeymaps.length} results found.`;
