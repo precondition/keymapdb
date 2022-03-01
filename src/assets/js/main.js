@@ -38,7 +38,3 @@ menuToggle.addEventListener('click', () => {
 function $(id) {
     return document.getElementById(id);
 }
-
-function getKeymapsJSON() {
-     return {% include "partials/keymaps-metadata.json.njk" %};
-}

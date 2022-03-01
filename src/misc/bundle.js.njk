@@ -3,9 +3,5 @@ permalink: "/assets/js/bundle.js"
 ---
 {% set js %}
 {% include "../assets/js/main.js" %}
-{% include "../assets/js/search.js" %}
-{% include "../assets/js/nouislider.js" %}
-{% include "../assets/js/dualSlidersConf.js" %}
-{% include "../assets/js/sidebarFilters.js" %}
 {% endset %}
 {{ js | minifyJs | safe }}

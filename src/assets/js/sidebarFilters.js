@@ -139,9 +139,10 @@ function resetSidebarFilters() {
     }
     // Remove filters from the URL
     history.replaceState({}, "", location.pathname);
+    populatePostGrid(getFilteredKeymaps());
 }
 
-async function updatePostGrid(element) {
+function updatePostGrid(element) {
     updateUrlSearchParams(element);
-    getFilteredKeymaps().then(filteredKeymaps => populatePostGrid(filteredKeymaps));
+    populatePostGrid(getFilteredKeymaps());
 }

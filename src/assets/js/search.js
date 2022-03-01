@@ -1,3 +1,7 @@
+function getKeymapsJSON() {
+    return {% include "partials/keymaps-metadata.json.njk" %};
+}
+
 function isKeymapConforming(query, keymapData) {
   for (const [queryKey, value] of query) {
     if (queryKey.endsWith("Count")) {
@@ -26,12 +30,12 @@ function isKeymapConforming(query, keymapData) {
   return true;
 }
 
-async function getFilteredKeymaps() {
+function getFilteredKeymaps() {
     const searchParams = new URLSearchParams(location.search);
     return getKeymapsJSON().filter(keymap => isKeymapConforming(searchParams, keymap));
 }
 
-async function populatePostGrid(filteredKeymaps) {
+function populatePostGrid(filteredKeymaps) {
     console.log("filtered keymaps ↓");
     console.log(filteredKeymaps);
     const postGrid = $("post-grid");
