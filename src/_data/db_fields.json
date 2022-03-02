@@ -1,8 +1,8 @@
 [
     "title",
-    "keymap_url",
-    "keymap_author",
-    "keymap_image",
+    "keymapUrl",
+    "keymapAuthor",
+    "keymapImage",
     "keyCount",
     "firmware",
     "keyboard",
