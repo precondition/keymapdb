@@ -1,12 +1,12 @@
 ---
 layout: layouts/keymapdb_entry.njk
 OS: ['MacOS']
-keymap_author: niclake
+keymapAuthor: niclake
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 hasVerticalCombos: False
-keymap_image: https://i.imgur.com/Lmw08LT.jpg
+keymapImage: https://i.imgur.com/Lmw08LT.jpg
 imageDate: idk
 keyCount: 67
 keyboard: DZ60
@@ -17,6 +17,6 @@ title: "Nic Lake's DZ60 Layout"
 isSplit: False
 stagger: row
 summary: 
-keymap_url: https://github.com/niclake/qmk_firmware/tree/master/keyboards/dz60/keymaps/niclake
+keymapUrl: https://github.com/niclake/qmk_firmware/tree/master/keyboards/dz60/keymaps/niclake
 writeup: https://github.com/niclake/qmk_firmware/tree/master/keyboards/dz60/keymaps/niclake/readme.md
 ---

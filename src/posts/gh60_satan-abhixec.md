@@ -1,12 +1,12 @@
 ---
 layout: layouts/keymapdb_entry.njk
 OS: []
-keymap_author: abhixec
+keymapAuthor: abhixec
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 hasVerticalCombos: False
-keymap_image: https://i.imgur.com/Eqp8hov.jpg
+keymapImage: https://i.imgur.com/Eqp8hov.jpg
 imageDate: idk
 keyCount: 62
 keyboard: GH60 Satan
@@ -17,6 +17,6 @@ title: "default Satan GH60 layout"
 isSplit: False
 stagger: row
 summary: 
-keymap_url: https://github.com/abhixec/qmk_firmware/tree/master/keyboards/gh60/satan/keymaps/abhixec
+keymapUrl: https://github.com/abhixec/qmk_firmware/tree/master/keyboards/gh60/satan/keymaps/abhixec
 writeup: https://github.com/abhixec/qmk_firmware/tree/master/keyboards/gh60/satan/keymaps/abhixec/readme.md
 ---

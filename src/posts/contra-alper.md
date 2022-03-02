@@ -1,12 +1,12 @@
 ---
 layout: layouts/keymapdb_entry.njk
 OS: ['Windows', 'MacOS']
-keymap_author: alper
+keymapAuthor: alper
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 hasVerticalCombos: False
-keymap_image: https://i.imgur.com/BvBYgpz.png
+keymapImage: https://i.imgur.com/BvBYgpz.png
 imageDate: idk
 keyCount: 47
 keyboard: Contra
@@ -17,6 +17,6 @@ title: "Alper's Contra Layout"
 isSplit: False
 stagger: ortholinear
 summary: 
-keymap_url: https://github.com/alper/qmk_firmware/tree/master/keyboards/contra/keymaps/alper
+keymapUrl: https://github.com/alper/qmk_firmware/tree/master/keyboards/contra/keymaps/alper
 writeup: https://github.com/alper/qmk_firmware/tree/master/keyboards/contra/keymaps/alper/readme.md
 ---

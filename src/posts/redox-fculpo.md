@@ -1,12 +1,12 @@
 ---
 layout: layouts/keymapdb_entry.njk
 OS: ['MacOS']
-keymap_author: fculpo
+keymapAuthor: fculpo
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 hasVerticalCombos: False
-keymap_image: https://i.imgur.com/OXT8boJ.png
+keymapImage: https://i.imgur.com/OXT8boJ.png
 imageDate: idk
 keyCount: 70
 keyboard: Redox
@@ -17,6 +17,6 @@ title: "A tweaked keymap for Redox"
 isSplit: True
 stagger: row
 summary: 
-keymap_url: https://github.com/fculpo/qmk_firmware/tree/master/keyboards/redox/keymaps/fculpo
+keymapUrl: https://github.com/fculpo/qmk_firmware/tree/master/keyboards/redox/keymaps/fculpo
 writeup: https://github.com/fculpo/qmk_firmware/tree/master/keyboards/redox/keymaps/fculpo/readme.md
 ---

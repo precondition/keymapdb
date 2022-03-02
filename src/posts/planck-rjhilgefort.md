@@ -1,12 +1,12 @@
 ---
 layout: layouts/keymapdb_entry.njk
 OS: ['MacOS', 'Linux']
-keymap_author: rjhilgefort
+keymapAuthor: rjhilgefort
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 hasVerticalCombos: False
-keymap_image: https://i.imgur.com/elygxAb.jpg
+keymapImage: https://i.imgur.com/elygxAb.jpg
 imageDate: idk
 keyCount: 48
 keyboard: Planck
@@ -17,6 +17,6 @@ title: "🐦 @rjhilgefort Planck Layout"
 isSplit: False
 stagger: ortholinear
 summary: 
-keymap_url: https://github.com/rjhilgefort/qmk_firmware/tree/master/keyboards/planck/keymaps/rjhilgefort
+keymapUrl: https://github.com/rjhilgefort/qmk_firmware/tree/master/keyboards/planck/keymaps/rjhilgefort
 writeup: https://github.com/rjhilgefort/qmk_firmware/tree/master/keyboards/planck/keymaps/rjhilgefort/readme.md
 ---

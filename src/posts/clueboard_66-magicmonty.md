@@ -1,12 +1,12 @@
 ---
 layout: layouts/keymapdb_entry.njk
 OS: []
-keymap_author: magicmonty
+keymapAuthor: magicmonty
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 hasVerticalCombos: False
-keymap_image: http://i.imgur.com/eEwjLEj.png
+keymapImage: http://i.imgur.com/eEwjLEj.png
 imageDate: idk
 keyCount: 66
 keyboard: Clueboard 66%
@@ -17,6 +17,6 @@ title: "Layout of @magicmonty"
 isSplit: False
 stagger: row
 summary: 
-keymap_url: https://github.com/magicmonty/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/magicmonty
+keymapUrl: https://github.com/magicmonty/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/magicmonty
 writeup: https://github.com/magicmonty/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/magicmonty/readme.md
 ---

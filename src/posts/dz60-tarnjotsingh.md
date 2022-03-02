@@ -1,12 +1,12 @@
 ---
 layout: layouts/keymapdb_entry.njk
 OS: []
-keymap_author: tarnjotsingh
+keymapAuthor: tarnjotsingh
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 hasVerticalCombos: False
-keymap_image: https://i.imgur.com/UV0t6aL.png
+keymapImage: https://i.imgur.com/UV0t6aL.png
 imageDate: idk
 keyCount: 62
 keyboard: DZ60
@@ -17,6 +17,6 @@ title: "DZ60 ISO Keymap"
 isSplit: False
 stagger: row
 summary: 
-keymap_url: https://github.com/tarnjotsingh/qmk_firmware/tree/master/keyboards/dz60/keymaps/tarnjotsingh
+keymapUrl: https://github.com/tarnjotsingh/qmk_firmware/tree/master/keyboards/dz60/keymaps/tarnjotsingh
 writeup: https://github.com/tarnjotsingh/qmk_firmware/tree/master/keyboards/dz60/keymaps/tarnjotsingh/readme.md
 ---

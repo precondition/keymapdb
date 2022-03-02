@@ -1,12 +1,12 @@
 ---
 layout: layouts/keymapdb_entry.njk
 OS: ['MacOS']
-keymap_author: emdarcher
+keymapAuthor: emdarcher
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 hasVerticalCombos: False
-keymap_image: https://i.imgur.com/ie5aF7d.jpg
+keymapImage: https://i.imgur.com/ie5aF7d.jpg
 imageDate: idk
 keyCount: 62
 keyboard: YMDK Bface
@@ -17,6 +17,6 @@ title: "emdarcher's keymap"
 isSplit: False
 stagger: row
 summary: 
-keymap_url: https://github.com/emdarcher/qmk_firmware/tree/master/keyboards/ymdk/bface/keymaps/emdarcher
+keymapUrl: https://github.com/emdarcher/qmk_firmware/tree/master/keyboards/ymdk/bface/keymaps/emdarcher
 writeup: https://github.com/emdarcher/qmk_firmware/tree/master/keyboards/ymdk/bface/keymaps/emdarcher/readme.md
 ---

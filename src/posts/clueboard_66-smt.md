@@ -1,12 +1,12 @@
 ---
 layout: layouts/keymapdb_entry.njk
 OS: []
-keymap_author: smt
+keymapAuthor: smt
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 hasVerticalCombos: False
-keymap_image: http://i.imgur.com/Ll5gGte.png
+keymapImage: http://i.imgur.com/Ll5gGte.png
 imageDate: idk
 keyCount: 66
 keyboard: Clueboard 66%
@@ -17,6 +17,6 @@ title: "smt Clueboard Layout (HHKB variant)"
 isSplit: False
 stagger: row
 summary: 
-keymap_url: https://github.com/smt/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/smt
+keymapUrl: https://github.com/smt/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/smt
 writeup: https://github.com/smt/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/smt/readme.md
 ---

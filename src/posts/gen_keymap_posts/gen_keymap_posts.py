@@ -17,9 +17,9 @@ for keymap in json_data["keymaps"]:
     filecontent = "---\nlayout: layouts/keymapdb_entry.njk\n"
     for key, value in keymap.items():
         if key == "author":
-            key = "keymap_author"
+            key = "keymapAuthor"
         elif key == "image":
-            key = "keymap_image"
+            key = "keymapImage"
         elif key == "name":
             # The name often has apostrophes (possessive 's) 
             # so they must be escaped in YAML fashion.
