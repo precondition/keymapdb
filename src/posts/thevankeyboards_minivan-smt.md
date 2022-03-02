@@ -6,7 +6,6 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://i.imgur.com/Y4n6eHj.png
-imageDate: idk
 keyCount: 45
 keyboard: tv44
 baseLayouts: ["QWERTY"]

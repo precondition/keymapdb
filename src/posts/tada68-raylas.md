@@ -6,7 +6,6 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://i.imgur.com/cV9niMC.jpg
-imageDate: idk
 keyCount: 68
 keyboard: Tada68
 baseLayouts: ["QWERTY"]

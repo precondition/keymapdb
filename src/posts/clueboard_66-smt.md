@@ -6,7 +6,6 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: http://i.imgur.com/Ll5gGte.png
-imageDate: idk
 keyCount: 66
 keyboard: Clueboard 66%
 baseLayouts: ["QWERTY"]

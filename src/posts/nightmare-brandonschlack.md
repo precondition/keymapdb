@@ -6,7 +6,6 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://i.imgur.com/08759vK.png
-imageDate: idk
 keyCount: 49
 keyboard: Nightmare
 baseLayouts: ["QWERTY"]

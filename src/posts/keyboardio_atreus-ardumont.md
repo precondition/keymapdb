@@ -6,7 +6,6 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://i.imgur.com/tuk64AI.png
-imageDate: idk
 keyCount: 44
 keyboard: Keyboardio Atreus
 baseLayouts: ["QWERTY"]

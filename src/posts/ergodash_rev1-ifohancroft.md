@@ -6,7 +6,6 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://i.imgur.com/vANNhro.png
-imageDate: idk
 keyCount: 68
 keyboard: ErgoDash rev1.2
 baseLayouts: ["QWERTY"]

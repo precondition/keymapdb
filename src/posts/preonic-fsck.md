@@ -6,7 +6,6 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://i.imgur.com/nI8fBco.png
-imageDate: idk
 keyCount: 60
 keyboard: Preonic
 baseLayouts: ["QWERTY"]

@@ -6,7 +6,6 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://i.imgur.com/OXT8boJ.png
-imageDate: idk
 keyCount: 70
 keyboard: Redox
 baseLayouts: ["QWERTY"]

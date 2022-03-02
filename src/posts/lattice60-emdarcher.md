@@ -6,7 +6,6 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://i.imgur.com/9g3fDqL.png
-imageDate: idk
 keyCount: 60
 keyboard: lattice60
 baseLayouts: ["QWERTY"]

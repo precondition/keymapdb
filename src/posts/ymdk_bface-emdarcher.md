@@ -6,7 +6,6 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://i.imgur.com/ie5aF7d.jpg
-imageDate: idk
 keyCount: 62
 keyboard: YMDK Bface
 baseLayouts: ["QWERTY"]

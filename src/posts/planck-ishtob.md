@@ -6,7 +6,6 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://i.imgur.com/yKewjWW.jpg
-imageDate: idk
 keyCount: 48
 keyboard: Planck
 baseLayouts: ["QWERTY"]

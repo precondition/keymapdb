@@ -6,7 +6,6 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://user-images.githubusercontent.com/22257588/130371838-875ba65b-88ea-4f81-a44a-bb24194c4989.png
-imageDate: idk
 keyCount: 83
 keyboard: GMMK Pro (ANSI)
 baseLayouts: ["QWERTY"]

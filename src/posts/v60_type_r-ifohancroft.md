@@ -6,7 +6,6 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://i.imgur.com/3BGQS75.png
-imageDate: idk
 keyCount: 61
 keyboard: V60 Type R
 baseLayouts: ["QWERTY"]

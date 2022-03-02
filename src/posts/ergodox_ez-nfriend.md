@@ -6,7 +6,6 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://i.imgur.com/CMMmdBc.png
-imageDate: idk
 keyCount: 76
 keyboard: ErgoDox EZ
 baseLayouts: ["QWERTY"]

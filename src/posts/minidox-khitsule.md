@@ -6,7 +6,6 @@ firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://i.imgur.com/bEdqotb.png
-imageDate: idk
 keyCount: 36
 keyboard: MiniDox
 baseLayouts: ["QWERTY"]
