@@ -5,7 +5,6 @@ keymapAuthor: rfvizarra
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
-hasVerticalCombos: False
 keymapImage: https://i.imgur.com/K7ONE1k.jpg
 imageDate: idk
 keyCount: 67

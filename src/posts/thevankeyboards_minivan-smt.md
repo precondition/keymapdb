@@ -5,7 +5,6 @@ keymapAuthor: smt
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
-hasVerticalCombos: False
 keymapImage: https://i.imgur.com/Y4n6eHj.png
 imageDate: idk
 keyCount: 45

@@ -5,7 +5,6 @@ keymapAuthor: fsck
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
-hasVerticalCombos: False
 keymapImage: https://i.imgur.com/Sb8n8B0.png
 imageDate: idk
 keyCount: 56

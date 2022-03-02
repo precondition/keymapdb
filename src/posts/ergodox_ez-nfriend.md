@@ -5,7 +5,6 @@ keymapAuthor: nfriend
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
-hasVerticalCombos: False
 keymapImage: https://i.imgur.com/CMMmdBc.png
 imageDate: idk
 keyCount: 76

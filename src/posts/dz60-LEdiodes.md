@@ -5,7 +5,6 @@ keymapAuthor: LEdiodes
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
-hasVerticalCombos: False
 keymapImage: https://i.imgur.com/pDneawX.jpg
 imageDate: idk
 keyCount: 67

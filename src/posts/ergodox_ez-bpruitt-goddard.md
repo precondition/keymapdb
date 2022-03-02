@@ -5,7 +5,6 @@ keymapAuthor: bpruitt-goddard
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
-hasVerticalCombos: False
 keymapImage: https://i.imgur.com/kVPmpFG.png
 imageDate: idk
 keyCount: 76

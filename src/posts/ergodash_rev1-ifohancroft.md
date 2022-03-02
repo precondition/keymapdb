@@ -5,7 +5,6 @@ keymapAuthor: ifohancroft
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
-hasVerticalCombos: False
 keymapImage: https://i.imgur.com/vANNhro.png
 imageDate: idk
 keyCount: 68

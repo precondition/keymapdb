@@ -5,7 +5,6 @@ keymapAuthor: fculpo
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
-hasVerticalCombos: False
 keymapImage: https://i.imgur.com/OXT8boJ.png
 imageDate: idk
 keyCount: 70

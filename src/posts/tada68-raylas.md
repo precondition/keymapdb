@@ -5,7 +5,6 @@ keymapAuthor: raylas
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
-hasVerticalCombos: False
 keymapImage: https://i.imgur.com/cV9niMC.jpg
 imageDate: idk
 keyCount: 68

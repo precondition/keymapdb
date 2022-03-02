@@ -5,7 +5,6 @@ keymapAuthor: annihilator6000
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
-hasVerticalCombos: False
 keymapImage: https://i.imgur.com/lICX4uz.png
 imageDate: idk
 keyCount: 47

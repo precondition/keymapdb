@@ -5,7 +5,6 @@ keymapAuthor: alper
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
-hasVerticalCombos: False
 keymapImage: https://i.imgur.com/BvBYgpz.png
 imageDate: idk
 keyCount: 47

@@ -5,7 +5,6 @@ keymapAuthor: bingocaller
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
-hasVerticalCombos: False
 keymapImage: https://i.imgur.com/lFP2O41.png
 imageDate: idk
 keyCount: 67

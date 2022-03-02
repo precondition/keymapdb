@@ -5,7 +5,6 @@ keymapAuthor: abhixec
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
-hasVerticalCombos: False
 keymapImage: https://i.imgur.com/Eqp8hov.jpg
 imageDate: idk
 keyCount: 62

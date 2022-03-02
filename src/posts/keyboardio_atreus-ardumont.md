@@ -5,7 +5,6 @@ keymapAuthor: ardumont
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
-hasVerticalCombos: False
 keymapImage: https://i.imgur.com/tuk64AI.png
 imageDate: idk
 keyCount: 44
