@@ -88,7 +88,7 @@
         "keyCount": 45,
         "firmware": "QMK",
         "keyboard": "tv44",
-        "baseLayouts": ["QWERTY"],
+        "baseLayouts": ["Dvorak","Colemak","QWERTY"],
         "stagger": "row",
         "isSplit": false,
         "languages": ["English"],
