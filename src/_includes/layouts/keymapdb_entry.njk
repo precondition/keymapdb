@@ -24,8 +24,7 @@ keybindings: []
             src="{% if keymapImage %}{{ keymapImage | url }}{% elif image %}{{ image | url }}{% else %}{{ '/assets/img/no-image.svg' | url }}{% endif %}"
             width="960"
             height="500"
-            alt="{{ splitStatus }} {{ stagger }}-staggered {{ keyboard }} with {{ baseLayouts | join(" and ") }} legends"
-            title="{{ splitStatus }} {{ stagger }}-staggered {{ keyboard }} with {{ baseLayouts | join(" and ") }} legends">
+            alt="{{ splitStatus }} {{ stagger }}-staggered {{ keyboard }} with {{ baseLayouts | join(" and ") }} legends">
             </a>
         {% endif %}
     </header>
