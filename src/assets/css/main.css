@@ -101,3 +101,9 @@
 a.disabled {
     pointer-events: none;
 }
+
+svg {
+    display: inline;
+    margin-right: 0.125em;
+    margin-left: 0.125em;
+}

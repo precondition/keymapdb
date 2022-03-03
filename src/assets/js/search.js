@@ -2,6 +2,10 @@ function getKeymapsJSON() {
     return {% include "partials/keymaps-metadata.json.njk" %};
 }
 
+async function getSVG(fieldName, fieldValue) {
+   return fetch("{{ '/assets/svg/' | url }}" + fieldName + "/" + fieldValue + ".svg").then(res => res.ok ? res.text() : "");
+}
+
 function isKeymapConforming(query, keymapData) {
   for (const [queryKey, value] of query) {
     if (queryKey.endsWith("Count")) {
@@ -35,7 +39,7 @@ function getFilteredKeymaps() {
     return getKeymapsJSON().filter(keymap => isKeymapConforming(searchParams, keymap));
 }
 
-function populatePostGrid(filteredKeymaps) {
+async function populatePostGrid(filteredKeymaps) {
     console.log("filtered keymaps ↓");
     console.log(filteredKeymaps);
     const postGrid = $("post-grid");
@@ -65,6 +69,7 @@ function populatePostGrid(filteredKeymaps) {
     for (const post of slicedKeymaps) {
       const splitStatus = post.isSplit ? "Split" : "Non-split"
       const titleHover = post.title.toLowerCase().includes(post.keymapAuthor.toLowerCase()) ? '' : `title="by ${post.keymapAuthor}"`;
+      post.OS.map(async (osName) => getSVG("OS", osName).then(svgIcon => { $("OS-table-cell-" + post.fileSlug).innerHTML += svgIcon; }));
       postGrid.innerHTML += `
       <div class="w-full ${filteredKeymaps.length >= 3 ? "sm:w-1/2 md:w-1/3" : ""} self-stretch p-2 mb-2" style="height:fit-content;">
           <div class="rounded shadow-md h-full">
@@ -88,7 +93,7 @@ function populatePostGrid(filteredKeymaps) {
                         </tr>
                         <tr>
                           <td id="languages-table-cell-${post.fileSlug}" class="text-gray-700 mb-1 mx-5 break-words">${post.languages.join(", ")}</td>
-                          <td id="OS-table-cell-${post.fileSlug}" class="text-gray-700 mb-1 break-words">${post.OS.join(", ")}</td>
+                          <td id="OS-table-cell-${post.fileSlug}" class="text-gray-700 mb-1 break-words"><!-- filled in asynchronously with SVG icons --></td>
                         </tr>
                       </table>
                       <p>${post.summary === null ? "" : post.summary} </p>

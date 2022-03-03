@@ -1,5 +1,4 @@
 const pluginTailwind = require('eleventy-plugin-tailwindcss');
-const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
 module.exports = (config) => {
   config.addPlugin(pluginTailwind, {
@@ -10,14 +9,14 @@ module.exports = (config) => {
     excludeNonCssFiles: false
   });
 
-  config.addPlugin(UpgradeHelper);
   config.setDataDeepMerge(true);
 
   config.addPassthroughCopy('src/assets/img/**/*');
   config.addPassthroughCopy({ 'src/posts/img/**/*': 'assets/img/' });
 
+  config.addPassthroughCopy('src/assets/svg/');
+
   config.addWatchTarget("src/assets/js/");
-  config.addWatchTarget("src/assets/css/");
 
   config.addLayoutAlias('default', 'layouts/default.njk');
   config.addLayoutAlias('post', 'layouts/post.njk');

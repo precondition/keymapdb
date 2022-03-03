@@ -27,7 +27,11 @@
               </tr>
               <tr>
                 <td class="text-gray-700 mb-1 mx-5 break-words">{{ post.data.languages | join(", ") }}</td>
-                <td id="OS-table-cell-{{ post.data.data.fileSlug }}" class="text-gray-700 mb-1 break-words">{{ post.data.OS | join(", ") }}</td>
+                <td id="OS-table-cell-{{ post.data.data.fileSlug }}" class="text-gray-700 mb-1">
+                    {% for osName in post.data.OS %}
+                        {% include "./../../assets/svg/OS/" + osName + ".svg" %}
+                    {%- endfor %}
+                </td>
               </tr>
             </table>
             {% if post.data.summary -%}
