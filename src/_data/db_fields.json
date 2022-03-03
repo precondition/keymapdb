@@ -15,5 +15,8 @@
     "writeup",
     "hasLetterOnThumb",
     "layerCount",
-    "hasHomeRowMods"
+    "hasHomeRowMods",
+    "isTapDanceEnabled",
+    "isComboEnabled",
+    "isAutoShiftEnabled"
 ]
