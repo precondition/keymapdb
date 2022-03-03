@@ -63,21 +63,35 @@ function populatePostGrid(filteredKeymaps) {
     }
     syncPaginationButtons();
     for (const post of slicedKeymaps) {
-      const splitStatus = post.isSplit ? "split" : "non-split"
+      const splitStatus = post.isSplit ? "Split" : "Non-split"
+      const titleHover = post.title.toLowerCase().includes(post.keymapAuthor.toLowerCase()) ? '' : `title="by ${post.keymapAuthor}"`;
       postGrid.innerHTML += `
       <div class="w-full ${filteredKeymaps.length >= 3 ? "sm:w-1/2 md:w-1/3" : ""} self-stretch p-2 mb-2" style="height:fit-content;">
           <div class="rounded shadow-md h-full">
-              <a href="${ post.url}">
-                  <img class="w-full m-0 rounded-t lazy"  src="${post.keymapImage}" width="960" height="500" alt="${post.keymapAuthor}'s keymap for the ${post.keyboard}">
+              <a href="${post.url}">
+              <img
+              class="w-full m-0 rounded-t lazy"
+              src="${post.keymapImage}"
+              width="960"
+              height="500"
+              alt="${splitStatus} ${post.stagger}-staggered ${post.keyboard} with ${post.baseLayouts.join(" and ")} legends"
+              title="${splitStatus} ${post.stagger}-staggered ${post.keyboard} with ${post.baseLayouts.join(" and ")} legends">
               </a>
               <div class="px-6 py-5">
                   <div class="font-semibold text-lg mb-2">
-                      <a class="text-gray-900 hover:text-gray-700" href="${post.url}">${post.title}</a>
+                      <a class="text-gray-900 hover:text-gray-700" ${titleHover} href="${post.url}">${post.title}</a>
                   </div>
-                  <p class="text-gray-700 mb-1">${post.stagger} stagger, ${post.keyCount} keys, ${post.isSplit ? "split" : "non-split"}</p>
-                  <p class="text-gray-800">
-                      ${post.summary === null ? "" : post.summary}
-                  </p>
+                      <table class="my-5" style="width:100%">
+                        <tr>
+                        <td class="text-gray-700 mb-1 mx-5">${post.keyCount} keys</td>
+                        <td class="text-gray-700 mb-1 mx-5">${post.layerCount} layers</td>
+                        </tr>
+                        <tr>
+                          <td class="text-gray-700 mb-1 mx-5 break-words">${post.languages.join(", ")}</td>
+                          <td id="OS-table-cell-${post.fileSlug}" class="text-gray-700 mb-1 break-words">${post.OS.join(", ")}</td>
+                        </tr>
+                      </table>
+                      <p>${post.summary === null ? "" : post.summary} </p>
               </div>
           </div>
       </div>
