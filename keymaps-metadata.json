@@ -2,6 +2,7 @@
     {
 
         "url": "/keymapdb/ymdk_bface-emdarcher/",
+        "fileSlug": "ymdk_bface-emdarcher",
         "title": "emdarcher's keymap",
         "keymapUrl": "https://github.com/emdarcher/qmk_firmware/tree/master/keyboards/ymdk/bface/keymaps/emdarcher",
         "keymapAuthor": "emdarcher",
@@ -18,12 +19,16 @@
         "writeup": "https://github.com/emdarcher/qmk_firmware/tree/master/keyboards/ymdk/bface/keymaps/emdarcher/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 5,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/v60_type_r-ifohancroft/",
+        "fileSlug": "v60_type_r-ifohancroft",
         "title": "IFo Hancroft's KBParadise V60 Type R Layout",
         "keymapUrl": "https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/v60_type_r/keymaps/ifohancroft",
         "keymapAuthor": "ifohancroft",
@@ -40,12 +45,16 @@
         "writeup": "https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/v60_type_r/keymaps/ifohancroft/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 4,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/ut472-annihilator6000/",
+        "fileSlug": "ut472-annihilator6000",
         "title": "UT47.2 Planck-style layout switching",
         "keymapUrl": "https://github.com/annihilator6000/qmk_firmware/tree/master/keyboards/ut472/keymaps/annihilator6000",
         "keymapAuthor": "annihilator6000",
@@ -62,12 +71,16 @@
         "writeup": "https://github.com/annihilator6000/qmk_firmware/tree/master/keyboards/ut472/keymaps/annihilator6000/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 9,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/thevankeyboards_minivan-smt/",
+        "fileSlug": "thevankeyboards_minivan-smt",
         "title": "smt's TV44 keymap",
         "keymapUrl": "https://github.com/smt/qmk_firmware/tree/master/keyboards/thevankeyboards/minivan/keymaps/smt",
         "keymapAuthor": "smt",
@@ -84,12 +97,16 @@
         "writeup": "https://github.com/smt/qmk_firmware/tree/master/keyboards/thevankeyboards/minivan/keymaps/smt/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 6,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/tada68-raylas/",
+        "fileSlug": "tada68-raylas",
         "title": "raylas's TADA68 layout",
         "keymapUrl": "https://github.com/raylas/qmk_firmware/tree/master/keyboards/tada68/keymaps/raylas",
         "keymapAuthor": "raylas",
@@ -106,12 +123,16 @@
         "writeup": "https://github.com/raylas/qmk_firmware/tree/master/keyboards/tada68/keymaps/raylas/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 2,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/rominronin_katana60_rev1-josefadamcik/",
+        "fileSlug": "rominronin_katana60_rev1-josefadamcik",
         "title": "Multi OS Katana60 layout",
         "keymapUrl": "https://github.com/josefadamcik/qmk_firmware/tree/master/keyboards/rominronin/katana60/rev1/keymaps/josefadamcik",
         "keymapAuthor": "josefadamcik",
@@ -128,12 +149,16 @@
         "writeup": "https://github.com/josefadamcik/qmk_firmware/tree/master/keyboards/rominronin/katana60/rev1/keymaps/josefadamcik/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 8,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/redox-fculpo/",
+        "fileSlug": "redox-fculpo",
         "title": "A tweaked keymap for Redox",
         "keymapUrl": "https://github.com/fculpo/qmk_firmware/tree/master/keyboards/redox/keymaps/fculpo",
         "keymapAuthor": "fculpo",
@@ -150,12 +175,16 @@
         "writeup": "https://github.com/fculpo/qmk_firmware/tree/master/keyboards/redox/keymaps/fculpo/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 4,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/preonic-shwilliam/",
+        "fileSlug": "preonic-shwilliam",
         "title": "@shwilliam's Preonic Layout",
         "keymapUrl": "https://github.com/shwilliam/qmk_firmware/tree/master/keyboards/preonic/keymaps/shwilliam",
         "keymapAuthor": "shwilliam",
@@ -172,12 +201,16 @@
         "writeup": "https://github.com/shwilliam/qmk_firmware/tree/master/keyboards/preonic/keymaps/shwilliam/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 4,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/preonic-fsck/",
+        "fileSlug": "preonic-fsck",
         "title": "fsck's Preonic Layout",
         "keymapUrl": "https://github.com/fsck/qmk_firmware/tree/master/keyboards/preonic/keymaps/fsck",
         "keymapAuthor": "fsck",
@@ -194,12 +227,16 @@
         "writeup": "https://github.com/fsck/qmk_firmware/tree/master/keyboards/preonic/keymaps/fsck/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 4,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/playkbtw_pk60-rfvizarra/",
+        "fileSlug": "playkbtw_pk60-rfvizarra",
         "title": "A personal keymap for Play Keyboard60 based on the minila layout",
         "keymapUrl": "https://github.com/rfvizarra/qmk_firmware/tree/master/keyboards/playkbtw/pk60/keymaps/rfvizarra",
         "keymapAuthor": "rfvizarra",
@@ -216,12 +253,16 @@
         "writeup": "https://github.com/rfvizarra/qmk_firmware/tree/master/keyboards/playkbtw/pk60/keymaps/rfvizarra/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 3,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/planck-yhaliaw/",
+        "fileSlug": "planck-yhaliaw",
         "title": "yhaliaw Planck layout",
         "keymapUrl": "https://github.com/yhaliaw/qmk_firmware/tree/master/keyboards/planck/keymaps/yhaliaw",
         "keymapAuthor": "yhaliaw",
@@ -238,12 +279,16 @@
         "writeup": "https://github.com/yhaliaw/qmk_firmware/tree/master/keyboards/planck/keymaps/yhaliaw/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 4,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/planck-rootiest/",
+        "fileSlug": "planck-rootiest",
         "title": "The Rootiest Planck Layout",
         "keymapUrl": "https://github.com/rootiest/qmk_firmware/tree/master/keyboards/planck/keymaps/rootiest",
         "keymapAuthor": "rootiest",
@@ -260,12 +305,16 @@
         "writeup": "https://github.com/rootiest/qmk_firmware/tree/master/keyboards/planck/keymaps/rootiest/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 10,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/planck-rjhilgefort/",
+        "fileSlug": "planck-rjhilgefort",
         "title": "🐦 @rjhilgefort Planck Layout",
         "keymapUrl": "https://github.com/rjhilgefort/qmk_firmware/tree/master/keyboards/planck/keymaps/rjhilgefort",
         "keymapAuthor": "rjhilgefort",
@@ -282,12 +331,16 @@
         "writeup": "https://github.com/rjhilgefort/qmk_firmware/tree/master/keyboards/planck/keymaps/rjhilgefort/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 5,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/planck-ishtob/",
+        "fileSlug": "planck-ishtob",
         "title": "Ishtob's personal planck layout",
         "keymapUrl": "https://github.com/ishtob/qmk_firmware/tree/master/keyboards/planck/keymaps/ishtob",
         "keymapAuthor": "ishtob",
@@ -304,12 +357,16 @@
         "writeup": "https://github.com/ishtob/qmk_firmware/tree/master/keyboards/planck/keymaps/ishtob/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 10,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/planck-fsck/",
+        "fileSlug": "planck-fsck",
         "title": "fsck's Planck Layout",
         "keymapUrl": "https://github.com/fsck/qmk_firmware/tree/master/keyboards/planck/keymaps/fsck",
         "keymapAuthor": "fsck",
@@ -326,12 +383,16 @@
         "writeup": "https://github.com/fsck/qmk_firmware/tree/master/keyboards/planck/keymaps/fsck/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 4,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/planck-dbroqua/",
+        "fileSlug": "planck-dbroqua",
         "title": "Dbroqua Layout",
         "keymapUrl": "https://github.com/dbroqua/qmk_firmware/tree/master/keyboards/planck/keymaps/dbroqua",
         "keymapAuthor": "dbroqua",
@@ -348,12 +409,16 @@
         "writeup": "https://github.com/dbroqua/qmk_firmware/tree/master/keyboards/planck/keymaps/dbroqua/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 5,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/nightmare-brandonschlack/",
+        "fileSlug": "nightmare-brandonschlack",
         "title": "brandonschlack's Nightmare Keymap",
         "keymapUrl": "https://github.com/brandonschlack/qmk_firmware/tree/master/keyboards/nightmare/keymaps/brandonschlack",
         "keymapAuthor": "brandonschlack",
@@ -370,12 +435,16 @@
         "writeup": "https://github.com/brandonschlack/qmk_firmware/tree/master/keyboards/nightmare/keymaps/brandonschlack/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 8,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/minidox-khitsule/",
+        "fileSlug": "minidox-khitsule",
         "title": "Minidox Layout by Khitsule",
         "keymapUrl": "https://github.com/khitsule/qmk_firmware/tree/master/keyboards/minidox/keymaps/khitsule",
         "keymapAuthor": "khitsule",
@@ -392,12 +461,16 @@
         "writeup": "https://github.com/khitsule/qmk_firmware/tree/master/keyboards/minidox/keymaps/khitsule/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 4,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/lattice60-emdarcher/",
+        "fileSlug": "lattice60-emdarcher",
         "title": "emdarcher's keymap for lattice60",
         "keymapUrl": "https://github.com/emdarcher/qmk_firmware/tree/master/keyboards/lattice60/keymaps/emdarcher",
         "keymapAuthor": "emdarcher",
@@ -414,12 +487,16 @@
         "writeup": "https://github.com/emdarcher/qmk_firmware/tree/master/keyboards/lattice60/keymaps/emdarcher/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 3,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/kprepublic_bm40hsrgb-rafaelromao/",
+        "fileSlug": "kprepublic_bm40hsrgb-rafaelromao",
         "title": "rafaelromao's keyboard layout",
         "keymapUrl": "https://github.com/rafaelromao/keyboards",
         "keymapAuthor": "rafaelromao",
@@ -436,12 +513,16 @@
         "writeup": "https://github.com/rafaelromao/keyboards/blob/main/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 9,
-        "hasHomeRowMods": true
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": true,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/kinesis-jwon/",
+        "fileSlug": "kinesis-jwon",
         "title": "jwon's Programmer Dvorak",
         "keymapUrl": "https://github.com/jwon/qmk_firmware/tree/master/keyboards/kinesis/keymaps/jwon",
         "keymapAuthor": "jwon",
@@ -458,12 +539,16 @@
         "writeup": "https://github.com/jwon/qmk_firmware/tree/master/keyboards/kinesis/keymaps/jwon/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 4,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/keyboardio_atreus-ardumont/",
+        "fileSlug": "keyboardio_atreus-ardumont",
         "title": "ardumont layout",
         "keymapUrl": "https://github.com/ardumont/qmk_firmware/tree/master/keyboards/keyboardio/atreus/keymaps/ardumont",
         "keymapAuthor": "ardumont",
@@ -480,12 +565,16 @@
         "writeup": "https://github.com/ardumont/qmk_firmware/tree/master/keyboards/keyboardio/atreus/keymaps/ardumont/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 3,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/keebio_iris-khitsule/",
+        "fileSlug": "keebio_iris-khitsule",
         "title": "Iris Layout by Khitsule",
         "keymapUrl": "https://github.com/khitsule/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/khitsule",
         "keymapAuthor": "khitsule",
@@ -502,12 +591,16 @@
         "writeup": "https://github.com/khitsule/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/khitsule/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 5,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/keebio_iris-fluffactually/",
+        "fileSlug": "keebio_iris-fluffactually",
         "title": "Iris layout by fluffactually",
         "keymapUrl": "https://github.com/fluffactually/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/fluffactually",
         "keymapAuthor": "fluffactually",
@@ -524,12 +617,16 @@
         "writeup": "https://github.com/fluffactually/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/fluffactually/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 4,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/keebio_bfo9000-shadyproject/",
+        "fileSlug": "keebio_bfo9000-shadyproject",
         "title": "Shadyproject BFO-9000 layout",
         "keymapUrl": "https://github.com/shadyproject/qmk_firmware/tree/master/keyboards/keebio/bfo9000/keymaps/shadyproject",
         "keymapAuthor": "shadyproject",
@@ -546,12 +643,16 @@
         "writeup": "https://github.com/shadyproject/qmk_firmware/tree/master/keyboards/keebio/bfo9000/keymaps/shadyproject/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 2,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/idobo-ifohancroft/",
+        "fileSlug": "idobo-ifohancroft",
         "title": "IFo Hancroft's Idobo Layout",
         "keymapUrl": "https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/idobo/keymaps/ifohancroft",
         "keymapAuthor": "ifohancroft",
@@ -568,12 +669,16 @@
         "writeup": "https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/idobo/keymaps/ifohancroft/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 4,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/gmmk_pro_ansi-stickandgum/",
+        "fileSlug": "gmmk_pro_ansi-stickandgum",
         "title": "Glorious GMMK Pro / ANSI - Enhanced Keyboard",
         "keymapUrl": "https://github.com/stickandgum/qmk_firmware/tree/master/keyboards/gmmk/pro/ansi/keymaps/stickandgum",
         "keymapAuthor": "stickandgum",
@@ -590,12 +695,16 @@
         "writeup": "https://github.com/stickandgum/qmk_firmware/tree/master/keyboards/gmmk/pro/ansi/keymaps/stickandgum/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 2,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/gh60_satan-abhixec/",
+        "fileSlug": "gh60_satan-abhixec",
         "title": "default Satan GH60 layout",
         "keymapUrl": "https://github.com/abhixec/qmk_firmware/tree/master/keyboards/gh60/satan/keymaps/abhixec",
         "keymapAuthor": "abhixec",
@@ -612,12 +721,16 @@
         "writeup": "https://github.com/abhixec/qmk_firmware/tree/master/keyboards/gh60/satan/keymaps/abhixec/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 4,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/gergo-germ/",
+        "fileSlug": "gergo-germ",
         "title": "Gergo! By g Heavy Industries",
         "keymapUrl": "https://github.com/germ/qmk_firmware/tree/master/keyboards/gergo/keymaps/germ",
         "keymapAuthor": "germ",
@@ -634,12 +747,16 @@
         "writeup": "https://github.com/germ/qmk_firmware/tree/master/keyboards/gergo/keymaps/germ/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 4,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/ergodox_ez-nfriend/",
+        "fileSlug": "ergodox_ez-nfriend",
         "title": "nfriend's ErgoDox EZ configuration",
         "keymapUrl": "https://github.com/nfriend/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/nfriend",
         "keymapAuthor": "nfriend",
@@ -656,12 +773,16 @@
         "writeup": "https://github.com/nfriend/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/nfriend/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 12,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/ergodox_ez-nathanvercaemert/",
+        "fileSlug": "ergodox_ez-nathanvercaemert",
         "title": "The nathanvercaemert ErgoDox EZ configuration",
         "keymapUrl": "https://github.com/nathanvercaemert/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/nathanvercaemert",
         "keymapAuthor": "nathanvercaemert",
@@ -678,12 +799,16 @@
         "writeup": "https://github.com/nathanvercaemert/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/nathanvercaemert/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 15,
-        "hasHomeRowMods": true
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/ergodox_ez-bpruitt-goddard/",
+        "fileSlug": "ergodox_ez-bpruitt-goddard",
         "title": "Ergodox EZ Layout by bpruitt-goddard",
         "keymapUrl": "https://github.com/bpruitt-goddard/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/bpruitt-goddard",
         "keymapAuthor": "bpruitt-goddard",
@@ -700,12 +825,16 @@
         "writeup": "https://github.com/bpruitt-goddard/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/bpruitt-goddard/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 4,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/ergodash_rev1-ifohancroft/",
+        "fileSlug": "ergodash_rev1-ifohancroft",
         "title": "IFo Hancroft's ErgoDash Layout",
         "keymapUrl": "https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/ergodash/rev1/keymaps/ifohancroft",
         "keymapAuthor": "ifohancroft",
@@ -722,12 +851,16 @@
         "writeup": "https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/ergodash/rev1/keymaps/ifohancroft/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 4,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/eco-fsck/",
+        "fileSlug": "eco-fsck",
         "title": "ECO Layout by fsck",
         "keymapUrl": "https://github.com/fsck/qmk_firmware/tree/master/keyboards/eco/keymaps/fsck",
         "keymapAuthor": "fsck",
@@ -744,12 +877,16 @@
         "writeup": "https://github.com/fsck/qmk_firmware/tree/master/keyboards/eco/keymaps/fsck/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 2,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/dz60-tarnjotsingh/",
+        "fileSlug": "dz60-tarnjotsingh",
         "title": "DZ60 ISO Keymap",
         "keymapUrl": "https://github.com/tarnjotsingh/qmk_firmware/tree/master/keyboards/dz60/keymaps/tarnjotsingh",
         "keymapAuthor": "tarnjotsingh",
@@ -766,12 +903,16 @@
         "writeup": "https://github.com/tarnjotsingh/qmk_firmware/tree/master/keyboards/dz60/keymaps/tarnjotsingh/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 3,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/dz60-niclake/",
+        "fileSlug": "dz60-niclake",
         "title": "Nic Lake's DZ60 Layout",
         "keymapUrl": "https://github.com/niclake/qmk_firmware/tree/master/keyboards/dz60/keymaps/niclake",
         "keymapAuthor": "niclake",
@@ -788,12 +929,16 @@
         "writeup": "https://github.com/niclake/qmk_firmware/tree/master/keyboards/dz60/keymaps/niclake/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 5,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/dz60-bingocaller/",
+        "fileSlug": "dz60-bingocaller",
         "title": "MacOS standard 60% keymap with Vim-like arrows",
         "keymapUrl": "https://github.com/bingocaller/qmk_firmware/tree/master/keyboards/dz60/keymaps/bingocaller",
         "keymapAuthor": "bingocaller",
@@ -810,12 +955,16 @@
         "writeup": "https://github.com/bingocaller/qmk_firmware/tree/master/keyboards/dz60/keymaps/bingocaller/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 6,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/dz60-LEdiodes/",
+        "fileSlug": "dz60-LEdiodes",
         "title": "LEdiodes Keymap for XD60 60% PCB",
         "keymapUrl": "https://github.com/LEdiodes/qmk_firmware/tree/master/keyboards/dz60/keymaps/LEdiodes",
         "keymapAuthor": "LEdiodes",
@@ -832,12 +981,42 @@
         "writeup": "https://github.com/LEdiodes/qmk_firmware/tree/master/keyboards/dz60/keymaps/LEdiodes/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 3,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
+        "url": "/keymapdb/crkbd_rev1-alvaro-prieto/",
+        "fileSlug": "crkbd_rev1-alvaro-prieto",
+        "title": "Hysp keymap",
+        "keymapUrl": "https://github.com/alvaro-prieto/corne",
+        "keymapAuthor": "alvaro-prieto",
+        "keymapImage": "https://github.com/alvaro-prieto/corne/raw/main/extra/keymap.png",
+        "keyCount": 42,
+        "firmware": "QMK",
+        "keyboard": "crkbd rev. 1",
+        "baseLayouts": ["QVERFY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["Spanish","English"],
+        "summary": "QMK based Corne Keymap. It features OS independent shortcuts, custom modifier keys, RGB themes, key sequences, and much more.",
+        "OS": ["MacOS","Windows"],
+        "writeup": "https://github.com/alvaro-prieto/corne/blob/main/README.md",
+        "hasLetterOnThumb": false,
+        "layerCount": 10,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": true,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/contra-alper/",
+        "fileSlug": "contra-alper",
         "title": "Alper's Contra Layout",
         "keymapUrl": "https://github.com/alper/qmk_firmware/tree/master/keyboards/contra/keymaps/alper",
         "keymapAuthor": "alper",
@@ -854,12 +1033,16 @@
         "writeup": "https://github.com/alper/qmk_firmware/tree/master/keyboards/contra/keymaps/alper/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 6,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/clueboard_66-smt/",
+        "fileSlug": "clueboard_66-smt",
         "title": "smt Clueboard Layout (HHKB variant)",
         "keymapUrl": "https://github.com/smt/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/smt",
         "keymapAuthor": "smt",
@@ -876,12 +1059,16 @@
         "writeup": "https://github.com/smt/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/smt/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 5,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/clueboard_66-manofinterests/",
+        "fileSlug": "clueboard_66-manofinterests",
         "title": "Default Clueboard Layout",
         "keymapUrl": "https://github.com/manofinterests/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/manofinterests",
         "keymapAuthor": "manofinterests",
@@ -898,12 +1085,16 @@
         "writeup": "https://github.com/manofinterests/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/manofinterests/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 3,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/clueboard_66-magicmonty/",
+        "fileSlug": "clueboard_66-magicmonty",
         "title": "Layout of @magicmonty",
         "keymapUrl": "https://github.com/magicmonty/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/magicmonty",
         "keymapAuthor": "magicmonty",
@@ -920,12 +1111,16 @@
         "writeup": "https://github.com/magicmonty/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/magicmonty/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 7,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/atreus-khitsule/",
+        "fileSlug": "atreus-khitsule",
         "title": "Atreus Layout by Khitsule",
         "keymapUrl": "https://github.com/khitsule/qmk_firmware/tree/master/keyboards/atreus/keymaps/khitsule",
         "keymapAuthor": "khitsule",
@@ -942,12 +1137,16 @@
         "writeup": "https://github.com/khitsule/qmk_firmware/tree/master/keyboards/atreus/keymaps/khitsule/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 5,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     },
     {
 
         "url": "/keymapdb/adelheid-floookay/",
+        "fileSlug": "adelheid-floookay",
         "title": "The default keymap for the Adelheid",
         "keymapUrl": "https://github.com/floookay/qmk_firmware/tree/master/keyboards/adelheid/keymaps/floookay",
         "keymapAuthor": "floookay",
@@ -964,7 +1163,10 @@
         "writeup": "https://github.com/floookay/qmk_firmware/tree/master/keyboards/adelheid/keymaps/floookay/readme.md",
         "hasLetterOnThumb": false,
         "layerCount": 2,
-        "hasHomeRowMods": false
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
         
     }
 ]
