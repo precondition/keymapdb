@@ -81,13 +81,13 @@ function populatePostGrid(filteredKeymaps) {
                   <div class="font-semibold text-lg mb-2">
                       <a class="text-gray-900 hover:text-gray-700" ${titleHover} href="${post.url}">${post.title}</a>
                   </div>
-                      <table class="my-5" style="width:100%">
+                      <table class="my-5 w-full table-fixed">
                         <tr>
-                        <td class="text-gray-700 mb-1 mx-5">${post.keyCount} keys</td>
-                        <td class="text-gray-700 mb-1 mx-5">${post.layerCount} layers</td>
+                          <td   id="keyCount-table-cell-${post.fileSlug}" class="text-gray-700 mb-1 mx-5">${post.keyCount} keys</td>
+                          <td id="layerCount-table-cell-${post.fileSlug}" class="text-gray-700 mb-1 mx-5">${post.layerCount} layers</td>
                         </tr>
                         <tr>
-                          <td class="text-gray-700 mb-1 mx-5 break-words">${post.languages.join(", ")}</td>
+                          <td id="languages-table-cell-${post.fileSlug}" class="text-gray-700 mb-1 mx-5 break-words">${post.languages.join(", ")}</td>
                           <td id="OS-table-cell-${post.fileSlug}" class="text-gray-700 mb-1 break-words">${post.OS.join(", ")}</td>
                         </tr>
                       </table>
