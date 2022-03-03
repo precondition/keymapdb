@@ -86,17 +86,14 @@ async function populatePostGrid(filteredKeymaps) {
                   <div class="font-semibold text-lg mb-2">
                       <a class="text-gray-900 hover:text-gray-700" ${titleHover} href="${post.url}">${post.title}</a>
                   </div>
-                      <table class="my-5 w-full table-fixed">
-                        <tr>
-                          <td   id="keyCount-table-cell-${post.fileSlug}" class="text-gray-700 mb-1 mx-5">${post.keyCount} keys</td>
-                          <td id="layerCount-table-cell-${post.fileSlug}" class="text-gray-700 mb-1 mx-5">${post.layerCount} layers</td>
-                        </tr>
-                        <tr>
-                          <td id="languages-table-cell-${post.fileSlug}" class="text-gray-700 mb-1 mx-5 break-words">${post.languages.join(", ")}</td>
-                          <td id="OS-table-cell-${post.fileSlug}" class="text-gray-700 mb-1 break-words"><!-- filled in asynchronously with SVG icons --></td>
-                        </tr>
-                      </table>
-                      <p>${post.summary === null ? "" : post.summary} </p>
+                  <div class="my-5 flex flex-wrap justify-between">
+                      <p id="keyCount-table-cell-${post.fileSlug}"   class="text-gray-700 mb-1">${post.keyCount} keys</p>
+                      <p id="layerCount-table-cell-${post.fileSlug}" class="text-gray-700 mb-1">${post.layerCount} layers</p>
+                      <div class="flexitems-break"></div>
+                      <p id="languages-table-cell-${post.fileSlug}"  class="text-gray-700 mb-1 break-words">${post.languages.join(", ")}</p>
+                      <p id="OS-table-cell-${post.fileSlug}"         class="text-gray-700 mb-1 break-words"><!-- filled in asynchronously with SVG icons --></p>
+                  </div>
+                  <p>${post.summary === null ? "" : post.summary} </p>
               </div>
           </div>
       </div>
