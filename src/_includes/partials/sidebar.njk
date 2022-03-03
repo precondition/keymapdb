@@ -2,7 +2,9 @@
 
 <fieldset>
     <legend>Key Count</legend>
-    <div class="slider-styled" name="keyCount" id="keyCountSlider"></div>
+    {# Dummy input used to simply fill in the blank for NoScript users #}
+    {# The real dual-slider is created in assets/js/dualSlidersConf.js #}
+    <div class="flex" name="keyCount" id="keyCountSlider">1<input type="range" min="1" max="120" value="120">120</input></div>
 </fieldset>
 
 <br>
@@ -142,7 +144,8 @@
 
 <fieldset>
     <legend>Layer Count</legend>
-    <div class="slider-styled" name="layerCount" id="layerCountSlider"></div>
+    {# Dummy input used to simply fill in the blank for NoScript users #}
+    <div class="flex" name="layerCount" id="layerCountSlider">1<input type="range" min="1" max="16" value="16">16</input></div>
 </fieldset>
 
 <br>

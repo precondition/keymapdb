@@ -8,6 +8,9 @@ for (let v = keyCountPipsStep; v <= MAX_KEY_COUNT ; v += keyCountPipsStep) {
     keyCountPips.push(v);
 }
 
+// Remove the dummy HTML slider
+keyCountSlider.innerHTML = ""
+keyCountSlider.classList.add("slider-styled");
 noUiSlider.create(keyCountSlider, {
     start: [1, MAX_KEY_COUNT],
     connect: true,
@@ -44,6 +47,8 @@ for (let v = layerCountPipsStep; v <= MAX_LAYER_COUNT ; v += layerCountPipsStep)
     layerCountPips.push(v);
 }
 
+layerCountSlider.innerHTML = ""
+layerCountSlider.classList.add("slider-styled");
 noUiSlider.create(layerCountSlider, {
     start: [1, MAX_LAYER_COUNT],
     connect: true,
