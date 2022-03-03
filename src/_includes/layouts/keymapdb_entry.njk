@@ -7,6 +7,10 @@ isAutoShiftEnabled: false
 keybindings: []
 ---
 {% from "macros/if-true-Yes-else-No.njk" import booleanToYesNo %}
+{% macro showCategoricalArray(arr) %}
+    {{ arr | join(", ") if arr | length > 0 else "N/A" }}
+{% endmacro %}
+
 {% if isSplit %}
     {% set splitStatus = "Split" %}
 {% else %}
@@ -33,7 +37,8 @@ keybindings: []
             <p>{{ summary }}</p>
         {% endif %}
         <table>
-            <th class="font-bold">Keyboard</th>
+            <th class="text-xl font-bold">Keyboard</th>
+            <th></th>
             <tr>
                 <td>Keyboard Name</td>
                 <td>{{ keyboard }}</td>
@@ -54,14 +59,15 @@ keybindings: []
                 <td>Firmware</td>
                 <td>{{ firmware }}</td>
             </tr>
-            <th class="font-bold small-caps">Keymap</th>
+            <th class="text-xl font-bold">Keymap</th>
+            <th></th>
             <tr>
                 <td>Base Layout(s)</td>
-                <td>{{ baseLayouts | join(", ") }}</td>
+                <td>{{ showCategoricalArray(baseLayouts) }}</td>
             </tr>
             <tr>
                 <td>Language(s)</td>
-                <td>{{ languages | join(", ") }}</td>
+                <td>{{ showCategoricalArray(languages) }}</td>
             </tr>
             <tr>
                 <td>Letter(s) on thumb</td>
@@ -71,41 +77,50 @@ keybindings: []
                 <td>Layer Count</td>
                 <td>{{ layerCount }}</td>
             </tr>
-            <th class="font-bold">Firmware Features</th>
-            <tr>
-                <td>Home Row Mods</td>
-                <td>{{ booleanToYesNo(hasHomeRowMods) }}</td>
-            </tr>
-            <tr>
-                <td>Combos</td>
-                <td>{{ booleanToYesNo(isComboEnabled) }}</td>
-            </tr>
-            <tr>
-                <td>Tap Dance</td>
-                <td>{{ booleanToYesNo(isTapDanceEnabled) }}</td>
-            </tr>
-            <tr>
-                <td>Auto Shift</td>
-                <td>{{ booleanToYesNo(isAutoShiftEnabled) }}</td>
-            </tr>
-            <th class="font-bold">Use Case</th>
-            <tr>
-                <td>OS</td>
-                <td>{{ OS | join(", ") }}</td>
-            </tr>
-            <tr>
-                <td>Keybindings</td>
-                <td>{{ keybindings | join(", ") }}</td>
-            </tr>
-            <th class="font-bold">Links</th>
-            <tr>
-                <td>Keymap Folder</td>
-                <td><a href="{{ keymapUrl }}">{{ keymapUrl }}</a></td>
-            </tr>
-            <tr>
-                <td>Write-Up</td>
-                <td><a href="{{ writeup }}">{{ writeup }}</a></td>
-            </tr>
+            <tbody>
+                <th class="text-xl font-bold">Firmware Features</th>
+                <th></th>
+                <tr>
+                    <td>Home Row Mods</td>
+                    <td>{{ booleanToYesNo(hasHomeRowMods) }}</td>
+                </tr>
+                <tr>
+                    <td>Combos</td>
+                    <td>{{ booleanToYesNo(isComboEnabled) }}</td>
+                </tr>
+                <tr>
+                    <td>Tap Dance</td>
+                    <td>{{ booleanToYesNo(isTapDanceEnabled) }}</td>
+                </tr>
+                <tr>
+                    <td>Auto Shift</td>
+                    <td>{{ booleanToYesNo(isAutoShiftEnabled) }}</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <th class="text-xl font-bold">Use Case</th>
+                <th></th>
+                <tr>
+                    <td>OS</td>
+                    <td>{{ showCategoricalArray(OS) }}</td>
+                </tr>
+                <tr>
+                    <td>Keybindings</td>
+                    <td>{{ showCategoricalArray(keybindings) }}</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <th class="text-xl font-bold">Links</th>
+                <th></th>
+                <tr>
+                    <td>Keymap Folder</td>
+                    <td><a href="{{ keymapUrl }}">{{ keymapUrl }}</a></td>
+                </tr>
+                <tr>
+                    <td>Write-Up</td>
+                    <td><a href="{{ writeup }}">{{ writeup }}</a></td>
+                </tr>
+            </tbody>
         </table>
     </div>
 </article>
