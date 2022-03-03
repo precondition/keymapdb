@@ -29,6 +29,9 @@ keybindings: []
         {% endif %}
     </header>
     <div id="content" class="prose text-gray-800 max-w-none">
+        {% if summary %}
+            <p>{{ summary }}</p>
+        {% endif %}
         <table>
             <th class="font-bold">Keyboard</th>
             <tr>
