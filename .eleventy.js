@@ -17,6 +17,7 @@ module.exports = (config) => {
   config.addPassthroughCopy({ 'src/posts/img/**/*': 'assets/img/' });
 
   config.addWatchTarget("src/assets/js/");
+  config.addWatchTarget("src/assets/css/");
 
   config.addLayoutAlias('default', 'layouts/default.njk');
   config.addLayoutAlias('post', 'layouts/post.njk');
@@ -40,6 +41,8 @@ module.exports = (config) => {
   config.addNunjucksFilter("unique", coll => [...new Set(coll)]);
   config.addNunjucksFilter("flatten", coll => coll.flat());
   config.addNunjucksFilter("mapToDbField", (coll, dbField) => coll.map(x => x.data[dbField]));
+
+  config.setQuietMode(true);
 
   return {
     dir: {
