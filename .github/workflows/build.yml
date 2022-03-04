@@ -3,7 +3,7 @@ name: Build Eleventy
 on:
   push:
     branches:
-      - keymapdb_as_blog
+      - main
 
 jobs:
   build:
