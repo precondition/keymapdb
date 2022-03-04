@@ -2,12 +2,22 @@ function isSliderMinMaxed(slider) {
     return slider.get().length >= 2 && slider.options.range.min === slider.get().at(0) && slider.options.range.max === slider.get().at(-1);
 }
 
+function isCheckable(element) {
+    // For an obscure reason, `<input type="text">` also have a `checked`
+    // property so verifying `"checked" in element` is not sufficient.
+    return "checked" in element && element.hasAttribute("type") &&
+        (element.type === "radio" || element.type === "checkbox");
+}
 function getElementValue(element) {
     if (element instanceof HTMLSelectElement) {
        return Array.from(element.options).filter(option => option.selected).map(option => option.value).toString();
     }
-    if (element instanceof HTMLInputElement && element.hasAttribute("type") && element.type === "checkbox") {
-        return Array.from(document.querySelectorAll(`input[name=${element.name}]:checked`)).map(option => option.value).toString();
+    if (element instanceof HTMLInputElement && element.hasAttribute("type")) {
+        if (element.type === "checkbox") {
+            return Array.from(document.querySelectorAll(`input[name=${element.name}]:checked`)).map(option => option.value).toString();
+        } else if (element.type === "text") {
+            return element.value;
+        }
     }
     if ("noUiSlider" in element) {
         return element.noUiSlider.get().join("-");
@@ -16,14 +26,13 @@ function getElementValue(element) {
 }
 
 function updateUrlSearchParams(element) {
-    console.log("updating...");
     const urlSearchParams = new URLSearchParams(location.search);
     const value = getElementValue(element);
     const name = element.getAttribute("name");
     // Don't clutter the URL with the default all-encompassing filter value.
     if (value === "" || ("noUiSlider" in element && isSliderMinMaxed(element.noUiSlider))) {
         urlSearchParams.delete(name);
-    } else if ("checked" in element && urlSearchParams.get(name) === value) {
+    } else if (isCheckable(element) && urlSearchParams.get(name) === value) {
         // Checking an option adds it to the URL so if the user clicks on an option that was already present in the URL,
         // it means they clicked on a checked input element, in which case we uncheck it and remove it from the URL.
         element.checked = false;
@@ -111,10 +120,7 @@ function syncSidebarFilters() {
     for (const [fieldName, fieldValue] of urlSearchParams.entries()) {
         let elements = document.getElementsByName(fieldName);
         for (let element of elements) {
-            if ("checked" in element) {
-                const fieldValuesArray = fieldValue.split(",");
-                element.checked = fieldValuesArray.includes(element.value);
-            } else if ("noUiSlider" in element) {
+            if ("noUiSlider" in element) {
                 const slider = element.noUiSlider;
                 const fieldValuesArray = fieldValue.split("-");
                 slider.set(fieldValuesArray);
@@ -132,6 +138,11 @@ function syncSidebarFilters() {
                         element.selectedIndex = 0;
                     }
                 }
+            } else if (element instanceof HTMLInputElement && element.type === "text") {
+                element.value = fieldValue;
+            } else if (isCheckable(element)) {
+                const fieldValuesArray = fieldValue.split(",");
+                element.checked = fieldValuesArray.includes(element.value);
             }
         }
     }
@@ -147,12 +158,15 @@ function resetSidebarFilters() {
     for (const [fieldName, fieldValue] of urlSearchParams.entries()) {
         let elements = document.getElementsByName(fieldName);
         for (let element of elements) {
-            if ("checked" in element) {
+            console.log(element)
+            if (isCheckable(element)) {
                 element.checked = false;
-            } else if ("noUiSlider" in element) {
+            }
+            if ("noUiSlider" in element) {
                 const slider = element.noUiSlider;
                 slider.set(slider.options.start);
-            } else if (element instanceof HTMLSelectElement) {
+            }
+            if (element instanceof HTMLSelectElement) {
                 if (element.multiple) {
                     const options = element.options;
                     for (const option of options) {
@@ -161,6 +175,9 @@ function resetSidebarFilters() {
                 } else {
                     element.selectedIndex = 0;
                 }
+            }
+            if (element instanceof HTMLInputElement) {
+                element.value = "";
             }
         }
     }

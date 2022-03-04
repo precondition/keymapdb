@@ -25,6 +25,12 @@ function isKeymapConforming(query, keymapData) {
         if (!selectedValues.some(x => new Set(keymapData[queryKey]).has(x))) {
             return false;
         }
+
+    } else if (queryKey === "search") {
+        let isConformingToTypedSearch = (word) => keymapData["title"].toLowerCase().indexOf(word) !== -1 || keymapData["keymapAuthor"].toLowerCase().indexOf(word) !== -1;
+        if (!value.split(" ").every(isConformingToTypedSearch)) {
+            return false;
+        }
     // In case the keymap data value is a boolean, `value` must be deserialized into a boolean, as done after the &&
     } else if (keymapData[queryKey] !== value && keymapData[queryKey] !== (value === "true")) {
       console.log("Returning false because " + keymapData[queryKey] + " != " + value);
@@ -40,16 +46,12 @@ function getFilteredKeymaps() {
 }
 
 async function populatePostGrid(filteredKeymaps) {
-    console.log("filtered keymaps ↓");
-    console.log(filteredKeymaps);
     const postGrid = $("post-grid");
     postGrid.innerHTML = "";
     const postsPerPage = {{ site.paginate }};
     const pageNo = Number((location.pathname.match(/page\/([0-9]+)/) || ["page/1", "1"])[1]);
     const offset = (pageNo - 1) * postsPerPage;
     const slicedKeymaps = filteredKeymaps.slice(offset, offset+postsPerPage);
-    console.log("sliced keymaps ↓");
-    console.log(slicedKeymaps);
     // Warning: The function syncPaginationButtons relies on the innerText of the "showing-n-results" doc element.
     // If you change the value of innerText, make sure to reflect that "API" change in syncPaginationButtons too!
     if (filteredKeymaps.length === 0) {
