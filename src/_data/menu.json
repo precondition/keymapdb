@@ -4,10 +4,6 @@
         "url": "/about"
     },
     {
-        "label": "Tag List",
-        "url": "/tags"
-    },
-    {
         "label": "GitHub",
         "url": "https://github.com/precondition/keymapdb",
         "newTab": true
