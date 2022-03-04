@@ -123,3 +123,9 @@ tbody tr:nth-child(odd) {
 tbody th {
     background-color: #f1f1f1;
 }
+
+@media (max-width: 768px) {
+    #sidebar {
+        display: none;
+    }
+}
