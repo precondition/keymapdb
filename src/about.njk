@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Me
+title: About KeymapDB
 ---
 
 <div class="flex flex-col items-center text-lg">
@@ -9,22 +9,18 @@ title: About Me
         <img class="w-32 h-32 md:w-40 md:h-40 rounded-full" src="{{ author.avatar | url }}" width="128" height="128" alt="Author avatar">
     </a>
     {% endif %}
-    <div class="text-center mt-8">
-        <h1 class="text-2xl font-medium text-gray-800 leading-relaxed mt-0 mb-1">
-            <a href="{{ author.homepage | url }}" target="_blank" rel="noopener">{{ author.name }}</a>
-        </h1>
-        {% if author.email %}
-        <div class="text-gray-600">
-            <a href="mailto:{{ author.email }}">{{ author.email }}</a>
-        </div>
-        {% endif %}
-        {% if author.phone %}
-        <div class="text-gray-600">
-            <a href="tel:{{ author.phone }}">{{ author.phone }}</a>
-        </div>
-        {% endif %}
-        {% if author.bio %}
-        <p class="mt-3 text-gray-700">{{ author.bio }}</p>
-        {% endif %}
-    </div>
+    <article class="max-w-5xl mx-auto text-justify mt-8">
+        <p>
+            KeymapDB (“Keymap Database”) is a public and open-source online database for keymaps of programmable keyboards, with a focus on QMK ergonomic keyboards. Here, you'll find a curated list of keymaps to take inspiration from, with a slew of filters you can use to find the user-submitted keymaps that will interest you.
+        </p>
+        <br>
+        <p>
+            KeymapDB is NOT:
+            <ul class="list-disc ml-8">
+                <li>A collection of alpha keyboard layouts (Colemak, Dvorak, AZERTY, BEAKL, …). 
+                    Better luck in the “<a href="https://www.keyboard-design.com/best-layouts.html" class="font-medium">Keyboard Design Gallery</a>”.</li>
+                <li>A collection of mechanical keyboards. Visit <a href="https://mechdb.net/keyboards/" class="font-medium">MechDB</a> if that's what you want.</li>
+            </ul>
+        </p>
+    </article>
 </div>
