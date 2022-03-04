@@ -124,6 +124,12 @@ tbody th {
     background-color: #f1f1f1;
 }
 
+#sidebar {
+    width: 300px;
+    margin-right: 45px;
+    height: min-content;
+}
+
 @media (max-width: 768px) {
     #sidebar {
         display: none;
