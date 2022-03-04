@@ -1,7 +1,7 @@
 [
     {
 
-        "url": "/keymapdb/ymdk_bface-emdarcher/",
+        "url": "/keymapdb/posts/ymdk_bface-emdarcher/",
         "fileSlug": "ymdk_bface-emdarcher",
         "title": "emdarcher's keymap",
         "keymapUrl": "https://github.com/emdarcher/qmk_firmware/tree/master/keyboards/ymdk/bface/keymaps/emdarcher",
@@ -27,7 +27,7 @@
     },
     {
 
-        "url": "/keymapdb/v60_type_r-ifohancroft/",
+        "url": "/keymapdb/posts/v60_type_r-ifohancroft/",
         "fileSlug": "v60_type_r-ifohancroft",
         "title": "IFo Hancroft's KBParadise V60 Type R Layout",
         "keymapUrl": "https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/v60_type_r/keymaps/ifohancroft",
@@ -53,7 +53,7 @@
     },
     {
 
-        "url": "/keymapdb/ut472-annihilator6000/",
+        "url": "/keymapdb/posts/ut472-annihilator6000/",
         "fileSlug": "ut472-annihilator6000",
         "title": "UT47.2 Planck-style layout switching",
         "keymapUrl": "https://github.com/annihilator6000/qmk_firmware/tree/master/keyboards/ut472/keymaps/annihilator6000",
@@ -79,7 +79,7 @@
     },
     {
 
-        "url": "/keymapdb/thevankeyboards_minivan-smt/",
+        "url": "/keymapdb/posts/thevankeyboards_minivan-smt/",
         "fileSlug": "thevankeyboards_minivan-smt",
         "title": "smt's TV44 keymap",
         "keymapUrl": "https://github.com/smt/qmk_firmware/tree/master/keyboards/thevankeyboards/minivan/keymaps/smt",
@@ -105,7 +105,7 @@
     },
     {
 
-        "url": "/keymapdb/tada68-raylas/",
+        "url": "/keymapdb/posts/tada68-raylas/",
         "fileSlug": "tada68-raylas",
         "title": "raylas's TADA68 layout",
         "keymapUrl": "https://github.com/raylas/qmk_firmware/tree/master/keyboards/tada68/keymaps/raylas",
@@ -131,7 +131,7 @@
     },
     {
 
-        "url": "/keymapdb/rominronin_katana60_rev1-josefadamcik/",
+        "url": "/keymapdb/posts/rominronin_katana60_rev1-josefadamcik/",
         "fileSlug": "rominronin_katana60_rev1-josefadamcik",
         "title": "Multi OS Katana60 layout",
         "keymapUrl": "https://github.com/josefadamcik/qmk_firmware/tree/master/keyboards/rominronin/katana60/rev1/keymaps/josefadamcik",
@@ -157,7 +157,7 @@
     },
     {
 
-        "url": "/keymapdb/redox-fculpo/",
+        "url": "/keymapdb/posts/redox-fculpo/",
         "fileSlug": "redox-fculpo",
         "title": "A tweaked keymap for Redox",
         "keymapUrl": "https://github.com/fculpo/qmk_firmware/tree/master/keyboards/redox/keymaps/fculpo",
@@ -183,7 +183,7 @@
     },
     {
 
-        "url": "/keymapdb/preonic-shwilliam/",
+        "url": "/keymapdb/posts/preonic-shwilliam/",
         "fileSlug": "preonic-shwilliam",
         "title": "@shwilliam's Preonic Layout",
         "keymapUrl": "https://github.com/shwilliam/qmk_firmware/tree/master/keyboards/preonic/keymaps/shwilliam",
@@ -209,7 +209,7 @@
     },
     {
 
-        "url": "/keymapdb/preonic-fsck/",
+        "url": "/keymapdb/posts/preonic-fsck/",
         "fileSlug": "preonic-fsck",
         "title": "fsck's Preonic Layout",
         "keymapUrl": "https://github.com/fsck/qmk_firmware/tree/master/keyboards/preonic/keymaps/fsck",
@@ -235,7 +235,7 @@
     },
     {
 
-        "url": "/keymapdb/playkbtw_pk60-rfvizarra/",
+        "url": "/keymapdb/posts/playkbtw_pk60-rfvizarra/",
         "fileSlug": "playkbtw_pk60-rfvizarra",
         "title": "A personal keymap for Play Keyboard60 based on the minila layout",
         "keymapUrl": "https://github.com/rfvizarra/qmk_firmware/tree/master/keyboards/playkbtw/pk60/keymaps/rfvizarra",
@@ -261,7 +261,7 @@
     },
     {
 
-        "url": "/keymapdb/planck-yhaliaw/",
+        "url": "/keymapdb/posts/planck-yhaliaw/",
         "fileSlug": "planck-yhaliaw",
         "title": "yhaliaw Planck layout",
         "keymapUrl": "https://github.com/yhaliaw/qmk_firmware/tree/master/keyboards/planck/keymaps/yhaliaw",
@@ -287,7 +287,7 @@
     },
     {
 
-        "url": "/keymapdb/planck-rootiest/",
+        "url": "/keymapdb/posts/planck-rootiest/",
         "fileSlug": "planck-rootiest",
         "title": "The Rootiest Planck Layout",
         "keymapUrl": "https://github.com/rootiest/qmk_firmware/tree/master/keyboards/planck/keymaps/rootiest",
@@ -313,7 +313,7 @@
     },
     {
 
-        "url": "/keymapdb/planck-rjhilgefort/",
+        "url": "/keymapdb/posts/planck-rjhilgefort/",
         "fileSlug": "planck-rjhilgefort",
         "title": "🐦 @rjhilgefort Planck Layout",
         "keymapUrl": "https://github.com/rjhilgefort/qmk_firmware/tree/master/keyboards/planck/keymaps/rjhilgefort",
@@ -339,7 +339,7 @@
     },
     {
 
-        "url": "/keymapdb/planck-ishtob/",
+        "url": "/keymapdb/posts/planck-ishtob/",
         "fileSlug": "planck-ishtob",
         "title": "Ishtob's personal planck layout",
         "keymapUrl": "https://github.com/ishtob/qmk_firmware/tree/master/keyboards/planck/keymaps/ishtob",
@@ -365,7 +365,7 @@
     },
     {
 
-        "url": "/keymapdb/planck-fsck/",
+        "url": "/keymapdb/posts/planck-fsck/",
         "fileSlug": "planck-fsck",
         "title": "fsck's Planck Layout",
         "keymapUrl": "https://github.com/fsck/qmk_firmware/tree/master/keyboards/planck/keymaps/fsck",
@@ -391,7 +391,7 @@
     },
     {
 
-        "url": "/keymapdb/planck-dbroqua/",
+        "url": "/keymapdb/posts/planck-dbroqua/",
         "fileSlug": "planck-dbroqua",
         "title": "Dbroqua Layout",
         "keymapUrl": "https://github.com/dbroqua/qmk_firmware/tree/master/keyboards/planck/keymaps/dbroqua",
@@ -417,7 +417,7 @@
     },
     {
 
-        "url": "/keymapdb/nightmare-brandonschlack/",
+        "url": "/keymapdb/posts/nightmare-brandonschlack/",
         "fileSlug": "nightmare-brandonschlack",
         "title": "brandonschlack's Nightmare Keymap",
         "keymapUrl": "https://github.com/brandonschlack/qmk_firmware/tree/master/keyboards/nightmare/keymaps/brandonschlack",
@@ -443,7 +443,7 @@
     },
     {
 
-        "url": "/keymapdb/minidox-khitsule/",
+        "url": "/keymapdb/posts/minidox-khitsule/",
         "fileSlug": "minidox-khitsule",
         "title": "Minidox Layout by Khitsule",
         "keymapUrl": "https://github.com/khitsule/qmk_firmware/tree/master/keyboards/minidox/keymaps/khitsule",
@@ -469,7 +469,7 @@
     },
     {
 
-        "url": "/keymapdb/lattice60-emdarcher/",
+        "url": "/keymapdb/posts/lattice60-emdarcher/",
         "fileSlug": "lattice60-emdarcher",
         "title": "emdarcher's keymap for lattice60",
         "keymapUrl": "https://github.com/emdarcher/qmk_firmware/tree/master/keyboards/lattice60/keymaps/emdarcher",
@@ -495,7 +495,7 @@
     },
     {
 
-        "url": "/keymapdb/kprepublic_bm40hsrgb-rafaelromao/",
+        "url": "/keymapdb/posts/kprepublic_bm40hsrgb-rafaelromao/",
         "fileSlug": "kprepublic_bm40hsrgb-rafaelromao",
         "title": "rafaelromao's keyboard layout",
         "keymapUrl": "https://github.com/rafaelromao/keyboards",
@@ -521,7 +521,7 @@
     },
     {
 
-        "url": "/keymapdb/kinesis-jwon/",
+        "url": "/keymapdb/posts/kinesis-jwon/",
         "fileSlug": "kinesis-jwon",
         "title": "jwon's Programmer Dvorak",
         "keymapUrl": "https://github.com/jwon/qmk_firmware/tree/master/keyboards/kinesis/keymaps/jwon",
@@ -547,7 +547,7 @@
     },
     {
 
-        "url": "/keymapdb/keyboardio_atreus-ardumont/",
+        "url": "/keymapdb/posts/keyboardio_atreus-ardumont/",
         "fileSlug": "keyboardio_atreus-ardumont",
         "title": "ardumont layout",
         "keymapUrl": "https://github.com/ardumont/qmk_firmware/tree/master/keyboards/keyboardio/atreus/keymaps/ardumont",
@@ -573,7 +573,7 @@
     },
     {
 
-        "url": "/keymapdb/keebio_iris-khitsule/",
+        "url": "/keymapdb/posts/keebio_iris-khitsule/",
         "fileSlug": "keebio_iris-khitsule",
         "title": "Iris Layout by Khitsule",
         "keymapUrl": "https://github.com/khitsule/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/khitsule",
@@ -599,7 +599,7 @@
     },
     {
 
-        "url": "/keymapdb/keebio_iris-fluffactually/",
+        "url": "/keymapdb/posts/keebio_iris-fluffactually/",
         "fileSlug": "keebio_iris-fluffactually",
         "title": "Iris layout by fluffactually",
         "keymapUrl": "https://github.com/fluffactually/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/fluffactually",
@@ -625,7 +625,7 @@
     },
     {
 
-        "url": "/keymapdb/keebio_bfo9000-shadyproject/",
+        "url": "/keymapdb/posts/keebio_bfo9000-shadyproject/",
         "fileSlug": "keebio_bfo9000-shadyproject",
         "title": "Shadyproject BFO-9000 layout",
         "keymapUrl": "https://github.com/shadyproject/qmk_firmware/tree/master/keyboards/keebio/bfo9000/keymaps/shadyproject",
@@ -651,7 +651,7 @@
     },
     {
 
-        "url": "/keymapdb/idobo-ifohancroft/",
+        "url": "/keymapdb/posts/idobo-ifohancroft/",
         "fileSlug": "idobo-ifohancroft",
         "title": "IFo Hancroft's Idobo Layout",
         "keymapUrl": "https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/idobo/keymaps/ifohancroft",
@@ -677,7 +677,7 @@
     },
     {
 
-        "url": "/keymapdb/gmmk_pro_ansi-stickandgum/",
+        "url": "/keymapdb/posts/gmmk_pro_ansi-stickandgum/",
         "fileSlug": "gmmk_pro_ansi-stickandgum",
         "title": "Glorious GMMK Pro / ANSI - Enhanced Keyboard",
         "keymapUrl": "https://github.com/stickandgum/qmk_firmware/tree/master/keyboards/gmmk/pro/ansi/keymaps/stickandgum",
@@ -703,7 +703,7 @@
     },
     {
 
-        "url": "/keymapdb/gh60_satan-abhixec/",
+        "url": "/keymapdb/posts/gh60_satan-abhixec/",
         "fileSlug": "gh60_satan-abhixec",
         "title": "default Satan GH60 layout",
         "keymapUrl": "https://github.com/abhixec/qmk_firmware/tree/master/keyboards/gh60/satan/keymaps/abhixec",
@@ -729,7 +729,7 @@
     },
     {
 
-        "url": "/keymapdb/gergo-germ/",
+        "url": "/keymapdb/posts/gergo-germ/",
         "fileSlug": "gergo-germ",
         "title": "Gergo! By g Heavy Industries",
         "keymapUrl": "https://github.com/germ/qmk_firmware/tree/master/keyboards/gergo/keymaps/germ",
@@ -755,7 +755,7 @@
     },
     {
 
-        "url": "/keymapdb/ergodox_ez-nfriend/",
+        "url": "/keymapdb/posts/ergodox_ez-nfriend/",
         "fileSlug": "ergodox_ez-nfriend",
         "title": "nfriend's ErgoDox EZ configuration",
         "keymapUrl": "https://github.com/nfriend/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/nfriend",
@@ -781,7 +781,7 @@
     },
     {
 
-        "url": "/keymapdb/ergodox_ez-nathanvercaemert/",
+        "url": "/keymapdb/posts/ergodox_ez-nathanvercaemert/",
         "fileSlug": "ergodox_ez-nathanvercaemert",
         "title": "The nathanvercaemert ErgoDox EZ configuration",
         "keymapUrl": "https://github.com/nathanvercaemert/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/nathanvercaemert",
@@ -807,7 +807,7 @@
     },
     {
 
-        "url": "/keymapdb/ergodox_ez-bpruitt-goddard/",
+        "url": "/keymapdb/posts/ergodox_ez-bpruitt-goddard/",
         "fileSlug": "ergodox_ez-bpruitt-goddard",
         "title": "Ergodox EZ Layout by bpruitt-goddard",
         "keymapUrl": "https://github.com/bpruitt-goddard/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/bpruitt-goddard",
@@ -833,7 +833,7 @@
     },
     {
 
-        "url": "/keymapdb/ergodash_rev1-ifohancroft/",
+        "url": "/keymapdb/posts/ergodash_rev1-ifohancroft/",
         "fileSlug": "ergodash_rev1-ifohancroft",
         "title": "IFo Hancroft's ErgoDash Layout",
         "keymapUrl": "https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/ergodash/rev1/keymaps/ifohancroft",
@@ -859,7 +859,7 @@
     },
     {
 
-        "url": "/keymapdb/eco-fsck/",
+        "url": "/keymapdb/posts/eco-fsck/",
         "fileSlug": "eco-fsck",
         "title": "ECO Layout by fsck",
         "keymapUrl": "https://github.com/fsck/qmk_firmware/tree/master/keyboards/eco/keymaps/fsck",
@@ -885,7 +885,7 @@
     },
     {
 
-        "url": "/keymapdb/dz60-tarnjotsingh/",
+        "url": "/keymapdb/posts/dz60-tarnjotsingh/",
         "fileSlug": "dz60-tarnjotsingh",
         "title": "DZ60 ISO Keymap",
         "keymapUrl": "https://github.com/tarnjotsingh/qmk_firmware/tree/master/keyboards/dz60/keymaps/tarnjotsingh",
@@ -911,7 +911,7 @@
     },
     {
 
-        "url": "/keymapdb/dz60-niclake/",
+        "url": "/keymapdb/posts/dz60-niclake/",
         "fileSlug": "dz60-niclake",
         "title": "Nic Lake's DZ60 Layout",
         "keymapUrl": "https://github.com/niclake/qmk_firmware/tree/master/keyboards/dz60/keymaps/niclake",
@@ -937,7 +937,7 @@
     },
     {
 
-        "url": "/keymapdb/dz60-bingocaller/",
+        "url": "/keymapdb/posts/dz60-bingocaller/",
         "fileSlug": "dz60-bingocaller",
         "title": "MacOS standard 60% keymap with Vim-like arrows",
         "keymapUrl": "https://github.com/bingocaller/qmk_firmware/tree/master/keyboards/dz60/keymaps/bingocaller",
@@ -963,7 +963,7 @@
     },
     {
 
-        "url": "/keymapdb/dz60-LEdiodes/",
+        "url": "/keymapdb/posts/dz60-LEdiodes/",
         "fileSlug": "dz60-LEdiodes",
         "title": "LEdiodes Keymap for XD60 60% PCB",
         "keymapUrl": "https://github.com/LEdiodes/qmk_firmware/tree/master/keyboards/dz60/keymaps/LEdiodes",
@@ -989,7 +989,7 @@
     },
     {
 
-        "url": "/keymapdb/crkbd_rev1-alvaro-prieto/",
+        "url": "/keymapdb/posts/crkbd_rev1-alvaro-prieto/",
         "fileSlug": "crkbd_rev1-alvaro-prieto",
         "title": "Hysp keymap",
         "keymapUrl": "https://github.com/alvaro-prieto/corne",
@@ -1015,7 +1015,7 @@
     },
     {
 
-        "url": "/keymapdb/contra-alper/",
+        "url": "/keymapdb/posts/contra-alper/",
         "fileSlug": "contra-alper",
         "title": "Alper's Contra Layout",
         "keymapUrl": "https://github.com/alper/qmk_firmware/tree/master/keyboards/contra/keymaps/alper",
@@ -1041,7 +1041,7 @@
     },
     {
 
-        "url": "/keymapdb/clueboard_66-smt/",
+        "url": "/keymapdb/posts/clueboard_66-smt/",
         "fileSlug": "clueboard_66-smt",
         "title": "smt Clueboard Layout (HHKB variant)",
         "keymapUrl": "https://github.com/smt/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/smt",
@@ -1067,7 +1067,7 @@
     },
     {
 
-        "url": "/keymapdb/clueboard_66-manofinterests/",
+        "url": "/keymapdb/posts/clueboard_66-manofinterests/",
         "fileSlug": "clueboard_66-manofinterests",
         "title": "Default Clueboard Layout",
         "keymapUrl": "https://github.com/manofinterests/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/manofinterests",
@@ -1093,7 +1093,7 @@
     },
     {
 
-        "url": "/keymapdb/clueboard_66-magicmonty/",
+        "url": "/keymapdb/posts/clueboard_66-magicmonty/",
         "fileSlug": "clueboard_66-magicmonty",
         "title": "Layout of @magicmonty",
         "keymapUrl": "https://github.com/magicmonty/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/magicmonty",
@@ -1119,7 +1119,7 @@
     },
     {
 
-        "url": "/keymapdb/atreus-khitsule/",
+        "url": "/keymapdb/posts/atreus-khitsule/",
         "fileSlug": "atreus-khitsule",
         "title": "Atreus Layout by Khitsule",
         "keymapUrl": "https://github.com/khitsule/qmk_firmware/tree/master/keyboards/atreus/keymaps/khitsule",
@@ -1145,7 +1145,7 @@
     },
     {
 
-        "url": "/keymapdb/adelheid-floookay/",
+        "url": "/keymapdb/posts/adelheid-floookay/",
         "fileSlug": "adelheid-floookay",
         "title": "The default keymap for the Adelheid",
         "keymapUrl": "https://github.com/floookay/qmk_firmware/tree/master/keyboards/adelheid/keymaps/floookay",
