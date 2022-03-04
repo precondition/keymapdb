@@ -37,8 +37,7 @@ keybindings: []
             <p>{{ summary }}</p>
         {% endif %}
         <table>
-            <th class="text-xl font-bold">Keyboard</th>
-            <th></th>
+            <th colspan="2" class="text-xl font-bold">Keyboard</th>
             <tr>
                 <td>Keyboard Name</td>
                 <td>{{ keyboard }}</td>
@@ -59,8 +58,7 @@ keybindings: []
                 <td>Firmware</td>
                 <td>{{ firmware }}</td>
             </tr>
-            <th class="text-xl font-bold">Keymap</th>
-            <th></th>
+            <th colspan="2" class="text-xl font-bold">Keymap</th>
             <tr>
                 <td>Base Layout(s)</td>
                 <td>{{ showCategoricalArray(baseLayouts) }}</td>
@@ -78,8 +76,7 @@ keybindings: []
                 <td>{{ layerCount }}</td>
             </tr>
             <tbody>
-                <th class="text-xl font-bold">Firmware Features</th>
-                <th></th>
+                <th colspan="2" class="text-xl font-bold">Firmware Features</th>
                 <tr>
                     <td>Home Row Mods</td>
                     <td>{{ booleanToYesNo(hasHomeRowMods) }}</td>
@@ -98,8 +95,7 @@ keybindings: []
                 </tr>
             </tbody>
             <tbody>
-                <th class="text-xl font-bold">Use Case</th>
-                <th></th>
+                <th colspan="2" class="text-xl font-bold">Use Case</th>
                 <tr>
                     <td>OS</td>
                     <td>{{ showCategoricalArray(OS) }}</td>
@@ -110,8 +106,7 @@ keybindings: []
                 </tr>
             </tbody>
             <tbody style="word-break:break-word">
-                <th class="text-xl font-bold">Links</th>
-                <th></th>
+                <th colspan="2" class="text-xl font-bold">Links</th>
                 <tr>
                     <td>Keymap Folder</td>
                     <td><a href="{{ keymapUrl }}">{{ keymapUrl }}</a></td>
