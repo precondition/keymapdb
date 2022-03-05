@@ -73,7 +73,7 @@ async function populatePostGrid(filteredKeymaps) {
       const titleHover = post.title.toLowerCase().includes(post.keymapAuthor.toLowerCase()) ? '' : `title="by ${post.keymapAuthor}"`;
       post.OS.map(async (osName) => getSVG("OS", osName).then(svgIcon => { $("OS-table-cell-" + post.fileSlug).innerHTML += svgIcon; }));
       postGrid.innerHTML += `
-      <div class="w-full ${filteredKeymaps.length >= 3 ? "sm:w-1/2 md:w-1/3" : ""} self-stretch p-2 mb-2" style="height:fit-content;">
+      <div class="postcard">
           <div class="rounded shadow-md h-full">
               <a href="${post.url}">
               <img

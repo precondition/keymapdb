@@ -135,3 +135,21 @@ tbody th {
         display: none;
     }
 }
+
+/* Responsive CSS grid with no media queries by AndyBell Design */
+/* Sources: https://archive.hankchizljaw.com/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/ */
+#post-grid {
+  --post-grid-min-size: 20em;
+  
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--post-grid-min-size), 1fr));
+  grid-gap: 1rem;
+}
+
+.postcard {
+    height: fit-content;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    align-self: stretch;
+    width: 100%;
+}
