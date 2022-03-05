@@ -1,14 +1,14 @@
 function binarySearch(e, lo, hi, sortedArr) {
-    if (lo > hi || hi < lo) {
+    if (lo >= hi || hi <= lo) {
         return -1;
     }
-    const mid = Math.round((hi-lo)/2);
+    const mid = Math.round(lo+(hi-lo)/2);
     if (sortedArr[mid] === e) {
         return mid;
     } else if (sortedArr[mid] < e) {
-        return binarySearch(e, lo, mid, sortedArr);
+        return binarySearch(e, lo, mid-1, sortedArr);
     } else {
-        return binarySearch(e, mid, hi, sortedArr);
+        return binarySearch(e, mid+1, hi, sortedArr);
     }
 }
 
@@ -16,7 +16,6 @@ if ($("header-searchbox") != undefined) {
     $("header-searchbox").addEventListener("keydown", debounce(async function(keyUpEvent) {
         // No need to go through the costly process of updating
         // the post grid if the key press didn't change the search.
-        console.log(keyUpEvent.key)
         const ignoredKeysSortedList = [
             "Alt",
             "AltGraph",
@@ -41,7 +40,7 @@ if ($("header-searchbox") != undefined) {
             "Symbol",
             "SymbolLock"
         ];
-        let isIgnoredKey = binarySearch(keyUpEvent.key, 0, ignoredKeysSortedList.length, ignoredKeysSortedList) === -1;
+        let isIgnoredKey = binarySearch(keyUpEvent.key, 0, ignoredKeysSortedList.length, ignoredKeysSortedList) !== -1;
         if (!isIgnoredKey) {
             updatePostGrid(this);
         }
