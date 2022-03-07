@@ -109,9 +109,10 @@
 
 <br>
 
-<fieldset class="block text-left" style="max-width: 300px">
+<fieldset class="block text-left">
     <legend>Language(s) (Ctrl+Click to select more than one)</legend>
-    <select name="languages" id="languages-multi-select" onchange="updatePostGrid(this)" class="form-multiselect block w-full mt-1" style="border-width: 2px" multiple>
+    <select name="languages" id="languages-multi-select" onchange="updatePostGrid(this)" class="form-multiselect block w-full mt-1 border-2"
+        aria-label="Languages selection" multiple>
        {% for language in collections.posts | mapToDbField("languages") | flatten | sort | uniq  %}
            <option value="{{ language }}">{{ language }}</option>
        {% endfor %}
