@@ -43,6 +43,9 @@ module.exports = (config) => {
 
   config.setQuietMode(true);
 
+  // Serve GitHub Pages site from a custom domain
+  config.addPassthroughCopy("CNAME");
+
   return {
     dir: {
       input: 'src',
