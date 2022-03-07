@@ -1,7 +1,7 @@
 ---
 layout: layouts/keymapdb_entry.njk
 OS: []
-keymapAuthor: yhaliaw
+author: yhaliaw
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False

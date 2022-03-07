@@ -1,7 +1,7 @@
 ---
 layout: layouts/keymapdb_entry.njk
 OS: []
-keymapAuthor: fsck
+author: fsck
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False

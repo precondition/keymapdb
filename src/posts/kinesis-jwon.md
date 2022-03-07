@@ -1,7 +1,7 @@
 ---
 layout: layouts/keymapdb_entry.njk
 OS: []
-keymapAuthor: jwon
+author: jwon
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False

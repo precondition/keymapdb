@@ -1,7 +1,7 @@
 ---
 layout: layouts/keymapdb_entry.njk
 OS: ['Windows', 'MacOS', 'Linux']
-keymapAuthor: josefadamcik
+author: josefadamcik
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False

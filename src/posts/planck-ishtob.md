@@ -1,7 +1,7 @@
 ---
 layout: layouts/keymapdb_entry.njk
 OS: []
-keymapAuthor: ishtob
+author: ishtob
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False

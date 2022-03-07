@@ -1,7 +1,7 @@
 ---
 layout: layouts/keymapdb_entry.njk
 OS: ['MacOS']
-keymapAuthor: bingocaller
+author: bingocaller
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False

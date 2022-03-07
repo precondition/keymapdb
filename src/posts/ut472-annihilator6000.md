@@ -1,7 +1,7 @@
 ---
 layout: layouts/keymapdb_entry.njk
 OS: []
-keymapAuthor: annihilator6000
+author: annihilator6000
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False

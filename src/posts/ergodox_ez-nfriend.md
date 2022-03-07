@@ -1,7 +1,7 @@
 ---
 layout: layouts/keymapdb_entry.njk
 OS: ['Windows', 'MacOS']
-keymapAuthor: nfriend
+author: nfriend
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False

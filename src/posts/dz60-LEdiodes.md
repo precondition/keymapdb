@@ -1,7 +1,7 @@
 ---
 layout: layouts/keymapdb_entry.njk
 OS: []
-keymapAuthor: LEdiodes
+author: LEdiodes
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False

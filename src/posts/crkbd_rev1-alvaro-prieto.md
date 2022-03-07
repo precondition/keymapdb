@@ -2,7 +2,7 @@
 layout: layouts/keymapdb_entry.njk
 
 OS: ["MacOS", "Windows"]
-keymapAuthor: alvaro-prieto
+author: alvaro-prieto
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False

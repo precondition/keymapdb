@@ -4,7 +4,7 @@ layout: layouts/keymapdb_entry.njk
 title: rafaelromao's keyboard layout
 summary: 34 Keys, 3x5+2, Romak or Qwerty, US International, optimized for Portuguese and English, and coding with VIM plugins.
 keymapUrl: https://github.com/rafaelromao/keyboards
-keymapAuthor: rafaelromao
+author: rafaelromao
 keymapImage: https://i.imgur.com/TKMm2Ug.png
 keyboard: BM40 Hotswap RGB
 keyCount: 34

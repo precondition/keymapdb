@@ -1,7 +1,7 @@
 ---
 layout: layouts/keymapdb_entry.njk
 OS: ['Windows', 'MacOS']
-keymapAuthor: alper
+author: alper
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False

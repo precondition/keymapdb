@@ -30,7 +30,7 @@ function isKeymapConforming(query, keymapData) {
         // keymapData["summary"] might be null so that's why we use
         // AND's short-circuit evaluation to check for null before accessing
         // the toLowerCase property.
-        let isConformingToTypedSearch = (word) => ["title", "keymapAuthor", "summary"]
+        let isConformingToTypedSearch = (word) => ["title", "author", "summary"]
             .map(fieldN => keymapData[fieldN] && keymapData[fieldN].toLowerCase().indexOf(word) !== -1)
             .some(Boolean);
         if (!value.split(" ").every(isConformingToTypedSearch)) {
@@ -75,7 +75,7 @@ async function populatePostGrid(filteredKeymaps) {
     syncPaginationButtons();
     for (const post of slicedKeymaps) {
       const splitStatus = post.isSplit ? "Split" : "Non-split"
-      const titleHover = post.title.toLowerCase().includes(post.keymapAuthor.toLowerCase()) ? '' : `title="by ${post.keymapAuthor}"`;
+      const titleHover = post.title.toLowerCase().includes(post.author.toLowerCase()) ? '' : `title="by ${post.author}"`;
       post.OS.map(async (osName) => getSVG("OS", osName).then(svgIcon => { $("OS-table-cell-" + post.fileSlug).innerHTML += svgIcon; }));
       postGrid.innerHTML += `
       <div class="postcard">

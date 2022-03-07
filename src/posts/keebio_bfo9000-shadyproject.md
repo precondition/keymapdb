@@ -1,7 +1,7 @@
 ---
 layout: layouts/keymapdb_entry.njk
 OS: []
-keymapAuthor: shadyproject
+author: shadyproject
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False

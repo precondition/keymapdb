@@ -1,7 +1,7 @@
 ---
 layout: layouts/keymapdb_entry.njk
 OS: ['MacOS']
-keymapAuthor: niclake
+author: niclake
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False

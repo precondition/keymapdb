@@ -1,7 +1,7 @@
 ---
 layout: layouts/keymapdb_entry.njk
 OS: ['MacOS']
-keymapAuthor: ardumont
+author: ardumont
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
