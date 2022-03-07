@@ -124,18 +124,6 @@ tbody th {
     background-color: #f1f1f1;
 }
 
-#sidebar {
-    width: 300px;
-    margin-right: 45px;
-    height: min-content;
-}
-
-@media (max-width: 768px) {
-    #sidebar {
-        display: none;
-    }
-}
-
 /* Responsive CSS grid with no media queries by AndyBell Design */
 /* Sources: https://archive.hankchizljaw.com/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/ */
 #post-grid {

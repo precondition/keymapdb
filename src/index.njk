@@ -8,7 +8,11 @@ permalink: "{% if paged.number > 1 %}page/{{ paged.number }}/{% endif %}index.ht
 ---
 
 <div class="flex">
-    <aside id="sidebar">
+    {# TODO: find a way for small screen users to use the sidebar.
+    Perhaps an extra button in the hamburger menu of the header that 
+    would open the sidebar in full-screen with an "Apply" button at 
+    the end. #}
+    <aside id="sidebar" class="w-64 mr-11 h-min hidden md:block">
         {% include "partials/sidebar.njk" %}
     </aside>
     <div class="flex-col">
