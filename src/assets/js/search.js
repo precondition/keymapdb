@@ -1,14 +1,14 @@
 function binarySearch(e, lo, hi, sortedArr) {
-    if (lo >= hi || hi <= lo) {
+    if (lo > hi || hi < lo) {
         return -1;
     }
-    const mid = Math.round(lo+(hi-lo)/2);
+    const mid = lo + Math.floor((hi-lo)/2);
     if (sortedArr[mid] === e) {
         return mid;
     } else if (sortedArr[mid] < e) {
-        return binarySearch(e, lo, mid-1, sortedArr);
-    } else {
         return binarySearch(e, mid+1, hi, sortedArr);
+    } else {
+        return binarySearch(e, lo, mid-1, sortedArr);
     }
 }
 
