@@ -28,7 +28,11 @@ noUiSlider.create(keyCountSlider, {
     range: {
         'min': 1,
         'max': MAX_KEY_COUNT
-    }
+    },
+    handleAttributes: [
+        {"aria-label": "Minimum key count"},
+        {"aria-label": "Maximum key count"}
+    ]
 });
 
 // Ignore all parameters passed to the callback
@@ -66,7 +70,11 @@ noUiSlider.create(layerCountSlider, {
     range: {
         'min': 1,
         'max': MAX_LAYER_COUNT,
-    }
+    },
+    handleAttributes: [
+        {"aria-label": "Minimum layer count"},
+        {"aria-label": "Maximum layer count"}
+    ]
 });
 
 // Ignore all parameters passed to the callback
