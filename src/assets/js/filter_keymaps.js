@@ -27,7 +27,12 @@ function isKeymapConforming(query, keymapData) {
         }
 
     } else if (queryKey === "search") {
-        let isConformingToTypedSearch = (word) => keymapData["title"].toLowerCase().indexOf(word) !== -1 || keymapData["keymapAuthor"].toLowerCase().indexOf(word) !== -1;
+        // keymapData["summary"] might be null so that's why we use
+        // AND's short-circuit evaluation to check for null before accessing
+        // the toLowerCase property.
+        let isConformingToTypedSearch = (word) => ["title", "keymapAuthor", "summary"]
+            .map(fieldN => keymapData[fieldN] && keymapData[fieldN].toLowerCase().indexOf(word) !== -1)
+            .some(Boolean);
         if (!value.split(" ").every(isConformingToTypedSearch)) {
             return false;
         }
