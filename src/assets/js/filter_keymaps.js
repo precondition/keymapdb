@@ -31,7 +31,7 @@ function isKeymapConforming(query, keymapData) {
         // AND's short-circuit evaluation to check for null before accessing
         // the toLowerCase property.
         let isConformingToTypedSearch = (word) => ["title", "author", "summary"]
-            .map(fieldN => keymapData[fieldN] && keymapData[fieldN].toLowerCase().indexOf(word) !== -1)
+            .map(fieldN => keymapData[fieldN] && keymapData[fieldN].toLowerCase().indexOf(word.toLowerCase()) !== -1)
             .some(Boolean);
         if (!value.split(" ").every(isConformingToTypedSearch)) {
             return false;
