@@ -162,7 +162,7 @@
         "title": "Default Clueboard Layout",
         "keymapUrl": "https://github.com/manofinterests/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/manofinterests",
         "author": "manofinterests",
-        "keymapImage": "http://i.imgur.com/7Capi8W.png",
+        "keymapImage": "https://i.imgur.com/7Capi8W.png",
         "keyCount": 66,
         "firmware": "QMK",
         "keyboard": "Clueboard 66%",
@@ -417,8 +417,8 @@
     },
     {
 
-        "url": "/crkbd_rev1-alvaro-prieto/",
-        "fileSlug": "crkbd_rev1-alvaro-prieto",
+        "url": "/crkbd-alvaro-prieto/",
+        "fileSlug": "crkbd-alvaro-prieto",
         "title": "Hysp keymap",
         "keymapUrl": "https://github.com/alvaro-prieto/corne",
         "author": "alvaro-prieto",
@@ -443,8 +443,8 @@
     },
     {
 
-        "url": "/ergodash_rev1-ifohancroft/",
-        "fileSlug": "ergodash_rev1-ifohancroft",
+        "url": "/ergodash-ifohancroft/",
+        "fileSlug": "ergodash-ifohancroft",
         "title": "IFo Hancroft's ErgoDash Layout",
         "keymapUrl": "https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/ergodash/rev1/keymaps/ifohancroft",
         "author": "ifohancroft",
@@ -630,7 +630,7 @@
         "title": "Layout of @magicmonty",
         "keymapUrl": "https://github.com/magicmonty/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/magicmonty",
         "author": "magicmonty",
-        "keymapImage": "http://i.imgur.com/eEwjLEj.png",
+        "keymapImage": "https://i.imgur.com/eEwjLEj.png",
         "keyCount": 66,
         "firmware": "QMK",
         "keyboard": "Clueboard 66%",
@@ -729,8 +729,8 @@
     },
     {
 
-        "url": "/rominronin_katana60_rev1-josefadamcik/",
-        "fileSlug": "rominronin_katana60_rev1-josefadamcik",
+        "url": "/rominronin_katana60-josefadamcik/",
+        "fileSlug": "rominronin_katana60-josefadamcik",
         "title": "Multi OS Katana60 layout",
         "keymapUrl": "https://github.com/josefadamcik/qmk_firmware/tree/master/keyboards/rominronin/katana60/rev1/keymaps/josefadamcik",
         "author": "josefadamcik",
@@ -864,7 +864,7 @@
         "title": "Shadyproject BFO-9000 layout",
         "keymapUrl": "https://github.com/shadyproject/qmk_firmware/tree/master/keyboards/keebio/bfo9000/keymaps/shadyproject",
         "author": "shadyproject",
-        "keymapImage": "http://shadyproject.net/images/bfo9000-layout.png",
+        "keymapImage": "https://shadyproject.net/images/bfo9000-layout.png",
         "keyCount": 108,
         "firmware": "QMK",
         "keyboard": "Keebio BFO-9000",
@@ -890,7 +890,7 @@
         "title": "smt Clueboard Layout (HHKB variant)",
         "keymapUrl": "https://github.com/smt/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/smt",
         "author": "smt",
-        "keymapImage": "http://i.imgur.com/Ll5gGte.png",
+        "keymapImage": "https://i.imgur.com/Ll5gGte.png",
         "keyCount": 66,
         "firmware": "QMK",
         "keyboard": "Clueboard 66%",
