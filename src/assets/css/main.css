@@ -141,3 +141,20 @@ tbody th {
     align-self: stretch;
     width: 100%;
 }
+
+.postcard:hover {
+    transform: scale(1.15);
+}
+
+@keyframes thumbnail-slide {
+  from {object-position: top;}
+    to {object-position: bottom;}
+}
+
+.card-thumbnail:hover {
+    animation-name: thumbnail-slide;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+}
