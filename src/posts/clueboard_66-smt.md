@@ -5,7 +5,7 @@ author: smt
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
-keymapImage: http://i.imgur.com/Ll5gGte.png
+keymapImage: https://i.imgur.com/Ll5gGte.png
 keyCount: 66
 keyboard: Clueboard 66%
 baseLayouts: ["QWERTY"]

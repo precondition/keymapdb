@@ -5,7 +5,7 @@ author: shadyproject
 firmware: QMK
 hasHomeRowMods: False
 hasLetterOnThumb: False
-keymapImage: http://shadyproject.net/images/bfo9000-layout.png
+keymapImage: https://shadyproject.net/images/bfo9000-layout.png
 keyCount: 108
 keyboard: Keebio BFO-9000
 baseLayouts: ["QWERTY"]
