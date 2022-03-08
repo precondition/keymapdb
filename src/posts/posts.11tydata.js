@@ -4,7 +4,7 @@ module.exports = {
     keymapImage: (data) => {
       if (data.keymapImage) {
         if (data.keymapImage.search(/^https?:\/\//) !== -1) {
-          return data.keymapImage;
+          return data.keymapImage.replace("http:", "https:");
         }
         return `/assets/img/${data.keymapImage}`;
       } else {
