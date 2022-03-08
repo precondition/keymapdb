@@ -109,11 +109,11 @@ keybindings: []
                 <th colspan="2" class="text-xl font-bold">Links</th>
                 <tr>
                     <td>Keymap Folder</td>
-                    <td><a href="{{ keymapUrl }}">{{ keymapUrl }}</a></td>
+                    <td><a href="{{ keymapUrl }}">{{ keymapUrl | replace('/', '<wbr>/') | safe }}</a></td>
                 </tr>
                 <tr>
                     <td>Write-Up</td>
-                    <td><a href="{{ writeup }}">{{ writeup }}</a></td>
+                    <td><a href="{{ writeup }}">{{ writeup | replace('/', '<wbr>/') | safe }}</a></td>
                 </tr>
             </tbody>
         </table>
