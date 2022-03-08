@@ -79,7 +79,7 @@ async function populatePostGrid(filteredKeymaps) {
       post.OS.map(async (osName) => getSVG("OS", osName).then(svgIcon => { $("OS-table-cell-" + post.fileSlug).innerHTML += svgIcon; }));
       postGrid.innerHTML += `
       <div class="postcard">
-          <div class="rounded shadow-md h-full">
+          <div class="rounded shadow-lg h-full bg-gray-50 hover:shadow-xl">
               <a href="${post.url}">
               <img
               class="w-full m-0 rounded-t lazy"
