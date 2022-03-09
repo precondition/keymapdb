@@ -433,15 +433,15 @@
     },
     {
 
-        "url": "/crkbd-alvaro-prieto/",
-        "fileSlug": "crkbd-alvaro-prieto",
+        "url": "/crkbd_rev1-alvaro-prieto/",
+        "fileSlug": "crkbd_rev1-alvaro-prieto",
         "title": "Hysp keymap",
         "keymapUrl": "https://github.com/alvaro-prieto/corne",
         "author": "alvaro-prieto",
         "keymapImage": "https://github.com/alvaro-prieto/corne/raw/main/extra/keymap.png",
         "keyCount": 42,
         "firmware": "QMK",
-        "keyboard": "crkbd rev. 1",
+        "keyboard": "Corne",
         "baseLayouts": ["QVERFY"],
         "stagger": "columnar",
         "isSplit": true,
@@ -460,8 +460,8 @@
     },
     {
 
-        "url": "/ergodash-ifohancroft/",
-        "fileSlug": "ergodash-ifohancroft",
+        "url": "/ergodash_rev1-ifohancroft/",
+        "fileSlug": "ergodash_rev1-ifohancroft",
         "title": "IFo Hancroft's ErgoDash Layout",
         "keymapUrl": "https://github.com/ifohancroft/qmk_firmware/tree/master/keyboards/ergodash/rev1/keymaps/ifohancroft",
         "author": "ifohancroft",
@@ -757,8 +757,8 @@
     },
     {
 
-        "url": "/rominronin_katana60-josefadamcik/",
-        "fileSlug": "rominronin_katana60-josefadamcik",
+        "url": "/rominronin_katana60_rev1-josefadamcik/",
+        "fileSlug": "rominronin_katana60_rev1-josefadamcik",
         "title": "Multi OS Katana60 layout",
         "keymapUrl": "https://github.com/josefadamcik/qmk_firmware/tree/master/keyboards/rominronin/katana60/rev1/keymaps/josefadamcik",
         "author": "josefadamcik",
