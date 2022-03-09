@@ -15,7 +15,7 @@ permalink: "{% if paged.number > 1 %}page/{{ paged.number }}/{% endif %}index.ht
     <aside id="sidebar" class="w-64 mr-11 h-min hidden md:block">
         {% include "partials/sidebar.njk" %}
     </aside>
-    <div class="flex-col">
+    <div class="flex-col w-full">
         {% set offset =  (paged.number - 1) * site.paginate %}
         <div id="showing-n-results" class="text-center mb-5 mx-auto text-lg text-gray-600">Showing {{ offset + 1 }} to {{ offset + site.paginate }} of {{ collections.posts | length }} results found</div>
         <div id="post-grid">

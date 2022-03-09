@@ -132,6 +132,7 @@ tbody th {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(var(--post-grid-min-size), 1fr));
   grid-gap: 1rem;
+  max-width: 100%;
 }
 
 .postcard {
