@@ -139,6 +139,18 @@
 
 <br>
 
+<fieldset class="flex flex-col">
+    <legend>Keybindings</legend>
+    {% for keybindingsScheme in collections.posts | mapToDbField("keybindings") | flatten | sort | uniq %}
+        <label class="inline-flex items-center mt-3">
+            <input type="checkbox" name="keybindings" value="{{ keybindingsScheme }}" onclick="updatePostGrid(this)" class="form-checkbox h-5 w-5 text-gray-600">
+            <span class="ml-2 text-gray-700">{{ keybindingsScheme }}</span>
+        </label>
+   {% endfor %}
+</fieldset>
+
+<br>
+
 {{ YesNo("Letter(s) on thumb", "hasLetterOnThumb") }}
 
 <br>

@@ -293,14 +293,6 @@ Short summary (max. 140 words) of the keymap to show in the card, below the pict
 - "OS independent shortcuts, custom modifier keys, RGB themes, key sequences, and much more."
 - "A combo-based layout for Ergonomic Keyboards, implemented in QMK"
 
-## OS (array[categorical])
-The operating system(s) used by the keymap author, sorted in descending order of usage.
-
-### Possible Values
-- ["Windows"]
-- ["MacOS", "Windows"]
-- ["Linux"]
-
 ## writeup (string)
 URL to the detailed write-up of the keymap which explains the rationale behind the design choices. 
 
@@ -309,6 +301,32 @@ It can be a README or a blog post.
 ### Possible Values
 - "https://github.com/skychil/kombol/blob/main/README.md"
 - "http://thedarnedestthing.com/thumb%20h"
+
+## OS (array[categorical])
+The operating system(s) used by the keymap author, sorted in descending order of usage.
+
+### Possible Values
+- ["Windows"]
+- ["MacOS", "Windows"]
+- ["Linux"]
+
+## keybindings (array[categorical])
+Keybindings schemes for which this keymap is optimized for.
+
+Users of evil-based Emacs distros such as Spacemacs or Doom Emacs must tick "Vim" and not "Emacs", since this is about keybindings philosophy, not the actual program that the keymap author uses.
+
+TWM stands for Tiling Windows Manager.
+
+Warning: This is an experimental option that might get removed or severely modified in the future.
+
+### Possible Values
+- Vim
+- Emacs
+- Kakoune
+- Graphics/CAD
+- TWM
+- Spreadsheets
+- Gaming
 
 ## hasRotaryEncoder (bool)
 Indicates whether the keymap uses one or more rotary encoders.

@@ -11,6 +11,7 @@ keyCount: 34
 layerCount: 9
 firmware: QMK
 OS: ["MacOS", "Linux", "Windows"]
+keybindings: ["Vim"]
 baseLayouts: ["Romak", "QWERTY"]
 languages: ['Portuguese', 'English']
 isSplit: True
