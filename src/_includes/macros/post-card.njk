@@ -9,12 +9,11 @@
     <div class="rounded shadow-lg h-full bg-gray-50 hover:shadow-xl">
         <a href="{{ post.url | url }}">
         <img
-        class="w-full m-0 rounded-t lazy"
+        class="w-full m-0 rounded-t lazy max-h-72 object-cover object-top card-thumbnail"
         src="{% if post.data.keymapImage %}{{ post.data.keymapImage | url }}{% elif post.data.image %}{{ post.data.image | url }}{% else %}{{ '/assets/img/no-image.svg' | url }}{% endif %}"
         width="960"
         height="500"
-        alt="{{ splitStatus }} {{ post.data.stagger }}-staggered {{ post.data.keyboard }} with {{ post.data.baseLayouts | join(" and ") }} legends"
-        title="{{ splitStatus }} {{ post.data.stagger }}-staggered {{ post.data.keyboard }} with {{ post.data.baseLayouts | join(" and ") }} legends">
+        alt="{{ splitStatus }} {{ post.data.stagger }}-staggered {{ post.data.keyboard }} with {{ post.data.baseLayouts | join(" and ") }} legends">
         </a>
         <div class="px-6 py-5">
             <div class="font-semibold text-lg mb-2">

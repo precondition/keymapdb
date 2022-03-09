@@ -86,8 +86,7 @@ async function populatePostGrid(filteredKeymaps) {
               src="${post.keymapImage}"
               width="960"
               height="500"
-              alt="${splitStatus} ${post.stagger}-staggered ${post.keyboard} with ${post.baseLayouts.join(" and ")} legends"
-              >
+              alt="${splitStatus} ${post.stagger}-staggered ${post.keyboard} with ${post.baseLayouts.join(" and ")} legends">
               </a>
               <div class="px-6 py-5">
                   <div class="font-semibold text-lg mb-2">
