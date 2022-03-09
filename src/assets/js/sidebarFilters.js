@@ -54,7 +54,7 @@ function updateUrlSearchParams(element) {
 function disableHrefButton(a) {
     // See https://stackoverflow.com/a/10276157
     // Remove pointer events, gray it out etc.
-    a.classList.add("disabled");
+    a.setAttribute("disabled", true);
     // Clearing the link.
     a.href = "javascript:void(0)";
     // Prevent a from being selected by tabbing through the page
@@ -63,7 +63,7 @@ function disableHrefButton(a) {
 
 function enableHrefButton(a, href) {
     // See https://stackoverflow.com/a/10276157
-    a.classList.remove("disabled");
+    a.removeAttribute("disabled")
     if (href !== undefined) {
         a.href = href;
     }

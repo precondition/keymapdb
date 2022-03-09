@@ -140,3 +140,12 @@ tbody th {
     animation-timing-function: ease-in;
     animation-direction: alternate;
 }
+
+.button {
+    @apply bg-white font-semibold py-2 px-4 border rounded shadow-md text-gray-800 cursor-pointer hover:bg-gray-100
+}
+
+.button:disabled,
+.button[disabled] {
+    @apply bg-white font-semibold py-2 px-4 border rounded shadow-md text-gray-800 cursor-not-allowed text-opacity-75;
+}
