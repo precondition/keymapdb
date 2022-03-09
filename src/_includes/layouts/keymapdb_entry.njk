@@ -1,6 +1,7 @@
 ---
 layout: default
 # TODO: remove those defaults
+hasRotaryEncoder: false
 isTapDanceEnabled: false
 isComboEnabled: false
 isAutoShiftEnabled: false
@@ -53,6 +54,10 @@ keybindings: []
             <tr>
                 <td>Split</td>
                 <td>{{ booleanToYesNo(isSplit) }}</td>
+            </tr>
+            <tr>
+                <td>Rotary Encoder(s)</td>
+                <td>{{ booleanToYesNo(hasRotaryEncoder) }}</td>
             </tr>
             <tr>
                 <td>Firmware</td>

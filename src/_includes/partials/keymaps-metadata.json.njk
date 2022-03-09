@@ -5,7 +5,7 @@
         "url": {{ post.url | url | dump | safe }},
         "fileSlug": {{ post.fileSlug | url | dump | safe }},
         {% for field in db_fields -%}
-        "{{ field }}": {{ post.data[field] | dump | safe }}{% if not loop.last %},{% endif %}
+            "{{ field }}": {{ post.data[field] | dump | safe }}{% if not loop.last %},{% endif %}
         {% endfor %}
     }{% if not loop.last %},{% endif %}
     {%- endfor %}
