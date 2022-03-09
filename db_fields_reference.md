@@ -286,7 +286,7 @@ See the "ISO language name" column in the [list of ISO 639-1 codes](https://en.w
 - ["Russian", "English", "Greek", "Spanish"]
 
 ## summary (string)
-Short summary (max. 140 words) of the keymap to show in the card, below the picture.
+Short summary (max. 60 words) of the keymap to show in the card, below the picture.
 
 ### Possible Values
 - "Keymap for Corne Keyboard specially designed for software developers using macOS and Windows and writing in Spanish and English."
