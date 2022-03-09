@@ -8,7 +8,7 @@ hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://github.com/alvaro-prieto/corne/raw/main/extra/keymap.png
 keyCount: 42
-keyboard: crkbd rev. 1
+keyboard: Corne
 baseLayouts: ["QVERFY"]
 languages: ["Spanish", "English"]
 layerCount: 10
