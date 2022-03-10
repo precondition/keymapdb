@@ -953,6 +953,34 @@
     },
     {
 
+        "url": "/ferris-rayduck/",
+        "fileSlug": "ferris-rayduck",
+        "title": "Pnohty",
+        "keymapUrl": "https://github.com/rayduck/zmk-config",
+        "author": "rayduck",
+        "keymapImage": "https://user-images.githubusercontent.com/16619392/150713551-243510f7-cc91-4e50-acc5-41118b8f07a5.png",
+        "keyCount": 34,
+        "firmware": "ZMK",
+        "keyboard": "Ferris",
+        "baseLayouts": ["Colemak"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "An optimized keyboard layout for people who like Python, Vim, and tiny split keyboards ;)",
+        "OS": ["MacOS"],
+        "keybindings": ["Vim"],
+        "writeup": "https://github.com/rayduck/pnohty",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 6,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/kprepublic_bm40hsrgb-rafaelromao/",
         "fileSlug": "kprepublic_bm40hsrgb-rafaelromao",
         "title": "rafaelromao's keyboard layout",
