@@ -249,7 +249,7 @@ This field could have been an array[categorical] but I didn't feel like keeping 
 ## title (string)
 The name of the keymap itself.
 
-Most keymaps don't have an actual name like "Seniply", "Miryoku" or "T-34" so if you're feeling uninspired, just go for "<author>'s keymap for the <keyboard>".
+Most keymaps don't have an actual name like "Seniply", "Miryoku" or "T-34" so if you're feeling uninspired, just go for "&lt;author&gt;'s keymap for the &lt;keyboard&gt;".
 
 ### Possible Values
 - Miryoku
