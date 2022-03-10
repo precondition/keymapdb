@@ -981,6 +981,34 @@
     },
     {
 
+        "url": "/boardsource_microdox-reinier/",
+        "fileSlug": "boardsource_microdox-reinier",
+        "title": "reinier's keymap for the Microdox and Moonlander",
+        "keymapUrl": "https://github.com/reinier/dotfiles",
+        "author": "reinier",
+        "keymapImage": "https://raw.githubusercontent.com/reinier/dotfiles/main/hammerspoon/keyboard/keymap.png",
+        "keyCount": 36,
+        "firmware": "QMK",
+        "keyboard": "Microdox",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English","Dutch"],
+        "summary": "",
+        "OS": ["MacOS"],
+        "keybindings": [],
+        "writeup": "https://github.com/reinier/dotfiles#keyboards",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 5,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": "no",
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keebio_bfo9000-shadyproject/",
         "fileSlug": "keebio_bfo9000-shadyproject",
         "title": "Shadyproject BFO-9000 layout",
