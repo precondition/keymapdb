@@ -17,7 +17,7 @@ keymapUrl: https://github.com/getreuer/qmk-keymap
 languages: [English]
 layerCount: 4
 OS: []
-stagger: Columnar
+stagger: columnar
 summary: Autocorrection, caps word, custom shift keys, macro buttons, word selection, mouse turbo click, layer lock key,… Who knew a keyboard could do so much?
 title: Pascal Getreuer's QMK keymap
 writeup: https://github.com/getreuer/qmk-keymap/blob/main/README.md
