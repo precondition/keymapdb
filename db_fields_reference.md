@@ -112,7 +112,7 @@ Some keyboards can support many different firmwares, including QMK. If the keyma
 
 If the keyboard is not supported by QMK at all, use a keyboard name that makes the most sense.
 
-When a keymap is compatible with many different keyboards, pick the keyboard that mostly closely ressembles the keymap's layout.
+When a keymap is compatible with many different keyboards, pick the keyboard that most closely ressembles the keymap's layout. This will generally be the keyboard with the least amount of keys. People using multiple keyboards with a varying amount of keys share the same keymap among keyboards and mostly ignore the extra keys.
 
 This field could have been an array[categorical] but I didn't feel like keeping up with Miryoku's ever increasing list of supported keyboards.
 
