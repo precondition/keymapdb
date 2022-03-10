@@ -347,6 +347,8 @@ The amount of layers in the keymap.
 
 For ease of use, the layer count slider is currently capped at 16 layers but if need be, layerCount can go up to 32 layers.
 
+When a variable amount of layers is available in a keymap, enter the minimum amount of layers.
+
 ### Possible Values
 - 1 (min)
 - 8
