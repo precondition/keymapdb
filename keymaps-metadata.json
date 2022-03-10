@@ -1177,6 +1177,34 @@
     },
     {
 
+        "url": "/splitkb_kyria-skychil/",
+        "fileSlug": "splitkb_kyria-skychil",
+        "title": "The Kombol Layout",
+        "keymapUrl": "https://github.com/skychil/kombol",
+        "author": "skychil",
+        "keymapImage": "https://user-images.githubusercontent.com/72839499/130539776-64c081e4-e99b-4d23-a7e8-4db67cdaea16.png",
+        "keyCount": 50,
+        "firmware": "QMK",
+        "keyboard": "Kyria",
+        "baseLayouts": ["Colemak"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "A combo-based layout for Ergonomic Keyboards, implemented in QMK",
+        "OS": [],
+        "keybindings": ["Vim","TWM"],
+        "writeup": "https://github.com/skychil/kombol/blob/main/README.md",
+        "hasRotaryEncoder": true,
+        "hasLetterOnThumb": false,
+        "layerCount": 7,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/ergodox_ez-nathanvercaemert/",
         "fileSlug": "ergodox_ez-nathanvercaemert",
         "title": "The nathanvercaemert ErgoDox EZ configuration",
