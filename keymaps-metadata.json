@@ -1177,6 +1177,34 @@
     },
     {
 
+        "url": "/ferris-treeman/",
+        "fileSlug": "ferris-treeman",
+        "title": "The T-34 keyboard layout",
+        "keymapUrl": "https://github.com/treeman/qmk_firmware/tree/master/keyboards/ferris/keymaps/treeman",
+        "author": "treeman",
+        "keymapImage": "https://www.jonashietala.se/images/t-34/base.png",
+        "keyCount": 34,
+        "firmware": "QMK",
+        "keyboard": "Ferris",
+        "baseLayouts": ["RSTHD"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English","Swedish"],
+        "summary": "T-34 is a 34 key layout that's focused on comfort and my personal usage patterns. I've written an article series where I document the revisions I make.",
+        "OS": ["Linux","Windows"],
+        "keybindings": ["Vim","TWM"],
+        "writeup": "https://www.jonashietala.se/blog/2021/06/03/the-t-34-keyboard-layout/",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": true,
+        "layerCount": 10,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": true
+        
+    },
+    {
+
         "url": "/ut472-annihilator6000/",
         "fileSlug": "ut472-annihilator6000",
         "title": "UT47.2 Planck-style layout switching",
