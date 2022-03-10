@@ -389,3 +389,8 @@ Among [alternatives to home row mods](https://precondition.github.io/home-row-mo
 
 # Notes
 The actual underlying data type of "categorical" is "string". The difference between "string" and "categorical" in the reference above is that "string" have little to no limitation in the range of values it can take, while "categorical" pick from a predefined list of accepted values. This list of accepted values may be extended if sufficiently convincing arguments are defended.
+
+While the keymap entries have a `.md` extension denoting markdown files, they only contain [front matter data](https://www.11ty.dev/docs/data-frontmatter/), which uses [YAML syntax](https://learnxinyminutes.com/docs/yaml/), so don't try to use Markdown syntax like \*italic\* or \~\~crossed-out\~\~.
+(This syntax-extension mismatch might be solved by modifying the website file structure but abusing 11ty's native markdown posts support is simply easier.)
+
+Notably, this means that quotes are optional around strings, which is why some of the possible values given as examples are sometimes enclosed in quotes and sometimes not. Additionally, boolean values are case-insensitive; it doesn't matter whether you write `true` or `True` (don't use `1` for true and `0` for false though).
