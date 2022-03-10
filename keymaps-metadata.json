@@ -1,6 +1,34 @@
 [
     {
 
+        "url": "/keyboardio_atreus-kkga/",
+        "fileSlug": "keyboardio_atreus-kkga",
+        "title": "A keyboard layer system for 34 keys",
+        "keymapUrl": "https://github.com/kkga/config/tree/master/.config/qmk",
+        "author": "kkga",
+        "keymapImage": "https://raw.githubusercontent.com/kkga/config/master/.local/share/34keys.png",
+        "keyCount": 34,
+        "firmware": "QMK",
+        "keyboard": "Atreus",
+        "baseLayouts": ["QWERTY","Colemak"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "Relatively simple 34-key keymap mostly inspired by Seniply and \"Callum-style\", but with a few tweaks.",
+        "OS": ["Linux"],
+        "keybindings": ["Kakoune","TWM"],
+        "writeup": "",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 6,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/redox-fculpo/",
         "fileSlug": "redox-fculpo",
         "title": "A tweaked keymap for Redox",
@@ -864,6 +892,34 @@
         "hasHomeRowMods": false,
         "isTapDanceEnabled": false,
         "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
+        "url": "/handwired_dactyl-getreuer/",
+        "fileSlug": "handwired_dactyl-getreuer",
+        "title": "Pascal Getreuer's QMK keymap",
+        "keymapUrl": "https://github.com/getreuer/qmk-keymap",
+        "author": "getreuer",
+        "keymapImage": "https://github.com/getreuer/qmk-keymap/raw/main/doc/layout_base.png",
+        "keyCount": 70,
+        "firmware": "QMK",
+        "keyboard": "Dactyl",
+        "baseLayouts": ["Dvorak","QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "Autocorrection, caps word, custom shift keys, macro buttons, word selection, mouse turbo click, layer lock key,… Who knew a keyboard could do so much?",
+        "OS": [],
+        "keybindings": [],
+        "writeup": "https://github.com/getreuer/qmk-keymap/blob/main/README.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 4,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
         "isAutoShiftEnabled": false
         
     },
