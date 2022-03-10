@@ -393,6 +393,34 @@
     },
     {
 
+        "url": "/fisk-vvhg1/",
+        "fileSlug": "fisk-vvhg1",
+        "title": "Fisk keymap",
+        "keymapUrl": "https://github.com/vvhg1/fisk",
+        "author": "vvhg1",
+        "keymapImage": "https://raw.githubusercontent.com/vvhg1/fisk/main/images/keymap.png",
+        "keyCount": 54,
+        "firmware": "QMK",
+        "keyboard": "Fisk",
+        "baseLayouts": ["Colemak","QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "Main features include: one rotary encoder, Colemak-dh and Qwerty (both have somewhat modified symbols), layers, custom leader key, custom layer logic, custom oneshot modifiers, end of sentence, case modes (CAPSWORD, x_case, NUMW0RD), power brackets and dynamic info on both OLED displays.",
+        "OS": ["Windows"],
+        "keybindings": [],
+        "writeup": "https://github.com/vvhg1/fisk#keymap",
+        "hasRotaryEncoder": true,
+        "hasLetterOnThumb": false,
+        "layerCount": 6,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/planck-fsck/",
         "fileSlug": "planck-fsck",
         "title": "fsck's Planck Layout",
