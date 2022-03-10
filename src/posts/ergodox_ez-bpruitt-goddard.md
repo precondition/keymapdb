@@ -1,5 +1,4 @@
 ---
-layout: layouts/keymapdb_entry.njk
 OS: ['MacOS']
 author: bpruitt-goddard
 firmware: QMK

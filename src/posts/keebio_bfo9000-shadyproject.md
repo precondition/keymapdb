@@ -1,5 +1,4 @@
 ---
-layout: layouts/keymapdb_entry.njk
 OS: []
 author: shadyproject
 firmware: QMK

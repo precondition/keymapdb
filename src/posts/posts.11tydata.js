@@ -1,4 +1,5 @@
 module.exports = {
+  layout: "layouts/keymapdb_entry.njk",
   eleventyComputed: {
     permalink: (data) => `${data.page.fileSlug}/index.html`,
     keymapImage: (data) => {

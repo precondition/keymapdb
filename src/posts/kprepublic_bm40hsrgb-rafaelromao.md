@@ -1,5 +1,4 @@
 ---
-layout: layouts/keymapdb_entry.njk
 
 title: rafaelromao's keyboard layout
 summary: 34 Keys, 3x5+2, Romak or Qwerty, US International, optimized for Portuguese and English, and coding with VIM plugins.

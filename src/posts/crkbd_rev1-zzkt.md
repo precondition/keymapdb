@@ -1,6 +1,4 @@
 ---
-layout: layouts/keymapdb_entry.njk
-
 author: zzkt
 baseLayouts: ["QWERTY"]
 firmware: QMK
