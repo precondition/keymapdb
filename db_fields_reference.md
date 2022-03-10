@@ -8,44 +8,6 @@ Prefer the GitHub username when many aliases are possibles.
 - "alvaro-prieto" 
 - precondition
 
-## keymapUrl (string)
-The link to the keymap *folder* files.
-### Possible Values
-- "https://github.com/qmk/qmk_firmware/tree/master/keyboards/minidox/keymaps/dustypomerleau" 
-- "https://github.com/alvaro-prieto/corne" 
-- https://github.com/precondition/dactyl-manuform-keymap/
-
-## keymapImage (string)
-Link to a visual representation of the keymap in question. 
-
-In most cases, this should be an externally hosted image (e.g. imgur) but hosting the keymap image directly in the repo may be considered.
-
-### Possible Values
-- "https://media.discordapp.net/attachments/663573863480950808/876552871309639780/unknown.png"
-- "https://i.ibb.co/RQZx2dY/default-kyria2.jpg"
-
-
-## keyCount (integer)
-The amount of physical keys required for the keymap. 
-
-In case a keymap can be applied to multiple different keyboards with varying amount of physical keys, pick the minimum amount of keys required; no ranges.
-
-### Possible Values
-- 1 (min)
-- 36
-- 102
-- 255
-
-## firmware (categorical)
-The keyboard firmware the keymap is made for.
-
-KeymapDB was designed mostly for QMK keymaps so alternative firmwares are kind of second-class citizens.
-
-### Possible Values
-- QMK
-- "ZMK"
-- Kaleidoscope
-
 ## baseLayouts (array[categorical])
 An array of all the base alpha layouts that the keymap offers. Ordered in the same way as in the keymap.
 
@@ -57,6 +19,90 @@ It's not rare to come across a keymap that has multiple base layouts hence the u
 - ["Colemak", "QWERTY"]
 - [AZERTY]
 - ["BEAKL"]
+
+## firmware (categorical)
+The keyboard firmware the keymap is made for.
+
+KeymapDB was designed mostly for QMK keymaps so alternative firmwares are kind of second-class citizens.
+
+### Possible Values
+- QMK
+- "ZMK"
+- Kaleidoscope
+
+## hasHomeRowMods (bool)
+Indicates whether the keymap uses home row mods.
+
+Among [alternatives to home row mods](https://precondition.github.io/home-row-mods#alternatives), only [alternative layouts](https://precondition.github.io/home-row-mods#alternative-home-row-mods-layout) also pass this filter. All the rest (callum-style mods, upper row mods, ...) would result in `hasHomeRowMods` = false.
+
+### Possible Values
+- True
+- False
+
+## hasLetterOnThumb (bool)
+Indicates whether the keymap uses one or more letters on the thumb keys of the base layer(s).
+
+### Possible Values
+- True
+- False
+
+## hasRotaryEncoder (bool)
+Indicates whether the keymap uses one or more rotary encoders.
+
+### Possible Values
+- True
+- False
+
+## isAutoShiftEnabled (bool)
+Whether auto shift is enabled and used in the keymap. 
+
+### Possible Values
+- True
+- False
+
+## isComboEnabled (bool)
+Whether combos are enabled and used in the keymap. 
+
+Look for `COMBO_ENABLE` in the rules.mk file in case of a QMK firmware keymap. Search for the equivalent if the firmware is different.
+
+### Possible Values
+- True
+- False
+
+## isSplit (bool)
+Whether the keyboard is split or not.
+
+The criteria is whether there is a space between the two main halves. Two-piece splits like the Kyria obviously fit and so do one-piece splits like the Polilla *and*, since the focus is on keymaps, a keymap that puts something like a numpad between the two main halves of the alpha block *also counts* ([example XD75](https://i.redd.it/w1u3i20mdynz.jpg)). The [wide mod for row stagger boards](https://colemakmods.github.io/ergonomic-mods/wide.html) also counts as split but the [angle mod](https://colemakmods.github.io/ergonomic-mods/angle.html) doesn't.
+
+### Possible Values
+- True
+- False
+
+## isTapDanceEnabled (bool)
+Whether tap dance is enabled and used in the keymap. 
+
+### Possible Values
+- True
+- False
+
+## keybindings (array[categorical])
+Keybindings schemes for which this keymap is optimized for.
+
+Users of evil-based Emacs distros such as Spacemacs or Doom Emacs must tick "Vim" and not "Emacs", since this is about keybindings philosophy, not the actual program that the keymap author uses.
+
+TWM stands for Tiling Windows Manager.
+
+Warning: This is an experimental option that might get removed or severely modified in the future.
+
+### Possible Values
+- Vim
+- Emacs
+- Kakoune
+- Graphics/CAD
+- TWM
+- Spreadsheets
+- Gaming
+
 
 ## keyboard (categorical)
 The particular keyboard for which this keymap is designed.
@@ -246,32 +292,33 @@ This field could have been an array[categorical] but I didn't feel like keeping 
 - Clueboard 66% rev4
 - Corne
 
-## title (string)
-The name of the keymap itself.
+## keyCount (integer)
+The amount of physical keys required for the keymap. 
 
-Most keymaps don't have an actual name like "Seniply", "Miryoku" or "T-34" so if you're feeling uninspired, just go for "&lt;author&gt;'s keymap for the &lt;keyboard&gt;".
-
-### Possible Values
-- Miryoku
-- precondition's keymap for the Dactyl Manuform 5x6
-- rafaelromao's keyboard layout
-
-## stagger (categorical)
-The keyboard stagger for which the keymap is designed around. The effort grid can change from one stagger to another and so will an optimized keymap.
+In case a keymap can be applied to multiple different keyboards with varying amount of physical keys, pick the minimum amount of keys required; no ranges.
 
 ### Possible Values
-- row
-- columnar
-- ortholinear
+- 1 (min)
+- 36
+- 102
+- 255
 
-## isSplit (bool)
-Whether the keyboard is split or not.
+## keymapImage (string)
+Link to a visual representation of the keymap in question. 
 
-The criteria is whether there is a space between the two main halves. Two-piece splits like the Kyria obviously fit and so do one-piece splits like the Polilla *and*, since the focus is on keymaps, a keymap that puts something like a numpad between the two main halves of the alpha block *also counts* ([example XD75](https://i.redd.it/w1u3i20mdynz.jpg)). The [wide mod for row stagger boards](https://colemakmods.github.io/ergonomic-mods/wide.html) also counts as split but the [angle mod](https://colemakmods.github.io/ergonomic-mods/angle.html) doesn't.
+In most cases, this should be an externally hosted image (e.g. imgur) but hosting the keymap image directly in the repo may be considered.
 
 ### Possible Values
-- True
-- False
+- "https://media.discordapp.net/attachments/663573863480950808/876552871309639780/unknown.png"
+- "https://i.ibb.co/RQZx2dY/default-kyria2.jpg"
+
+## keymapUrl (string)
+The link to the keymap *folder* files.
+
+### Possible Values
+- "https://github.com/qmk/qmk_firmware/tree/master/keyboards/minidox/keymaps/dustypomerleau" 
+- "https://github.com/alvaro-prieto/corne" 
+- https://github.com/precondition/dactyl-manuform-keymap/
 
 ## languages (array[categorical])
 The (natural) languages this keymap is designed to be used in. The first language in the array is the main language.
@@ -284,63 +331,6 @@ See the "ISO language name" column in the [list of ISO 639-1 codes](https://en.w
 - ["English", "French"]
 - [Japanese, English]
 - ["Russian", "English", "Greek", "Spanish"]
-
-## summary (string)
-Short summary (max. 60 words) of the keymap to show in the card, below the picture.
-
-### Possible Values
-- "Keymap for Corne Keyboard specially designed for software developers using macOS and Windows and writing in Spanish and English."
-- "OS independent shortcuts, custom modifier keys, RGB themes, key sequences, and much more."
-- "A combo-based layout for Ergonomic Keyboards, implemented in QMK"
-
-## writeup (string)
-URL to the detailed write-up of the keymap which explains the rationale behind the design choices. 
-
-It can be a README or a blog post.
-
-### Possible Values
-- "https://github.com/skychil/kombol/blob/main/README.md"
-- "http://thedarnedestthing.com/thumb%20h"
-
-## OS (array[categorical])
-The operating system(s) used by the keymap author, sorted in descending order of usage.
-
-### Possible Values
-- ["Windows"]
-- ["MacOS", "Windows"]
-- ["Linux"]
-
-## keybindings (array[categorical])
-Keybindings schemes for which this keymap is optimized for.
-
-Users of evil-based Emacs distros such as Spacemacs or Doom Emacs must tick "Vim" and not "Emacs", since this is about keybindings philosophy, not the actual program that the keymap author uses.
-
-TWM stands for Tiling Windows Manager.
-
-Warning: This is an experimental option that might get removed or severely modified in the future.
-
-### Possible Values
-- Vim
-- Emacs
-- Kakoune
-- Graphics/CAD
-- TWM
-- Spreadsheets
-- Gaming
-
-## hasRotaryEncoder (bool)
-Indicates whether the keymap uses one or more rotary encoders.
-
-### Possible Values
-- True
-- False
-
-## hasLetterOnThumb (bool)
-Indicates whether the keymap uses one or more letters on the thumb keys of the base layer(s).
-
-### Possible Values
-- True
-- False
 
 ## layerCount (integer)
 The amount of layers in the keymap.
@@ -355,37 +345,48 @@ When a variable amount of layers is available in a keymap, enter the minimum amo
 - 16
 - 32 (max)
 
-## isComboEnabled (bool)
-Whether combos are enabled and used in the keymap. 
-
-Look for `COMBO_ENABLE` in the rules.mk file in case of a QMK firmware keymap. Search for the equivalent if the firmware is different.
+## OS (array[categorical])
+The operating system(s) used by the keymap author, sorted in descending order of usage.
 
 ### Possible Values
-- True
-- False
+- ["Windows"]
+- ["MacOS", "Windows"]
+- ["Linux"]
 
-## isTapDanceEnabled (bool)
-Whether tap dance is enabled and used in the keymap. 
-
-### Possible Values
-- True
-- False
-
-## isAutoShiftEnabled (bool)
-Whether auto shift is enabled and used in the keymap. 
+## stagger (categorical)
+The keyboard stagger for which the keymap is designed around. The effort grid can change from one stagger to another and so will an optimized keymap.
 
 ### Possible Values
-- True
-- False
+- row
+- columnar
+- ortholinear
 
-## hasHomeRowMods (bool)
-Indicates whether the keymap uses home row mods.
-
-Among [alternatives to home row mods](https://precondition.github.io/home-row-mods#alternatives), only [alternative layouts](https://precondition.github.io/home-row-mods#alternative-home-row-mods-layout) also pass this filter. All the rest (callum-style mods, upper row mods, ...) would result in `hasHomeRowMods` = false.
+## summary (string)
+Short summary (max. 60 words) of the keymap to show in the card, below the picture.
 
 ### Possible Values
-- True
-- False
+- "Keymap for Corne Keyboard specially designed for software developers using macOS and Windows and writing in Spanish and English."
+- "OS independent shortcuts, custom modifier keys, RGB themes, key sequences, and much more."
+- "A combo-based layout for Ergonomic Keyboards, implemented in QMK"
+
+## title (string)
+The name of the keymap itself.
+
+Most keymaps don't have an actual name like "Seniply", "Miryoku" or "T-34" so if you're feeling uninspired, just go for "&lt;author&gt;'s keymap for the &lt;keyboard&gt;".
+
+### Possible Values
+- Miryoku
+- precondition's keymap for the Dactyl Manuform 5x6
+- rafaelromao's keyboard layout
+
+## writeup (string)
+URL to the detailed write-up of the keymap which explains the rationale behind the design choices. 
+
+It can be a README or a blog post.
+
+### Possible Values
+- "https://github.com/skychil/kombol/blob/main/README.md"
+- "http://thedarnedestthing.com/thumb%20h"
 
 ----
 
