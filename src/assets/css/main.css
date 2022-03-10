@@ -20,3 +20,11 @@
         clip-path: inset(1px);
     }
 }
+
+tbody tr:nth-child(odd) {
+    background-color: #fafafa;
+}
+
+tbody th {
+    background-color: #f1f1f1;
+}
