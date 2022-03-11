@@ -8,8 +8,8 @@ isAutoShiftEnabled: false
 keybindings: []
 ---
 {% from "macros/if-true-Yes-else-No.njk" import booleanToYesNo %}
-{% macro showCategoricalArray(arr) %}
-    {{ arr | join(", ") if arr | length > 0 else "N/A" }}
+{% macro showCategoricalArray(arr, placeholder) %}
+    {{ arr | join(", ") if arr | length > 0 else placeholder }}
 {% endmacro %}
 
 {% if isSplit %}
@@ -66,11 +66,11 @@ keybindings: []
             <th colspan="2" class="text-xl font-bold">Keymap</th>
             <tr>
                 <td>Base Layout(s)</td>
-                <td>{{ showCategoricalArray(baseLayouts) }}</td>
+                <td>{{ showCategoricalArray(baseLayouts, "N/A") }}</td>
             </tr>
             <tr>
                 <td>Language(s)</td>
-                <td>{{ showCategoricalArray(languages) }}</td>
+                <td>{{ showCategoricalArray(languages, "N/A") }}</td>
             </tr>
             <tr>
                 <td>Letter(s) on thumb</td>
@@ -103,11 +103,11 @@ keybindings: []
                 <th colspan="2" class="text-xl font-bold">Use Case</th>
                 <tr>
                     <td>OS</td>
-                    <td>{{ showCategoricalArray(OS) }}</td>
+                    <td>{{ showCategoricalArray(OS, "N/A") }}</td>
                 </tr>
                 <tr>
-                    <td>Keybindings</td>
-                    <td>{{ showCategoricalArray(keybindings) }}</td>
+                    <td>Special Keybindings</td>
+                    <td>{{ showCategoricalArray(keybindings, "None") }}</td>
                 </tr>
             </tbody>
             <tbody class="break-words">
