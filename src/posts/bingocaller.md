@@ -1,19 +1,24 @@
 ---
-OS: ['MacOS']
 author: bingocaller
+baseLayouts: ["QWERTY"]
 firmwares: [QMK]
 hasHomeRowMods: False
 hasLetterOnThumb: False
-keymapImage: https://i.imgur.com/lFP2O41.png
-keyCount: 67
+hasRotaryEncoder: false
+isAutoShiftEnabled: false
+isComboEnabled: false
+isSplit: False
+isTapDanceEnabled: false
+keybindings: [Vim]
 keyboard: DZ60
-baseLayouts: ["QWERTY"]
+keyCount: 67
+keymapImage: https://i.imgur.com/lFP2O41.png
+keymapUrl: https://github.com/bingocaller/qmk_firmware/tree/master/keyboards/dz60/keymaps/bingocaller
 languages: ['English']
 layerCount: 6
-title: "MacOS standard 60% keymap with Vim-like arrows"
-isSplit: False
+OS: ['MacOS']
 stagger: row
-summary: 
-keymapUrl: https://github.com/bingocaller/qmk_firmware/tree/master/keyboards/dz60/keymaps/bingocaller
+summary: This is a MacOS-specific keymap for DZ60 configured in a standard 60% ANSI layout, with a stepped Caps Lock
+title: "MacOS standard 60% keymap with Vim-like arrows"
 writeup: https://github.com/bingocaller/qmk_firmware/tree/master/keyboards/dz60/keymaps/bingocaller/readme.md
 ---
