@@ -1,11 +1,11 @@
 ---
 author:manna-harbour
 baseLayouts:[AZERTY,BEAKL,Colemak,Dvorak,Halmak,Workman,QWERTY,QWERTZ]
-firmware:QMK
+firmwares:[QMK, ZMK]
 hasHomeRowMods:true
 hasLetterOnThumb:false
 hasRotaryEncoder:false
-isAutoShiftEnabled:false
+isAutoShiftEnabled:true
 isComboEnabled:false
 isSplit:true
 isTapDanceEnabled:false
