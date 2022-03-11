@@ -1,19 +1,24 @@
 ---
-OS: []
 author: jwon
+baseLayouts: [Dvorak, QWERTY]
 firmwares: [QMK]
-hasHomeRowMods: False
-hasLetterOnThumb: False
-keymapImage: https://i.imgur.com/3llBswG.png
-keyCount: 86
+hasHomeRowMods: false
+hasLetterOnThumb: false
+hasRotaryEncoder: false
+isAutoShiftEnabled: false
+isComboEnabled: false
+isSplit: true
+isTapDanceEnabled: false
+keybindings: []
 keyboard: Kinesis
-baseLayouts: ["QWERTY"]
+keyCount: 86
+keymapImage: https://i.imgur.com/3llBswG.png
+keymapUrl: https://github.com/jwon/qmk_firmware/tree/master/keyboards/kinesis/keymaps/jwon
 languages: ['English']
 layerCount: 4
+OS: [MacOS]
+stagger: columnar
+summary: Loosely based off Programmer Dvorak and ThePrimeagen's Real Programmer's Dvorak
 title: "jwon's Programmer Dvorak"
-isSplit: False
-stagger: row
-summary: 
-keymapUrl: https://github.com/jwon/qmk_firmware/tree/master/keyboards/kinesis/keymaps/jwon
 writeup: https://github.com/jwon/qmk_firmware/tree/master/keyboards/kinesis/keymaps/jwon/readme.md
 ---
