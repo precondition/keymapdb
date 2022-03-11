@@ -20,15 +20,16 @@ It's not rare to come across a keymap that has multiple base layouts hence the u
 - [AZERTY]
 - ["BEAKL"]
 
-## firmware (categorical)
-The keyboard firmware the keymap is made for.
+## firmwares (array[categorical])
+The keyboard firmwares the keymap is made for.
 
-KeymapDB was designed mostly for QMK keymaps so alternative firmwares are kind of second-class citizens.
+Oryx, Via and Vial firmwares all fall under the "QMK" umbrella.
 
 ### Possible Values
-- QMK
-- "ZMK"
-- Kaleidoscope
+- [QMK]
+- [ZMK]
+- [Kaleidoscope]
+- [QMK, ZMK]
 
 ## hasHomeRowMods (bool)
 Indicates whether the keymap uses home row mods.

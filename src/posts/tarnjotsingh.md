@@ -1,7 +1,7 @@
 ---
 OS: []
 author: tarnjotsingh
-firmware: QMK
+firmwares: [QMK]
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://i.imgur.com/UV0t6aL.png

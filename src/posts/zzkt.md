@@ -1,7 +1,7 @@
 ---
 author: zzkt
 baseLayouts: ["QWERTY"]
-firmware: QMK
+firmwares: [QMK]
 hasHomeRowMods: False
 hasLetterOnThumb: False
 hasRotaryEncoder: False

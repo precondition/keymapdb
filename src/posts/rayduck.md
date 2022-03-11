@@ -1,7 +1,7 @@
 ---
 author: rayduck
 baseLayouts: [Colemak]
-firmware: ZMK
+firmwares: [ZMK]
 hasHomeRowMods: false
 hasLetterOnThumb: false
 hasRotaryEncoder: false

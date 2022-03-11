@@ -1,7 +1,7 @@
 ---
 author: reinier
 baseLayouts: [QWERTY]
-firmware: QMK
+firmwares: [QMK]
 hasHomeRowMods: true
 hasLetterOnThumb: false
 hasRotaryEncoder: false

@@ -1,7 +1,7 @@
 ---
 author: treeman
 baseLayouts: [RSTHD]
-firmware: QMK
+firmwares: [QMK]
 hasHomeRowMods: false
 hasLetterOnThumb: true
 hasRotaryEncoder: false

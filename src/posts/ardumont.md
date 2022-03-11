@@ -1,7 +1,7 @@
 ---
 OS: ['MacOS']
 author: ardumont
-firmware: QMK
+firmwares: [QMK]
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://i.imgur.com/tuk64AI.png

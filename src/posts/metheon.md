@@ -1,7 +1,7 @@
 ---
 author: metheon
 baseLayouts: [Colemak]
-firmware: QMK
+firmwares: [QMK]
 hasHomeRowMods: false
 hasLetterOnThumb: false
 hasRotaryEncoder: false

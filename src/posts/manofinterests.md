@@ -1,7 +1,7 @@
 ---
 OS: []
 author: manofinterests
-firmware: QMK
+firmwares: [QMK]
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://i.imgur.com/7Capi8W.png

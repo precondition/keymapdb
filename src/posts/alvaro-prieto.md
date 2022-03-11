@@ -2,7 +2,7 @@
 
 OS: ["MacOS", "Windows"]
 author: alvaro-prieto
-firmware: QMK
+firmwares: [QMK]
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://github.com/alvaro-prieto/corne/raw/main/extra/keymap.png

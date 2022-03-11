@@ -1,7 +1,7 @@
 ---
 author: getreuer
 baseLayouts: [Dvorak, QWERTY]
-firmware: QMK
+firmwares: [QMK]
 hasHomeRowMods: false
 hasLetterOnThumb: false
 hasRotaryEncoder: false

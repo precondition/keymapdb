@@ -1,7 +1,7 @@
 ---
 OS: []
 author: yhaliaw
-firmware: QMK
+firmwares: [QMK]
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://i.imgur.com/HvYva64.png

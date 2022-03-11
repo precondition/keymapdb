@@ -1,7 +1,7 @@
 ---
 OS: []
 author: annihilator6000
-firmware: QMK
+firmwares: [QMK]
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://i.imgur.com/lICX4uz.png

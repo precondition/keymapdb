@@ -1,7 +1,7 @@
 ---
 OS: []
 author: shadyproject
-firmware: QMK
+firmwares: [QMK]
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://shadyproject.net/images/bfo9000-layout.png

@@ -11,10 +11,10 @@
 
 <fieldset class="flex flex-col">
     <legend>Firmware</legend>
-        {% for firmware, keymapEntry in collections.posts | sort(false, false, "data.firmware") | groupby("data.firmware")  %}
+        {% for firmware in collections.posts | mapToDbField("firmwares") | flatten | sort | uniq %}
         <div class="inline-flex mt-3">
             <input type="radio"
-                   name="firmware"
+                   name="firmwares"
                    value="{{ firmware }}"
                    id="{{ firmware }}-radio"
                    onclick="updatePostGrid(this)"

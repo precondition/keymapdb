@@ -1,7 +1,7 @@
 ---
 author: kkga
 baseLayouts: [QWERTY, Colemak]
-firmware: QMK
+firmwares: [QMK]
 hasHomeRowMods: true
 hasLetterOnThumb: false
 hasRotaryEncoder: false

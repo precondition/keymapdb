@@ -1,7 +1,7 @@
 ---
 OS: []
 author: smt
-firmware: QMK
+firmwares: [QMK]
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://i.imgur.com/Ll5gGte.png

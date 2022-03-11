@@ -13,7 +13,7 @@ Here are the steps to follow in order to submit a new keymap to keymapdb.com. A 
 ---
 author:
 baseLayouts:
-firmware:
+firmwares:
 hasHomeRowMods:
 hasLetterOnThumb:
 hasRotaryEncoder:

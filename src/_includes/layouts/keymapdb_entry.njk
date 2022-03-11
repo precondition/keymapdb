@@ -60,8 +60,8 @@ keybindings: []
                 <td>{{ booleanToYesNo(hasRotaryEncoder) }}</td>
             </tr>
             <tr>
-                <td>Firmware</td>
-                <td>{{ firmware }}</td>
+                <td>Firmware(s)</td>
+                <td>{{ showCategoricalArray(firmwares, "N/A") }}</td>
             </tr>
             <th colspan="2" class="text-xl font-bold">Keymap</th>
             <tr>

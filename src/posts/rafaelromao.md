@@ -8,7 +8,7 @@ keymapImage: https://i.imgur.com/TKMm2Ug.png
 keyboard: BM40 Hotswap RGB
 keyCount: 34
 layerCount: 9
-firmware: QMK
+firmwares: [QMK]
 OS: ["MacOS", "Linux", "Windows"]
 keybindings: ["Vim"]
 baseLayouts: ["Romak", "QWERTY"]

@@ -1,7 +1,7 @@
 ---
 OS: ['Windows', 'MacOS', 'Linux']
 author: josefadamcik
-firmware: QMK
+firmwares: [QMK]
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://i.imgur.com/1w2OA1o.png

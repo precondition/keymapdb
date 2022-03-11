@@ -1,7 +1,7 @@
 ---
 OS: ['MacOS']
 author: raylas
-firmware: QMK
+firmwares: [QMK]
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://i.imgur.com/cV9niMC.jpg

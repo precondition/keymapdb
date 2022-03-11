@@ -1,7 +1,7 @@
 ---
 OS: []
 author: fsck
-firmware: QMK
+firmwares: [QMK]
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://i.imgur.com/nI8fBco.png

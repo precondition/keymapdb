@@ -1,7 +1,7 @@
 ---
 OS: []
 author: rootiest
-firmware: QMK
+firmwares: [QMK]
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://github.com/rootiest/rootiest.github.io/raw/main/img/rootiest-planck_legend.png

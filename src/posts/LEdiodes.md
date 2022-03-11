@@ -1,7 +1,7 @@
 ---
 OS: []
 author: LEdiodes
-firmware: QMK
+firmwares: [QMK]
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://i.imgur.com/pDneawX.jpg

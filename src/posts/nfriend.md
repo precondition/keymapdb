@@ -1,7 +1,7 @@
 ---
 OS: ['Windows', 'MacOS']
 author: nfriend
-firmware: QMK
+firmwares: [QMK]
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://i.imgur.com/CMMmdBc.png

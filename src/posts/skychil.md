@@ -1,7 +1,7 @@
 ---
 author: skychil
 baseLayouts: [Colemak]
-firmware: QMK
+firmwares: [QMK]
 hasHomeRowMods: false
 hasLetterOnThumb: false
 hasRotaryEncoder: true

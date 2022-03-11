@@ -1,7 +1,7 @@
 ---
 author: konomu
 baseLayouts: [Frogpad]
-firmware: QMK
+firmwares: [QMK]
 hasHomeRowMods: false
 hasLetterOnThumb: false
 hasRotaryEncoder: false

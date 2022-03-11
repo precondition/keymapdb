@@ -1,7 +1,7 @@
 ---
 OS: []
 author: magicmonty
-firmware: QMK
+firmwares: [QMK]
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://i.imgur.com/eEwjLEj.png

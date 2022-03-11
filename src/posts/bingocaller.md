@@ -1,7 +1,7 @@
 ---
 OS: ['MacOS']
 author: bingocaller
-firmware: QMK
+firmwares: [QMK]
 hasHomeRowMods: False
 hasLetterOnThumb: False
 keymapImage: https://i.imgur.com/lFP2O41.png
