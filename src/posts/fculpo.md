@@ -1,19 +1,24 @@
 ---
-OS: ['MacOS']
 author: fculpo
+baseLayouts: ["QWERTY"]
 firmwares: [QMK]
 hasHomeRowMods: False
 hasLetterOnThumb: False
-keymapImage: https://i.imgur.com/OXT8boJ.png
-keyCount: 70
+hasRotaryEncoder: false
+isAutoShiftEnabled: false
+isComboEnabled: false
+isSplit: true
+isTapDanceEnabled: false
+keybindings: []
 keyboard: Redox
-baseLayouts: ["QWERTY"]
+keyCount: 70
+keymapImage: https://i.imgur.com/OXT8boJ.png
+keymapUrl: https://github.com/fculpo/qmk_firmware/tree/master/keyboards/redox/keymaps/fculpo
 languages: ['English']
 layerCount: 4
-title: "A tweaked keymap for Redox"
-isSplit: True
-stagger: row
-summary: 
-keymapUrl: https://github.com/fculpo/qmk_firmware/tree/master/keyboards/redox/keymaps/fculpo
+OS: ['MacOS']
+stagger: columnar
+summary: "This keymap modifies the default keymap for the awesome Redox keyboard designed by Mattia Dal Ben.  Also heavily inspired by nrichers's layout."
+title: "Tweaked keymap for Redox"
 writeup: https://github.com/fculpo/qmk_firmware/tree/master/keyboards/redox/keymaps/fculpo/readme.md
 ---
