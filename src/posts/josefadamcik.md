@@ -1,19 +1,24 @@
 ---
-OS: ['Windows', 'MacOS', 'Linux']
 author: josefadamcik
+baseLayouts: ["QWERTY", "Colemak"]
 firmwares: [QMK]
 hasHomeRowMods: False
 hasLetterOnThumb: False
-keymapImage: https://i.imgur.com/1w2OA1o.png
-keyCount: 70
+hasRotaryEncoder: false
+isAutoShiftEnabled: false
+isComboEnabled: false
+isSplit: false
+isTapDanceEnabled: false
+keybindings: []
 keyboard: Katana60 rev1
-baseLayouts: ["QWERTY"]
+keyCount: 70
+keymapImage: https://i.imgur.com/1w2OA1o.png
+keymapUrl: https://github.com/josefadamcik/qmk_firmware/tree/master/keyboards/rominronin/katana60/rev1/keymaps/josefadamcik
 languages: ['English']
 layerCount: 8
-title: "Multi OS Katana60 layout"
-isSplit: False
+OS: ['Windows', 'MacOS', 'Linux']
 stagger: row
-summary: 
-keymapUrl: https://github.com/josefadamcik/qmk_firmware/tree/master/keyboards/rominronin/katana60/rev1/keymaps/josefadamcik
+summary: "Based on the default Katana60 layout, customized by [Josef Adamcik](https://josef-adamcik.cz) with several basic layers (Colemak vs Qwerty, Mac OS vs Linux/Win)"
+title: "Multi OS Katana60 layout"
 writeup: https://github.com/josefadamcik/qmk_firmware/tree/master/keyboards/rominronin/katana60/rev1/keymaps/josefadamcik/readme.md
 ---
