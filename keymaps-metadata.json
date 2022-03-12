@@ -701,6 +701,34 @@
     },
     {
 
+        "url": "/maple_computing_minidox-manna-harbour/",
+        "fileSlug": "maple_computing_minidox-manna-harbour",
+        "title": "Miryoku",
+        "keymapUrl": "https://github.com/manna-harbour/miryoku_qmk/tree/miryoku/users/manna-harbour_miryoku",
+        "author": "manna-harbour",
+        "keymapImage": "https://raw.githubusercontent.com/manna-harbour/miryoku/master/data/cover/miryoku-kle-cover.png",
+        "keyCount": 36,
+        "firmwares": ["QMK","ZMK"],
+        "keyboard": "MiniDox",
+        "baseLayouts": ["AZERTY","BEAKL","Colemak","Dvorak","Halmak","Workman","QWERTY","QWERTZ"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "Miryoku is an ergonomic, minimal, orthogonal, and universal keyboard layout.",
+        "OS": ["Linux","Windows","MacOS"],
+        "keybindings": ["Vim","Emacs","TWM"],
+        "writeup": "https://github.com/manna-harbour/miryoku",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 8,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": true
+        
+    },
+    {
+
         "url": "/josefadamcik/",
         "fileSlug": "josefadamcik",
         "title": "Multi OS Katana60 layout",
