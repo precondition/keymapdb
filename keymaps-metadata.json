@@ -701,8 +701,8 @@
     },
     {
 
-        "url": "/maple_computing_minidox-manna-harbour/",
-        "fileSlug": "maple_computing_minidox-manna-harbour",
+        "url": "/manna_harbour/",
+        "fileSlug": "manna_harbour",
         "title": "Miryoku",
         "keymapUrl": "https://github.com/manna-harbour/miryoku_qmk/tree/miryoku/users/manna-harbour_miryoku",
         "author": "manna-harbour",
