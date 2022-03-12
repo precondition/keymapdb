@@ -5,9 +5,11 @@ Here are the steps to follow in order to submit a new keymap to keymapdb.com. A 
 1. Fork this repository
 2. Clone your fork
 3. Navigate to the `/src/posts/` directory (`cd keymapdb/src/posts`)
-4. Create a new file following this format: `${keyboard_folder.replace("/", "_")}-${keymap_author}.md`
-    Example: I'm called John and I want to submit my Dactyl Manuform 5x6 keymap. The QMK keyboard folder of the Dactyl Manuform 5x6 is `handwired/dactyl_manuform/5x6`.
-    However, slashes are not allowed in a file name so I will have to replace each "/" by a "_", thus resulting in `handwired_dactyl_manuform_5x6`. Next, I'd write a "-" to separate the keyboard name and the keymap author name, followed by the username of the keymap author. Final result: `handwired_dactyl_manuform_5x6-John.md`
+4. Create a new file with the `.md` extension, named after your username. All hyphens, "-", present in your username must be replaced with an underscore, "\_" (this substitution is not necessary in the "author" field, it is only necessary in the file name). For example, if my username is "week-end", I would create a file called `week_end.md` and write `author: week-end` inside.
+<br><br>
+In the rare case if you've made two or more *considerably different* keymaps (e.g. a main, daily driver, dactyl keymap and an experimental 7-key one-handed Macedonian keymap), you can disambiguate the file names of your keymaps by appending an extra chunk of identifiable information after your username and a hyphen, like so: `<your_username>-<extra_chunk>.md`. The extra chunk should preferably use `snake_case` over `kebab-case`.<br>
+Examples: `week_end.md` and `week_end-one_handed.md` or `week_end-dactyl.md` and `week_end-chorded_macedonian.md`.
+
 5. Copy-paste the following template:
 ```
 ---
