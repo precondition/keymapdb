@@ -4,11 +4,9 @@ title: About KeymapDB
 ---
 
 <div class="flex flex-col items-center text-lg">
-    {% if maintainer.avatar %}
     <a href="{{ maintainer.homepage | url }}" target="_blank" rel="noopener noreferrer">
-        <img class="w-32 h-32 md:w-40 md:h-40 rounded-full" src="{{ maintainer.avatar | url }}" width="128" height="128" alt="Maintainer avatar">
+        <img class="w-32 h-32 md:w-40 md:h-40" src="{{ site.logo }}" width="128" height="128" alt="Treasure map on a keycap">
     </a>
-    {% endif %}
     <article class="max-w-5xl mx-auto text-justify mt-8 prose">
         <p>
             KeymapDB (“Keymap Database”) is a public and open-source online database for keymaps of programmable keyboards, with a focus on QMK ergonomic keyboards. Here, you'll find a curated list of keymaps to take inspiration from, with a slew of filters you can use to find the user-submitted keymaps that will interest you.
