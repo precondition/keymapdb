@@ -1,4 +1,5 @@
-# KeymapDB
+<h1><img src="src/assets/svg/logo/light.svg" alt="Treasure map on a keycap" height=50px align="left">KeymapDB</h1>
+
 
 An online and open-source database of keymaps for programmable keyboards, with a focus on QMK ergonomic keyboards, served over a static website at https://keymapdb.com.
 
