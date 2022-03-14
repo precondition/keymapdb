@@ -9,6 +9,8 @@ Browse a curated collection of full-fledged keymaps like [Miryoku](https://keyma
 
 Looking for something specific? Filter the user-submitted keymaps with the help of the many available options in the sidebar. You can filter by key count, firmware, keyboard, stagger, languages, OS, and more!
 
+## Contributing
+
 Want to add your own keymap to the site? Follow the instructions outlined in “[How to submit a keymap](how_to_submit_a_keymap.md)”.
 
 Want to improve the website code itself? Read “[CONTRIBUTING](CONTRIBUTING.md)” for pointers on how to set up the local dev environment.
