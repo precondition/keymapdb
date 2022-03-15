@@ -785,6 +785,34 @@
     },
     {
 
+        "url": "/precondition/",
+        "fileSlug": "precondition",
+        "title": "Precondition's keymap for the Dactyl Manuform 5x6",
+        "keymapUrl": "https://github.com/precondition/dactyl-manuform-keymap/",
+        "author": "precondition",
+        "keymapImage": "/assets/img/keymaps/precondition.jpg",
+        "keyCount": 64,
+        "firmwares": ["QMK"],
+        "keyboard": "Dactyl Manuform 5x6",
+        "baseLayouts": ["Colemak"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English","French"],
+        "summary": "This keymap uses Colemak-DH for its alpha base with the addition of common French accented keys in direct access and dead keys for the less common ones. For use in English, French, and programming. Notably, home row mods are used, as well as tap dance and combos.",
+        "OS": ["Linux"],
+        "keybindings": ["Vim"],
+        "writeup": "https://github.com/precondition/dactyl-manuform-keymap/blob/main/readme.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 7,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": true,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/rafaelromao/",
         "fileSlug": "rafaelromao",
         "title": "rafaelromao's keyboard layout",
