@@ -1,5 +1,48 @@
-{% from "macros/post-card.njk" import postCard %}
 {%- set lazyImage = "data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%201%201'%20height%3D'500'%20width%3D'960'%20style%3D'background-color%3Argb(203%2C213%2C224)'%2F%3E" -%}
 {% for post in paged.posts %}
-    {{ postCard(post) }}
+    {% if post.data.isSplit %}
+        {% set splitStatus = "Split" %}
+    {% else %}
+        {% set splitStatus = "Non-split" %}
+    {% endif %}
+
+    <div class="postcard">
+        <div class="rounded shadow-lg h-full bg-gray-50 hover:shadow-xl">
+            <a href="{{ post.url | url }}">
+            <img
+            class="w-full m-0 rounded-t lazy max-h-72 object-cover object-top card-thumbnail"
+            src="{% if post.data.keymapImage %}{{ post.data.keymapImage | url }}{% elif post.data.image %}{{ post.data.image | url }}{% else %}{{ '/assets/img/no-image.svg' | url }}{% endif %}"
+            width="960"
+            height="500"
+            alt="{{ splitStatus }} {{ post.data.stagger }}-staggered {{ post.data.keyboard }} with {{ post.data.baseLayouts | join(" and ") }} legends">
+            </a>
+            <div class="px-6 py-5">
+                <div class="font-semibold text-lg mb-2">
+                    <a class="text-gray-900 hover:text-gray-700" href="{{ post.url | url }}">{{ post.data.title }}</a>
+                </div>
+                <div class="my-5 flex flex-wrap justify-between">
+                    <p id="keyCount-table-cell-{{ post.data.fileSlug }}"   class="text-gray-700 mb-1">{{ post.data.keyCount }} keys</p>
+                    <p id="OS-table-cell-{{ post.data.fileSlug }}"         class="text-gray-700 mb-1 break-words">
+                        {% for osName in post.data.OS %}
+                            {% include "./../../assets/svg/OS/" + osName + ".svg" %}
+                        {%- endfor %}
+                    </p>
+                    <p id="layerCount-table-cell-{{ post.data.fileSlug }}" class="text-gray-700 mb-1">{{ post.data.layerCount }} layers</p>
+                    <div class="flexitems-break"></div>
+                    <p id="languages-table-cell-{{ post.data.fileSlug }}"  class="text-gray-700 mb-1 break-words">{{ post.data.languages.join(", ") }}</p>
+                    <p id="baseLayouts-table-cell-{{ post.data.fileSlug }}"  class="text-gray-700 mb-1 break-words">{{ post.data.baseLayouts.join(", ") }}</p>
+                </div>
+                {% if post.data.summary -%}
+                    <p>{{ post.data.summary }}</p>
+                {%- endif %}
+                <p class="text-gray-800">
+                    {% if post.data.description %}
+                    {{ post.data.description }}
+                    {% else %}
+                    {{ post.templateContent | striptags | truncate(90, true) }}
+                    {% endif %}
+                </p>
+            </div>
+        </div>
+    </div>
 {% endfor %}
