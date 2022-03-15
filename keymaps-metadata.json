@@ -1009,6 +1009,34 @@
     },
     {
 
+        "url": "/rstacruz/",
+        "fileSlug": "rstacruz",
+        "title": "Rico's keymap",
+        "keymapUrl": "https://github.com/rstacruz/my_qmk_keymaps",
+        "author": "rstacruz",
+        "keymapImage": "https://raw.githubusercontent.com/rstacruz/my_qmk_keymaps/main/preview.png",
+        "keyCount": 36,
+        "firmwares": ["QMK"],
+        "keyboard": "Planck",
+        "baseLayouts": ["Colemak","QWERTY"],
+        "stagger": "ortholinear",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "My (@rstacruz) personal keymaps for the QMK firmware for mechanical keyboards.",
+        "OS": ["Linux"],
+        "keybindings": ["Vim","TWM"],
+        "writeup": "https://github.com/rstacruz/my_qmk_keymaps/blob/main/README.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 7,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/shadyproject/",
         "fileSlug": "shadyproject",
         "title": "Shadyproject BFO-9000 layout",
