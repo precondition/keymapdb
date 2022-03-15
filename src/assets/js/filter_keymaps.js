@@ -1,5 +1,5 @@
 function getKeymapsJSON() {
-    return {% include "partials/keymaps-metadata.json.njk" %};
+    return {% include "partials/keymaps_metadata.json.njk" %};
 }
 
 function isKeymapConforming(query, keymapData) {

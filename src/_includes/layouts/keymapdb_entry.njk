@@ -7,7 +7,14 @@ isComboEnabled: false
 isAutoShiftEnabled: false
 keybindings: []
 ---
-{% from "macros/if-true-Yes-else-No.njk" import booleanToYesNo %}
+{% macro booleanToYesNo(bool) %}
+{%- if bool -%}
+    Yes
+{%- else -%}
+    No
+{%- endif -%}
+{% endmacro %}
+
 {% macro showCategoricalArray(arr, placeholder) %}
     {{ arr | join(", ") if arr | length > 0 else placeholder }}
 {% endmacro %}

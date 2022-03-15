@@ -20,7 +20,7 @@ permalink: "{% if paged.number > 1 %}page/{{ paged.number }}/{% endif %}index.ht
         {% set offset =  (paged.number - 1) * site.paginate %}
         <div id="showing-n-results" class="text-center mb-5 mx-auto text-lg text-gray-600">Showing {{ offset + 1 }} to {{ offset + site.paginate }} of {{ collections.posts | length }} results found</div>
         <div id="post-grid">
-        {% include "partials/post-grid.njk" %}
+        {% include "partials/post_grid.njk" %}
     </div>
     </div>
 </div>
