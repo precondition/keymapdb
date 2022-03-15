@@ -1,19 +1,24 @@
 ---
-OS: []
 author: khitsule
-firmwares: [QMK]
-hasHomeRowMods: False
-hasLetterOnThumb: False
-keymapImage: https://i.imgur.com/BIzu3RZ.png
-keyCount: 56
-keyboard: Iris
 baseLayouts: ["QWERTY"]
+firmwares: [QMK]
+hasHomeRowMods: false
+hasLetterOnThumb: false
+hasRotaryEncoder: false
+isAutoShiftEnabled: false
+isComboEnabled: false
+isSplit: true
+isTapDanceEnabled: false
+keybindings: [Gaming]
+keyboard: Iris
+keyCount: 56
+keymapImage: https://i.imgur.com/BIzu3RZ.png
+keymapUrl: https://github.com/khitsule/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/khitsule
 languages: ['English']
 layerCount: 5
-title: "Iris Layout by Khitsule"
-isSplit: True
+OS: [Windows]
 stagger: columnar
 summary: 
-keymapUrl: https://github.com/khitsule/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/khitsule
+title: "Iris Layout by Khitsule"
 writeup: https://github.com/khitsule/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/khitsule/readme.md
 ---
