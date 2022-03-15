@@ -71,7 +71,7 @@
         "isSplit": true,
         "languages": ["English","Danish"],
         "summary": "",
-        "OS": [],
+        "OS": ["MacOS"],
         "keybindings": ["Vim"],
         "writeup": "",
         "hasRotaryEncoder": false,
