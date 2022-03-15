@@ -10,7 +10,7 @@ isComboEnabled: false
 isSplit: true
 isTapDanceEnabled: false
 keybindings: []
-keyboard: Katana60 rev1
+keyboard: Katana60
 keyCount: 70
 keymapImage: https://i.imgur.com/1w2OA1o.png
 keymapUrl: https://github.com/josefadamcik/qmk_firmware/tree/master/keyboards/rominronin/katana60/rev1/keymaps/josefadamcik
