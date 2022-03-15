@@ -365,6 +365,34 @@
     },
     {
 
+        "url": "/yaelol1/",
+        "fileSlug": "yaelol1",
+        "title": "Gawr Kynya!",
+        "keymapUrl": "https://github.com/yaelol1/Gawr-Kynya",
+        "author": "yaelol1",
+        "keymapImage": "https://raw.githubusercontent.com/yaelol1/Gawr-Kynya/main/img/kyria.png",
+        "keyCount": 50,
+        "firmwares": ["QMK"],
+        "keyboard": "Kyria",
+        "baseLayouts": ["QWERTY","Colemak"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "This is my weeb QMK Kyria keymap, the main feature is its animation of Gawr Gura, but it is really powerfull if you watch closely.",
+        "OS": ["Windows"],
+        "keybindings": ["Gaming"],
+        "writeup": "https://github.com/yaelol1/Gawr-Kynya/blob/main/README.md",
+        "hasRotaryEncoder": true,
+        "hasLetterOnThumb": false,
+        "layerCount": 6,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/alvaro-prieto/",
         "fileSlug": "alvaro-prieto",
         "title": "Hysp keymap",
