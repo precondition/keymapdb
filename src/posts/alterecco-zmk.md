@@ -16,7 +16,7 @@ keymapImage: https://cdn.discordapp.com/attachments/663573863480950808/885820678
 keymapUrl: https://github.com/alterecco/ahokore-zmk-config
 languages: [English, Danish]
 layerCount: 5
-OS: []
+OS: [MacOS]
 stagger: columnar
 summary: ""
 title: alterecco's Ahokore/Ferris 34-key keymap
