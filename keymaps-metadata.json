@@ -1205,6 +1205,34 @@
     },
     {
 
+        "url": "/waynehoover/",
+        "fileSlug": "waynehoover",
+        "title": "waynehoover's Dvorak IULM",
+        "keymapUrl": "https://github.com/waynehoover/qmk_firmware/tree/waynehoover_keymaps/keyboards/splitkb/kyria/keymaps/waynehoover",
+        "author": "waynehoover",
+        "keymapImage": "https://p239.p2.n0.cdn.getcloudapp.com/items/ApuY16w1/8887acb2-082c-412b-899e-b5c3fa062040.jpg",
+        "keyCount": 36,
+        "firmwares": ["QMK"],
+        "keyboard": "Kyria",
+        "baseLayouts": ["Dvorak"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "A Kyria keymap with an alternative Dvorak layout that swaps IU and LM, with the bonus of swapped shift state for semicolon (;)",
+        "OS": ["MacOS"],
+        "keybindings": [],
+        "writeup": "",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 4,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/yhaliaw/",
         "fileSlug": "yhaliaw",
         "title": "yhaliaw Planck layout",
