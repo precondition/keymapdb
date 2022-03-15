@@ -155,7 +155,7 @@
         "isSplit": false,
         "languages": ["English"],
         "summary": null,
-        "OS": [],
+        "OS": ["Linux"],
         "keybindings": [],
         "writeup": "https://github.com/dbroqua/qmk_firmware/tree/master/keyboards/planck/keymaps/dbroqua/readme.md",
         "hasRotaryEncoder": false,
