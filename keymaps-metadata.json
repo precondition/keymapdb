@@ -673,6 +673,34 @@
     },
     {
 
+        "url": "/jat/",
+        "fileSlug": "jat",
+        "title": "jat's keymap for the kyria",
+        "keymapUrl": "https://git.sr.ht/~jat/keymap",
+        "author": "jat",
+        "keymapImage": "https://git.sr.ht/~jat/keymap/blob/development/layout.png",
+        "keyCount": 36,
+        "firmwares": ["QMK"],
+        "keyboard": "Kyria",
+        "baseLayouts": ["Hands Down"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English","German","Swedish"],
+        "summary": "A layout for the kyria programmed in a literate config",
+        "OS": ["Linux"],
+        "keybindings": ["Vim","Gaming"],
+        "writeup": "https://git.sr.ht/~jat/keymap/blob/development/main.org",
+        "hasRotaryEncoder": true,
+        "hasLetterOnThumb": true,
+        "layerCount": 5,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/jwon/",
         "fileSlug": "jwon",
         "title": "jwon's Programmer Dvorak",
