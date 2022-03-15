@@ -1,3 +1,4 @@
+<!-- TODO: Convert Dyuthi font text "X" into a path object so that the logo looks the same regardless of what are the installed fonts on the machine -->
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
