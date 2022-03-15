@@ -40,6 +40,10 @@
     {#<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">#}
     <link rel="stylesheet" href="{{ '/assets/css/nouislider.css' | url }}">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}">
+    {% if isMainScreen %}
+        <link rel="stylesheet" href="{{ '/assets/css/extras.css' | url }}">
+    {% endif %}
+
 </head>	
 
 <body class="flex flex-col h-screen bg-white text-gray-800 break-words">
@@ -55,6 +59,9 @@
     </main>
     {% include "partials/footer.njk" %}
     <script src="{{ '/assets/js/bundle.js' | url }}"></script>
+    {% if isMainScreen %}
+        <script src="{{ '/assets/js/bundle-extras.js' | url }}"></script>
+    {% endif %}
 </body>
 
 </html>
