@@ -709,7 +709,7 @@
         "keymapImage": "https://i.imgur.com/1w2OA1o.png",
         "keyCount": 70,
         "firmwares": ["QMK"],
-        "keyboard": "Katana60 rev1",
+        "keyboard": "Katana60",
         "baseLayouts": ["QWERTY","Colemak"],
         "stagger": "row",
         "isSplit": true,
