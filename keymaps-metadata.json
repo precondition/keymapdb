@@ -1,34 +1,6 @@
 [
     {
 
-        "url": "/0xcharly/",
-        "fileSlug": "0xcharly",
-        "title": "0xcharly/delay's layout for BastardKB boards (and other 5x3)",
-        "keymapUrl": "https://github.com/0xcharly/qmk_firmware/tree/users-delay-wip/users/delay",
-        "author": "0xcharly",
-        "keymapImage": "https://raw.githubusercontent.com/0xcharly/qmk_firmware/users-delay-wip/users/delay/assets/keymap.png",
-        "keyCount": 36,
-        "firmwares": ["QMK"],
-        "keyboard": "Skeletyl",
-        "baseLayouts": ["Dvorak"],
-        "stagger": "columnar",
-        "isSplit": true,
-        "languages": ["English"],
-        "summary": "",
-        "OS": ["MacOS"],
-        "keybindings": ["TWM"],
-        "writeup": "https://github.com/0xcharly/qmk_firmware/blob/users-delay-wip/users/delay/README.md",
-        "hasRotaryEncoder": false,
-        "hasLetterOnThumb": false,
-        "layerCount": 8,
-        "hasHomeRowMods": true,
-        "isTapDanceEnabled": true,
-        "isComboEnabled": false,
-        "isAutoShiftEnabled": false
-        
-    },
-    {
-
         "url": "/kkga/",
         "fileSlug": "kkga",
         "title": "A keyboard layer system for 34 keys",
@@ -219,6 +191,34 @@
         "layerCount": 7,
         "hasHomeRowMods": false,
         "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
+        "url": "/0xcharly/",
+        "fileSlug": "0xcharly",
+        "title": "delay/0xcharly's layout for BastardKB boards (and other 5x3)",
+        "keymapUrl": "https://github.com/0xcharly/qmk_firmware/tree/users-delay-wip/users/delay",
+        "author": "0xcharly",
+        "keymapImage": "https://raw.githubusercontent.com/0xcharly/qmk_firmware/users-delay-wip/users/delay/assets/keymap.png",
+        "keyCount": 36,
+        "firmwares": ["QMK"],
+        "keyboard": "Skeletyl",
+        "baseLayouts": ["Dvorak"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "",
+        "OS": ["MacOS"],
+        "keybindings": ["TWM"],
+        "writeup": "https://github.com/0xcharly/qmk_firmware/blob/users-delay-wip/users/delay/README.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 8,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": true,
         "isComboEnabled": false,
         "isAutoShiftEnabled": false
         
