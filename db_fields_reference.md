@@ -39,8 +39,8 @@ Among [alternatives to home row mods](https://precondition.github.io/home-row-mo
 If there are at least four mod-taps on the home row, `hasHomeRowMods` should be set to true.
 
 ### Possible Values
-- True
-- False
+- true
+- false
 
 ## hasLetterOnThumb (bool)
 Indicates whether the keymap uses one or more letters on the thumb keys of the base layer(s).
@@ -48,8 +48,8 @@ Indicates whether the keymap uses one or more letters on the thumb keys of the b
 If there is at least *one* layout in the list of available base layouts that has a letter on thumb, this option should be set to true.
 
 ### Possible Values
-- True
-- False
+- true
+- false
 
 ## hasRotaryEncoder (bool)
 Indicates whether the keymap uses one or more rotary encoders.
@@ -57,8 +57,8 @@ Indicates whether the keymap uses one or more rotary encoders.
 As long as the keymap contains rotary encoder code, regardless of whether or not the encoders are optional, this option should be set to true.
 
 ### Possible Values
-- True
-- False
+- true
+- false
 
 ## isAutoShiftEnabled (bool)
 Indicates whether auto shift is enabled and used in the keymap. 
@@ -66,8 +66,8 @@ Indicates whether auto shift is enabled and used in the keymap.
 Check this even if you're using auto shift only on symbols; the slightest use of auto shift counts, this is not limited to auto shift on alphas.
 
 ### Possible Values
-- True
-- False
+- true
+- false
 
 ## isComboEnabled (bool)
 Indicates whether combos are enabled and used in the keymap. 
@@ -75,8 +75,8 @@ Indicates whether combos are enabled and used in the keymap.
 Look for `COMBO_ENABLE` in the rules.mk file in case of a QMK firmware keymap. Search for the equivalent if the firmware is different.
 
 ### Possible Values
-- True
-- False
+- true
+- false
 
 ## isSplit (bool)
 Indicates whether the keyboard is split or not.
@@ -84,15 +84,15 @@ Indicates whether the keyboard is split or not.
 The criteria is whether there is a space between the two main halves. Two-piece splits like the Kyria obviously fit and so do one-piece splits like the Atreus *and*, since the focus is on keymaps, a keymap that puts something like a numpad between the two main halves of the alpha block *also counts* ([example XD75](https://i.redd.it/w1u3i20mdynz.jpg)). The [wide mod for row stagger boards](https://colemakmods.github.io/ergonomic-mods/wide.html) also counts as split but the [angle mod](https://colemakmods.github.io/ergonomic-mods/angle.html) doesn't.
 
 ### Possible Values
-- True
-- False
+- true
+- false
 
 ## isTapDanceEnabled (bool)
 Indicates whether tap dance is enabled and used in the keymap. 
 
 ### Possible Values
-- True
-- False
+- true
+- false
 
 ## keybindings (array[categorical])
 Special keybindings schemes for which this keymap is optimized for.
