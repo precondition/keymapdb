@@ -36,12 +36,16 @@ Indicates whether the keymap uses home row mods.
 
 Among [alternatives to home row mods](https://precondition.github.io/home-row-mods#alternatives), only [alternative layouts](https://precondition.github.io/home-row-mods#alternative-home-row-mods-layout) also pass this filter. All the rest (callum-style mods, upper row mods, ...) would result in `hasHomeRowMods` = false.
 
+If there are at least four mod-taps on the home row, `hasHomeRowMods` should be set to true.
+
 ### Possible Values
 - True
 - False
 
 ## hasLetterOnThumb (bool)
 Indicates whether the keymap uses one or more letters on the thumb keys of the base layer(s).
+
+If there is at least *one* layout in the list of available base layouts that has a letter on thumb, this option should be set to true.
 
 ### Possible Values
 - True
@@ -50,19 +54,23 @@ Indicates whether the keymap uses one or more letters on the thumb keys of the b
 ## hasRotaryEncoder (bool)
 Indicates whether the keymap uses one or more rotary encoders.
 
+As long as the keymap contains rotary encoder code, regardless of whether or not the encoders are optional, this option should be set to true.
+
 ### Possible Values
 - True
 - False
 
 ## isAutoShiftEnabled (bool)
-Whether auto shift is enabled and used in the keymap. 
+Indicates whether auto shift is enabled and used in the keymap. 
+
+Check this even if you're using auto shift only on symbols; the slightest use of auto shift counts, this is not limited to auto shift on alphas.
 
 ### Possible Values
 - True
 - False
 
 ## isComboEnabled (bool)
-Whether combos are enabled and used in the keymap. 
+Indicates whether combos are enabled and used in the keymap. 
 
 Look for `COMBO_ENABLE` in the rules.mk file in case of a QMK firmware keymap. Search for the equivalent if the firmware is different.
 
@@ -71,29 +79,27 @@ Look for `COMBO_ENABLE` in the rules.mk file in case of a QMK firmware keymap. S
 - False
 
 ## isSplit (bool)
-Whether the keyboard is split or not.
+Indicates whether the keyboard is split or not.
 
-The criteria is whether there is a space between the two main halves. Two-piece splits like the Kyria obviously fit and so do one-piece splits like the Polilla *and*, since the focus is on keymaps, a keymap that puts something like a numpad between the two main halves of the alpha block *also counts* ([example XD75](https://i.redd.it/w1u3i20mdynz.jpg)). The [wide mod for row stagger boards](https://colemakmods.github.io/ergonomic-mods/wide.html) also counts as split but the [angle mod](https://colemakmods.github.io/ergonomic-mods/angle.html) doesn't.
+The criteria is whether there is a space between the two main halves. Two-piece splits like the Kyria obviously fit and so do one-piece splits like the Atreus *and*, since the focus is on keymaps, a keymap that puts something like a numpad between the two main halves of the alpha block *also counts* ([example XD75](https://i.redd.it/w1u3i20mdynz.jpg)). The [wide mod for row stagger boards](https://colemakmods.github.io/ergonomic-mods/wide.html) also counts as split but the [angle mod](https://colemakmods.github.io/ergonomic-mods/angle.html) doesn't.
 
 ### Possible Values
 - True
 - False
 
 ## isTapDanceEnabled (bool)
-Whether tap dance is enabled and used in the keymap. 
+Indicates whether tap dance is enabled and used in the keymap. 
 
 ### Possible Values
 - True
 - False
 
 ## keybindings (array[categorical])
-Keybindings schemes for which this keymap is optimized for.
+Special keybindings schemes for which this keymap is optimized for.
 
 Users of evil-based Emacs distros such as Spacemacs or Doom Emacs must tick "Vim" and not "Emacs", since this is about keybindings philosophy, not the actual program that the keymap author uses.
 
 TWM stands for Tiling Windows Manager.
-
-Warning: This is an experimental option that might get removed or severely modified in the future.
 
 ### Possible Values
 - Vim
@@ -108,189 +114,21 @@ Warning: This is an experimental option that might get removed or severely modif
 ## keyboard (categorical)
 The particular keyboard for which this keymap is designed.
 
-To obtain the name of a keyboard that supports QMK, run the command `qmk info -kb <keyboard_folder>` and look up the "Keyboard Name" attribute.
-Some keyboards can support many different firmwares, including QMK. If the keymap is for another firmware but still targets a keyboard supported by QMK, the same procedure described above should be used to obtain the name.
+First, check the keyboards drop-down list to see if your keyboard isn't already in the list, in which case you should just copy the existing name.
 
-If the keyboard is not supported by QMK at all, use a keyboard name that makes the most sense.
+If your keyboard hasn't been added yet to keymapDB, use the keyboard name that makes the most sense. Don't include manufacturer and/or revision number and/or MCU type in the keyboard name unless it's necessary for disambiguation between similarly named keyboards with differing physical keyboard layouts.
+
+Examples:
+| Correct | Incorrect | Incorrect |
+|---------|-----------|-----------|
+| Kyria   | splitkb/kyria | Kyria rev.2 |
+| Atreus | Atreus teensy2 | Keyboardio Atreus |
 
 When a keymap is compatible with many different keyboards, pick the keyboard that most closely ressembles the keymap's layout. This will generally be the keyboard with the least amount of keys. People using multiple keyboards with a varying amount of keys share the same keymap among keyboards and mostly ignore the extra keys.
 
-This field could have been an array[categorical] but I didn't feel like keeping up with Miryoku's ever increasing list of supported keyboards.
-
-<details>
-<summary>Just look at this huge list</summary>
-
-- 1upkeyboards/1up60hse
-- 1upkeyboards/1up60rgb
-- 40percentclub/4x4
-- 40percentclub/5x5
-- 40percentclub/i75
-- 40percentclub/luddite
-- 40percentclub/nori
-- acheron/keebspcb
-- acheron/lasgweloth
-- acheron/shark
-- ai03/polaris
-- akegata_denki/device_one
-- alps64
-- amj60
-- atxkb/1894
-- bakeneko60
-- bastardkb/tbkmini
-- bioi/g60ble
-- bm60poker
-- bm60rgb
-- boardsource/4x12
-- boardsource/5x12
-- boardsource/microdox
-- bt66tech/bt66tech60
-- cannonkeys/an_c
-- cannonkeys/atlas_alps
-- cannonkeys/db60/hotswap
-- cannonkeys/db60/j02
-- cannonkeys/db60/rev2
-- cannonkeys/instant60
-- cannonkeys/ortho48
-- cannonkeys/ortho60
-- cannonkeys/ortho75
-- cannonkeys/practice60
-- centromere
-- clawsome/coupe
-- contra
-- crkbd
-- dm9records/plaid
-- dm9records/tartan
-- do60
-- dp60
-- duck/eagle_viper
-- dz60
-- eek
-- efreet
-- ergodox_ez
-- ergodox_infinity
-- evyd13/eon40
-- evyd13/plain60
-- evyd13/pockettype
-- exclusive/e6_rgb
-- exclusive/e6v2/le
-- exclusive/e6v2/oe
-- facew
-- foxlab/leaf60/universal
-- geminate60
-- gh60/revc
-- gh60/satan
-- gh60/v1p3
-- gskt00
-- handwired/aranck
-- handwired/co60/rev1
-- handwired/co60/rev7
-- handwired/floorboard
-- handwired/heisenberg
-- handwired/jot50
-- handwired/jotanck
-- handwired/riblee_f401
-- handwired/riblee_f411
-- handwired/rs60
-- handwired/swiftrax/nodu
-- handwired/wulkan
-- handwired/xealousbrown
-- hineybush/h60
-- hotdox newgame40
-- hs60/v1
-- hs60/v2/ansi
-- idobo
-- inett_studio/sqx/universal
-- infinity60
-- jj40
-- jj50
-- jm60
-- jnao
-- kbdfans/kbd4x
-- kc60
-- kc60se
-- keebio/levinson
-- keebio/nyquist/rev1
-- keebio/nyquist/rev2
-- keebio/nyquist/rev3
-- keebio/nyquist/rev3 atomic
-- keebio/wavelet
-- keebio/wtf60
-- keycapsss/o4l_5x12
-- latin47ble
-- lets_split
-- lets_split_eh
-- marksard/rhymestone
-- mechstudio/ud_40_ortho
-- meira
-- melgeek/mj61/rev1
-- melgeek/mj61/rev2
-- melgeek/mj63/rev1
-- melgeek/mj63/rev2
-- miniaxe
-- minidox/rev1
-- montsinger/rebound/rev1
-- montsinger/rebound/rev2
-- montsinger/rebound/rev3
-- montsinger/rebound/rev4
-- mt40
-- nimrod
-- niu_mini
-- noxary/260
-- ok60
-- org60
-- pabile/p40 chimera_ls
-- paladin64
-- panc60
-- peej/lumberjack
-- planck/ez
-- planck/light
-- planck/rev1
-- planck/rev2
-- planck/rev3
-- planck/rev4
-- planck/rev5
-- planck/rev6
-- planck/thk
-- playkbtw/pk60
-- preonic/rev1
-- preonic/rev2
-- preonic/rev3
-- pteron36
-- punk75
-- quark
-- reviung61
-- rgbkb/zygomorph
-- ryloo_studio/m0110
-- sendyyeah/75pixels bm40hsrgb
-- sentraq/s60_x/default
-- sentraq/s60_x/rgb.  ergodone
-- signum/3_0/elitec
-- smk60
-- spaceman/pancake/feather
-- spaceman/pancake/promicro
-- spaceman/pancake/promicro arch_36
-- squiggle/rev1
-- suihankey/split/rev1 centromere
-- tau4
-- telophase
-- thevankeyboards/bananasplit
-- v60_type_r
-- vitamins_included
-- wilba_tech/zeal60
-- xd60/rev2
-- xd60/rev3
-- xd75
-- yd60mq
-- ymdk/ymd40/v2 fractal
-- zlant
-- zvecr/split_blackpill
-- zvecr/zv48
-
-</details>
-
 ### Possible Values
-- Dactyl-Manuform (5x6)
-- Clueboard 66% rev4
+- Dactyl Manuform 5x6
+- Clueboard 66%
 - Corne
 
 ## keyCount (integer)
@@ -307,11 +145,12 @@ In case a keymap can be applied to multiple different keyboards with varying amo
 ## keymapImage (string)
 Link to a visual representation of the keymap in question. 
 
-In most cases, this should be an externally hosted image (e.g. imgur) but hosting the keymap image directly in the repo may be considered.
+In most cases, this should be an externally hosted image (e.g. imgur) but hosting the keymap image directly in the repo at `src/assets/img/keymaps/` may be considered.
 
 ### Possible Values
 - "https://media.discordapp.net/attachments/663573863480950808/876552871309639780/unknown.png"
 - "https://i.ibb.co/RQZx2dY/default-kyria2.jpg"
+- precondition.jpg
 
 ## keymapUrl (string)
 The link to the keymap *folder* files.
@@ -356,6 +195,8 @@ The operating system(s) used by the keymap author, sorted in descending order of
 
 ## stagger (categorical)
 The keyboard stagger for which the keymap is designed around. The effort grid can change from one stagger to another and so will an optimized keymap.
+
+It must be all lowercase.
 
 ### Possible Values
 - row
