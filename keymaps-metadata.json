@@ -225,6 +225,34 @@
     },
     {
 
+        "url": "/duckyb/",
+        "fileSlug": "duckyb",
+        "title": "duckyb's Ferris Sweep ZMK Configuration",
+        "keymapUrl": "https://github.com/duckyb/zmk-sweep",
+        "author": "duckyb",
+        "keymapImage": "https://user-images.githubusercontent.com/27895007/153905240-56eaac36-95c7-453a-8f19-c860974b635d.svg",
+        "keyCount": 34,
+        "firmwares": ["ZMK"],
+        "keyboard": "Ferris",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English","Italian"],
+        "summary": null,
+        "OS": ["Windows"],
+        "keybindings": [],
+        "writeup": null,
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 6,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/fsck-eco/",
         "fileSlug": "fsck-eco",
         "title": "ECO Layout by fsck",
