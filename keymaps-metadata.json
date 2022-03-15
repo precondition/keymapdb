@@ -57,6 +57,34 @@
     },
     {
 
+        "url": "/alterecco-zmk/",
+        "fileSlug": "alterecco-zmk",
+        "title": "alterecco's Ahokore/Ferris 34-key keymap",
+        "keymapUrl": "https://github.com/alterecco/ahokore-zmk-config",
+        "author": "alterecco",
+        "keymapImage": "https://cdn.discordapp.com/attachments/663573863480950808/885820678819962880/unknown.png",
+        "keyCount": 34,
+        "firmwares": ["ZMK"],
+        "keyboard": "Ahokore",
+        "baseLayouts": ["Hands Down"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English","Danish"],
+        "summary": "",
+        "OS": [],
+        "keybindings": ["Vim"],
+        "writeup": "",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": true,
+        "layerCount": 5,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/khitsule-atreus/",
         "fileSlug": "khitsule-atreus",
         "title": "Atreus Layout by Khitsule",
