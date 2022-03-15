@@ -1317,6 +1317,34 @@
     },
     {
 
+        "url": "/tynanbe/",
+        "fileSlug": "tynanbe",
+        "title": "tynanbe's keymap based on dustypomerleau's minidox",
+        "keymapUrl": "https://github.com/tynanbe/qmk_firmware/tree/tynanbe/users/tynanbe",
+        "author": "tynanbe",
+        "keymapImage": "/assets/img/keymaps/tynanbe.jpg",
+        "keyCount": 36,
+        "firmwares": ["QMK"],
+        "keyboard": "Arch-36",
+        "baseLayouts": ["Colemak","QWERTY","Dvorak"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "Rationale: Symmetry is important because use-cases are hard to predict. Whenever possible, modifiers and layer keys should be available from either hand. Inward rolls should be leveraged not just for alphas, but also for coding/symbols. Number order—like alpha order—should be designed to favor use of the strongest fingers. One-shot keys can greatly reduce the strain of typing, and should be leveraged.",
+        "OS": ["MacOS","Linux","Windows"],
+        "keybindings": ["TWM"],
+        "writeup": null,
+        "hasRotaryEncoder": true,
+        "hasLetterOnThumb": false,
+        "layerCount": 9,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/waynehoover/",
         "fileSlug": "waynehoover",
         "title": "waynehoover's Dvorak IULM",
