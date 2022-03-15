@@ -136,6 +136,9 @@ function syncSidebarFilters() {
                     if (element.selectedIndex === -1) {
                         alert(`The ${fieldName} "${fieldValue}" is not present in the database!\nReverting to "Any".`);
                         element.selectedIndex = 0;
+                        urlSearchParams.delete(fieldName)
+                        history.pushState({}, "", "{{ '/' | url }}" + "?" + urlSearchParams);
+                        populatePostGrid(getFilteredKeymaps());
                     }
                 }
             } else if (element instanceof HTMLInputElement && element.type === "text") {
