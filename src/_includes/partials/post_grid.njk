@@ -14,23 +14,22 @@
             src="{% if post.data.keymapImage %}{{ post.data.keymapImage | url }}{% elif post.data.image %}{{ post.data.image | url }}{% else %}{{ '/assets/img/no-image.svg' | url }}{% endif %}"
             width="960"
             height="500"
-            alt="{{ splitStatus }} {{ post.data.stagger }}-staggered {{ post.data.keyboard }} with {{ post.data.baseLayouts | join(" and ") }} legends">
+            alt="{{ splitStatus }} {{ post.data.stagger }}-staggered {{ post.data.keyboard }} with {{ post.data.baseLayouts | oxfordJoin }} legends">
             </a>
             <div class="px-6 py-5">
                 <div class="font-semibold text-lg mb-2">
                     <a class="text-gray-900 hover:text-gray-700" href="{{ post.url | url }}">{{ post.data.title }}</a>
                 </div>
                 <div class="my-5 flex flex-wrap justify-between">
-                    <p id="keyCount-table-cell-{{ post.data.fileSlug }}"   class="text-gray-700 mb-1">{{ post.data.keyCount }} keys</p>
+                    <p id="keyLayerCount-table-cell-{{ post.data.fileSlug }}"   class="text-gray-700 mb-1">{{ post.data.keyCount }} keys, {{ post.data.layerCount }} layers</p>
+                    <p id="baseLayouts-table-cell-{{ post.data.fileSlug }}"  class="text-gray-700 mb-1 break-words">{{ post.data.baseLayouts.join(", ") }}</p>
+                    <div class="flexitems-break"></div>
+                    <p id="languages-table-cell-{{ post.data.fileSlug }}"  class="text-gray-700 mb-1 break-words">{{ post.data.languages.join(", ") }}</p>
                     <p id="OS-table-cell-{{ post.data.fileSlug }}"         class="text-gray-700 mb-1 break-words">
                         {% for osName in post.data.OS %}
                             {% include "./../../assets/svg/OS/" + osName + ".svg" %}
                         {%- endfor %}
                     </p>
-                    <p id="layerCount-table-cell-{{ post.data.fileSlug }}" class="text-gray-700 mb-1">{{ post.data.layerCount }} layers</p>
-                    <div class="flexitems-break"></div>
-                    <p id="languages-table-cell-{{ post.data.fileSlug }}"  class="text-gray-700 mb-1 break-words">{{ post.data.languages.join(", ") }}</p>
-                    <p id="baseLayouts-table-cell-{{ post.data.fileSlug }}"  class="text-gray-700 mb-1 break-words">{{ post.data.baseLayouts.join(", ") }}</p>
                 </div>
                 {% if post.data.summary -%}
                     <p>{{ post.data.summary }}</p>

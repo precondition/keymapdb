@@ -1,3 +1,7 @@
+function oxfordJoin(coll) {
+    return coll.length < 2 ? coll.join(", ") : coll.slice(0, -1).join(", ") + ", and " + coll[coll.length-1];
+}
+
 async function getSVG(fieldName, fieldValue) {
    return fetch("{{ '/assets/svg/' | url }}" + fieldName + "/" + fieldValue + ".svg").then(res => res.ok ? res.text() : "");
 }
@@ -15,19 +19,18 @@ function card(post, postUrl) {
           src="${post.keymapImage}"
           width="960"
           height="500"
-          alt="${splitStatus} ${post.stagger}-staggered ${post.keyboard} with ${post.baseLayouts.join(" and ")} legends">
+          alt="${splitStatus} ${post.stagger}-staggered ${post.keyboard} with ${oxfordJoin(post.baseLayouts)} legends">
           </a>
           <div class="px-6 py-5">
               <div class="font-semibold text-lg mb-2">
                   <a class="text-gray-900 hover:text-gray-700" ${titleHover} href="${post.url}">${post.title}</a>
               </div>
               <div class="my-5 flex flex-wrap justify-between">
-                  <p id="keyCount-table-cell-${post.fileSlug}"   class="text-gray-700 mb-1">${post.keyCount} keys</p>
-                  <p id="OS-table-cell-${post.fileSlug}"         class="text-gray-700 mb-1 break-words"><!-- filled in asynchronously with SVG icons --></p>
-                  <p id="layerCount-table-cell-${post.fileSlug}" class="text-gray-700 mb-1">${post.layerCount} layers</p>
+                  <p id="keyLayerCount-table-cell-${post.fileSlug}" class="text-gray-700 mb-1">${post.keyCount} keys, ${post.layerCount} layers</p>
+                  <p id="baseLayouts-table-cell-${post.fileSlug}" class="text-gray-700 mb-1 break-words">${post.baseLayouts.join(", ")}</p>
                   <div class="flexitems-break"></div>
-                  <p id="languages-table-cell-${post.fileSlug}"  class="text-gray-700 mb-1 break-words">${post.languages.join(", ")}</p>
-                  <p id="baseLayouts-table-cell-${post.fileSlug}"  class="text-gray-700 mb-1 break-words">${post.baseLayouts.join(", ")}</p>
+                  <p id="languages-table-cell-${post.fileSlug}" class="text-gray-700 mb-1 break-words">${post.languages.join(", ")}</p>
+                  <p id="OS-table-cell-${post.fileSlug}" class="text-gray-700 mb-1 break-words"><!-- filled in asynchronously with SVG icons --></p>
               </div>
               <p>${post.summary === null ? "" : post.summary} </p>
           </div>
