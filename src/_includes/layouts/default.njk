@@ -1,5 +1,5 @@
 {%- set metaTitle -%}
-    {%- if not title -%}{{ site.title }} - {{ site.description | safe }}
+    {%- if not title -%}{{ site.title }} - {{ site.shortDescription | safe }}
     {%- else -%}{{ title | safe }} | {{ site.title }}
     {%- endif -%}
 {%- endset -%}
