@@ -35,13 +35,6 @@
                 {% if post.data.summary -%}
                     <p>{{ post.data.summary }}</p>
                 {%- endif %}
-                <p class="text-gray-800">
-                    {% if post.data.description %}
-                    {{ post.data.description }}
-                    {% else %}
-                    {{ post.templateContent | striptags | truncate(90, true) }}
-                    {% endif %}
-                </p>
             </div>
         </div>
     </div>
