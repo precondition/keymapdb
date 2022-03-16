@@ -16,6 +16,14 @@
         {%- endfor -%}
     {%- endif -%}
 {%- endset -%}
+{%- set metaAuthor -%}
+    {%- if author -%}
+        {{ author }}
+    {%- else -%}
+        {{ maintainer.name }}
+    {%- endif -%}
+{%- endset -%}
+
 <!DOCTYPE html>
 <html>
     
@@ -28,8 +36,10 @@
     <meta name="title" content="{{ metaTitle }}">
     <meta name="description" content="{{ metaDesc }}">
     <meta name="keywords" content="{{ metaKeywords }}">
-    <meta name="author" content="{{ maintainer.name }}">
+    <meta name="author" content="{{ metaAuthor }}">
     <meta name="robots" content="index, follow">
+    {% block ogTags %}
+    {% endblock %}
     <link rel="canonical" href="{{ site.url | url }}{{ page.url }}">
     <link rel="shortcut icon" type="image/svg+xml" href="{{ site.logo }}" sizes="any">
     <link rel="icon" type="image/svg+xml" href="{{ site.logo }}" sizes="any">
