@@ -11,6 +11,7 @@ module.exports = {
       } else {
         return false;
       }
-    }
+    },
+    description: (data) => `Get inspired by this ${data.keyCount}-key ${data.keyboard} keymap made by ${data.author} and browse other ${data.firmwares.join(" and ")} keymaps like this.`
   }
 };
