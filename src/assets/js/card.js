@@ -9,7 +9,15 @@ async function getSVG(fieldName, fieldValue) {
 function card(post, postUrl) {
   const splitStatus = post.isSplit ? "Split" : "Non-split"
   const titleHover = post.title.toLowerCase().includes(post.author.toLowerCase()) ? '' : `title="by ${post.author}"`;
-  post.OS.map(async (osName) => getSVG("OS", osName).then(svgIcon => { $("OS-table-cell-" + post.fileSlug).innerHTML += svgIcon; }));
+  Promise.all(post.OS.map(async (osName) => getSVG("OS", osName)))
+        .then(svgIcons => { 
+            const cell = $("OS-table-cell-" + post.fileSlug);
+            // By the time we finally come around to updating the inner HTML of the table cell,
+            // that card might have already been filtered out, hence the `undefined` check here.
+            if (cell) {
+                cell.innerHTML = svgIcons.join("\n"); 
+            }
+        });
   return `
   <div class="postcard">
       <div class="rounded shadow-lg h-full bg-gray-50 hover:shadow-xl">
