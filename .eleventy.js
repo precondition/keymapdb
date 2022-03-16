@@ -40,7 +40,7 @@ module.exports = (config) => {
   config.addNunjucksFilter("unique", coll => [...new Set(coll)]);
   config.addNunjucksFilter("flatten", coll => coll.flat());
   config.addNunjucksFilter("mapToDbField", (coll, dbField) => coll.map(x => x.data[dbField]));
-  config.addNunjucksFilter("oxfordJoin", coll => coll.length < 2 ? coll.join(", ") : coll.slice(0, -1).join(", ") + ", and " + coll.at(-1));
+  config.addNunjucksFilter("oxfordJoin", coll => coll.length < 2 ? coll.join(", ") : coll.slice(0, -1).join(", ") + ", and " + coll[coll.length-1]);
 
   config.setQuietMode(true);
 
