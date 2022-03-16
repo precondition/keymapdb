@@ -1,3 +1,7 @@
+function oxfordJoin(coll) {
+    return coll.length < 2 ? coll.join(", ") : coll.slice(0, -1).join(", ") + ", and " + coll[coll.length-1];
+}
+
 module.exports = {
   layout: "layouts/keymapdb_entry.njk",
   eleventyComputed: {
@@ -12,6 +16,12 @@ module.exports = {
         return false;
       }
     },
-    description: (data) => `Get inspired by this ${data.keyCount}-key ${data.keyboard} keymap made by ${data.author} and browse other ${data.firmwares.join(" and ")} keymaps like this.`
+    description: (data) => `Get inspired by this ${data.keyCount}-key ${data.keyboard} keymap made by ${data.author} and browse other ${data.firmwares.join(" and ")} keymaps like this.`,
+    ogDescription: (data) => {
+        if (data.summary) { return data.summary; }
+        return `${data.author}'s ${data.keyCount}-key ${data.languages.length > 1 ? "multilingual " : ""}keymap for ${oxfordJoin(data.firmwares)} ${data.isSplit ? "split " : ""}keyboards like the ${data.keyboard}`;
+    },
+    ogImage: (data) => data.keymapImage,
+    imageAlt: (data) => `${data.isSplit ? "Split" : "Non-split"} ${data.stagger}-staggered ${data.keyboard} with ${oxfordJoin(data.baseLayouts)} legends.`
   }
 };

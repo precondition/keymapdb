@@ -3,9 +3,19 @@
     {%- else -%}{{ title | safe }} | {{ site.title }}
     {%- endif -%}
 {%- endset -%}
+{%- set metaOgTitle -%}
+    {%- if not title -%}{{ metaTitle }}
+    {%- else -%}{{ title | safe }}
+    {%- endif -%}
+{%- endset -%}
 {%- set metaDesc -%}
     {%- if not description -%}{{ site.description | safe }}
     {%- else -%}{{ description | safe }}
+    {%- endif -%}
+{%- endset -%}
+{%- set metaOgDescription -%}
+    {%- if not ogDescription -%}{{ metaDesc }}
+    {%- else -%}{{ ogDescription | safe }}
     {%- endif -%}
 {%- endset -%}
 {%- set metaKeywords -%}
@@ -38,8 +48,17 @@
     <meta name="keywords" content="{{ metaKeywords }}">
     <meta name="author" content="{{ metaAuthor }}">
     <meta name="robots" content="index, follow">
-    {% block ogTags %}
-    {% endblock %}
+    <meta property="og:title" content="{{ metaOgTitle }}"/>
+    <meta property="og:type" content="website"/>
+    {% if ogImage -%}
+        <meta property="og:image" content="{{ keymapImage }}"/>
+    {%- endif %}
+    {% if imageAlt -%}
+        <meta property="og:image:alt" content="{{ imageAlt }}"/>
+    {%- endif %}
+    {# page.url might not be an appropriate value for og:url #}
+    <meta property="og:url" content="{{ page.url | url }}"/>
+    <meta property="og:description" content="{{ metaOgDescription }}"/p>
     <link rel="canonical" href="{{ site.url | url }}{{ page.url }}">
     <link rel="shortcut icon" type="image/svg+xml" href="{{ site.logo }}" sizes="any">
     <link rel="icon" type="image/svg+xml" href="{{ site.logo }}" sizes="any">

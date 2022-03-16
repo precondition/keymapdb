@@ -26,24 +26,6 @@ keybindings: []
     {% set splitStatus = "Non-split" %}
 {% endif %}
 
-{% set imageAlt %}
-{{ splitStatus }} {{ stagger }}-staggered {{ keyboard }} with {{ baseLayouts | oxfordJoin }} legends 
-{% endset %}
-
-{% block ogTags %}
-    <meta property="og:title" content="{{ title }}"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:image" content="{{ keymapImage }}"/>
-    <meta property="og:image:alt" content="{{ imageAlt }}"/>
-    {# page.url might not be an appropriate value for og:url #}
-    <meta property="og:url" content="{{ page.url | url }}"/>
-    {% if summary -%}
-        <meta property="og:description" content="{{ summary }}"/p>
-    {%- else -%}
-        <meta property="og:description" content="{{ author }}'s {{ keyCount }}-key {% if languages | length > 1 %}multilingual {% endif %}keymap for {{ firmwares | oxfordJoin }} {% if isSplit %}split {% endif %}keyboards like the {{ keyboard }}"/p>
-    {% endif %}
-{% endblock %}
-
 <article class="max-w-5xl mx-auto">
     <header class="mb-14">
         <h1 class="text-3xl text-center font-bold leading-normal text-gray-900 mt-0 mb-3">{{ title }}</h1>
