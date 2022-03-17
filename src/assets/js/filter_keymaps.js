@@ -34,7 +34,6 @@ function isKeymapConforming(query, keymapData) {
         }
     // In case the keymap data value is a boolean, `value` must be deserialized into a boolean, as done after the &&
     } else if (keymapData[queryKey] !== value && keymapData[queryKey] !== (value === "true")) {
-      console.log("Returning false because " + keymapData[queryKey] + " != " + value);
       return false;
     }
   }

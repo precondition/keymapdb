@@ -161,7 +161,6 @@ function resetSidebarFilters() {
     for (const [fieldName, fieldValue] of urlSearchParams.entries()) {
         let elements = document.getElementsByName(fieldName);
         for (let element of elements) {
-            console.log(element)
             if (isCheckable(element)) {
                 element.checked = false;
             }
