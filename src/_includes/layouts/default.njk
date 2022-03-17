@@ -37,11 +37,15 @@
     <meta name="description" content="{{ metaDesc }}">
     <meta name="keywords" content="{{ metaKeywords }}">
     <meta name="author" content="{{ metaAuthor }}">
+    <meta name="twitter:data1" content="{{ metaAuthor }}">
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="{{ metaTitle }}"/>
+    <meta property="twitter:title" content="{{ metaTitle }}"/>
     <meta property="og:type" content="website"/>
     {% if ogImage -%}
-        <meta property="og:image" content="{{ keymapImage }}"/>
+        <meta property="og:image" content="{{ ogImage }}"/>
+        <meta property="twitter:image" content="{{ ogImage }}"/>
+        <meta property="twitter:card" content="summary_large_image"/>
     {%- endif %}
     {% if imageAlt -%}
         <meta property="og:image:alt" content="{{ imageAlt }}"/>
@@ -49,6 +53,7 @@
     {# page.url might not be an appropriate value for og:url #}
     <meta property="og:url" content="{{ page.url | url }}"/>
     <meta property="og:description" content="{{ metaDesc }}"/>
+    <meta property="twitter:description" content="{{ metaDesc }}"/>
     <link rel="canonical" href="{{ site.url | url }}{{ page.url }}">
     <link rel="shortcut icon" type="image/svg+xml" href="{{ site.logo }}" sizes="any">
     <link rel="icon" type="image/svg+xml" href="{{ site.logo }}" sizes="any">
