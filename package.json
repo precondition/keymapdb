@@ -1,5 +1,5 @@
 {
-	"name": "vredeburg",
+	"name": "keymapdb",
 	"version": "1.0.0",
 	"description": "",
 	"scripts": {
@@ -12,14 +12,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/dafiulh/vredeburg.git"
+		"url": "git+https://github.com/precondition/keymapdb.git"
 	},
-	"author": "Dafiul Haq",
+	"author": "Vladislav K.",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/dafiulh/vredeburg/issues"
+		"url": "https://github.com/precondition/keymapdb/issues"
 	},
-	"homepage": "https://github.com/dafiulh/vredeburg#readme",
+	"homepage": "https://github.com/precondition/keymapdb#readme",
 	"devDependencies": {
 		"@11ty/eleventy": "^1.0.0",
 		"@tailwindcss/typography": "^0.3.1",
