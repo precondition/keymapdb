@@ -5,8 +5,7 @@ function isSliderMinMaxed(slider) {
 function isCheckable(element) {
     // For an obscure reason, `<input type="text">` also have a `checked`
     // property so verifying `"checked" in element` is not sufficient.
-    return "checked" in element && element.hasAttribute("type") &&
-        (element.type === "radio" || element.type === "checkbox");
+    return element.type === "radio" || element.type === "checkbox";
 }
 function getElementValue(element) {
     if (element instanceof HTMLSelectElement) {
