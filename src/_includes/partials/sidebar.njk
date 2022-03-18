@@ -1,10 +1,11 @@
 {% from "macros/yes_no_switch_field.njk" import YesNo %}
+{# NOTE: `keymap-filter` is not a class used for styling. It is a class used to group together input elements responsible for keymap-filtering, so that it is easy to iterate over them in JS #}
 
 <fieldset>
     <legend>Key Count</legend>
     {# Dummy input used to simply fill in the blank for NoScript users #}
-    {# The real dual-slider is created in assets/js/dualSlidersConf.js #}
-    <div class="flex" name="keyCount" id="keyCountSlider">1<input type="range" min="1" max="120" value="120">120</input></div>
+    {# The real dual-slider is created in assets/js/dual_sliders_conf.js #}
+    <div class="keymap-filter flex" name="keyCount" id="keyCountSlider">1<input type="range" min="1" max="120" value="120">120</input></div>
 </fieldset>
 
 <br>
@@ -18,7 +19,7 @@
                    value="{{ firmware }}"
                    id="{{ firmware }}-radio"
                    onclick="updatePostGrid(this)"
-                   class="form-radio h-5 w-5 text-blue-500 border-gray-300 transition duration-100 ease-in-out shadow-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none focus:ring-opacity-50 focus:ring-offset-0  disabled:opacity-50 disabled:cursor-not-allowed">
+                   class="keymap-filter form-radio h-5 w-5 text-blue-500 border-gray-300 transition duration-100 ease-in-out shadow-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none focus:ring-opacity-50 focus:ring-offset-0  disabled:opacity-50 disabled:cursor-not-allowed">
             <label for="{{ firmware }}-radio" class="ml-2 text-gray-700">{{ firmware }}
             </label>
         </div>
@@ -31,7 +32,7 @@
     <legend class="form-check-label inline-block text-gray-800" id="baseLayoutSelectionLegend">
       Base layout
     </legend>
-    <select id="baseLayoutSelection" name="baseLayouts" onchange="updatePostGrid(this)" class="form-select
+    <select id="baseLayoutSelection" name="baseLayouts" onchange="updatePostGrid(this)" class="keymap-filter form-select
       block
       px-3
       py-1.5
@@ -59,7 +60,7 @@
     <legend class="form-check-label inline-block text-gray-800" id="keyboardSelectionLegend">
       Keyboard
     </legend>
-    <select id="keyboardSelection" name="keyboard" onchange="updatePostGrid(this)" class="form-select
+    <select id="keyboardSelection" name="keyboard" onchange="updatePostGrid(this)" class="keymap-filter form-select
           block
           px-3
           py-1.5
@@ -88,17 +89,17 @@
 <fieldset class="flex flex-col">
     <legend>Stagger</legend>
     <label class="inline-flex mt-3">
-        <input type="radio" name="stagger" value="row" onclick="updatePostGrid(this)" class="form-radio h-5 w-5 text-gray-600">
+        <input type="radio" name="stagger" value="row" onclick="updatePostGrid(this)" class="keymap-filter form-radio h-5 w-5 text-gray-600">
         <span class="ml-2 text-gray-700">row</span>
     </label>
 
     <label class="inline-flex mt-3">
-        <input type="radio" name="stagger" value="columnar" onclick="updatePostGrid(this)" class="form-radio h-5 w-5 text-gray-600">
+        <input type="radio" name="stagger" value="columnar" onclick="updatePostGrid(this)" class="keymap-filter form-radio h-5 w-5 text-gray-600">
         <span class="ml-2 text-gray-700">columnar</span>
     </label>
 
     <label class="inline-flex mt-3">
-        <input type="radio" name="stagger" value="ortholinear" onclick="updatePostGrid(this)" class="form-radio h-5 w-5 text-gray-600">
+        <input type="radio" name="stagger" value="ortholinear" onclick="updatePostGrid(this)" class="keymap-filter form-radio h-5 w-5 text-gray-600">
         <span class="ml-2 text-gray-700">ortholinear</span>
     </label>
 </fieldset>
@@ -111,7 +112,7 @@
 
 <fieldset class="block text-left">
     <legend>Language(s) (Ctrl+Click to select more than one)</legend>
-    <select name="languages" id="languages-multi-select" onchange="updatePostGrid(this)" class="form-multiselect block w-full mt-1 border-2"
+    <select name="languages" id="languages-multi-select" onchange="updatePostGrid(this)" class="keymap-filter form-multiselect block w-full mt-1 border-2"
         aria-label="Languages selection" multiple>
        {% for language in collections.posts | mapToDbField("languages") | flatten | sort | uniq  %}
            <option value="{{ language }}">{{ language }}</option>
@@ -124,15 +125,15 @@
 <fieldset class="flex flex-col">
     <legend>OS</legend>
     <label class="inline-flex items-center mt-3">
-        <input type="checkbox" name="OS" value="Windows" onclick="updatePostGrid(this)" class="form-checkbox h-5 w-5 text-gray-600">
+        <input type="checkbox" name="OS" value="Windows" onclick="updatePostGrid(this)" class="keymap-filter form-checkbox h-5 w-5 text-gray-600">
         <span class="ml-2 text-gray-700">Windows</span>
     </label>
     <label class="inline-flex items-center mt-3">
-        <input type="checkbox" name="OS" value="MacOS" onclick="updatePostGrid(this)" class="form-checkbox h-5 w-5 text-gray-600">
+        <input type="checkbox" name="OS" value="MacOS" onclick="updatePostGrid(this)" class="keymap-filter form-checkbox h-5 w-5 text-gray-600">
         <span class="ml-2 text-gray-700">MacOS</span>
     </label>
     <label class="inline-flex items-center mt-3">
-        <input type="checkbox" name="OS" value="Linux" onclick="updatePostGrid(this)" class="form-checkbox h-5 w-5 text-gray-600">
+        <input type="checkbox" name="OS" value="Linux" onclick="updatePostGrid(this)" class="keymap-filter form-checkbox h-5 w-5 text-gray-600">
         <span class="ml-2 text-gray-700">Linux</span>
     </label>
 </fieldset>
@@ -143,7 +144,7 @@
     <legend>Keybindings</legend>
     {% for keybindingsScheme in collections.posts | mapToDbField("keybindings") | flatten | sort | uniq %}
         <label class="inline-flex items-center mt-3">
-            <input type="checkbox" name="keybindings" value="{{ keybindingsScheme }}" onclick="updatePostGrid(this)" class="form-checkbox h-5 w-5 text-gray-600">
+            <input type="checkbox" name="keybindings" value="{{ keybindingsScheme }}" onclick="updatePostGrid(this)" class="keymap-filter form-checkbox h-5 w-5 text-gray-600">
             <span class="ml-2 text-gray-700">{{ keybindingsScheme }}</span>
         </label>
    {% endfor %}
@@ -162,7 +163,7 @@
 <fieldset>
     <legend>Layer Count</legend>
     {# Dummy input used to simply fill in the blank for NoScript users #}
-    <div class="flex" name="layerCount" id="layerCountSlider">1<input type="range" min="1" max="16" value="16">16</input></div>
+    <div class="keymap-filter flex" name="layerCount" id="layerCountSlider">1<input type="range" min="1" max="16" value="16">16</input></div>
 </fieldset>
 
 <br>

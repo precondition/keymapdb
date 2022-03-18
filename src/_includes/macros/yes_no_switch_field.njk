@@ -1,9 +1,9 @@
 {% macro YesNo(legend, dbFieldName) %}
 <fieldset class="switch-field">
     <legend>{{ legend }}</legend>
-    <input type="radio" id="{{ legend | slugify }}-yes" name="{{ dbFieldName }}" value="true"  onclick="updatePostGrid(this)"/>
+    <input type="radio" id="{{ legend | slugify }}-yes" name="{{ dbFieldName }}" class="keymap-filter" value="true"  onclick="updatePostGrid(this)"/>
     <label for="{{ legend | slugify }}-yes">Yes</label>
-    <input type="radio" id="{{ legend | slugify }}-no"  name="{{ dbFieldName }}" value="false" onclick="updatePostGrid(this)"/>
+    <input type="radio" id="{{ legend | slugify }}-no"  name="{{ dbFieldName }}" class="keymap-filter" value="false" onclick="updatePostGrid(this)"/>
     <label for="{{ legend | slugify }}-no">No</label>
 </fieldset>
 {% endmacro %}
