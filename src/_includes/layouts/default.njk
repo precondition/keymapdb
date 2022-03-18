@@ -74,13 +74,7 @@
 <body class="flex flex-col h-screen bg-white text-gray-800 break-words">
     {% include "partials/header.njk" %}
     <main class="mx-7 lg:mx-6 mt-32 flex-grow">
-        {% if layout === "post" %}
         {{ content | safe }}
-        {% else %}
-        <div class=""> <!-- FIXME : Remove this useless div -->
-            {{ content | safe }}
-        </div>
-        {% endif %}
     </main>
     {% include "partials/footer.njk" %}
     <script src="{{ '/assets/js/bundle.js' | url }}"></script>
