@@ -157,35 +157,27 @@ window.onload = function() {
 };
 
 function resetSidebarFilters() {
-    const urlSearchParams = new URLSearchParams(location.search);
-    for (const [fieldName, fieldValue] of urlSearchParams.entries()) {
-        let elements = document.getElementsByName(fieldName);
-        for (let element of elements) {
-            if (isCheckable(element)) {
-                element.checked = false;
-            }
-            if ("noUiSlider" in element) {
-                const slider = element.noUiSlider;
-                slider.set(slider.options.start);
-            }
-            if (element instanceof HTMLSelectElement) {
-                if (element.multiple) {
-                    const options = element.options;
-                    for (const option of options) {
-                        option.selected = false;
-                    }
-                } else {
-                    element.selectedIndex = 0;
+    const keymapFilters = document.getElementsByClassName("keymap-filter");
+    for (const keymapFilter of keymapFilters) {
+        if (isCheckable(keymapFilter)) {
+            keymapFilter.checked = false;
+        } else if ("noUiSlider" in keymapFilter) {
+            const slider = keymapFilter.noUiSlider;
+            slider.set(slider.options.start);
+        } else if (keymapFilter instanceof HTMLSelectElement) {
+            if (keymapFilter.multiple) {
+                const options = keymapFilter.options;
+                for (const option of options) {
+                    option.selected = false;
                 }
-            }
-            if (element instanceof HTMLInputElement) {
-                element.value = "";
+            } else {
+                keymapFilter.selectedIndex = 0;
             }
         }
     }
     // Remove filters from the URL
-    history.replaceState({}, "", location.pathname);
-    populatePostGrid(getFilteredKeymaps());
+    history.pushState({}, "", location.pathname);
+    populatePostGrid(getKeymapsJSON());
 }
 
 function updatePostGrid(element) {
