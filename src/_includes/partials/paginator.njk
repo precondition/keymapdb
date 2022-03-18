@@ -1,4 +1,8 @@
-<div class="mt-9 flow-root">
+{# The apparently redundant md:flow-root in paginator-container's 
+tailwind classes is important in order to restore the paginator buttons
+when increasing the size of the viewport after having clicked the 
+"Filters" button in the header (which calls the `toggleFullScreenSidebar` function) #}
+<div id="paginator-container" class="mt-9 flow-root md:flow-root">
 <a
  id="previous-button"
  {% if not paged.first %}

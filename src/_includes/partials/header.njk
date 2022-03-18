@@ -10,6 +10,9 @@
             {% for item in menu %}
             <a href="{{ item.url | url }}" {% if item.newTab %}target="_blank" rel="noopener noreferrer" {% endif %}class="block mt-4 md:inline-block md:mt-0 font-medium text-gray-700 hover:text-teal-600 text-base mr-4">{{ item.label }}</a>
             {% endfor %}
+            {% if isMainScreen %}
+                <button type="button" id="header-filters-button" class="block md:hidden mt-4 md:inline-block md:mt-0 font-medium text-gray-700 hover:text-teal-600 text-base mr-4">Filters</button>
+            {% endif %}
         </nav>
         <form id="search" action="{{ '/' | url }}" class="order-last sm:order-none flex-grow items-center justify-end hidden sm:block mt-6 sm:mt-0">
             <label class="visually-hidden" for="header-searchbox">Search here ...</label>

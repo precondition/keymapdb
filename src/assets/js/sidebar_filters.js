@@ -192,3 +192,13 @@ function updatePostGrid(element) {
     updateUrlSearchParams(element);
     populatePostGrid(getFilteredKeymaps());
 }
+
+function toggleFullScreenSidebar() {
+    $("sidebar").classList.toggle("hidden");
+    $("post-grid-container").classList.toggle("hidden");
+    $("menu").classList.add("hidden");
+    $("search").classList.add("hidden");
+    $("paginator-container").classList.toggle("hidden");
+}
+
+$("header-filters-button").addEventListener("click", toggleFullScreenSidebar);

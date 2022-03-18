@@ -183,5 +183,15 @@
 
 <br>
 
-{# See https://webhint.io/docs/user-guide/hints/hint-button-type/ for the merits of adding `type="button"` to a <button> #}
-<button type="button" onclick="resetSidebarFilters()" class="button">Reset filters</button>
+<div class="mt-9 flow-root md:flow-root">
+    {# See https://webhint.io/docs/user-guide/hints/hint-button-type/ for the merits of adding `type="button"` to a <button> #}
+    <button type="button float-left" onclick="resetSidebarFilters(); toggleFullScreenSidebar();" class="button">Reset filters</button>
+    {# The "Apply filters" button is a bit misleading in terms of how 
+    it technically works. The different filters are applied as soon as
+    you make a selection (e.g. select a keyboard or a OS) so there is no
+    need for an "Apply" button. However, the sidebar/filters menu is 
+    shown in full-screen for mobile users so they don't see the live
+    filtering of results and need a convenient way to minimise the
+    filters-menu in order to look at the filtered results. #}
+    <button type="button" onclick="toggleFullScreenSidebar()" class="button float-right md:hidden">Apply filters</button>
+</div>
