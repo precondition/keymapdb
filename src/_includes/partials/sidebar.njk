@@ -124,18 +124,13 @@
 
 <fieldset class="flex flex-col">
     <legend>OS</legend>
-    <label class="inline-flex items-center mt-3">
-        <input type="checkbox" name="OS" value="Windows" onclick="updatePostGrid(this)" class="keymap-filter form-checkbox h-5 w-5 text-gray-600">
-        <span class="ml-2 text-gray-700">Windows</span>
-    </label>
-    <label class="inline-flex items-center mt-3">
-        <input type="checkbox" name="OS" value="MacOS" onclick="updatePostGrid(this)" class="keymap-filter form-checkbox h-5 w-5 text-gray-600">
-        <span class="ml-2 text-gray-700">MacOS</span>
-    </label>
-    <label class="inline-flex items-center mt-3">
-        <input type="checkbox" name="OS" value="Linux" onclick="updatePostGrid(this)" class="keymap-filter form-checkbox h-5 w-5 text-gray-600">
-        <span class="ml-2 text-gray-700">Linux</span>
-    </label>
+    {% for OS in ["Windows", "MacOS", "Linux"] %}
+        <label class="inline-flex items-center mt-3">
+            <input type="checkbox" name="OS" value="{{ OS }}" 
+            onclick="updatePostGrid(this)" class="keymap-filter form-checkbox h-5 w-5 text-gray-600">
+            <span class="ml-2 text-gray-700">{{ OS }}</span>
+        </label>
+    {% endfor %}
 </fieldset>
 
 <br>
