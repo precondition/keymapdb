@@ -29,6 +29,7 @@ Oryx, Via and Vial firmwares all fall under the "QMK" umbrella.
 - [QMK]
 - [ZMK]
 - [Kaleidoscope]
+- [KMonad]
 - [QMK, ZMK]
 
 ## hasHomeRowMods (bool)
@@ -102,13 +103,14 @@ Users of evil-based Emacs distros such as Spacemacs or Doom Emacs must tick "Vim
 TWM stands for Tiling Windows Manager.
 
 ### Possible Values
-- Vim
-- Emacs
-- Kakoune
-- Graphics/CAD
-- TWM
-- Spreadsheets
-- Gaming
+- [Vim]
+- [Emacs]
+- [Kakoune]
+- [Graphics/CAD]
+- [TWM]
+- [Spreadsheets]
+- [Gaming]
+- []            (None of the special keybindings above apply)
 
 
 ## keyboard (categorical)
@@ -206,10 +208,13 @@ It must be all lowercase.
 ## summary (string)
 Short summary (max. 60 words) of the keymap to show in the card, below the picture.
 
+This is not a mandatory field. You can leave it empty with `summary: ""`.
+
 ### Possible Values
 - "Keymap for Corne Keyboard specially designed for software developers using macOS and Windows and writing in Spanish and English."
 - "OS independent shortcuts, custom modifier keys, RGB themes, key sequences, and much more."
 - "A combo-based layout for Ergonomic Keyboards, implemented in QMK"
+- ""
 
 ## title (string)
 The name of the keymap itself.
@@ -226,9 +231,12 @@ URL to the detailed write-up of the keymap which explains the rationale behind t
 
 It can be a README or a blog post.
 
+This is not a mandatory field. If you haven't written a (detailed) write-up for your keymap, just set `writeup: ""`.
+
 ### Possible Values
 - "https://github.com/skychil/kombol/blob/main/README.md"
 - "http://thedarnedestthing.com/thumb%20h"
+- ""
 
 ----
 
