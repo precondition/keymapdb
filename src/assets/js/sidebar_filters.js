@@ -151,11 +151,16 @@ function syncSidebarFilters() {
 }
 
 window.onload = function() {
+    /* Resetting the keymap filters in the sidebar because in case
+     * of a discrepancy between what the sidebar says and what the URL
+     * says, the URL rules.
+     */
+    resetSidebarFilters(false);
     syncSidebarFilters();
     syncPaginationButtons()
 };
 
-function resetSidebarFilters() {
+function resetSidebarFilters(resetUrl) {
     const keymapFilters = document.getElementsByClassName("keymap-filter");
     for (const keymapFilter of keymapFilters) {
         if (isCheckable(keymapFilter)) {
@@ -174,9 +179,11 @@ function resetSidebarFilters() {
             }
         }
     }
-    // Remove filters from the URL
-    history.pushState({}, "", location.pathname);
-    populatePostGrid(getKeymapsJSON());
+    if (resetUrl){
+        // Remove filters from the URL
+        history.pushState({}, "", location.pathname);
+        populatePostGrid(getKeymapsJSON());
+    }
 }
 
 function updatePostGrid(element) {

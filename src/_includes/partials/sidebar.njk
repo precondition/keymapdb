@@ -181,7 +181,7 @@
 
 <div class="flex justify-between flex-wrap">
     {# See https://webhint.io/docs/user-guide/hints/hint-button-type/ for the merits of adding `type="button"` to a <button> #}
-    <button type="button" onclick="resetSidebarFilters(); toggleFullScreenSidebar();" class="button float-left mt-9">Reset filters</button>
+    <button type="button" onclick="resetSidebarFilters(true); toggleFullScreenSidebar();" class="button float-left mt-9">Reset filters</button>
     {# The "Apply filters" button is a bit misleading in terms of how 
     it technically works. The different filters are applied as soon as
     you make a selection (e.g. select a keyboard or a OS) so there is no
