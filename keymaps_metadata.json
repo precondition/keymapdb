@@ -85,6 +85,34 @@
     },
     {
 
+        "url": "/ARTSEY/",
+        "fileSlug": "ARTSEY",
+        "title": "ARTSEY",
+        "keymapUrl": "https://artsey.io/#firmware",
+        "author": "artseyio",
+        "keymapImage": "https://raw.githubusercontent.com/artseyio/artsey/main/layout%20diagrams/current.jpg",
+        "keyCount": 8,
+        "firmwares": ["QMK","ZMK"],
+        "keyboard": "The Paintbrush",
+        "baseLayouts": ["ARTSEY"],
+        "stagger": "ortholinear",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "ARTSEY is a one-handed keyboard system using 8 keys in a 2x4 layout. The system is designed to be easy to learn, comfortable to use, and fast enough for practical use.",
+        "OS": [],
+        "keybindings": [],
+        "writeup": "https://artsey.io/",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 7,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/khitsule-atreus/",
         "fileSlug": "khitsule-atreus",
         "title": "Atreus Layout by Khitsule",
