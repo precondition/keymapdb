@@ -141,6 +141,34 @@
     },
     {
 
+        "url": "/purple_rw/",
+        "fileSlug": "purple_rw",
+        "title": "Custom one-handed ARTSEY keyboard layout",
+        "keymapUrl": "https://github.com/purple-rw/artsey-keyboard",
+        "author": "purple-rw",
+        "keymapImage": "/assets/img/keymaps/purple_rw.jpg",
+        "keyCount": 9,
+        "firmwares": ["QMK"],
+        "keyboard": "Macropad v2",
+        "baseLayouts": ["ARTSEY"],
+        "stagger": "ortholinear",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "My smallest OLKB based on ARTSEY-mod-Colemak with a few changes.",
+        "OS": [],
+        "keybindings": [],
+        "writeup": "https://github.com/purple-rw/artsey-keyboard/blob/main/README.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 7,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/dbroqua/",
         "fileSlug": "dbroqua",
         "title": "Dbroqua Layout",
