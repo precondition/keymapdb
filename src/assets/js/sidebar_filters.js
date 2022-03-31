@@ -50,26 +50,6 @@ function updateUrlSearchParams(element) {
     syncPaginationButtons();
 }
 
-function disableHrefButton(a) {
-    // See https://stackoverflow.com/a/10276157
-    // Remove pointer events, gray it out etc.
-    a.setAttribute("disabled", true);
-    // Clearing the link.
-    a.href = "javascript:void(0)";
-    // Prevent a from being selected by tabbing through the page
-    a.setAttribute("tabindex", -1);
-}
-
-function enableHrefButton(a, href) {
-    // See https://stackoverflow.com/a/10276157
-    a.removeAttribute("disabled")
-    if (href !== undefined) {
-        a.href = href;
-    }
-    // Add back a into the "tab tree" of the page
-    a.removeAttribute("tabindex");
-}
-
 function flipPages(relativeOffset) {
     const pageNo = Number((location.pathname.match(/page\/([0-9]+)/) || ["page/1", "1"])[1]);
     const newPageNo = pageNo + relativeOffset;
@@ -80,24 +60,35 @@ function flipPages(relativeOffset) {
     }
 }
 
+function showPaginationButton(button, relativeOffset, search) {
+    button.href = flipPages(relativeOffset);
+    button.search = search;
+    button.removeAttribute("hidden");
+}
+
+function hidePaginationButton(button) {
+    button.setAttribute("hidden", true);
+}
+
 function syncPaginationButtons() {
-    if ($("showing-n-results").innerText === "No results found.") {
-        disableHrefButton($("previous-button"));
-        disableHrefButton($("next-button"));
+    const showingNResults = $("showing-n-results");
+    const previousButton = $("previous-button");
+    const nextButton = $("next-button");
+    if (showingNResults.innerText === "No results found.") {
+        hidePaginationButton(previousButton);
+        hidePaginationButton(nextButton);
         return;
     }
     const urlSearchParams = new URLSearchParams(location.search);
-    [matchedString, start, end, total] = $("showing-n-results").innerText.match(/Showing ([0-9]+) to ([0-9]+) of ([0-9]+) results found/);
+    [matchedString, start, end, total] = showingNResults.innerText.match(/Showing ([0-9]+) to ([0-9]+) of ([0-9]+) results found/);
     if (Number(end) < Number(total)) {
-        enableHrefButton($("next-button"), flipPages(+1));
-        $("next-button").search = urlSearchParams;
+        showPaginationButton(nextButton, +1, urlSearchParams);
     } else {
-        disableHrefButton($("next-button"));
+        hidePaginationButton(nextButton);
     }
 
     if (Number(start) > 1) {
-        enableHrefButton($("previous-button"), flipPages(-1));
-        $("previous-button").search = urlSearchParams;
+        showPaginationButton(previousButton, -1, urlSearchParams);
     } else if (Number(start) == 0) {
         // start == 0 is a special case that occurs when the user is on a page that's beyond the total amount of pages for this search.
         const postsPerPage = {{ site.paginate }};
@@ -106,11 +97,10 @@ function syncPaginationButtons() {
         // Compute the difference between current page number and the number
         // of the last valid page so that clicking the "Previous" button
         // leads to the user to the last valid page.
-        enableHrefButton($("previous-button"), flipPages(amountOfPages - pageNo));
-        $("previous-button").search = urlSearchParams;
-        disableHrefButton($("next-button"));
+        showPaginationButton(previousButton, amountOfPages - pageNo, urlSearchParams);
+        hidePaginationButton(nextButton);
     } else {
-        disableHrefButton($("previous-button"));
+        hidePaginationButton(previousButton);
     }
 }
 

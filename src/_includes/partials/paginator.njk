@@ -9,7 +9,7 @@ when increasing the size of the viewport after having clicked the
      href="{{ pagination.href.previous | url }}"
  {% else %}
      href="javascript:void(0)"
-     disabled
+     hidden
  {% endif %}
  class="float-left button">Previous</a>
 
@@ -19,7 +19,7 @@ when increasing the size of the viewport after having clicked the
      href="{{ pagination.href.next | url }}"
  {% else %}
      href="javascript:void(0)"
-     disabled
+     hidden
  {% endif %}
      class="float-right button">Next</a>
 </div>
