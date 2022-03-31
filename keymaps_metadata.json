@@ -1065,6 +1065,34 @@
     },
     {
 
+        "url": "/xsznix/",
+        "fileSlug": "xsznix",
+        "title": "The RSTHD layout",
+        "keymapUrl": "https://github.com/xsznix/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/rsthd",
+        "author": "xsznix",
+        "keymapImage": "/assets/img/keymaps/xsznix.jpg",
+        "keyCount": 76,
+        "firmwares": ["QMK"],
+        "keyboard": "ErgoDox",
+        "baseLayouts": ["RSTHD","QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "The keymap of the creator of the RSTHD layout (xsznix), generated with his hand-rolled keyboard layout generation program called keygen, featuring the letter 'E' on the thumb key.",
+        "OS": ["MacOS","Windows"],
+        "keybindings": ["Vim"],
+        "writeup": "https://xsznix.wordpress.com/2016/05/16/introducing-the-rsthd-layout/",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": true,
+        "layerCount": 9,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/treeman/",
         "fileSlug": "treeman",
         "title": "The T-34 keyboard layout",
