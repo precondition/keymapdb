@@ -1314,6 +1314,34 @@
         "isComboEnabled": false,
         "isAutoShiftEnabled": false
         
+    },
+    {
+
+        "url": "/optozorax/",
+        "fileSlug": "optozorax",
+        "title": "Раскладка Ильи Шепрута",
+        "keymapUrl": "https://github.com/optozorax/moonlander",
+        "author": "optozorax",
+        "keymapImage": "/assets/img/keymaps/optozorax.webp",
+        "keyCount": 72,
+        "firmwares": ["QMK"],
+        "keyboard": "Moonlander",
+        "baseLayouts": ["ЙЦУКЕН","Dvorak"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["Russian","English"],
+        "summary": "optozorax's keymap for the Moonlander keyboard with an extremely detailled and very long write-up in Russian.",
+        "OS": ["Windows","Linux"],
+        "keybindings": ["Gaming"],
+        "writeup": "https://optozorax.github.io/p/my-keyboard-layout/",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 12,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
     }
 ]
 
