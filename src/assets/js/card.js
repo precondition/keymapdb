@@ -9,15 +9,6 @@ async function getSVG(fieldName, fieldValue) {
 function card(post, postUrl) {
   const splitStatus = post.isSplit ? "Split" : "Non-split"
   const titleHover = post.title.toLowerCase().includes(post.author.toLowerCase()) ? '' : `title="by ${post.author}"`;
-  Promise.all(post.OS.map(async (osName) => getSVG("OS", osName)))
-        .then(svgIcons => { 
-            const cell = $("OS-table-cell-" + post.fileSlug);
-            // By the time we finally come around to updating the inner HTML of the table cell,
-            // that card might have already been filtered out, hence the `undefined` check here.
-            if (cell) {
-                cell.innerHTML = svgIcons.join("\n"); 
-            }
-        });
   return `
   <div class="postcard">
       <div class="rounded shadow-lg h-full bg-gray-50 hover:shadow-xl">
@@ -34,11 +25,11 @@ function card(post, postUrl) {
                   <a class="text-gray-900 hover:text-gray-700" ${titleHover} href="${post.url}">${post.title}</a>
               </div>
               <div class="my-5 flex flex-wrap justify-between">
-                  <p id="keyLayerCount-table-cell-${post.fileSlug}" class="text-gray-700 mb-1">${post.keyCount} keys, ${post.layerCount} layers</p>
-                  <p id="baseLayouts-table-cell-${post.fileSlug}" class="text-gray-700 mb-1 break-words">${post.baseLayouts.join(", ")}</p>
-                  <div class="flexitems-break"></div>
+                  <p id="keyCount-table-cell-${post.fileSlug}" class="text-gray-700 mb-1">${post.keyCount} keys</p>
                   <p id="languages-table-cell-${post.fileSlug}" class="text-gray-700 mb-1 break-words">${post.languages.join(", ")}</p>
-                  <p id="OS-table-cell-${post.fileSlug}" class="text-gray-700 mb-1 break-words"><!-- filled in asynchronously with SVG icons --></p>
+                  <div class="flexitems-break"></div>
+                  <p id="layerCount-table-cell-${post.fileSlug}" class="text-gray-700 mb-1">${post.layerCount} layers</p>
+                  <p id="baseLayouts-table-cell-${post.fileSlug}" class="text-gray-700 mb-1 break-words">${post.baseLayouts.join(", ")}</p>
               </div>
               <p>${post.summary === null ? "" : post.summary} </p>
           </div>
