@@ -84,6 +84,8 @@ Indicates whether the keyboard is split or not.
 
 The criteria is whether there is a space between the two main halves. Two-piece splits like the Kyria obviously fit and so do one-piece splits like the Atreus *and*, since the focus is on keymaps, a keymap that puts something like a numpad between the two main halves of the alpha block *also counts* ([example XD75](https://i.redd.it/w1u3i20mdynz.jpg)). The [wide mod for row stagger boards](https://colemakmods.github.io/ergonomic-mods/wide.html) also counts as split but the [angle mod](https://colemakmods.github.io/ergonomic-mods/angle.html) doesn't.
 
+Note: One-handed keyboard layouts should set `isSplit` to `true`.
+
 ### Possible Values
 - true
 - false
