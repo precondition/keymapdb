@@ -147,7 +147,7 @@
         "keymapUrl": "https://github.com/purple-rw/artsey-keyboard",
         "author": "purple-rw",
         "keymapImage": "/assets/img/keymaps/purple_rw.jpg",
-        "keyCount": 9,
+        "keyCount": 8,
         "firmwares": ["QMK"],
         "keyboard": "Macropad v2",
         "baseLayouts": ["ARTSEY"],
