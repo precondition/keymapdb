@@ -813,6 +813,34 @@
     },
     {
 
+        "url": "/chaosk/",
+        "fileSlug": "chaosk",
+        "title": "Midas",
+        "keymapUrl": "https://github.com/chaosk/midas",
+        "author": "chaosk",
+        "keymapImage": "https://raw.githubusercontent.com/chaosk/midas/master/layout.png",
+        "keyCount": 38,
+        "firmwares": ["QMK"],
+        "keyboard": "ErgoDox",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": [],
+        "summary": "Left-hand Ergodox keymap for Dota 2.",
+        "OS": ["Windows"],
+        "keybindings": ["Gaming"],
+        "writeup": "https://github.com/chaosk/midas/blob/master/README.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 3,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": true,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/manna_harbour/",
         "fileSlug": "manna_harbour",
         "title": "Miryoku",
