@@ -12,7 +12,7 @@ isTapDanceEnabled: false
 keybindings: []
 keyboard: Kyria
 keyCount: 50
-keymapImage: dakes.png
+keymapImage: Dakes.png
 keymapUrl: https://github.com/Dakes/qmk_config/tree/main/kyria/keymaps/dakes
 languages: [German, English]
 layerCount: 8
