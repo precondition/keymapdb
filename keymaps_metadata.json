@@ -1648,7 +1648,7 @@
         "hasHomeRowMods": false,
         "isTapDanceEnabled": false,
         "isComboEnabled": true,
-        "isAutoShiftEnabled": false
+        "isAutoShiftEnabled": true
         
     }
 ]
