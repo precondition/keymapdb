@@ -1317,6 +1317,34 @@
     },
     {
 
+        "url": "/lolo/",
+        "fileSlug": "lolo",
+        "title": "Каряга",
+        "keymapUrl": "",
+        "author": "LoLo",
+        "keymapImage": "https://i.imgur.com/2CouZvH.png",
+        "keyCount": 31,
+        "firmwares": ["QMK"],
+        "keyboard": "Snag",
+        "baseLayouts": ["ЙЦУКЕН","QWERTY"],
+        "stagger": "row",
+        "isSplit": true,
+        "languages": ["Russian"],
+        "summary": "A minimalist keyboard that emerged as a symbiosis of the ideas of the Gherkin and Katana60 keyboards. Gherkin is bad because it is impossible to use when you add a space since it takes up the usual lower row of characters. Katana60 is good for everything except that it is expensive and not made by me.",
+        "OS": ["Windows","Linux"],
+        "keybindings": [],
+        "writeup": "https://klava.wiki/hypha/клавиатуры/коряга",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": true,
+        "layerCount": 5,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/optozorax/",
         "fileSlug": "optozorax",
         "title": "Раскладка Ильи Шепрута",
