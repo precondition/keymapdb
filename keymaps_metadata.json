@@ -225,6 +225,34 @@
     },
     {
 
+        "url": "/Dakes/",
+        "fileSlug": "Dakes",
+        "title": "Dakes' Keymap",
+        "keymapUrl": "https://github.com/Dakes/qmk_config/tree/main/kyria/keymaps/dakes",
+        "author": "Dakes",
+        "keymapImage": "/assets/img/keymaps/dakes.png",
+        "keyCount": 50,
+        "firmwares": ["QMK"],
+        "keyboard": "Kyria",
+        "baseLayouts": ["Neo","Colemak","QWERTZ"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["German","English"],
+        "summary": "My Kyria keymap and userspace. Includes Modular Bongocat and Conway's Game of Life",
+        "OS": ["Linux"],
+        "keybindings": [],
+        "writeup": "https://github.com/Dakes/qmk_config/blob/main/kyria/keymaps/dakes/README.md",
+        "hasRotaryEncoder": true,
+        "hasLetterOnThumb": false,
+        "layerCount": 8,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/dbroqua/",
         "fileSlug": "dbroqua",
         "title": "Dbroqua Layout",
