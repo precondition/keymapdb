@@ -729,6 +729,34 @@
     },
     {
 
+        "url": "/JannikWibker/",
+        "fileSlug": "JannikWibker",
+        "title": "Jannik Wibker's 40% ortho layout with custom xkb layout",
+        "keymapUrl": "https://github.com/JannikWibker/qmk_niu_mini_keymap",
+        "author": "JannikWibker",
+        "keymapImage": "https://raw.githubusercontent.com/JannikWibker/qmk_niu_mini_keymap/master/layout.png",
+        "keyCount": 47,
+        "firmwares": ["QMK"],
+        "keyboard": "NIU Mini",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "ortholinear",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "The reason many keys are laid out as they are is to make it comfortable to access the most used keys with either both hands or sometimes only one hand on the keyboard. Most of the special characters that aren't normally part of qwerty are not going to be implemented on a keyboard level, they require a custom xkb layout",
+        "OS": ["Linux","MacOS"],
+        "keybindings": ["Vim"],
+        "writeup": "https://github.com/JannikWibker/qmk_niu_mini_keymap/blob/master/readme.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 12,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/jat/",
         "fileSlug": "jat",
         "title": "jat's keymap for the kyria",
