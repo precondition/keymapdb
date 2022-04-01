@@ -897,6 +897,34 @@
     },
     {
 
+        "url": "/pfn/",
+        "fileSlug": "pfn",
+        "title": "pfn's Kyria QMK keymap",
+        "keymapUrl": "https://github.com/pfn/qmk-keymap-kyria",
+        "author": "pfn",
+        "keymapImage": "/assets/img/keymaps/pfn.png",
+        "keyCount": 48,
+        "firmwares": ["QMK"],
+        "keyboard": "Kyria",
+        "baseLayouts": ["QWERTY","Colemak"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "Keymap edited entirely in QMK configurator, with custom code nonetheless.",
+        "OS": ["Windows"],
+        "keybindings": ["Vim"],
+        "writeup": "",
+        "hasRotaryEncoder": true,
+        "hasLetterOnThumb": false,
+        "layerCount": 8,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/rayduck/",
         "fileSlug": "rayduck",
         "title": "Pnohty",
