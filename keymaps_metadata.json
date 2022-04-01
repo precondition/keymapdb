@@ -1345,6 +1345,34 @@
     },
     {
 
+        "url": "/Vermoot/",
+        "fileSlug": "Vermoot",
+        "title": "Vermoot's combo-heavy Kyria keymap for French and English",
+        "keymapUrl": "https://github.com/Vermoot/qmk_keymaps/tree/master/kyria/keymaps/Vermoot",
+        "author": "Vermoot",
+        "keymapImage": "https://cdn.discordapp.com/attachments/663573863480950808/884502266650968074/Keyboard.png",
+        "keyCount": 46,
+        "firmwares": ["QMK"],
+        "keyboard": "Kyria",
+        "baseLayouts": ["Colemak"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["French","English"],
+        "summary": null,
+        "OS": ["MacOS","Linux"],
+        "keybindings": ["Vim"],
+        "writeup": null,
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 11,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/waynehoover/",
         "fileSlug": "waynehoover",
         "title": "waynehoover's Dvorak IULM",
