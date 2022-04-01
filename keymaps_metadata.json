@@ -281,6 +281,34 @@
     },
     {
 
+        "url": "/finex/",
+        "fileSlug": "finex",
+        "title": "Customized keymap for Redox by Leonardo (FiNeX) Finetti",
+        "keymapUrl": "https://github.com/finex/redox-finex/tree/simpleawesome",
+        "author": "finex",
+        "keymapImage": "https://raw.githubusercontent.com/finex/redox-finex/simpleawesome/images/redox-finex.png",
+        "keyCount": 70,
+        "firmwares": ["QMK"],
+        "keyboard": "Redox",
+        "baseLayouts": ["Colemak"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["Italian","English"],
+        "summary": "This keymap use the default one with some changes to suit my needs. Mainly having most used symbol on a separated layer copying the common symbols from the number keys to the second row, adding other symbols and ◌̀ ◌́ dead keys for accents.",
+        "OS": ["Linux"],
+        "keybindings": ["TWM"],
+        "writeup": "https://github.com/finex/redox-finex/blob/simpleawesome/readme.org",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 7,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": true,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/Dakes/",
         "fileSlug": "Dakes",
         "title": "Dakes' Keymap",
