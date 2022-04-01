@@ -740,7 +740,7 @@
         "keyboard": "NIU Mini",
         "baseLayouts": ["QWERTY"],
         "stagger": "ortholinear",
-        "isSplit": true,
+        "isSplit": false,
         "languages": ["English"],
         "summary": "The reason many keys are laid out as they are is to make it comfortable to access the most used keys with either both hands or sometimes only one hand on the keyboard. Most of the special characters that aren't normally part of qwerty are not going to be implemented on a keyboard level, they require a custom xkb layout",
         "OS": ["Linux","MacOS"],
