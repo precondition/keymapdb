@@ -197,6 +197,34 @@
     },
     {
 
+        "url": "/bsag/",
+        "fileSlug": "bsag",
+        "title": "bsag's mini3x5+2 Ferris Sweep QMK layout",
+        "keymapUrl": "https://github.com/bsag/qmk_custom",
+        "author": "bsag",
+        "keymapImage": "https://raw.githubusercontent.com/bsag/qmk_custom/main/mini3x5/keymap_diagram.svg",
+        "keyCount": 34,
+        "firmwares": ["QMK"],
+        "keyboard": "Ferris",
+        "baseLayouts": ["BEAKL","QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "I am using BEAKL 27 as my full time layout. The layout uses combos on the base layer to replace keys like enter and escape that do not fit on a small keyboard, one-shot mods/layers and a combo to activate a ‘numword’ layer which automatically de-activates when a non-numerical character is typed.",
+        "OS": ["MacOS"],
+        "keybindings": [],
+        "writeup": "https://github.com/bsag/qmk_custom/blob/main/mini3x5/README.org",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 7,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/purple_rw/",
         "fileSlug": "purple_rw",
         "title": "Custom one-handed ARTSEY keyboard layout",
