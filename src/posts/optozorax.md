@@ -5,7 +5,7 @@ firmwares: [QMK]
 hasHomeRowMods: false
 hasLetterOnThumb: false
 hasRotaryEncoder: false
-isAutoShiftEnabled: false
+isAutoShiftEnabled: true
 isComboEnabled: true
 isSplit: true
 isTapDanceEnabled: false
