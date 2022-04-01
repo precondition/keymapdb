@@ -1638,7 +1638,7 @@
         "stagger": "columnar",
         "isSplit": true,
         "languages": ["Russian","English"],
-        "summary": "optozorax's keymap for the Moonlander keyboard with an extremely detailled and very long write-up in Russian.",
+        "summary": "optozorax's keymap for the Moonlander keyboard with an extremely detailed and very long write-up in Russian.",
         "OS": ["Windows","Linux"],
         "keybindings": ["Gaming"],
         "writeup": "https://optozorax.github.io/p/my-keyboard-layout/",
