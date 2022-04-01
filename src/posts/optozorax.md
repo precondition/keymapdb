@@ -18,7 +18,7 @@ languages: [Russian, English]
 layerCount: 12
 OS: [Windows, Linux]
 stagger: columnar
-summary: optozorax's keymap for the Moonlander keyboard with an extremely detailled and very long write-up in Russian.
+summary: optozorax's keymap for the Moonlander keyboard with an extremely detailed and very long write-up in Russian.
 title: Раскладка Ильи Шепрута
 writeup: https://optozorax.github.io/p/my-keyboard-layout/
 ---
