@@ -1037,6 +1037,34 @@
     },
     {
 
+        "url": "/h_youhei/",
+        "fileSlug": "h_youhei",
+        "title": "No Pinkies",
+        "keymapUrl": "https://github.com/h-youhei/qmk_keymap",
+        "author": "h-youhei",
+        "keymapImage": "https://raw.githubusercontent.com/h-youhei/qmk_keymap/master/img/ascii-layout.png",
+        "keyCount": 76,
+        "firmwares": ["QMK"],
+        "keyboard": "ErgoDox",
+        "baseLayouts": ["Yes McTab"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["Japanese","English"],
+        "summary": "Keymap removing all alpha keys from pinky columns. Index fingers rest on S and T.",
+        "OS": [],
+        "keybindings": [],
+        "writeup": "https://github.com/h-youhei/qmk_keymap/blob/master/README.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 5,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/getreuer/",
         "fileSlug": "getreuer",
         "title": "Pascal Getreuer's QMK keymap",
