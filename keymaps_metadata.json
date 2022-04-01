@@ -29,6 +29,34 @@
     },
     {
 
+        "url": "/default-ferris/",
+        "fileSlug": "default-ferris",
+        "title": "A usable default keymap for the Ferris keyboard",
+        "keymapUrl": "https://github.com/qmk/qmk_firmware/tree/master/keyboards/ferris/keymaps/default",
+        "author": "pierrechevalier83",
+        "keymapImage": "https://i.imgur.com/HjNHUPL.png",
+        "keyCount": 34,
+        "firmwares": ["QMK"],
+        "keyboard": "Ferris",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "This keymap makes heavy use of keys behaving differently when tapped and held, so that all the keys one may need remain accessible despite the low number of thumb keys. It is not meant to be the best possible keymap, but rather a good base on which to build a keymap that works for you.",
+        "OS": ["Windows","Linux","MacOS"],
+        "keybindings": [],
+        "writeup": "https://github.com/qmk/qmk_firmware/blob/master/keyboards/ferris/keymaps/default/readme.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 8,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/alper/",
         "fileSlug": "alper",
         "title": "Alper's Contra Layout",
