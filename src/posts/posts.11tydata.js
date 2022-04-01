@@ -16,7 +16,7 @@ module.exports = {
         return false;
       }
     },
-    description: (data) => `Get inspired by this ${data.keyCount}-key ${data.languages.length > 1 ? "multilingual " : ""}${data.keyboard} keymap made by ${data.author} and browse other ${data.firmwares.join(" and ")} keymaps like this.`,
+    description: (data) => `Get inspired by ${data.author}'s ${data.keyCount}-key ${data.languages.length > 1 ? "multilingual " : ""}${data.keyboard} keymap and browse other ${oxfordJoin(data.firmwares)} keymaps like this.`,
     ogImage: (data) => data.keymapImage,
     imageAlt: (data) => `${data.isSplit ? "Split" : "Non-split"} ${data.stagger}-staggered ${data.keyboard} with ${oxfordJoin(data.baseLayouts)} legends.`
   }
