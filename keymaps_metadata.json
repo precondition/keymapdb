@@ -1401,6 +1401,34 @@
     },
     {
 
+        "url": "/squizzler/",
+        "fileSlug": "squizzler",
+        "title": "The RSTHD Layout for minidox - Empowered with Combos",
+        "keymapUrl": "https://github.com/qmk/qmk_firmware/tree/master/keyboards/maple_computing/minidox/keymaps/rsthd_combos",
+        "author": "squizzler",
+        "keymapImage": "https://live.staticflickr.com/65535/49926249372_77ab8eba95_z.jpg",
+        "keyCount": 36,
+        "firmwares": ["QMK"],
+        "keyboard": "MiniDox",
+        "baseLayouts": ["RSTHD"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "An attempt at porting Xuming Zeng’s RSTHD from the Ergodox to the Minidox, in a layout that favours prose rather than code, with symbols used in everyday writing such as various (Western) currencies in easy reach.",
+        "OS": ["MacOS"],
+        "keybindings": [],
+        "writeup": "https://github.com/qmk/qmk_firmware/blob/master/keyboards/maple_computing/minidox/keymaps/rsthd_combos/readme.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": true,
+        "layerCount": 4,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/treeman/",
         "fileSlug": "treeman",
         "title": "The T-34 keyboard layout",
