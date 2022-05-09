@@ -981,6 +981,34 @@
     },
     {
 
+        "url": "/lehoff/",
+        "fileSlug": "lehoff",
+        "title": "MiniDox Norman Layout by LeHoff",
+        "keymapUrl": "https://github.com/qmk/qmk_firmware/blob/master/keyboards/maple_computing/minidox/keymaps/norman",
+        "author": "lehoff",
+        "keymapImage": "https://i.imgur.com/rKTdymp.png",
+        "keyCount": 36,
+        "firmwares": ["QMK"],
+        "keyboard": "MiniDox",
+        "baseLayouts": ["Norman"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English","Danish"],
+        "summary": "Raise/lower layers focus first on one-handed use. Numpad on right hand with raise layer. Navigation on left hand with lower layer (ESDF). All thumb keys are hold/tap dual function keys",
+        "OS": ["MacOS","Windows"],
+        "keybindings": ["Vim","Emacs"],
+        "writeup": "https://github.com/qmk/qmk_firmware/blob/master/keyboards/maple_computing/minidox/keymaps/norman/readme.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 4,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/manna_harbour/",
         "fileSlug": "manna_harbour",
         "title": "Miryoku",
