@@ -953,6 +953,34 @@
     },
     {
 
+        "url": "/dolie/",
+        "fileSlug": "dolie",
+        "title": "MiniDox Bépo",
+        "keymapUrl": "https://github.com/qmk/qmk_firmware/blob/master/keyboards/maple_computing/minidox/keymaps/bepo",
+        "author": "dolie",
+        "keymapImage": "https://user-images.githubusercontent.com/18349922/77227968-f42d9980-6b7b-11ea-9a11-58b1f47842e9.png",
+        "keyCount": 36,
+        "firmwares": ["QMK"],
+        "keyboard": "MiniDox",
+        "baseLayouts": ["Bépo"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["French","English"],
+        "summary": "Keys have been grouped and rearranged to meet the needs of English and French prose as well as programming (in particular javascript). Most used groups are placed at the opposite of the thumb layer-activation key, in an effort not to use the same hand too much.",
+        "OS": [],
+        "keybindings": ["Vim"],
+        "writeup": "https://github.com/qmk/qmk_firmware/blob/master/keyboards/maple_computing/minidox/keymaps/bepo/readme.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 4,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/manna_harbour/",
         "fileSlug": "manna_harbour",
         "title": "Miryoku",
