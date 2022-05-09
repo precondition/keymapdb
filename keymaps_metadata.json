@@ -981,6 +981,34 @@
     },
     {
 
+        "url": "/tw1t611/",
+        "fileSlug": "tw1t611",
+        "title": "Minidox Layout by tw1t611",
+        "keymapUrl": "https://github.com/qmk/qmk_firmware/blob/master/keyboards/maple_computing/minidox/keymaps/tw1t611",
+        "author": "tw1t611",
+        "keymapImage": "https://imgur.com/M95KSke.png",
+        "keyCount": 36,
+        "firmwares": ["QMK"],
+        "keyboard": "MiniDox",
+        "baseLayouts": ["QWERTZ"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["German","English"],
+        "summary": "This is a german layout with support for umlauts and the euro sign. You need to set your system layout to german.",
+        "OS": ["Linux"],
+        "keybindings": ["Vim"],
+        "writeup": "https://github.com/qmk/qmk_firmware/blob/master/keyboards/maple_computing/minidox/keymaps/tw1t611/readme.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 4,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/lehoff/",
         "fileSlug": "lehoff",
         "title": "MiniDox Norman Layout by LeHoff",
