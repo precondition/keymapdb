@@ -1597,6 +1597,34 @@
     },
     {
 
+        "url": "/NeonSpork/",
+        "fileSlug": "NeonSpork",
+        "title": "UT47 Nordic keymap",
+        "keymapUrl": "https://github.com/qmk/qmk_firmware/tree/master/keyboards/40percentclub/ut47/keymaps/nordic",
+        "author": "NeonSpork",
+        "keymapImage": "https://i.imgur.com/ZNtF4wA.png",
+        "keyCount": 47,
+        "firmwares": ["QMK"],
+        "keyboard": "UT47",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "row",
+        "isSplit": false,
+        "languages": ["English","Danish","Norwegian"],
+        "summary": "Chose to modify the default layout to include dedicated arrows on the bottom right. Layers 1-4 are modifiers, layer 5 is a toggle on gaming mode. Tab is dual function: Tap for Tab and hold for L3. So is enter: tap for Enter and hold for Right shift.",
+        "OS": ["Windows"],
+        "keybindings": ["Gaming"],
+        "writeup": null,
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 6,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/Vermoot/",
         "fileSlug": "Vermoot",
         "title": "Vermoot's combo-heavy Kyria keymap for French and English",
