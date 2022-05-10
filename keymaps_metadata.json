@@ -337,6 +337,34 @@
     },
     {
 
+        "url": "/datagrok/",
+        "fileSlug": "datagrok",
+        "title": "datagrok's layout for the Mitosis",
+        "keymapUrl": "https://github.com/qmk/qmk_firmware/tree/master/keyboards/mitosis/keymaps/datagrok",
+        "author": "datagrok",
+        "keymapImage": "https://i.imgur.com/tap5Pjf.png",
+        "keyCount": 46,
+        "firmwares": ["QMK"],
+        "keyboard": "Mitosis",
+        "baseLayouts": ["QWERTY","Colemak","Dvorak","Workman"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": ["Customized comma and period, which have exclamation point and question mark on their shift layer.","Tap right-shift for underscore, tap left-shift for tab.","Symmetric layout of paired braces/brackets/slashes for easier memorization.","Arrows placed directly on home position"],
+        "OS": [],
+        "keybindings": [],
+        "writeup": "https://github.com/qmk/qmk_firmware/blob/master/keyboards/mitosis/keymaps/datagrok/readme.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 7,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/dbroqua/",
         "fileSlug": "dbroqua",
         "title": "Dbroqua Layout",
