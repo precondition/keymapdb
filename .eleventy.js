@@ -41,6 +41,7 @@ module.exports = (config) => {
   config.addNunjucksFilter("flatten", coll => coll.flat());
   config.addNunjucksFilter("mapToDbField", (coll, dbField) => coll.map(x => x.data[dbField]));
   config.addNunjucksFilter("oxfordJoin", coll => coll.length < 2 ? coll.join(", ") : coll.slice(0, -1).join(", ") + ", and " + coll[coll.length-1]);
+  config.addNunjucksFilter("isArray", coll => Array.isArray(coll));
 
   config.setQuietMode(true);
 

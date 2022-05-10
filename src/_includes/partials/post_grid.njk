@@ -28,7 +28,15 @@
                     <p id="baseLayouts-table-cell-{{ post.data.fileSlug }}"  class="text-gray-700 mb-1 break-words">{{ post.data.baseLayouts.join(", ") }}</p>
                 </div>
                 {% if post.data.summary -%}
-                    <p>{{ post.data.summary }}</p>
+                    {% if post.data.summary | isArray %}
+                        <ul class="list-disc">
+                        {% for bulletpoint in post.data.summary %}
+                            <li>{{ bulletpoint }}</li>
+                        {% endfor %}
+                        </ul>
+                    {% else %}
+                        <p>{{ post.data.summary }}<p>
+                    {% endif %}
                 {%- endif %}
             </div>
         </div>

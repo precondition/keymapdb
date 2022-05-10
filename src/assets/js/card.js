@@ -9,6 +9,16 @@ async function getSVG(fieldName, fieldValue) {
 function card(post, postUrl) {
   const splitStatus = post.isSplit ? "Split" : "Non-split"
   const titleHover = post.title.toLowerCase().includes(post.author.toLowerCase()) ? '' : `title="by ${post.author}"`;
+  let summary = "";
+  if (Array.isArray(post.summary)) {
+    summary = '<ul class="list-disc">';
+    summary += post.summary
+          .map(bulletPoint => `\n<li>\n\t\t${bulletPoint}\n\t</li>`)
+          .join("\n");
+    summary += '\n</ul>';
+  } else if (post.summary != null) {
+    summary = `<p>${post.summary}</p>`;
+  }
   return `
   <div class="postcard">
       <div class="rounded shadow-lg h-full bg-gray-50 hover:shadow-xl">
@@ -31,7 +41,7 @@ function card(post, postUrl) {
                   <p id="layerCount-table-cell-${post.fileSlug}" class="text-gray-700 mb-1">${post.layerCount} layers</p>
                   <p id="baseLayouts-table-cell-${post.fileSlug}" class="text-gray-700 mb-1 break-words">${post.baseLayouts.join(", ")}</p>
               </div>
-              <p>${post.summary === null ? "" : post.summary} </p>
+              ${summary}
           </div>
       </div>
   </div>

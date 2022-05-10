@@ -207,10 +207,12 @@ It must be all lowercase.
 - columnar
 - ortholinear
 
-## summary (string)
+## summary (string or array[string])
 Short summary (max. 60 words) of the keymap to show in the card, below the picture.
 
 This is not a mandatory field. You can leave it empty with `summary: ""`.
+
+It is also possible to use [YAML arrays](https://www.w3schools.io/file/yaml-arrays/) for a summary consisting of bullet points. However, those take up a considerable amount of vertical space, so use it in moderation and prefer normal strings when possible.
 
 ### Possible Values
 - "Keymap for Corne Keyboard specially designed for software developers using macOS and Windows and writing in Spanish and English."
