@@ -55,6 +55,15 @@ module.exports = {
         }
       })
     },
+    listStyleType: {
+        none: 'none',
+        disc: 'disc',
+        square: 'square',
+        upperroman: 'upper-roman',
+        lowerroman: 'lower-roman',
+        circle: 'circle',
+        triangle: 'disclosure-closed',
+    },
   },
   plugins: [
     require('@tailwindcss/typography'),
