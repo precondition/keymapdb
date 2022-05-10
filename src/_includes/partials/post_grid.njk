@@ -22,10 +22,10 @@
                 </div>
                 <div class="my-5 flex flex-wrap justify-between">
                     <p id="keyCount-table-cell-{{ post.data.fileSlug }}"   class="text-gray-700 mb-1">{{ post.data.keyCount }} keys</p>
-                    <p id="languages-table-cell-{{ post.data.fileSlug }}"  class="text-gray-700 mb-1 break-words">{{ post.data.languages.join(", ") }}</p>
+                    <p id="languages-table-cell-{{ post.data.fileSlug }}"  class="text-gray-700 mb-1 break-words text-right">{{ post.data.languages.join(", ") }}</p>
                     <div class="flexitems-break"></div>
                     <p id="layerCount-table-cell-{{ post.data.layerCount }}" class="text-gray-700 mb-1">{{ post.data.layerCount }} layers</p>
-                    <p id="baseLayouts-table-cell-{{ post.data.fileSlug }}"  class="text-gray-700 mb-1 break-words">{{ post.data.baseLayouts.join(", ") }}</p>
+                    <p id="baseLayouts-table-cell-{{ post.data.fileSlug }}"  class="text-gray-700 mb-1 break-words text-right">{{ post.data.baseLayouts.join(", ") }}</p>
                 </div>
                 {% if post.data.summary -%}
                     {% if post.data.summary | isArray %}
