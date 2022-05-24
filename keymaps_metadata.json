@@ -399,7 +399,7 @@
         "keymapUrl": "https://github.com/dbroqua/qmk_firmware/tree/master/keyboards/planck/keymaps/dbroqua",
         "author": "dbroqua",
         "keymapImage": "https://i.imgur.com/XxBtDBy.png",
-        "keyCount": 48,
+        "keyCount": 47,
         "firmwares": ["QMK"],
         "keyboard": "Planck",
         "baseLayouts": ["QWERTY"],
