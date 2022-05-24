@@ -253,6 +253,34 @@
     },
     {
 
+        "url": "/callum-oakley/",
+        "fileSlug": "callum-oakley",
+        "title": "callum's keymap",
+        "keymapUrl": "https://github.com/qmk/qmk_firmware/tree/master/users/callum",
+        "author": "callum-oakley",
+        "keymapImage": "https://raw.githubusercontent.com/callum-oakley/keymap/master/keymap.svg",
+        "keyCount": 34,
+        "firmwares": ["QMK"],
+        "keyboard": null,
+        "baseLayouts": ["Colemak"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "A keymap for 34 keys with 4 layers and callum-style mods in place of mod-taps.",
+        "OS": ["MacOS"],
+        "keybindings": ["TWM"],
+        "writeup": "https://github.com/qmk/qmk_firmware/blob/master/users/callum/readme.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 4,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/purple_rw/",
         "fileSlug": "purple_rw",
         "title": "Custom one-handed ARTSEY keyboard layout",
