@@ -42,8 +42,16 @@ keybindings: []
         {% endif %}
     </header>
     <div id="content" class="prose text-gray-800 max-w-none">
-        {% if summary %}
-            <p>{{ summary }}</p>
+        {% if summary -%}
+            {% if summary | isArray %}
+                <ul>
+                {% for bulletpoint in summary %}
+                    <li>{{ bulletpoint }}</li>
+                {% endfor %}
+                </ul>
+            {% else %}
+                <p>{{ summary }}</p>
+            {%- endif %}
         {% endif %}
         <table>
             <th colspan="2" class="text-xl font-bold">Keyboard</th>
