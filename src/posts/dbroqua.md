@@ -11,7 +11,7 @@ isSplit: false
 isTapDanceEnabled: false
 keybindings: []
 keyboard: Planck
-keyCount: 48
+keyCount: 47
 keymapImage: https://i.imgur.com/XxBtDBy.png
 keymapUrl: https://github.com/dbroqua/qmk_firmware/tree/master/keyboards/planck/keymaps/dbroqua
 languages: ['English']
