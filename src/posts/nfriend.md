@@ -18,11 +18,12 @@ languages: ['English']
 layerCount: 13
 OS: [MacOS, Windows]
 stagger: columnar
-#summary: "I looked up character frequency charts for common JavaScript libraries and tried to strategically arrange the symbols on the sym layer to minimize finger movement
-#    This keymap also features an “arrow key” layer that allows me to jump around code without leaving the home row, a “window management” layer for snapping windows to certain areas of my monitor,
-#    a Unicode emoji layer, and
-#    a “Windows” and “macOS” mode that makes all my keyboard shortcuts consistent across the two OSs (still a work in progress)."
-summary: "Features: A custom symbols layer optimised for common JavaScript libraries. An “arrow key” layer that allows me to jump around code without leaving the home row. A “window management” layer for snapping windows to certain areas of my monitor. A Unicode emoji layer.  A “Windows” and “macOS” mode that makes all my keyboard shortcuts consistent across the two OSs."
+summary:  
+    - Custom symbols layer optimised for common JavaScript libraries
+    - “Arrow key” layer that allows me to jump around code without leaving the home row
+    - “Window management” layer for snapping windows to certain areas of my monitor
+    - Unicode emoji layer
+    - “Windows” and “macOS” mode that makes all my keyboard shortcuts consistent across the two operating systems
 title: "nfriend's ErgoDox EZ configuration"
 writeup: https://github.com/nfriend/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/nfriend/readme.md
 ---

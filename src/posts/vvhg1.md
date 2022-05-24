@@ -18,7 +18,15 @@ languages: [English]
 layerCount: 6
 OS: [Windows]
 stagger: columnar
-summary: "Main features include: one rotary encoder, Colemak-dh and Qwerty (both have somewhat modified symbols), layers, custom leader key, custom layer logic, custom oneshot modifiers, end of sentence, case modes (CAPSWORD, x_case, NUMW0RD), power brackets and dynamic info on both OLED displays."
+summary: 
+    - one rotary encoder
+    - custom leader key
+    - custom layer logic
+    - custom oneshot modifiers
+    - end of sentence
+    - case modes (CAPSWORD, x_case, NUMW0RD)
+    - power brackets
+    - dynamic info on both OLED displays
 title: Fisk keymap
 writeup: https://github.com/vvhg1/fisk#keymap
 ---
