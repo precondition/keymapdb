@@ -253,8 +253,8 @@
     },
     {
 
-        "url": "/callum-oakley/",
-        "fileSlug": "callum-oakley",
+        "url": "/callum_oakley/",
+        "fileSlug": "callum_oakley",
         "title": "callum's keymap",
         "keymapUrl": "https://github.com/qmk/qmk_firmware/tree/master/users/callum",
         "author": "callum-oakley",
