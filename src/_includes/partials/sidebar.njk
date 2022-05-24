@@ -79,7 +79,10 @@
         {# FIXME This procedure of sorting entries by keyboard name and
         dropping duplicates could probably be sped up #}
         {% for keyboardName, keymapEntry in collections.posts | sort(false, false, "data.keyboard") | groupby("data.keyboard")  %}
-        <option value="{{ keyboardName }}">{{ keyboardName }}</option>
+            {# Don't list empty keyboard names (i.e. ""), sometimes used for keymaps that can work on a vast array of different keyboards #}
+            {% if keyboardName | length > 0 -%} 
+                <option value="{{ keyboardName }}">{{ keyboardName }}</option>
+            {%- endif %}
         {% endfor %}
     </select>
 </fieldset>
