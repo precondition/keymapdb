@@ -10,7 +10,7 @@ isComboEnabled: false
 isSplit: true
 isTapDanceEnabled: false
 keybindings: [TWM]
-keyboard:
+keyboard: ""
 keyCount: 34
 keymapImage: https://raw.githubusercontent.com/callum-oakley/keymap/master/keymap.svg
 keymapUrl: https://github.com/qmk/qmk_firmware/tree/master/users/callum
