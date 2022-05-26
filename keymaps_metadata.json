@@ -1233,6 +1233,34 @@
     },
     {
 
+        "url": "/peterxjang/",
+        "fileSlug": "peterxjang",
+        "title": "Peter Jang's 36-key beginner-friendly keyboard layout",
+        "keymapUrl": "https://github.com/peterxjang/qmk_firmware/tree/master/keyboards/gergo/keymaps/peterxjang",
+        "author": "peterxjang",
+        "keymapImage": "https://peterxjang.com/img/36-key-layout.png",
+        "keyCount": 36,
+        "firmwares": ["QMK"],
+        "keyboard": "Gergo",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "Nearly every key towards the middle of a standard keyboard are kept at their original positions. All relocated keys stay on the same hand. The layout doesn't overload any commonly used letter keys. There are only 2 additional layers (and all the commonly used symbols are on the first layer).",
+        "OS": ["MacOS"],
+        "keybindings": ["Vim"],
+        "writeup": "https://peterxjang.com/blog/designing-a-36-key-custom-keyboard-layout.html",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 3,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/pfn/",
         "fileSlug": "pfn",
         "title": "pfn's Kyria QMK keymap",
