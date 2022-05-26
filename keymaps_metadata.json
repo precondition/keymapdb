@@ -281,6 +281,34 @@
     },
     {
 
+        "url": "/gfolgert/",
+        "fileSlug": "gfolgert",
+        "title": "Chordic",
+        "keymapUrl": "https://github.com/gfolgert/qmk_firmware/tree/master/keyboards/crkbd/keymaps/gfolgert",
+        "author": "gfolgert",
+        "keymapImage": "https://raw.githubusercontent.com/gfolgert/qmk_firmware/master/keyboards/crkbd/keymaps/gfolgert/images/01-chordic-layout-full.png",
+        "keyCount": 42,
+        "firmwares": ["QMK"],
+        "keyboard": "Corne",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "This layout heavily relies on chording for symbols and actions. All letters, symbols, arrow keys, media keys, and modifiers are instantaneous without the need for layers, hold activation, or double taps, making this layout fast and friendly for software keyboard shortcuts and password entry. Chord positions are intuitive and created with mnemonics in mind. Layers are only reserved for number keys and function keys.",
+        "OS": ["MacOS","Windows"],
+        "keybindings": [],
+        "writeup": "https://github.com/gfolgert/qmk_firmware/blob/master/keyboards/crkbd/keymaps/gfolgert/README.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 3,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/purple_rw/",
         "fileSlug": "purple_rw",
         "title": "Custom one-handed ARTSEY keyboard layout",
