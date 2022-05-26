@@ -953,6 +953,34 @@
     },
     {
 
+        "url": "/markstos/",
+        "fileSlug": "markstos",
+        "title": "Markstos Corne keyboard layout",
+        "keymapUrl": "https://github.com/markstos/qmk_firmware/tree/markstos/keyboards/crkbd/keymaps/markstos",
+        "author": "markstos",
+        "keymapImage": "https://raw.githubusercontent.com/markstos/qmk_firmware/markstos/keyboards/crkbd/keymaps/markstos/markstos-layout-full.png",
+        "keyCount": 42,
+        "firmwares": ["QMK"],
+        "keyboard": "Corne",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": ["Be similar enough to conventional laptop keyboards","Most keys should be triggered by one or two key presses.","Minimize awkward hold-and-tap sequences by using one-shot modifiers.","Shift work from weak pinkies to strong thumbs","Thumbs should rest on commonly type keys","Vim- and TWM-friendly features","Include media keys"],
+        "OS": ["Linux"],
+        "keybindings": ["Vim","TWM"],
+        "writeup": "https://github.com/markstos/qmk_firmware/blob/markstos/keyboards/crkbd/keymaps/markstos/README.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 4,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/metheon/",
         "fileSlug": "metheon",
         "title": "metheon's QMK layout",
