@@ -1,8 +1,8 @@
 let keyCountSlider = $('keyCountSlider');
 let layerCountSlider = $('layerCountSlider');
 
-const MAX_KEY_COUNT = 120;
-const keyCountPipsStep = 20;
+const MAX_KEY_COUNT = 90;
+const keyCountPipsStep = 15;
 let keyCountPips = [1]
 for (let v = keyCountPipsStep; v <= MAX_KEY_COUNT ; v += keyCountPipsStep) {
     keyCountPips.push(v);
