@@ -13,7 +13,7 @@ keybindings: []
 keyboard: Corne
 keyCount: 21
 # FIXME/TODO: Image is broken as of 2022-05-24 :(
-keymapImage: https://i.imgur.com/VWQMUk7.png
+keymapImage: konomu.png
 keymapUrl: https://github.com/konomu/qmk_firmware/tree/frogpad/keyboards/crkbd/keymaps/frogpad
 languages: [English]
 layerCount: 4
