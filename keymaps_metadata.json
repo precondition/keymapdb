@@ -902,7 +902,7 @@
         "title": "konomu's one handed keyboard",
         "keymapUrl": "https://github.com/konomu/qmk_firmware/tree/frogpad/keyboards/crkbd/keymaps/frogpad",
         "author": "konomu",
-        "keymapImage": "https://i.imgur.com/VWQMUk7.png",
+        "keymapImage": "/assets/img/keymaps/konomu.png",
         "keyCount": 21,
         "firmwares": ["QMK"],
         "keyboard": "Corne",
