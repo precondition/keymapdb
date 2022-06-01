@@ -11,33 +11,33 @@ In the rare case if you've made two or more *considerably different* keymaps (e.
 Examples: `week_end.md` and `week_end-one_handed.md` or `week_end-dactyl.md` and `week_end-chorded_macedonian.md`.
 
 5. Copy-paste the following template:
-```
+```yaml
 ---
 author:
-baseLayouts:
-firmwares:
-hasHomeRowMods:
-hasLetterOnThumb:
-hasRotaryEncoder:
-isAutoShiftEnabled:
-isComboEnabled:
-isSplit:
-isTapDanceEnabled:
-keybindings:
-keyboard:
+baseLayouts: # [QWERTY, Colemak, Dvorak, ...]
+firmwares: # [QMK, ZMK, Kaleidoscope, KMonad]
+hasHomeRowMods: # true or false
+hasLetterOnThumb: # true or false
+hasRotaryEncoder: # true or false
+isAutoShiftEnabled: # true or false
+isComboEnabled: # true or false
+isSplit: # true or false
+isTapDanceEnabled: # true or false
+keybindings: # [Vim, Emacs, Kakoune, Graphics/CAD, TWM, Spreadsheets, Gaming]
+keyboard: # Kyria or Corne or Dactyl Manuform 5x6 or ...
 keyCount:
 keymapImage:
 keymapUrl:
-languages:
+languages: # [English, Spanish, ...]
 layerCount:
-OS:
-stagger:
-summary:
+OS: # [Windows, MacOS, Linux]
+stagger: # row or columnar or ortholinear
+summary: # Short summary of max. 60 words
 title:
-writeup:
+writeup: # not mandatory
 ---
 ```
-6. Look up the [database fields reference](db_fields_reference.md) document to figure out how to fill in the blanks after the colons
+6. Look up the [database fields reference](db_fields_reference.md) document to figure out how to fill in the blanks / replace the comments after the colons.
 7. Make sure that the leading `---` is the first line in the file.
 8. Make sure to leave a single space after each colon. In other words, it should look like `key: value`. `key:value` is not correct.
 9. Save and git commit the file
