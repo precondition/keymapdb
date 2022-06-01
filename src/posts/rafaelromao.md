@@ -1,17 +1,17 @@
 ---
 
 title: rafaelromao's keyboard layout
-summary: 34 Keys, 3x5+2, Romak or Qwerty, US International, optimized for Portuguese and English, and coding with VIM plugins.
+summary: A 32 keys split keyboard layout, optimized for Portuguese, English, working with numbers and software programming with VIM plugins.
 keymapUrl: https://github.com/rafaelromao/keyboards
 author: rafaelromao
-keymapImage: https://i.imgur.com/TKMm2Ug.png
+keymapImage: https://i.imgur.com/JTOz5aG.png
 keyboard: BM40 Hotswap RGB
-keyCount: 34
+keyCount: 32
 layerCount: 9
 firmwares: [QMK]
 OS: ["MacOS", "Linux", "Windows"]
-keybindings: ["Vim"]
-baseLayouts: ["Romak", "QWERTY"]
+keybindings: ["Vim", "Spreadsheets"]
+baseLayouts: ["Romak"]
 languages: ['Portuguese', 'English']
 isSplit: True
 stagger: ortholinear
