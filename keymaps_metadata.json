@@ -1485,6 +1485,34 @@
     },
     {
 
+        "url": "/seancolsen/",
+        "fileSlug": "seancolsen",
+        "title": "seancolsen's 36 key layout with only 2 layers — and lots of combos!",
+        "keymapUrl": "https://github.com/seancolsen/qmk_firmware/tree/5fe07c086712f25f2b652aa269264aab8610732c/keyboards/crkbd/keymaps/colsen",
+        "author": "seancolsen",
+        "keymapImage": "https://raw.githubusercontent.com/seancolsen/qmk_firmware/5fe07c086712f25f2b652aa269264aab8610732c/keyboards/crkbd/keymaps/colsen/diagram.png",
+        "keyCount": 36,
+        "firmwares": ["QMK"],
+        "keyboard": "Corne",
+        "baseLayouts": ["Colemak"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "A keymap of my custom corne mini layout, which has 36 keys. It has a num layer which adds 27 more symbols, and then lots of combos for everything else. The combos make backspace, esc, and delete available from the home row, and everything else very close too! It's been awesome to use for both prose and coding!",
+        "OS": ["Linux"],
+        "keybindings": [],
+        "writeup": "https://www.reddit.com/r/ErgoMechKeyboards/comments/ifrd24/my_36_key_layout_with_only_2_layers_and_lots_of/",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 2,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/stevep99/",
         "fileSlug": "stevep99",
         "title": "Seniply",
