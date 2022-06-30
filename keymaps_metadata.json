@@ -1,7 +1,7 @@
 [
     {
 
-        "url": "/kkga/",
+        "url": "/keymaps/kkga/",
         "fileSlug": "kkga",
         "title": "A keyboard layer system for 34 keys",
         "keymapUrl": "https://github.com/kkga/config/tree/master/.config/qmk",
@@ -29,7 +29,7 @@
     },
     {
 
-        "url": "/default-ferris/",
+        "url": "/keymaps/default-ferris/",
         "fileSlug": "default-ferris",
         "title": "A usable default keymap for the Ferris keyboard",
         "keymapUrl": "https://github.com/qmk/qmk_firmware/tree/master/keyboards/ferris/keymaps/default",
@@ -57,7 +57,7 @@
     },
     {
 
-        "url": "/alper/",
+        "url": "/keymaps/alper/",
         "fileSlug": "alper",
         "title": "Alper's Contra Layout",
         "keymapUrl": "https://github.com/alper/qmk_firmware/tree/master/keyboards/contra/keymaps/alper",
@@ -85,7 +85,7 @@
     },
     {
 
-        "url": "/alterecco-zmk/",
+        "url": "/keymaps/alterecco-zmk/",
         "fileSlug": "alterecco-zmk",
         "title": "alterecco's Ahokore/Ferris 34-key keymap",
         "keymapUrl": "https://github.com/alterecco/ahokore-zmk-config",
@@ -113,7 +113,7 @@
     },
     {
 
-        "url": "/andrewjrae/",
+        "url": "/keymaps/andrewjrae/",
         "fileSlug": "andrewjrae",
         "title": "andrewjrae's QMK keymap for the SplitKB Kyria",
         "keymapUrl": "https://github.com/frogm0uth/keyboard-firmware/tree/master/kyria-rsthd-prime",
@@ -141,7 +141,7 @@
     },
     {
 
-        "url": "/ARTSEY/",
+        "url": "/keymaps/ARTSEY/",
         "fileSlug": "ARTSEY",
         "title": "ARTSEY",
         "keymapUrl": "https://artsey.io/#firmware",
@@ -169,7 +169,7 @@
     },
     {
 
-        "url": "/khitsule-atreus/",
+        "url": "/keymaps/khitsule-atreus/",
         "fileSlug": "khitsule-atreus",
         "title": "Atreus Layout by Khitsule",
         "keymapUrl": "https://github.com/khitsule/qmk_firmware/tree/master/keyboards/atreus/keymaps/khitsule",
@@ -197,7 +197,7 @@
     },
     {
 
-        "url": "/brandonschlack/",
+        "url": "/keymaps/brandonschlack/",
         "fileSlug": "brandonschlack",
         "title": "brandonschlack's Nightmare Keymap",
         "keymapUrl": "https://github.com/brandonschlack/qmk_firmware/tree/master/keyboards/nightmare/keymaps/brandonschlack",
@@ -225,7 +225,7 @@
     },
     {
 
-        "url": "/bsag/",
+        "url": "/keymaps/bsag/",
         "fileSlug": "bsag",
         "title": "bsag's mini3x5+2 Ferris Sweep QMK layout",
         "keymapUrl": "https://github.com/bsag/qmk_custom",
@@ -253,7 +253,7 @@
     },
     {
 
-        "url": "/callum_oakley/",
+        "url": "/keymaps/callum_oakley/",
         "fileSlug": "callum_oakley",
         "title": "callum's keymap",
         "keymapUrl": "https://github.com/qmk/qmk_firmware/tree/master/users/callum",
@@ -281,7 +281,7 @@
     },
     {
 
-        "url": "/gfolgert/",
+        "url": "/keymaps/gfolgert/",
         "fileSlug": "gfolgert",
         "title": "Chordic",
         "keymapUrl": "https://github.com/gfolgert/qmk_firmware/tree/master/keyboards/crkbd/keymaps/gfolgert",
@@ -309,7 +309,7 @@
     },
     {
 
-        "url": "/purple_rw/",
+        "url": "/keymaps/purple_rw/",
         "fileSlug": "purple_rw",
         "title": "Custom one-handed ARTSEY keyboard layout",
         "keymapUrl": "https://github.com/purple-rw/artsey-keyboard",
@@ -337,7 +337,7 @@
     },
     {
 
-        "url": "/finex/",
+        "url": "/keymaps/finex/",
         "fileSlug": "finex",
         "title": "Customized keymap for Redox by Leonardo (FiNeX) Finetti",
         "keymapUrl": "https://github.com/finex/redox-finex/tree/simpleawesome",
@@ -365,7 +365,7 @@
     },
     {
 
-        "url": "/Dakes/",
+        "url": "/keymaps/Dakes/",
         "fileSlug": "Dakes",
         "title": "Dakes' Keymap",
         "keymapUrl": "https://github.com/Dakes/qmk_config/tree/main/kyria/keymaps/dakes",
@@ -393,7 +393,7 @@
     },
     {
 
-        "url": "/dasmikko/",
+        "url": "/keymaps/dasmikko/",
         "fileSlug": "dasmikko",
         "title": "dasmikko's Kyria QMK keymap",
         "keymapUrl": "https://github.com/dasmikko/qmk_stuff/tree/main/keymaps/rekna",
@@ -421,7 +421,7 @@
     },
     {
 
-        "url": "/datagrok/",
+        "url": "/keymaps/datagrok/",
         "fileSlug": "datagrok",
         "title": "datagrok's layout for the Mitosis",
         "keymapUrl": "https://github.com/qmk/qmk_firmware/tree/master/keyboards/mitosis/keymaps/datagrok",
@@ -449,7 +449,7 @@
     },
     {
 
-        "url": "/dbroqua/",
+        "url": "/keymaps/dbroqua/",
         "fileSlug": "dbroqua",
         "title": "Dbroqua Layout",
         "keymapUrl": "https://github.com/dbroqua/qmk_firmware/tree/master/keyboards/planck/keymaps/dbroqua",
@@ -477,7 +477,7 @@
     },
     {
 
-        "url": "/default-kyria/",
+        "url": "/keymaps/default-kyria/",
         "fileSlug": "default-kyria",
         "title": "Default Kyria keymap",
         "keymapUrl": "https://github.com/qmk/qmk_firmware/tree/master/keyboards/splitkb/kyria/keymaps/default/",
@@ -505,7 +505,7 @@
     },
     {
 
-        "url": "/0xcharly/",
+        "url": "/keymaps/0xcharly/",
         "fileSlug": "0xcharly",
         "title": "delay/0xcharly's layout for BastardKB boards (and other 5x3)",
         "keymapUrl": "https://github.com/0xcharly/qmk_firmware/tree/users-delay-wip/users/delay",
@@ -533,7 +533,7 @@
     },
     {
 
-        "url": "/duckyb/",
+        "url": "/keymaps/duckyb/",
         "fileSlug": "duckyb",
         "title": "duckyb's Ferris Sweep ZMK Configuration",
         "keymapUrl": "https://github.com/duckyb/zmk-sweep",
@@ -561,7 +561,7 @@
     },
     {
 
-        "url": "/fsck-eco/",
+        "url": "/keymaps/fsck-eco/",
         "fileSlug": "fsck-eco",
         "title": "ECO Layout by fsck",
         "keymapUrl": "https://github.com/fsck/qmk_firmware/tree/master/keyboards/eco/keymaps/fsck",
@@ -589,7 +589,7 @@
     },
     {
 
-        "url": "/bpruitt_goddard/",
+        "url": "/keymaps/bpruitt_goddard/",
         "fileSlug": "bpruitt_goddard",
         "title": "Ergodox EZ Layout by bpruitt-goddard",
         "keymapUrl": "https://github.com/bpruitt-goddard/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/bpruitt-goddard",
@@ -617,7 +617,7 @@
     },
     {
 
-        "url": "/vvhg1/",
+        "url": "/keymaps/vvhg1/",
         "fileSlug": "vvhg1",
         "title": "Fisk keymap",
         "keymapUrl": "https://github.com/vvhg1/fisk",
@@ -645,7 +645,7 @@
     },
     {
 
-        "url": "/kawamashi/",
+        "url": "/keymaps/kawamashi/",
         "fileSlug": "kawamashi",
         "title": "FR-Godox",
         "keymapUrl": "https://configure.ergodox-ez.com/ergodox-ez/layouts/wOl03/latest/0",
@@ -673,7 +673,7 @@
     },
     {
 
-        "url": "/frogmouth-kyria-rsthd_prime/",
+        "url": "/keymaps/frogmouth-kyria-rsthd_prime/",
         "fileSlug": "frogmouth-kyria-rsthd_prime",
         "title": "frogmouth's Kyria RSTHD/Prime",
         "keymapUrl": "https://github.com/frogm0uth/keyboard-firmware/tree/master/kyria-rsthd-prime",
@@ -701,7 +701,7 @@
     },
     {
 
-        "url": "/yaelol1/",
+        "url": "/keymaps/yaelol1/",
         "fileSlug": "yaelol1",
         "title": "Gawr Kynya!",
         "keymapUrl": "https://github.com/yaelol1/Gawr-Kynya",
@@ -729,7 +729,7 @@
     },
     {
 
-        "url": "/alvaro_prieto/",
+        "url": "/keymaps/alvaro_prieto/",
         "fileSlug": "alvaro_prieto",
         "title": "Hysp keymap",
         "keymapUrl": "https://github.com/alvaro-prieto/corne",
@@ -757,7 +757,7 @@
     },
     {
 
-        "url": "/fluffactually/",
+        "url": "/keymaps/fluffactually/",
         "fileSlug": "fluffactually",
         "title": "Iris layout by fluffactually",
         "keymapUrl": "https://github.com/fluffactually/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/fluffactually",
@@ -785,7 +785,7 @@
     },
     {
 
-        "url": "/khitsule-iris/",
+        "url": "/keymaps/khitsule-iris/",
         "fileSlug": "khitsule-iris",
         "title": "Iris Layout by Khitsule",
         "keymapUrl": "https://github.com/khitsule/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/khitsule",
@@ -813,7 +813,7 @@
     },
     {
 
-        "url": "/ishtob/",
+        "url": "/keymaps/ishtob/",
         "fileSlug": "ishtob",
         "title": "Ishtob's personal planck layout",
         "keymapUrl": "https://github.com/ishtob/qmk_firmware/tree/master/keyboards/planck/keymaps/ishtob",
@@ -841,7 +841,7 @@
     },
     {
 
-        "url": "/JannikWibker/",
+        "url": "/keymaps/JannikWibker/",
         "fileSlug": "JannikWibker",
         "title": "Jannik Wibker's 40% ortho layout with custom xkb layout",
         "keymapUrl": "https://github.com/JannikWibker/qmk_niu_mini_keymap",
@@ -869,7 +869,7 @@
     },
     {
 
-        "url": "/jat/",
+        "url": "/keymaps/jat/",
         "fileSlug": "jat",
         "title": "jat's keymap for the kyria",
         "keymapUrl": "https://git.sr.ht/~jat/keymap",
@@ -897,7 +897,7 @@
     },
     {
 
-        "url": "/jwon/",
+        "url": "/keymaps/jwon/",
         "fileSlug": "jwon",
         "title": "jwon's Programmer Dvorak",
         "keymapUrl": "https://github.com/jwon/qmk_firmware/tree/master/keyboards/kinesis/keymaps/jwon",
@@ -925,7 +925,7 @@
     },
     {
 
-        "url": "/konomu/",
+        "url": "/keymaps/konomu/",
         "fileSlug": "konomu",
         "title": "konomu's one handed keyboard",
         "keymapUrl": "https://github.com/konomu/qmk_firmware/tree/frogpad/keyboards/crkbd/keymaps/frogpad",
@@ -953,7 +953,7 @@
     },
     {
 
-        "url": "/magicmonty/",
+        "url": "/keymaps/magicmonty/",
         "fileSlug": "magicmonty",
         "title": "Layout of @magicmonty",
         "keymapUrl": "https://github.com/magicmonty/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/magicmonty",
@@ -981,7 +981,7 @@
     },
     {
 
-        "url": "/bingocaller/",
+        "url": "/keymaps/bingocaller/",
         "fileSlug": "bingocaller",
         "title": "MacOS standard 60% keymap with Vim-like arrows",
         "keymapUrl": "https://github.com/bingocaller/qmk_firmware/tree/master/keyboards/dz60/keymaps/bingocaller",
@@ -1009,7 +1009,7 @@
     },
     {
 
-        "url": "/markstos/",
+        "url": "/keymaps/markstos/",
         "fileSlug": "markstos",
         "title": "Markstos Corne keyboard layout",
         "keymapUrl": "https://github.com/markstos/qmk_firmware/tree/markstos/keyboards/crkbd/keymaps/markstos",
@@ -1037,7 +1037,7 @@
     },
     {
 
-        "url": "/metheon/",
+        "url": "/keymaps/metheon/",
         "fileSlug": "metheon",
         "title": "metheon's QMK layout",
         "keymapUrl": "https://github.com/metheon/qmk_layout",
@@ -1065,7 +1065,7 @@
     },
     {
 
-        "url": "/chaosk/",
+        "url": "/keymaps/chaosk/",
         "fileSlug": "chaosk",
         "title": "Midas",
         "keymapUrl": "https://github.com/chaosk/midas",
@@ -1093,7 +1093,7 @@
     },
     {
 
-        "url": "/dolie/",
+        "url": "/keymaps/dolie/",
         "fileSlug": "dolie",
         "title": "MiniDox Bépo",
         "keymapUrl": "https://github.com/qmk/qmk_firmware/blob/master/keyboards/maple_computing/minidox/keymaps/bepo",
@@ -1121,7 +1121,7 @@
     },
     {
 
-        "url": "/tw1t611/",
+        "url": "/keymaps/tw1t611/",
         "fileSlug": "tw1t611",
         "title": "Minidox Layout by tw1t611",
         "keymapUrl": "https://github.com/qmk/qmk_firmware/blob/master/keyboards/maple_computing/minidox/keymaps/tw1t611",
@@ -1149,7 +1149,7 @@
     },
     {
 
-        "url": "/lehoff/",
+        "url": "/keymaps/lehoff/",
         "fileSlug": "lehoff",
         "title": "MiniDox Norman Layout by LeHoff",
         "keymapUrl": "https://github.com/qmk/qmk_firmware/blob/master/keyboards/maple_computing/minidox/keymaps/norman",
@@ -1177,7 +1177,7 @@
     },
     {
 
-        "url": "/manna_harbour/",
+        "url": "/keymaps/manna_harbour/",
         "fileSlug": "manna_harbour",
         "title": "Miryoku",
         "keymapUrl": "https://github.com/manna-harbour/miryoku_qmk/tree/miryoku/users/manna-harbour_miryoku",
@@ -1205,7 +1205,7 @@
     },
     {
 
-        "url": "/josefadamcik/",
+        "url": "/keymaps/josefadamcik/",
         "fileSlug": "josefadamcik",
         "title": "Multi OS Katana60 layout",
         "keymapUrl": "https://github.com/josefadamcik/qmk_firmware/tree/master/keyboards/rominronin/katana60/rev1/keymaps/josefadamcik",
@@ -1233,7 +1233,7 @@
     },
     {
 
-        "url": "/nfriend/",
+        "url": "/keymaps/nfriend/",
         "fileSlug": "nfriend",
         "title": "nfriend's ErgoDox EZ configuration",
         "keymapUrl": "https://github.com/nfriend/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/nfriend",
@@ -1261,7 +1261,7 @@
     },
     {
 
-        "url": "/h_youhei/",
+        "url": "/keymaps/h_youhei/",
         "fileSlug": "h_youhei",
         "title": "No Pinkies",
         "keymapUrl": "https://github.com/h-youhei/qmk_keymap",
@@ -1289,7 +1289,7 @@
     },
     {
 
-        "url": "/getreuer/",
+        "url": "/keymaps/getreuer/",
         "fileSlug": "getreuer",
         "title": "Pascal Getreuer's QMK keymap",
         "keymapUrl": "https://github.com/getreuer/qmk-keymap",
@@ -1317,7 +1317,7 @@
     },
     {
 
-        "url": "/peterxjang/",
+        "url": "/keymaps/peterxjang/",
         "fileSlug": "peterxjang",
         "title": "Peter Jang's 36-key beginner-friendly keyboard layout",
         "keymapUrl": "https://github.com/peterxjang/qmk_firmware/tree/master/keyboards/gergo/keymaps/peterxjang",
@@ -1345,7 +1345,7 @@
     },
     {
 
-        "url": "/pfn/",
+        "url": "/keymaps/pfn/",
         "fileSlug": "pfn",
         "title": "pfn's Kyria QMK keymap",
         "keymapUrl": "https://github.com/pfn/qmk-keymap-kyria",
@@ -1373,7 +1373,7 @@
     },
     {
 
-        "url": "/rayduck/",
+        "url": "/keymaps/rayduck/",
         "fileSlug": "rayduck",
         "title": "Pnohty",
         "keymapUrl": "https://github.com/rayduck/zmk-config",
@@ -1401,7 +1401,7 @@
     },
     {
 
-        "url": "/precondition/",
+        "url": "/keymaps/precondition/",
         "fileSlug": "precondition",
         "title": "Precondition's keymap for the Dactyl Manuform 5x6",
         "keymapUrl": "https://github.com/precondition/dactyl-manuform-keymap/",
@@ -1429,7 +1429,7 @@
     },
     {
 
-        "url": "/rafaelromao/",
+        "url": "/keymaps/rafaelromao/",
         "fileSlug": "rafaelromao",
         "title": "rafaelromao's keyboard layout",
         "keymapUrl": "https://github.com/rafaelromao/keyboards",
@@ -1457,7 +1457,7 @@
     },
     {
 
-        "url": "/reinier/",
+        "url": "/keymaps/reinier/",
         "fileSlug": "reinier",
         "title": "reinier's keymap for the Microdox and Moonlander",
         "keymapUrl": "https://github.com/reinier/dotfiles",
@@ -1485,7 +1485,7 @@
     },
     {
 
-        "url": "/rstacruz/",
+        "url": "/keymaps/rstacruz/",
         "fileSlug": "rstacruz",
         "title": "Rico's keymap",
         "keymapUrl": "https://github.com/rstacruz/my_qmk_keymaps",
@@ -1513,7 +1513,7 @@
     },
     {
 
-        "url": "/seancolsen/",
+        "url": "/keymaps/seancolsen/",
         "fileSlug": "seancolsen",
         "title": "seancolsen's 36 key layout with only 2 layers — and lots of combos!",
         "keymapUrl": "https://github.com/seancolsen/qmk_firmware/tree/5fe07c086712f25f2b652aa269264aab8610732c/keyboards/crkbd/keymaps/colsen",
@@ -1541,7 +1541,7 @@
     },
     {
 
-        "url": "/stevep99/",
+        "url": "/keymaps/stevep99/",
         "fileSlug": "stevep99",
         "title": "Seniply",
         "keymapUrl": "https://github.com/stevep99/seniply/tree/master/downloads",
@@ -1569,7 +1569,7 @@
     },
     {
 
-        "url": "/smt-minivan/",
+        "url": "/keymaps/smt-minivan/",
         "fileSlug": "smt-minivan",
         "title": "smt's TV44 keymap",
         "keymapUrl": "https://github.com/smt/qmk_firmware/tree/master/keyboards/thevankeyboards/minivan/keymaps/smt",
@@ -1597,7 +1597,7 @@
     },
     {
 
-        "url": "/skychil/",
+        "url": "/keymaps/skychil/",
         "fileSlug": "skychil",
         "title": "The Kombol Layout",
         "keymapUrl": "https://github.com/skychil/kombol",
@@ -1625,7 +1625,7 @@
     },
     {
 
-        "url": "/rootiest/",
+        "url": "/keymaps/rootiest/",
         "fileSlug": "rootiest",
         "title": "The Rootiest Planck Layout",
         "keymapUrl": "https://github.com/rootiest/qmk_firmware/tree/master/keyboards/planck/keymaps/rootiest",
@@ -1653,7 +1653,7 @@
     },
     {
 
-        "url": "/xsznix/",
+        "url": "/keymaps/xsznix/",
         "fileSlug": "xsznix",
         "title": "The RSTHD layout",
         "keymapUrl": "https://github.com/xsznix/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/rsthd",
@@ -1681,7 +1681,7 @@
     },
     {
 
-        "url": "/squizzler/",
+        "url": "/keymaps/squizzler/",
         "fileSlug": "squizzler",
         "title": "The RSTHD Layout for minidox - Empowered with Combos",
         "keymapUrl": "https://github.com/qmk/qmk_firmware/tree/master/keyboards/maple_computing/minidox/keymaps/rsthd_combos",
@@ -1709,7 +1709,7 @@
     },
     {
 
-        "url": "/treeman/",
+        "url": "/keymaps/treeman/",
         "fileSlug": "treeman",
         "title": "The T-34 keyboard layout",
         "keymapUrl": "https://github.com/treeman/qmk_firmware/tree/master/keyboards/ferris/keymaps/treeman",
@@ -1737,7 +1737,7 @@
     },
     {
 
-        "url": "/fculpo/",
+        "url": "/keymaps/fculpo/",
         "fileSlug": "fculpo",
         "title": "Tweaked keymap for Redox",
         "keymapUrl": "https://github.com/fculpo/qmk_firmware/tree/master/keyboards/redox/keymaps/fculpo",
@@ -1765,7 +1765,7 @@
     },
     {
 
-        "url": "/tynanbe/",
+        "url": "/keymaps/tynanbe/",
         "fileSlug": "tynanbe",
         "title": "tynanbe's keymap based on dustypomerleau's minidox",
         "keymapUrl": "https://github.com/tynanbe/qmk_firmware/tree/tynanbe/users/tynanbe",
@@ -1793,7 +1793,7 @@
     },
     {
 
-        "url": "/urob/",
+        "url": "/keymaps/urob/",
         "fileSlug": "urob",
         "title": "urob's keymap configuration for OLKB Planck",
         "keymapUrl": "https://github.com/urob/qmk_firmware/tree/master/keyboards/planck/keymaps/urob",
@@ -1821,7 +1821,7 @@
     },
     {
 
-        "url": "/NeonSpork/",
+        "url": "/keymaps/NeonSpork/",
         "fileSlug": "NeonSpork",
         "title": "UT47 Nordic keymap",
         "keymapUrl": "https://github.com/qmk/qmk_firmware/tree/master/keyboards/40percentclub/ut47/keymaps/nordic",
@@ -1849,7 +1849,7 @@
     },
     {
 
-        "url": "/Vermoot/",
+        "url": "/keymaps/Vermoot/",
         "fileSlug": "Vermoot",
         "title": "Vermoot's combo-heavy Kyria keymap for French and English",
         "keymapUrl": "https://github.com/Vermoot/qmk_keymaps/tree/master/kyria/keymaps/Vermoot",
@@ -1877,7 +1877,7 @@
     },
     {
 
-        "url": "/waynehoover/",
+        "url": "/keymaps/waynehoover/",
         "fileSlug": "waynehoover",
         "title": "waynehoover's Dvorak IULM",
         "keymapUrl": "https://github.com/waynehoover/qmk_firmware/tree/waynehoover_keymaps/keyboards/splitkb/kyria/keymaps/waynehoover",
@@ -1905,7 +1905,7 @@
     },
     {
 
-        "url": "/wochap/",
+        "url": "/keymaps/wochap/",
         "fileSlug": "wochap",
         "title": "wochap's 3x5+2 corne layout",
         "keymapUrl": "https://github.com/wochap/corne-layout",
@@ -1933,7 +1933,7 @@
     },
     {
 
-        "url": "/yhaliaw/",
+        "url": "/keymaps/yhaliaw/",
         "fileSlug": "yhaliaw",
         "title": "yhaliaw Planck layout",
         "keymapUrl": "https://github.com/yhaliaw/qmk_firmware/tree/master/keyboards/planck/keymaps/yhaliaw",
@@ -1961,7 +1961,7 @@
     },
     {
 
-        "url": "/zzkt/",
+        "url": "/keymaps/zzkt/",
         "fileSlug": "zzkt",
         "title": "zzkt's emacs-centric keymap for the crkbd",
         "keymapUrl": "https://github.com/zzkt/crkbd",
@@ -1989,7 +1989,7 @@
     },
     {
 
-        "url": "/lolo/",
+        "url": "/keymaps/lolo/",
         "fileSlug": "lolo",
         "title": "Каряга",
         "keymapUrl": "",
@@ -2017,7 +2017,7 @@
     },
     {
 
-        "url": "/optozorax/",
+        "url": "/keymaps/optozorax/",
         "fileSlug": "optozorax",
         "title": "Раскладка Ильи Шепрута",
         "keymapUrl": "https://github.com/optozorax/moonlander",
