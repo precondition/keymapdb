@@ -897,6 +897,34 @@
     },
     {
 
+        "url": "/keymaps/jporter_dev/",
+        "fileSlug": "jporter_dev",
+        "title": "jporter-dev's simple 36-key keymap for the Corne",
+        "keymapUrl": "https://github.com/jporter-dev/keymaps",
+        "author": "jporter-dev",
+        "keymapImage": "https://user-images.githubusercontent.com/1226637/167232280-c3c752ee-3e7a-4790-93ec-1ba8a790c9fc.png",
+        "keyCount": 36,
+        "firmwares": ["QMK","ZMK"],
+        "keyboard": "Corne",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "Keymap for 5x3+2 Corne Keyboard with a numpad/arrow key layer and a symbol layer that's not too unique",
+        "OS": ["MacOS","Linux","Windows"],
+        "keybindings": [],
+        "writeup": "",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 4,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": true,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/jwon/",
         "fileSlug": "jwon",
         "title": "jwon's Programmer Dvorak",
