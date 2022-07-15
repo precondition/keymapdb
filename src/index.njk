@@ -15,7 +15,7 @@ ogImage: /assets/img/cover.png
     </aside>
     <div id="post-grid-container" class="flex-col w-full md:flex">
         {% set offset =  (paged.number - 1) * site.paginate %}
-        <div id="showing-n-results" class="text-center mb-5 mx-auto text-lg text-gray-600">Showing {{ offset + 1 }} to {{ offset + site.paginate }} of {{ collections.posts | length }} results found</div>
+        <div id="showing-n-results" class="text-center mb-5 mx-auto text-lg text-gray-600">Showing {{ offset + 1 }} to {{ offset + site.paginate }} of {{ collections.posts | length }} results found.</div>
         <div id="post-grid">
         {% include "partials/post_grid.njk" %}
         </div>
