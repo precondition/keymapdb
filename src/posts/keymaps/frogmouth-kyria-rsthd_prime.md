@@ -11,14 +11,14 @@ isSplit: true
 isTapDanceEnabled: false
 keybindings: []
 keyboard: Kyria
-keyCount: 46
-keymapImage: frogmouth-kyria-rsthd_prime.jpg
+keyCount: 44
+keymapImage: frogmouth-kyria-rsthd_prime.png
 keymapUrl: https://github.com/frogm0uth/keyboard-firmware/tree/master/kyria-rsthd-prime
 languages: [English]
-layerCount: 7
+layerCount: 6
 OS: [MacOS]
 stagger: columnar
-summary: This is a keymap I'm working on for my Kyria keyboard from splitkb.com. The base alpha layout is based on RSTHD but is heavily modified. For a standard implementation of RSTHD on the Kyria, see my Kyria Refactored keymap.
+summary: This is the keymap for my Kyria keyboard from splitkb.com. The alpha layout is originally based on RSTHD but it's been modified to minimize usage of the inner index column. Features in the code include runtime switching between Mac/Windows/Linux shortcuts and a custom implementation of "comborolls".
 title: frogmouth's Kyria RSTHD/Prime
 writeup: https://github.com/frogm0uth/keyboard-firmware/blob/master/kyria-rsthd-prime/README.md
 ---
