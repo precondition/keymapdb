@@ -1,5 +1,5 @@
-function getKeymapsJSON() {
-    return {% include "partials/keymaps_metadata.json.njk" %};
+async function getKeymapsJSON() {
+    return fetch("{{ '/keymaps_metadata.json' | url }}").then(res => res.json());
 }
 
 function isKeymapConforming(query, keymapData) {
@@ -40,9 +40,9 @@ function isKeymapConforming(query, keymapData) {
   return true;
 }
 
-function getFilteredKeymaps() {
+async function getFilteredKeymaps() {
     const searchParams = new URLSearchParams(location.search);
-    return getKeymapsJSON().filter(keymap => isKeymapConforming(searchParams, keymap));
+    return getKeymapsJSON().then(keymapsJSON => keymapsJSON.filter(keymap => isKeymapConforming(searchParams, keymap)));
 }
 
 async function populatePostGrid(filteredKeymaps) {
@@ -75,8 +75,5 @@ async function populatePostGrid(filteredKeymaps) {
 
 const pageRegExp = new RegExp("{{ '/page/' | url }}[0-9]+");
 if (location.pathname === "{{'/' | url }}" || pageRegExp.test(location.pathname)) {
-    (async() => {
-      let filteredKeymaps = await getFilteredKeymaps();
-      populatePostGrid(filteredKeymaps);
-    })();
+    getFilteredKeymaps().then(filteredKeymaps => populatePostGrid(filteredKeymaps));
 }

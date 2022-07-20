@@ -79,6 +79,7 @@
     {% include "partials/footer.njk" %}
     <script src="{{ '/assets/js/bundle.js' | url }}"></script>
     {% if isMainScreen %}
+        <script src="{{ '/assets/js/filter_keymaps.js' | url}}"></script>
         <script src="{{ '/assets/js/bundle_extras.js' | url }}"></script>
     {% endif %}
 </body>

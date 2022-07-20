@@ -172,13 +172,13 @@ function resetSidebarFilters(resetUrl) {
     if (resetUrl){
         // Remove filters from the URL
         history.pushState({}, "", location.pathname);
-        populatePostGrid(getKeymapsJSON());
+        getKeymapsJSON().then(filteredKeymaps => populatePostGrid(filteredKeymaps));
     }
 }
 
 function updatePostGrid(element) {
     updateUrlSearchParams(element);
-    populatePostGrid(getFilteredKeymaps());
+    getFilteredKeymaps().then(filteredKeymaps => populatePostGrid(filteredKeymaps));
 }
 
 function toggleFullScreenSidebar() {
