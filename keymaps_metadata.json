@@ -874,7 +874,7 @@
         "title": "jat's keymap for the kyria",
         "keymapUrl": "https://git.sr.ht/~jat/keymap",
         "author": "jat",
-        "keymapImage": "https://git.sr.ht/~jat/keymap/blob/development/layout.png",
+        "keymapImage": "https://git.sr.ht/~jat/keymap/blob/666b8f110bc8c3b08657afce339c2517b54bc683/layout.png",
         "keyCount": 36,
         "firmwares": ["QMK"],
         "keyboard": "Kyria",
