@@ -27,7 +27,7 @@
 		"html-minifier": "^4.0.0",
 		"luxon": "^1.24.1",
 		"rimraf": "^3.0.2",
-		"terser": "^4.8.0"
+		"terser": "^4.8.1"
 	},
 	"dependencies": {
 		"@11ty/eleventy-upgrade-help": "^1.0.1",
