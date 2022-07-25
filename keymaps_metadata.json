@@ -1765,6 +1765,34 @@
     },
     {
 
+        "url": "/keymaps/MicahElliot/",
+        "fileSlug": "MicahElliot",
+        "title": "The Woodpecker Makery's ZeLDA Layout for Planck Keyboards",
+        "keymapUrl": "https://github.com/MicahElliott/ZeLDA",
+        "author": "MicahElliot",
+        "keymapImage": "https://raw.githubusercontent.com/MicahElliott/ZeLDA/master/keyboard-layout-all.png",
+        "keyCount": 42,
+        "firmwares": ["QMK"],
+        "keyboard": "Planck",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "ortholinear",
+        "isSplit": false,
+        "languages": ["English"],
+        "summary": "The ZeLDA (Zero-Look-Down Access) Layout is a minimalist approach to keyboarding. The philsophy is that you should never have to reach farther than one adjacent key. It's still a QWERTY, but seriously improved.",
+        "OS": ["Linux","Windows"],
+        "keybindings": ["TWM","Emacs","Vim"],
+        "writeup": "https://github.com/MicahElliott/ZeLDA/blob/master/GUIDE.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 4,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/fculpo/",
         "fileSlug": "fculpo",
         "title": "Tweaked keymap for Redox",
