@@ -1065,6 +1065,34 @@
     },
     {
 
+        "url": "/keymaps/matobaa-braille/",
+        "fileSlug": "matobaa-braille",
+        "title": "matobaa's Braille keyboard",
+        "keymapUrl": "https://github.com/matobaa/braille_keyboard/tree/master",
+        "author": "matobaa",
+        "keymapImage": "https://github.com/matobaa/braille_keyboard/raw/master/doc/layout.png",
+        "keyCount": 8,
+        "firmwares": ["QMK"],
+        "keyboard": "Braille",
+        "baseLayouts": ["Perkins Brailler"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English","Japanese"],
+        "summary": "A 8-key keyboard for braille characters",
+        "OS": [],
+        "keybindings": [],
+        "writeup": "https://github.com/matobaa/braille_keyboard/blob/master/doc/UserManual.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 5,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/metheon/",
         "fileSlug": "metheon",
         "title": "metheon's QMK layout",
