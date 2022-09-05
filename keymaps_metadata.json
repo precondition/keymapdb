@@ -533,6 +533,34 @@
     },
     {
 
+        "url": "/keymaps/dovenyi/",
+        "fileSlug": "dovenyi",
+        "title": "dovenyi's Tormentor keymap",
+        "keymapUrl": "http://www.keyboard-layout-editor.com/#/gists/9b6379d4940a356bf904ea5452bf3956",
+        "author": "dovenyi",
+        "keymapImage": "/assets/img/keymaps/dovenyi.png",
+        "keyCount": 46,
+        "firmwares": ["QMK"],
+        "keyboard": "S.Torm46",
+        "baseLayouts": ["ÜASETGHNKLÉ"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["Hungarian","English"],
+        "summary": "This Tormentor keymap was designed for my workplace/hands/fingers aaand for Hungarian (+9 vowels). It probably won't fit with your needs, but the concepts and workflow might help your own project.",
+        "OS": [],
+        "keybindings": [],
+        "writeup": "https://golem.hu/build-log/build-the-storm/",
+        "hasRotaryEncoder": true,
+        "hasLetterOnThumb": false,
+        "layerCount": 5,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/duckyb/",
         "fileSlug": "duckyb",
         "title": "duckyb's Ferris Sweep ZMK Configuration",
