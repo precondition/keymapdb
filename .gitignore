@@ -111,3 +111,6 @@ dist
 
 # .DS_Store
 .DS_Store
+
+# Gimp files
+**/*.xcf
