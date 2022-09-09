@@ -130,11 +130,19 @@ keybindings: []
                 <th colspan="2" class="text-xl font-bold">Links</th>
                 <tr>
                     <td>Keymap Folder</td>
-                    <td><a href="{{ keymapUrl }}">{{ keymapUrl | replace('/', '<wbr>/') | safe }}</a></td>
+                    {% if keymapUrl %}
+                        <td><a href="{{ keymapUrl }}">{{ keymapUrl | replace('/', '<wbr>/') | safe }}</a></td>
+                    {% else %}
+                        <td>N/A</td>
+                    {% endif %}
                 </tr>
                 <tr>
                     <td>Write-Up</td>
-                    <td><a href="{{ writeup }}">{{ writeup | replace('/', '<wbr>/') | safe }}</a></td>
+                    {% if writeup %}
+                        <td><a href="{{ writeup }}">{{ writeup | replace('/', '<wbr>/') | safe }}</a></td>
+                    {% else %}
+                        <td>N/A</td>
+                    {% endif %}
                 </tr>
             </tbody>
         </table>
