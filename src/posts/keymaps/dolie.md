@@ -1,6 +1,6 @@
 ---
 author: dolie
-baseLayouts: [Bépo]
+baseLayouts: [BÉPO]
 firmwares: [QMK]
 hasHomeRowMods: false
 hasLetterOnThumb: false

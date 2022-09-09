@@ -1,6 +1,6 @@
 ---
 author: Kawamashi
-baseLayouts: [Bépo]
+baseLayouts: [BÉPO]
 firmwares: [QMK]
 hasHomeRowMods: false
 hasLetterOnThumb: true
@@ -18,7 +18,7 @@ languages: [French]
 layerCount: 3
 OS: [Windows]
 stagger: columnar
-summary: Keyboard layout derived from Bépo and optimised for split ortholinear and columnar-staggered keyboards like the ErgoDox, with two secondary layers (scientific symbols + numpad / other symbols + function keys) accessible with the thumb.
+summary: Keyboard layout derived from BÉPO and optimised for split ortholinear and columnar-staggered keyboards like the ErgoDox, with two secondary layers (scientific symbols + numpad / other symbols + function keys) accessible with the thumb.
 title: FR-Godox
 writeup: https://bepo.fr/wiki/Utilisateur:Kawamashi
 ---
