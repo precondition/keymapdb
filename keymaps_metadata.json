@@ -57,6 +57,34 @@
     },
     {
 
+        "url": "/keymaps/AlaaSaadAbdo/",
+        "fileSlug": "AlaaSaadAbdo",
+        "title": "AlaaSaadAbdo's ZMK keymap for 30-key wireless Battoota",
+        "keymapUrl": "https://github.com/AlaaSaadAbdo/zmk-config",
+        "author": "AlaaSaadAbdo",
+        "keymapImage": "https://raw.githubusercontent.com/AlaaSaadAbdo/zmk-config/master/layout.png",
+        "keyCount": 30,
+        "firmwares": ["ZMK"],
+        "keyboard": "Battoota",
+        "baseLayouts": ["HDN"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["Arabic","English"],
+        "summary": "This is my personal ZMK firmware configuration for my current 30-key wireless keyboards Battoota.   I use this keyboard for both windows and mac, to type in Arabic and English",
+        "OS": ["Windows","MacOS"],
+        "keybindings": [],
+        "writeup": "https://github.com/AlaaSaadAbdo/zmk-config/blob/master/README.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 8,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/alper/",
         "fileSlug": "alper",
         "title": "Alper's Contra Layout",
