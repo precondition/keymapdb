@@ -953,6 +953,34 @@
     },
     {
 
+        "url": "/keymaps/jcmkk3/",
+        "fileSlug": "jcmkk3",
+        "title": "jcmkk3's config for Hummingbird keyboards",
+        "keymapUrl": "https://github.com/jcmkk3/zmk-config",
+        "author": "jcmkk3",
+        "keymapImage": "https://github.com/jcmkk3/zmk-config/raw/main/images/keymap.png",
+        "keyCount": 30,
+        "firmwares": ["ZMK"],
+        "keyboard": "Hummingbird",
+        "baseLayouts": ["Hands Down"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "ZMK Config for my Hummingbird (and related) keyboards",
+        "OS": [],
+        "keybindings": [],
+        "writeup": "https://github.com/jcmkk3/zmk-config/blob/main/README.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 4,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/jporter_dev/",
         "fileSlug": "jporter_dev",
         "title": "jporter-dev's simple 36-key keymap for the Corne",
