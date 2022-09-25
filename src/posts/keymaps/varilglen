@@ -13,7 +13,7 @@ keybindings: # []
 keyboard: # Dactyl Manuform 5x6
 keyCount: 64
 keymapImage:
-keymapUrl: https://github.com/varilglen/zmk-config4/tree/varilglen-patch-1
+keymapUrl: https://github.com/varilglen/colemak-dh_dactyl5x6
 languages: # [English]
 layerCount: 3
 OS: # [Windows]
