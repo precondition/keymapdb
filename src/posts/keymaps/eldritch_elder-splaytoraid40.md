@@ -12,7 +12,7 @@ isTapDanceEnabled: false
 keybindings: [Vim]
 keyboard: Splaytoraid40
 keyCount: 40
-keymapImage: https://git.sr.ht/~jat/keymap/tree/zmk/splaytoraid40/item/layout.png
+keymapImage: https://git.sr.ht/~jat/keymap/blob/zmk/splaytoraid40/layout.png
 keymapUrl: https://git.sr.ht/~jat/keymap/tree/zmk/splaytoraid40
 languages: [English, German]
 layerCount: 4
