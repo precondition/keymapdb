@@ -19,6 +19,6 @@ layerCount: 4
 OS: [Linux]
 stagger: columnar
 summary: "a modified hands down gold layout on the wonderful splaytoraid40 by freya-irl"
-title: "freja's layout or the splaytoraid"
+title: "freja's layout on the splaytoraid"
 writeup: https://git.sr.ht/~jat/keymap/tree/zmk/splaytoraid40/item/main.org
 ---
