@@ -12,7 +12,7 @@ isTapDanceEnabled: false
 keybindings: [Vim]
 keyboard: Kyria
 keyCount: 36
-keymapImage: https://git.sr.ht/~jat/keymap/tree/qmk/kyria/rev1/item/layout.png
+keymapImage: https://git.sr.ht/~jat/keymap/blob/qmk/kyria/rev1/layout.png
 keymapUrl: https://git.sr.ht/~jat/keymap/tree/qmk/kyria/rev1
 languages: ["English", "German", "Swedish"]
 layerCount: 5
