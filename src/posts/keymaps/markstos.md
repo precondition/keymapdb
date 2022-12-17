@@ -12,7 +12,7 @@ isTapDanceEnabled: false
 keybindings: [Vim, TWM]
 keyboard: Corne
 keyCount: 42
-keymapImage: https://raw.githubusercontent.com/markstos/qmk_firmware/markstos/keyboards/crkbd/keymaps/markstos/markstos-layout-full.png
+keymapImage: https://mark.stosberg.com/content/images/2022/11/markstos-3x5-plus-1-layout-v2.2.png
 keymapUrl: https://github.com/markstos/qmk_firmware/tree/markstos/keyboards/crkbd/keymaps/markstos
 languages: [English]
 layerCount: 4
