@@ -337,6 +337,34 @@
     },
     {
 
+        "url": "/keymaps/ranzq/",
+        "fileSlug": "ranzq",
+        "title": "Compact Sofle 3x5+5 for fi-FI",
+        "keymapUrl": "https://github.com/RanzQ/qmk-keymaps/tree/main/sofle-rgb",
+        "author": "RanzQ",
+        "keymapImage": "https://i.imgur.com/8fuIYzR.png",
+        "keyCount": 40,
+        "firmwares": ["QMK"],
+        "keyboard": "Sofle",
+        "baseLayouts": ["QWERTY","Colemak"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English","Finnish"],
+        "summary": "I've tried to keep the mapping work for gaming so extra keys for modifiers.",
+        "OS": ["Windows","Linux"],
+        "keybindings": ["Gaming"],
+        "writeup": null,
+        "hasRotaryEncoder": true,
+        "hasLetterOnThumb": false,
+        "layerCount": 4,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/purple_rw/",
         "fileSlug": "purple_rw",
         "title": "Custom one-handed ARTSEY keyboard layout",
