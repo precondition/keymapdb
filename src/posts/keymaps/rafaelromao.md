@@ -6,7 +6,7 @@ keymapUrl: https://github.com/rafaelromao/keyboards
 author: rafaelromao
 keymapImage: rafaelromao.png
 keyboard: Ferris
-keyCount: 34
+keyCount: 30
 layerCount: 9
 firmwares: [QMK, ZMK]
 OS: ["MacOS", "Windows"]
