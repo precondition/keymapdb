@@ -1541,6 +1541,34 @@
     },
     {
 
+        "url": "/keymaps/pcoves/",
+        "fileSlug": "pcoves",
+        "title": "PCoves",
+        "keymapUrl": "https://github.com/pcoves/qmk_firmware/tree/pcoves/keyboards/crkbd/keymaps/pcoves",
+        "author": "Pablo COVES",
+        "keymapImage": "https://raw.githubusercontent.com/pcoves/qmk_firmware/pcoves/users/pcoves/keyboard-layout.png",
+        "keyCount": 36,
+        "firmwares": ["QMK"],
+        "keyboard": "Corne",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English","French"],
+        "summary": "Got tired of RSI, took three years to work on this, don't suffer anymore.",
+        "OS": ["Linux","MacOS","Windows"],
+        "keybindings": ["Vim"],
+        "writeup": "https://pcoves.gitlab.io/blog/keyboard-36-keys/",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 2,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": true,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/peterxjang/",
         "fileSlug": "peterxjang",
         "title": "Peter Jang's 36-key beginner-friendly keyboard layout",
