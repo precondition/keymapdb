@@ -46,11 +46,11 @@ keybindings: []
             {% if summary | isArray %}
                 <ul>
                 {% for bulletpoint in summary %}
-                    <li>{{ bulletpoint }}</li>
+                    <li>{{ bulletpoint | safe }}</li>
                 {% endfor %}
                 </ul>
             {% else %}
-                <p>{{ summary }}</p>
+                <p>{{ summary | safe }}</p>
             {%- endif %}
         {% endif %}
         <table>
