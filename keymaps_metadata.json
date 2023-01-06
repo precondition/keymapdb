@@ -281,6 +281,34 @@
     },
     {
 
+        "url": "/keymaps/caksoylar/",
+        "fileSlug": "caksoylar",
+        "title": "caksoylar's keymap for 34–36 key keyboards",
+        "keymapUrl": "https://github.com/caksoylar/zmk-config",
+        "author": "caksoylar",
+        "keymapImage": "https://caksoylar.github.io/zmk-config/3x5.full.svg",
+        "keyCount": 34,
+        "firmwares": ["ZMK","QMK"],
+        "keyboard": "Hypergolic",
+        "baseLayouts": ["QWERTY","Colemak"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "This is a ZMK and QMK config for my 34-36 key split keyboards, arranged in 3 rows of 5 columns with 2 or 3 thumb keys on each side. It uses three non-base layers activated through two thumb keys along with combos. It has <kbd>Ctrl</kbd>/<kbd>Shift</kbd> thumb hold-taps along with home row mods. `FUN` layer is implemented as a tri-layer.",
+        "OS": ["Linux","Windows"],
+        "keybindings": ["Gaming","Kakoune","Vim"],
+        "writeup": "https://github.com/caksoylar/zmk-config/blob/main/README.md",
+        "hasRotaryEncoder": true,
+        "hasLetterOnThumb": false,
+        "layerCount": 6,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/callum_oakley/",
         "fileSlug": "callum_oakley",
         "title": "callum's keymap",
