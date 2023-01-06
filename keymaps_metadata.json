@@ -294,7 +294,7 @@
         "stagger": "columnar",
         "isSplit": true,
         "languages": ["English"],
-        "summary": "This is a ZMK and QMK config for my 34-36 key split keyboards, arranged in 3 rows of 5 columns with 2 or 3 thumb keys on each side. It uses three non-base layers activated through two thumb keys along with combos. It has <kbd>Ctrl</kbd>/<kbd>Shift</kbd> thumb hold-taps along with home row mods. `FUN` layer is implemented as a tri-layer.",
+        "summary": "This is a ZMK and QMK config for my 34-36 key split keyboards, arranged in 3 rows of 5 columns with 2 or 3 thumb keys on each side. It uses three non-base layers activated through two thumb keys along with combos. It has <kbd>Ctrl</kbd>/<kbd>Shift</kbd> thumb hold-taps along with home row mods. <code>FUN</code> layer is implemented as a tri-layer.",
         "OS": ["Linux","Windows"],
         "keybindings": ["Gaming","Kakoune","Vim"],
         "writeup": "https://github.com/caksoylar/zmk-config/blob/main/README.md",
