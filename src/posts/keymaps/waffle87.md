@@ -10,7 +10,7 @@ isComboEnabled: true
 isSplit: true
 isTapDanceEnabled: true
 keybindings: [Vim, TWM]
-keyboard: Ferris Sweep
+keyboard: Ferris
 keyCount: 34
 keymapImage: https://raw.githubusercontent.com/waffle87/qmk.me/master/img/layout.svg
 keymapUrl: https://github.com/waffle87/qmk.me/tree/master/waffle
