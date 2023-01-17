@@ -2232,7 +2232,7 @@
         "writeup": "https://github.com/waffle87/qmk.me/blob/master/readme.md",
         "hasRotaryEncoder": false,
         "hasLetterOnThumb": false,
-        "layerCount": 2,
+        "layerCount": 4,
         "hasHomeRowMods": true,
         "isTapDanceEnabled": true,
         "isComboEnabled": true,
