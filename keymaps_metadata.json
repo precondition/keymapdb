@@ -2213,6 +2213,34 @@
     },
     {
 
+        "url": "/keymaps/waffle87/",
+        "fileSlug": "waffle87",
+        "title": "waffle's keymap",
+        "keymapUrl": "https://github.com/waffle87/qmk.me/tree/master/waffle",
+        "author": "waffle87",
+        "keymapImage": "https://raw.githubusercontent.com/waffle87/qmk.me/master/img/layout.svg",
+        "keyCount": 34,
+        "firmwares": ["QMK","ZMK"],
+        "keyboard": "Ferris",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "a simple 34-key layout that makes use of 2 (primary) layers, home-row mods, & combos for many symbols.",
+        "OS": ["Linux"],
+        "keybindings": ["Vim","TWM"],
+        "writeup": "https://github.com/waffle87/qmk.me/blob/master/readme.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 2,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": true,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/waynehoover/",
         "fileSlug": "waynehoover",
         "title": "waynehoover's Dvorak IULM",
