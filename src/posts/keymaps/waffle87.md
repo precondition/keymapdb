@@ -15,7 +15,7 @@ keyCount: 34
 keymapImage: https://raw.githubusercontent.com/waffle87/qmk.me/master/img/layout.svg
 keymapUrl: https://github.com/waffle87/qmk.me/tree/master/waffle
 languages: [English]
-layerCount: 2
+layerCount: 4
 OS: [Linux]
 stagger: columnar
 summary: "a simple 34-key layout that makes use of 2 (primary) layers, home-row mods, & combos for many symbols."
