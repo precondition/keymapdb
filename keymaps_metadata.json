@@ -1457,6 +1457,34 @@
     },
     {
 
+        "url": "/keymaps/nerdypepper/",
+        "fileSlug": "nerdypepper",
+        "title": "nerdypepper's programming layout for the Ferricy",
+        "keymapUrl": "https://git.peppe.rs/config/zmk/tree/config",
+        "author": "nerdypepper",
+        "keymapImage": "https://u.peppe.rs/sym.png",
+        "keyCount": 34,
+        "firmwares": ["ZMK"],
+        "keyboard": "Ferris",
+        "baseLayouts": ["Colemak"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "My palms do not move across the desk at all, as I reach for keys. My daily use consists of a bit of prose and a lot of program. I mostly write Rust and Bash, and my layout has evolved to accomodate special characters from their grammars (angled brackets and hyphens, specifically).",
+        "OS": ["Linux"],
+        "keybindings": ["Vim","Graphics/CAD"],
+        "writeup": "https://peppe.rs/posts/programming_on_34_keys/",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 6,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/nfriend/",
         "fileSlug": "nfriend",
         "title": "nfriend's ErgoDox EZ configuration",
