@@ -882,7 +882,7 @@
         "stagger": "columnar",
         "isSplit": true,
         "languages": ["English"],
-        "summary": "The Fulcrum Keyboard is an ergo-mechanical split keyboard with extra thumb functionality. It has 20 keys, two rotary encoders, and two 5-way switches. The 20-key version uses a significant number of combos and features “word keys“: keys on the base layer dedicated to typing a whole word at once, like “the” and “and”.",
+        "summary": "The Fulcrum Keyboard is an ergo-mechanical split keyboard with extra thumb functionality. It has 20 keys, two rotary encoders, and two 5-way switches. The 20-key version uses a significant number of combos and features “word keys“: macro keys in the alpha layer that type a whole word at once, like “the” and “and”.",
         "OS": [],
         "keybindings": [],
         "writeup": "https://github.com/dschil138/Fulcrum/blob/main/README.md",
