@@ -1444,7 +1444,7 @@
         "languages": ["English"],
         "summary": "Miryoku is an ergonomic, minimal, orthogonal, and universal keyboard layout.",
         "OS": ["Linux","Windows","MacOS"],
-        "keybindings": ["Vim","Emacs","TWM","Gaming"],
+        "keybindings": ["Vim","Emacs","TWM"],
         "writeup": "https://github.com/manna-harbour/miryoku",
         "hasRotaryEncoder": false,
         "hasLetterOnThumb": false,
