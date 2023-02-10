@@ -9,7 +9,7 @@ isAutoShiftEnabled: true
 isComboEnabled: false
 isSplit: true
 isTapDanceEnabled: false
-keybindings: [Vim,Emacs,TWM,Gaming]
+keybindings: [Vim,Emacs,TWM]
 keyboard: MiniDox
 keyCount: 36
 keymapImage: https://raw.githubusercontent.com/manna-harbour/miryoku/master/data/cover/miryoku-kle-cover.png
