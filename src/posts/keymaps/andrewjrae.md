@@ -13,7 +13,7 @@ keybindings: [Vim, Emacs, TWM, Gaming]
 keyboard: Kyria
 keyCount: 46
 keymapImage: https://github.com/andrewjrae/kyria-keymap/raw/master/images/kyria.png
-keymapUrl: https://github.com/frogm0uth/keyboard-firmware/tree/master/kyria-rsthd-prime
+keymapUrl: https://github.com/andrewjrae/kyria-keymap
 languages: [English]
 layerCount: 7
 OS: [Linux]
