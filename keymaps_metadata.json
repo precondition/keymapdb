@@ -1436,7 +1436,7 @@
         "author": "manna-harbour",
         "keymapImage": "https://raw.githubusercontent.com/manna-harbour/miryoku/master/data/cover/miryoku-kle-cover.png",
         "keyCount": 36,
-        "firmwares": ["QMK","ZMK","KMonad"],
+        "firmwares": ["QMK","ZMK","KMonad","KMK"],
         "keyboard": "MiniDox",
         "baseLayouts": ["AZERTY","BEAKL","Colemak","Dvorak","Halmak","Workman","QWERTY","QWERTZ"],
         "stagger": "columnar",
