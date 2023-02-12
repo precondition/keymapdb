@@ -1,7 +1,7 @@
 ---
 author: manna-harbour
 baseLayouts: [AZERTY,BEAKL,Colemak,Dvorak,Halmak,Workman,QWERTY,QWERTZ]
-firmwares: [QMK, ZMK, KMonad]
+firmwares: [QMK, ZMK, KMonad, KMK]
 hasHomeRowMods: true
 hasLetterOnThumb: false
 hasRotaryEncoder: false
