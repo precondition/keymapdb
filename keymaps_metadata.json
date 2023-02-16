@@ -1877,6 +1877,34 @@
     },
     {
 
+        "url": "/keymaps/sartak/",
+        "fileSlug": "sartak",
+        "title": "sartak's keyboard config heavily focused on chording words",
+        "keymapUrl": "https://github.com/sartak/keyboard",
+        "author": "sartak",
+        "keymapImage": "https://github.com/sartak/keyboard/raw/master/images/keymap.svg",
+        "keyCount": 34,
+        "firmwares": ["QMK","ZMK"],
+        "keyboard": "Ferris",
+        "baseLayouts": ["Canary"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "I use the Canary layout on a lightly-modded Ferris Sweep with chocs. I use the lightest switches I can find, currently pinks. I use chords heavily to type entire words, inspired by Plover steno and CharaChorder. I have a duplicate key on a thumb which enables a bunch of functionality. No home row mods due to the presence of word-chords.",
+        "OS": ["Linux"],
+        "keybindings": ["Vim"],
+        "writeup": "https://github.com/sartak/keyboard/blob/master/README.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 4,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/seancolsen/",
         "fileSlug": "seancolsen",
         "title": "seancolsen's 36 key layout with only 2 layers — and lots of combos!",
