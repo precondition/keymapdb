@@ -1070,7 +1070,7 @@
         "title": "jcmkk3's config for Hummingbird keyboards",
         "keymapUrl": "https://github.com/jcmkk3/zmk-config",
         "author": "jcmkk3",
-        "keymapImage": "https://github.com/jcmkk3/zmk-config/raw/main/images/keymap.png",
+        "keymapImage": "https://github.com/jcmkk3/zmk-config/raw/main/images/keymap.svg",
         "keyCount": 30,
         "firmwares": ["ZMK"],
         "keyboard": "Hummingbird",
