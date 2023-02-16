@@ -12,7 +12,7 @@ isTapDanceEnabled: false
 keybindings: []
 keyboard: Fulcrum
 keyCount: 20
-keymapImage: https://raw.githubusercontent.com/dschil138/Fulcrum/main/photos/fulcrum-layouts-full-2.jpg
+keymapImage: https://github.com/dschil138/Fulcrum/raw/main/photos/fulcrum-layout-all-layers-2.jpg
 keymapUrl: https://github.com/dschil138/Fulcrum
 languages: [English]
 layerCount: 4
