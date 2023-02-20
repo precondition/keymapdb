@@ -1490,7 +1490,7 @@
         "title": "nerdypepper's programming layout for the Ferricy",
         "keymapUrl": "https://git.peppe.rs/config/zmk/tree/config",
         "author": "nerdypepper",
-        "keymapImage": "https://u.peppe.rs/sym.png",
+        "keymapImage": "/assets/img/keymaps/nerdypepper.png",
         "keyCount": 34,
         "firmwares": ["ZMK"],
         "keyboard": "Ferris",
