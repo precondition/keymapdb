@@ -169,6 +169,34 @@
     },
     {
 
+        "url": "/keymaps/archydragon/",
+        "fileSlug": "archydragon",
+        "title": "archydragon's multilingual layout for Lily58 keyboard",
+        "keymapUrl": "https://github.com/archydragon/lily-layout",
+        "author": "archydragon",
+        "keymapImage": "https://raw.githubusercontent.com/archydragon/lily-layout/main/img/latin-colemak.png",
+        "keyCount": 58,
+        "firmwares": ["QMK"],
+        "keyboard": "Lily58",
+        "baseLayouts": ["Colemak","QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English","Finnish","Swedish","Russian","Ukrainian","Belarusian"],
+        "summary": "Colemak-DH layout able to type in English, Finnish, Swedish, Russian, Ukrainian and Belarusian with just two system layouts that fits all the printable characters into the main keyboard layer and where no modifier keys are under other fingers but thumbs.",
+        "OS": ["Windows"],
+        "keybindings": ["Gaming"],
+        "writeup": "https://github.com/archydragon/lily-layout/blob/main/README.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 6,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/ARTSEY/",
         "fileSlug": "ARTSEY",
         "title": "ARTSEY",
