@@ -13,7 +13,7 @@ keybindings: []
 keyboard: Ferris
 keyCount: 34
 keymapImage: https://raw.githubusercontent.com/ChuseCubr/mini-ryoku/main/images/miniryoku.png
-keymapUrl: https://github.com/ChuseCubr/mini-ryoku
+keymapUrl: https://github.com/ChuseCubr/mini-ryoku/tree/main/qmk
 languages: [English]
 layerCount: 3
 OS: [Windows, MacOS, Linux]
