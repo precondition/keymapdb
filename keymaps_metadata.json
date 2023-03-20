@@ -1373,6 +1373,34 @@
     },
     {
 
+        "url": "/keymaps/chusecubr/",
+        "fileSlug": "chusecubr",
+        "title": "Mini-ryoku",
+        "keymapUrl": "https://github.com/ChuseCubr/mini-ryoku/tree/main/qmk",
+        "author": "chusecubr",
+        "keymapImage": "https://raw.githubusercontent.com/ChuseCubr/mini-ryoku/main/images/miniryoku.png",
+        "keyCount": 34,
+        "firmwares": ["QMK"],
+        "keyboard": "Ferris",
+        "baseLayouts": ["Colemak"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "A compact 34-key adaptation of Miryoku.",
+        "OS": ["Windows","MacOS","Linux"],
+        "keybindings": [],
+        "writeup": "https://github.com/ChuseCubr/mini-ryoku",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 3,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/dolie/",
         "fileSlug": "dolie",
         "title": "MiniDox Bépo",
