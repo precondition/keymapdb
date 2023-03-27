@@ -13,9 +13,9 @@ keybindings: []
 keyboard: [Charybdis Nano]
 keyCount: 35
 keymapImage: keyboards/bastardkb/charybdis/3x5/keymaps/mrkskk/charybdisnano-keymap2.svg
-keymapUrl: https://github.com/mrkskk/qmk_firmware/tree/mrkskk_branch/keyboards/bastardkb/charybdis/3x5/keymaps/mrkskk/README.md
+keymapUrl: https://github.com/mrkskk/qmk_firmware/tree/mrkskk_branch/keyboards/bastardkb/charybdis/3x5/keymaps/mrkskk/
 languages: [Danish, English]
-layerCount: 6
+layerCount: 8
 OS: [Windows, MacOS]
 stagger: columnar
 summary: "This is my personal QMK firmware configuration for the Bastardkb Charybdis Nano.  
