@@ -1513,6 +1513,34 @@
     },
     {
 
+        "url": "/keymaps/mrkskk/",
+        "fileSlug": "mrkskk",
+        "title": "mrkskk's QMK keymap for the Charybdis Nano",
+        "keymapUrl": "https://github.com/mrkskk/qmk_firmware/tree/mrkskk_branch/keyboards/bastardkb/charybdis/3x5/keymaps/mrkskk",
+        "author": "mrkskk",
+        "keymapImage": "https://raw.githubusercontent.com/mrkskk/qmk_firmware/mrkskk_branch/keyboards/bastardkb/charybdis/3x5/keymaps/mrkskk/charybdisnano-keymap2.svg",
+        "keyCount": 35,
+        "firmwares": ["QMK"],
+        "keyboard": "Charybdis Nano",
+        "baseLayouts": ["HDN"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["Danish","English"],
+        "summary": "This is my personal QMK firmware configuration for the Bastardkb Charybdis Nano.   I use this keyboard for both windows and mac, and type in Danish and English",
+        "OS": ["Windows","MacOS"],
+        "keybindings": [],
+        "writeup": "https://github.com/mrkskk/qmk_firmware/tree/mrkskk_branch/keyboards/bastardkb/charybdis/3x5/keymaps/mrkskk/readme.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": true,
+        "layerCount": 8,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/josefadamcik/",
         "fileSlug": "josefadamcik",
         "title": "Multi OS Katana60 layout",
