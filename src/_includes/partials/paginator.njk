@@ -5,20 +5,16 @@ when increasing the size of the viewport after having clicked the
 <div id="paginator-container" class="mt-9 flow-root md:flow-root">
 <a
  id="previous-button"
- {% if not paged.first %}
      href="{{ pagination.href.previous | url }}"
- {% else %}
-     href="javascript:void(0)"
+ {% if paged.first %}
      hidden
  {% endif %}
  class="float-left button">Previous</a>
 
 <a
  id="next-button"
- {% if not paged.last %}
      href="{{ pagination.href.next | url }}"
- {% else %}
-     href="javascript:void(0)"
+ {% if paged.last %}
      hidden
  {% endif %}
      class="float-right button">Next</a>
