@@ -1,4 +1,4 @@
-name: Site Reliability
+name: Broken Links Crawler
 on: 
   workflow_dispatch:
   push:
