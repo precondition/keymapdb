@@ -12,7 +12,7 @@ isTapDanceEnabled: false
 keybindings: []
 keyboard: Redox
 keyCount: 70
-keymapImage: https://i.imgur.com/OXT8boJ.png
+keymapImage: fculpo.png
 keymapUrl: https://github.com/fculpo/qmk_firmware/tree/master/keyboards/redox/keymaps/fculpo
 languages: ['English']
 layerCount: 4

@@ -12,7 +12,7 @@ isTapDanceEnabled: false
 keybindings: [Gaming]
 keyboard: UT47
 keyCount: 47
-keymapImage: https://i.imgur.com/ZNtF4wA.png
+keymapImage: NeonSpork.png
 keymapUrl: https://github.com/qmk/qmk_firmware/tree/master/keyboards/40percentclub/ut47/keymaps/nordic
 languages: [English, Danish, Norwegian]
 layerCount: 6

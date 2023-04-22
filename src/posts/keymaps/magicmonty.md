@@ -11,7 +11,7 @@ isTapDanceEnabled: false
 keybindings: []
 keyboard: Clueboard 66%
 keyCount: 66
-keymapImage: https://i.imgur.com/eEwjLEj.png
+keymapImage: magicmonty.png
 keymapUrl: https://github.com/magicmonty/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/magicmonty
 languages: ['English']
 layerCount: 7

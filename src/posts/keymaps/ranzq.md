@@ -12,7 +12,7 @@ isTapDanceEnabled: false
 keybindings: [Gaming]
 keyboard: Sofle
 keyCount: 40
-keymapImage: https://i.imgur.com/8fuIYzR.png
+keymapImage: ranzq.png
 keymapUrl: https://github.com/RanzQ/qmk-keymaps/tree/main/sofle-rgb
 languages: [English, Finnish]
 layerCount: 4

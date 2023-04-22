@@ -12,7 +12,7 @@ isTapDanceEnabled: false
 keybindings: []
 keyboard: ErgoDox
 keyCount: 76
-keymapImage: https://i.imgur.com/CMMmdBc.png
+keymapImage: nfriend.png
 keymapUrl: https://github.com/nfriend/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/nfriend
 languages: ['English']
 layerCount: 13

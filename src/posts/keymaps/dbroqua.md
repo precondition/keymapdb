@@ -12,7 +12,7 @@ isTapDanceEnabled: false
 keybindings: []
 keyboard: Planck
 keyCount: 47
-keymapImage: https://i.imgur.com/XxBtDBy.png
+keymapImage: dbroqua.png
 keymapUrl: https://github.com/dbroqua/qmk_firmware/tree/master/keyboards/planck/keymaps/dbroqua
 languages: ['English']
 layerCount: 5

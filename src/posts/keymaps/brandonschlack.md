@@ -4,7 +4,7 @@ author: brandonschlack
 firmwares: [QMK]
 hasHomeRowMods: False
 hasLetterOnThumb: False
-keymapImage: https://i.imgur.com/08759vK.png
+keymapImage: brandonschlack.png
 keyCount: 49
 keyboard: Nightmare
 baseLayouts: ["QWERTY"]

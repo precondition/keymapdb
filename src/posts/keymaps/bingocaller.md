@@ -12,7 +12,7 @@ isTapDanceEnabled: false
 keybindings: [Vim]
 keyboard: DZ60
 keyCount: 67
-keymapImage: https://i.imgur.com/lFP2O41.png
+keymapImage: bingocaller.png
 keymapUrl: https://github.com/bingocaller/qmk_firmware/tree/master/keyboards/dz60/keymaps/bingocaller
 languages: ['English']
 layerCount: 6
