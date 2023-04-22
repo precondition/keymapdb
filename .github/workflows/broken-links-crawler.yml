@@ -1,7 +1,25 @@
-name: Broken-Links-Crawler
-uses: ScholliYT/Broken-Links-Crawler-Action@v3.2.1
-with:
-  website_url: "https://keymapdb.com"
-  exclude_url_prefix: "https://keymapdb.com/assets/"
-  max_retries: 2
-  max_depth: 2
+name: Site Reliability
+on: 
+  workflow_dispatch:
+  push:
+    branches: 
+      - master
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '35 13 5,19 * *'
+jobs:
+  crawl_for_broken_links:
+    runs-on: ubuntu-latest
+    name: Broken-Links-Crawler
+    steps:
+    - name: Debug Action
+      uses: hmarr/debug-action@v1.0.0
+    - name: Checking broken links
+      id: check-broken-links
+      uses: ScholliYT/Broken-Links-Crawler-Action@v3
+      with:
+        website_url: "https://keymapdb.com"
+        exclude_url_prefix: "https://keymapdb.com/assets/"
+        max_retries: 2
+        max_depth: 2
+        verbose: true
