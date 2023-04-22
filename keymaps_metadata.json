@@ -4,7 +4,7 @@
         "url": "/keymaps/kkga/",
         "fileSlug": "kkga",
         "title": "A keyboard layer system for 34 keys",
-        "keymapUrl": "https://github.com/kkga/config/tree/master/.config/qmk",
+        "keymapUrl": "https://github.com/kkga/config/tree/625d91022c4163e0dad674270d5a147692eaf9b2/.config/qmk",
         "author": "kkga",
         "keymapImage": "https://raw.githubusercontent.com/kkga/config/master/.local/share/34keys.png",
         "keyCount": 34,
