@@ -13,7 +13,7 @@ keybindings: [Kakoune, TWM]
 # Also dacman4x6 and Bastyl
 keyboard: Atreus
 keyCount: 34
-keymapImage: https://raw.githubusercontent.com/kkga/config/master/.local/share/34keys.png
+keymapImage: kkga.png
 keymapUrl: https://github.com/kkga/config/tree/625d91022c4163e0dad674270d5a147692eaf9b2/.config/qmk
 languages: [English]
 layerCount: 6
