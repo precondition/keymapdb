@@ -6,7 +6,7 @@
         "title": "A keyboard layer system for 34 keys",
         "keymapUrl": "https://github.com/kkga/config/tree/625d91022c4163e0dad674270d5a147692eaf9b2/.config/qmk",
         "author": "kkga",
-        "keymapImage": "https://raw.githubusercontent.com/kkga/config/master/.local/share/34keys.png",
+        "keymapImage": "/assets/img/keymaps/kkga.png",
         "keyCount": 34,
         "firmwares": ["QMK"],
         "keyboard": "Atreus",
