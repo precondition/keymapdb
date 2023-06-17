@@ -1,13 +1,13 @@
 ---
 
 title: rafaelromao's keyboard layout
-summary: A split keyboard layout optimized for Portuguese, English, working with numbers and software programming with VIM plugins. The number of keys can vary from 30 to 36.
+summary: A split keyboard layout optimized for Portuguese, English, working with numbers and software programming with VIM plugins. The number of keys can vary from 24 to 34.
 keymapUrl: https://github.com/rafaelromao/keyboards
 author: rafaelromao
 keymapImage: rafaelromao.png
-keyboard: Ferris
-keyCount: 30
-layerCount: 9
+keyboard: Rommana
+keyCount: 24
+layerCount: 12
 firmwares: [QMK, ZMK]
 OS: ["MacOS", "Windows"]
 keybindings: ["Vim", "Spreadsheets"]
