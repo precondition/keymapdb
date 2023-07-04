@@ -89,8 +89,8 @@ svg {
     margin-left: 0.125em;
 }
 
-/* Inserting this collapsed row between two flex items will make 
- * the flex item that comes after it break to a new row 
+/* Inserting this collapsed row between two flex items will make
+ * the flex item that comes after it break to a new row
  * Source: https://tobiasahlin.com/blog/flexbox-break-to-new-row/ */
 .flexitems-break {
     flex-basis: 100%;
@@ -101,7 +101,7 @@ svg {
 /* Sources: https://archive.hankchizljaw.com/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/ */
 #post-grid {
   --post-grid-min-size: 20em;
-  
+
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(var(--post-grid-min-size), 1fr));
   grid-gap: 1rem;
