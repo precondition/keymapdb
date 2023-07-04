@@ -141,3 +141,15 @@ svg {
 .button[disabled] {
     @apply bg-white font-semibold py-2 px-4 border rounded shadow-md text-gray-800 cursor-not-allowed text-opacity-75;
 }
+
+/* Adapted from https://stackoverflow.com/questions/37088198/copyleft-symbol/62706947#62706947 */
+copyleft:before {
+  content: "©";
+}
+
+copyleft {
+  vertical-align:baseline;
+  display:inline-block;
+  transform: rotate(180deg);
+  padding-top:0.1em;
+}
