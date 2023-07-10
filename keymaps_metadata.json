@@ -981,6 +981,34 @@
     },
     {
 
+        "url": "/keymaps/MakotoKurauchi-helix_froggy/",
+        "fileSlug": "MakotoKurauchi-helix_froggy",
+        "title": "Froggy -one hand Helix-",
+        "keymapUrl": "https://github.com/qmk/qmk_firmware/tree/master/keyboards/helix/rev2/keymaps/froggy",
+        "author": "MakotoKurauchi",
+        "keymapImage": "https://camo.githubusercontent.com/31fc2088b2a1672c7bf7a822a0b5ce139ef23484011463214de93d667bad5804/68747470733a2f2f692e696d6775722e636f6d2f533144773358572e6a7067",
+        "keyCount": 32,
+        "firmwares": ["QMK"],
+        "keyboard": "Helix",
+        "baseLayouts": ["Frogpad"],
+        "stagger": "ortholinear",
+        "isSplit": true,
+        "languages": ["Japanese","English"],
+        "summary": "It is a one-handed keyboard with reference to Frogpad. Layout Designed by  <ruby> タクマ<rp>(pronounced as </rp><rt>takuma</rt><rp>)</rp></ruby> (@humid on Twitter).",
+        "OS": ["Windows","MacOS"],
+        "keybindings": [],
+        "writeup": "https://github.com/qmk/qmk_firmware/blob/master/keyboards/helix/rev2/keymaps/froggy/readme.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 5,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/frogmouth-kyria-rsthd_prime/",
         "fileSlug": "frogmouth-kyria-rsthd_prime",
         "title": "frogmouth's Kyria RSTHD/Prime",
@@ -1338,7 +1366,7 @@
         "hasLetterOnThumb": false,
         "layerCount": 4,
         "hasHomeRowMods": false,
-        "isTapDanceEnabled": true,
+        "isTapDanceEnabled": false,
         "isComboEnabled": true,
         "isAutoShiftEnabled": false
         
