@@ -492,7 +492,7 @@
         "languages": ["German","English"],
         "summary": "My Kyria keymap and userspace. Includes Modular Bongocat and Conway's Game of Life",
         "OS": ["Linux"],
-        "keybindings": [],
+        "keybindings": ["Gaming"],
         "writeup": "https://github.com/Dakes/qmk_config/blob/main/kyria/keymaps/dakes/README.md",
         "hasRotaryEncoder": true,
         "hasLetterOnThumb": false,
