@@ -1849,6 +1849,34 @@
     },
     {
 
+        "url": "/keymaps/pseudoku-ergowarp/",
+        "fileSlug": "pseudoku-ergowarp",
+        "title": "Pseudoku's ErgoWarp",
+        "keymapUrl": "https://github.com/pseudoku/ErgoWarp",
+        "author": "pseudoku",
+        "keymapImage": "https://raw.githubusercontent.com/pseudoku/Warped-keyboard/master/Photo/WarpmanLayout.png",
+        "keyCount": 46,
+        "firmwares": ["QMK"],
+        "keyboard": "ErgoWarp",
+        "baseLayouts": ["Warpman"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": ["Customizable parametric key placement","Minimize finger movement","Dense and comfortable thumb cluster","Built-in palm rest","Adjustable tenting","Tracking device"],
+        "OS": [],
+        "keybindings": [],
+        "writeup": "https://github.com/pseudoku/ErgoWarp/blob/master/README.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": true,
+        "layerCount": 4,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/rafaelromao/",
         "fileSlug": "rafaelromao",
         "title": "rafaelromao's keyboard layout",
