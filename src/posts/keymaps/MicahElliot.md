@@ -18,7 +18,7 @@ languages: [English]
 layerCount: 4
 OS: [Linux, Windows]
 stagger: ortholinear
-summary: The ZeLDA (Zero-Look-Down Access) Layout is a minimalist approach to keyboarding. The philsophy is that you should never have to reach farther than one adjacent key. It's still a QWERTY, but seriously improved.
+summary: The ZeLDA (Zero-Look-Down Access) Layout is a minimalist approach to keyboarding. The philosophy is that you should never have to reach farther than one adjacent key. It's still a QWERTY, but seriously improved.
 title: The Woodpecker Makery's ZeLDA Layout for Planck Keyboards
 writeup: https://github.com/MicahElliott/ZeLDA/blob/master/GUIDE.md
 ---
