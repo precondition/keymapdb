@@ -8,7 +8,7 @@ hasRotaryEncoder: false
 isAutoShiftEnabled: false
 isComboEnabled: true
 isSplit: true
-isTapDanceEnabled: true
+isTapDanceEnabled: false
 keybindings: []
 keyboard: Corne
 keyCount: 21
