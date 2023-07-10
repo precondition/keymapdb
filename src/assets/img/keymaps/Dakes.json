@@ -27,12 +27,12 @@
     {
       "x": 1
     },
-    "\n<i class='kb kb-Unicode-DeleteRight-Big'></i>\n]\n\nLayer 3\n\n\n\n\nC",
+    "\n<i class='kb kb-Unicode-DeleteRight-Big'></i>\n]\n\nSymbols\n\n\n\n\nC",
     {
       "x": 7,
       "t": "#000000\n\n\n#00adef"
     },
-    "\n7\n<\n\nLayer 3\n\n\n\n\nH",
+    "\n7\n<\n\nSymbols\n\n\n\n\nH",
     {
       "x": 1,
       "t": "#000000"
@@ -194,12 +194,14 @@
     {
       "y": -0.875,
       "x": 5,
-      "t": "#000000"
+      "t": "#000000",
+      "f": 7
     },
     "\n<i class='fa fa-mouse-pointer'></i><i class='kb kb-Arrows-Up'></i>\n`\n\n\n\n\n\n\nZ",
     {
       "x": 5,
-      "t": "#000000\n\n\n#00adef"
+      "t": "#000000\n\n\n#00adef",
+      "f": 8
     },
     "\n:\n+\n\n\n\n\n\n\nB"
   ],
@@ -249,7 +251,8 @@
       "y": -4.675000000000001,
       "x": -0.5,
       "c": "#878459",
-      "a": 4
+      "a": 4,
+      "f": 7
     },
     "\n<i class='fa fa-mouse-pointer'></i>2\n\n\nGUI\n\n\n\n\nGUI"
   ],
@@ -258,7 +261,8 @@
       "rx": 13,
       "y": -4.675000000000001,
       "x": -0.5,
-      "a": 7
+      "a": 7,
+      "f": 8
     },
     "<i class='kb kb-Unicode-DeleteRight-Big'></i>"
   ],
@@ -268,7 +272,6 @@
       "rx": 4,
       "y": -4.675000000000001,
       "x": -0.5,
-      "c": "#cccccc",
       "a": 4,
       "f": 6
     },
@@ -279,8 +282,7 @@
       "r": 30,
       "y": -2,
       "x": -0.5,
-      "c": "#878459",
-      "f": 8
+      "f": 7
     },
     "\n<i class='fa fa-mouse-pointer'></i><i class='kb kb-Arrows-Right'></i>\n\n\nNavNum\n\n\n\n\nEsc"
   ],
@@ -288,7 +290,8 @@
     {
       "x": -0.5,
       "c": "#cccccc",
-      "p": "DSA SPACE"
+      "p": "DSA SPACE",
+      "f": 8
     },
     "\n<i class='fa fa-mouse-pointer'></i><i class='kb kb-Arrows-Down'></i>\n\n\nSymbols"
   ],
