@@ -1,24 +1,24 @@
 ---
 author: caksoylar
-baseLayouts: [QWERTY, Colemak]
+baseLayouts: [Colemak, APT]
 firmwares: [ZMK, QMK]
 hasHomeRowMods: true
 hasLetterOnThumb: false
-hasRotaryEncoder: true
+hasRotaryEncoder: false
 isAutoShiftEnabled: false
 isComboEnabled: true
 isSplit: true
 isTapDanceEnabled: false
 keybindings: [Gaming, Kakoune, Vim]
-keyboard: "Hypergolic"
-keyCount: 34
-keymapImage: https://caksoylar.github.io/zmk-config/3x5.full.svg
+keyboard: "Hummingbird"
+keyCount: 30
+keymapImage: https://caksoylar.github.io/zmk-config/3x5+3.30keys.svg
 keymapUrl: https://github.com/caksoylar/zmk-config
 languages: [English]
 layerCount: 6
-OS: [Linux, Windows]
+OS: [Windows, Linux]
 stagger: columnar
-summary: This is a ZMK and QMK config for my 34-36 key split keyboards, arranged in 3 rows of 5 columns with 2 or 3 thumb keys on each side. It uses three non-base layers activated through two thumb keys along with combos. It has <kbd>Ctrl</kbd>/<kbd>Shift</kbd> thumb hold-taps along with home row mods. <code>FUN</code> layer is implemented as a tri-layer.
-title: caksoylar's keymap for 34–36 key keyboards
+summary: This is a ZMK and QMK config for my 30-36 key split keyboards, scaling from 5-column 3-thumb layouts down to Hummingbird-like `23332+2` layouts. Base layers include a Colemak variation and an APT variation, utilizing combos for frequent symbols and infrequent letters.
+title: caksoylar's keymap for 30–36 key keyboards
 writeup: https://github.com/caksoylar/zmk-config/blob/main/README.md
 ---
