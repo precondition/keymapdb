@@ -2,7 +2,7 @@
 author: braindefender
 baseLayouts: [QWERTY, ЙЦУКЕН]
 firmwares: [QMK]
-hasHomeRowMods: true
+hasHomeRowMods: false
 hasLetterOnThumb: false
 hasRotaryEncoder: false
 isAutoShiftEnabled: false
