@@ -10,7 +10,7 @@ isComboEnabled: true
 isSplit: true
 isTapDanceEnabled: false
 keybindings: [Gaming, Kakoune, Vim]
-keyboard: "Hummingbird"
+keyboard: "Corne"
 keyCount: 30
 keymapImage: https://caksoylar.github.io/zmk-config/3x5+3.30keys.svg
 keymapUrl: https://github.com/caksoylar/zmk-config
