@@ -2661,6 +2661,34 @@
     },
     {
 
+        "url": "/keymaps/braindefender-wellum/",
+        "fileSlug": "braindefender-wellum",
+        "title": "Wellum — 36-keys callum-styled keyboard layout",
+        "keymapUrl": "https://github.com/braindefender/wellum",
+        "author": "braindefender",
+        "keymapImage": "https://raw.githubusercontent.com/braindefender/wellum/master/images/wellum-preview.jpg",
+        "keyCount": 36,
+        "firmwares": ["QMK"],
+        "keyboard": "Cantor Remix",
+        "baseLayouts": ["QWERTY","ЙЦУКЕН"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English","Russian"],
+        "summary": ["Slightly modified QWERTY layout optimized for English & Russian languages","Mod-Tap-free Home-Row modifiers access without nasty timings","Navigation, symbols, numbers & functional layers","System-wide universal layouts for Windows, Linux and macOS","Gaming layer, easy windows and tabs switcher and more..."],
+        "OS": ["Windows","Linux","MacOS"],
+        "keybindings": ["Vim","Gaming","TWM"],
+        "writeup": "https://github.com/braindefender/wellum/blob/master/README.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 6,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/wochap/",
         "fileSlug": "wochap",
         "title": "wochap's 3x5+2 corne layout",
