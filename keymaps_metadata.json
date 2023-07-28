@@ -2826,6 +2826,34 @@
         "isComboEnabled": true,
         "isAutoShiftEnabled": true
         
+    },
+    {
+
+        "url": "/keymaps/minusfive/",
+        "fileSlug": "minusfive",
+        "title": "👊 Knucklehead",
+        "keymapUrl": "https://github.com/minusfive/zmk-config",
+        "author": "minusfive",
+        "keymapImage": "https://minusfive.com/zmk-config/corneish_zen.svg",
+        "keyCount": 42,
+        "firmwares": ["ZMK"],
+        "keyboard": "Corne",
+        "baseLayouts": ["Colemak","QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English","Spanish"],
+        "summary": "A mnemonic, macOS optimized columnar layout, designed to ease the transition to this style of board for those coming from traditional Apple keyboards.",
+        "OS": ["MacOS","Linux"],
+        "keybindings": [],
+        "writeup": "https://github.com/minusfive/zmk-config/blob/main/README.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 3,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
     }
 ]
 
