@@ -1485,6 +1485,34 @@
     },
     {
 
+        "url": "/keymaps/mattgemmell/",
+        "fileSlug": "mattgemmell",
+        "title": "Matt Gemmell's ever-evolving 34-key layout for iPadOS",
+        "keymapUrl": "https://github.com/mattgemmell/qmk_firmware/tree/master/keyboards/crkbd/keymaps/mattgemmell",
+        "author": "mattgemmell",
+        "keymapImage": "https://raw.githubusercontent.com/mattgemmell/qmk_firmware/master/keyboards/crkbd/keymaps/mattgemmell/keymap_diagram.svg",
+        "keyCount": 34,
+        "firmwares": ["QMK"],
+        "keyboard": "Corne",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": ["Callum mods","No animations, OLED, tap-dance, or combos","4 layers in the usual Planck momentary setup","Mostly for writing fiction","Autoshift enabled","Includes numpad, inverted-T cursors, mouse and scroll-wheel, media keys, and system shortcuts","Optional per-key, per-layer RGB LED colours, configured intuitively in the same layout as the keymap","Small firmware size; easily fits on a Pro Micro"],
+        "OS": ["MacOS"],
+        "keybindings": [],
+        "writeup": "https://mattgemmell.scot/an-evolved-34-key-layout-for-ipados/",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 4,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": true
+        
+    },
+    {
+
         "url": "/keymaps/metheon/",
         "fileSlug": "metheon",
         "title": "metheon's QMK layout",
