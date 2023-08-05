@@ -183,7 +183,7 @@
         "isSplit": true,
         "languages": ["English","Finnish","Swedish","Russian","Ukrainian","Belarusian"],
         "summary": "Colemak-DH layout able to type in English, Finnish, Swedish, Russian, Ukrainian and Belarusian with just two system layouts that fits all the printable characters into the main keyboard layer and where no modifier keys are under other fingers but thumbs.",
-        "OS": ["Windows"],
+        "OS": ["Windows","Linux"],
         "keybindings": ["Gaming"],
         "writeup": "https://github.com/archydragon/lily-layout/blob/main/README.md",
         "hasRotaryEncoder": false,
