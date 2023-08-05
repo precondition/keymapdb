@@ -16,7 +16,7 @@ keymapImage: https://raw.githubusercontent.com/archydragon/lily-layout/main/img/
 keymapUrl: https://github.com/archydragon/lily-layout
 languages: [English, Finnish, Swedish, Russian, Ukrainian, Belarusian]
 layerCount: 6
-OS: [Windows]
+OS: [Windows, Linux]
 stagger: columnar
 summary: Colemak-DH layout able to type in English, Finnish, Swedish, Russian, Ukrainian and Belarusian with just two system layouts that fits all the printable characters into the main keyboard layer and where no modifier keys are under other fingers but thumbs.
 title: archydragon's multilingual layout for Lily58 keyboard
