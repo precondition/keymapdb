@@ -18,7 +18,7 @@ languages: [English]
 layerCount: 4
 OS: [MacOS, Linux]
 stagger: row
-summary: HHKB variant with QMK features: Grave Escape, Mod-Tap, Space Cadet, Tap Dance
+summary: HHKB variant with QMK features Grave Escape, Mod-Tap, Space Cadet, Tap Dance
 title: haunt98's keymap for D60Lite
 writeup: https://github.com/haunt98/qmk_keymaps/blob/main/README.md
 ---
