@@ -1,0 +1,364 @@
+[
+  {
+    "name": "Dakes' Kyria",
+    "css": "/* Navigation */\n.keylabel8 {\n    color: #343941 !important;\n    font-size: 0.1em;\n}\n\n/* NavNum */\n.keylabel6 {\n    color: #315216 !important;\n    font-size: 0.9em;\n}\n\n/* Function */\n.keylabel2{\n    color: #463a2c !important;\n    font-size: 1.2em;\n}"
+  },
+  [
+    {
+      "y": 0.25,
+      "x": 3,
+      "p": "DSA",
+      "f": 8
+    },
+    "\n<i class='kb kb-Arrows-Up'></i>\n[\n\n\n\n\n\n\nL",
+    {
+      "x": 9,
+      "t": "#000000\n\n\n#00adef"
+    },
+    "\n8\n>\n\n\n\n\n\n\nG"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 2,
+      "t": "#000000"
+    },
+    "\n<i class='kb kb-Unicode-BackSpace-DeleteLeft-Big'></i>\n_\n\n\n\n\n\n\nV",
+    {
+      "x": 1
+    },
+    "\n<i class='kb kb-Unicode-DeleteRight-Big'></i>\n]\n\nSymbols\n\n\n\n\nC",
+    {
+      "x": 7,
+      "t": "#000000\n\n\n#00adef"
+    },
+    "\n7\n<\n\nSymbols\n\n\n\n\nH",
+    {
+      "x": 1,
+      "t": "#000000"
+    },
+    "\n9\n=\n\n\n\n\n\n\nF"
+  ],
+  [
+    {
+      "y": -0.875,
+      "x": 5
+    },
+    "\nPgDn\n^\n\n\n\n\n\n\nW",
+    {
+      "x": 5,
+      "t": "#000000\n\n\n#00adef"
+    },
+    "\n*\n!\n\n\n\n\n\n\nK"
+  ],
+  [
+    {
+      "y": -0.875,
+      "x": 7,
+      "t": "#000000",
+      "w": 3,
+      "h": 1.25
+    },
+    "\nL4: NavNum\nL3: Symbols\n\nmodifier/layer when held\n\n\n\n\nNEO"
+  ],
+  [
+    {
+      "y": -0.75,
+      "c": "#bf4a39"
+    },
+    "\nEsc\n\n\nSymbols\n\n\n\n\n<i class='kb kb-Line-Start-End'></i>",
+    {
+      "c": "#cccccc",
+      "t": "#000000\n#009467"
+    },
+    "\nPgUp\n°\n\n\n\n\n\n\nX",
+    {
+      "x": 13,
+      "t": "#000000\n\n\n#00adef"
+    },
+    "\n+\n&\n\n\n\n\n\n\nQ",
+    {
+      "c": "#9e7b13",
+      "t": "#000000",
+      "f": 6
+    },
+    "\n-\n§\n\nAltGr\n\n\n\n\nẞ"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 3,
+      "c": "#cccccc",
+      "t": "#000000\n\n\n#00adef",
+      "f": 8
+    },
+    "\n<i class='kb kb-Arrows-Down'></i>\n{\n\nAlt\n\n\n\n\nA",
+    {
+      "x": 9,
+      "t": "#000000"
+    },
+    "\n5\n)\n\nAlt\n\n\n\n\nR"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 2,
+      "t": "#000000\n\n\n#00adef"
+    },
+    "\n<i class='kb kb-Arrows-Left'></i>\n/\n\nGUI\n\n\n\n\nI",
+    {
+      "x": 1
+    },
+    "\n<i class='kb kb-Arrows-Right'></i>\n}\n\nStrg\n\n\n\n\nE",
+    {
+      "x": 7,
+      "t": "#000000"
+    },
+    "\n4\n(\n\nStrg\n\n\n\n\nN",
+    {
+      "x": 1
+    },
+    "\n6\n-\n\nGUI\n\n\n\n\nT"
+  ],
+  [
+    {
+      "y": -0.875,
+      "x": 5
+    },
+    "\nEnd\n*\n\nNavNum\n\n\n\n\nO",
+    {
+      "x": 5,
+      "t": "#000000\n\n\n#00adef"
+    },
+    "\n/\n?\n\nNavNum\n\n\n\n\nS"
+  ],
+  [
+    {
+      "y": -0.625,
+      "c": "#878459",
+      "t": "#000000",
+      "a": 7
+    },
+    "⇧\n\n\n\nStrg",
+    {
+      "c": "#cccccc",
+      "t": "#000000\n\n\n#00adef",
+      "a": 4
+    },
+    "\nHome\n\\\n\nLShift\n\n\n\n\nU",
+    {
+      "x": 13
+    },
+    "\n.\n:\n\nLShift\n\n\n\n\nD",
+    {
+      "c": "#878459",
+      "t": "#000000"
+    },
+    "\n;\n@\n\nRShift\n\n\n\n\nY"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 3,
+      "c": "#cccccc"
+    },
+    "\nInsert\n|\n\n\n\n\n\n\nÄ",
+    {
+      "x": 9,
+      "t": "#000000\n\n\n#00adef"
+    },
+    "\n2\n\"\n\n\n\n\n\n\n, ;"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 2,
+      "t": "#000000"
+    },
+    "\n<i class='kb kb-Line-Start-End'></i>\n$\n\n\n\n\n\n\nÖ",
+    {
+      "x": 1
+    },
+    "\n<i class='fa fa-mouse-pointer'></i>1\n~\n\nSymbols\n\n\n\n\nP",
+    {
+      "x": 7,
+      "t": "#000000\n\n\n#00adef"
+    },
+    "\n1\n%\n\nSymbols\n\n\n\n\nM",
+    {
+      "x": 1
+    },
+    "\n3\n'\n\n\n\n\n\n\n. :"
+  ],
+  [
+    {
+      "y": -0.875,
+      "x": 5,
+      "t": "#000000",
+      "f": 7
+    },
+    "\n<i class='fa fa-mouse-pointer'></i><i class='kb kb-Arrows-Up'></i>\n`\n\n\n\n\n\n\nZ",
+    {
+      "x": 5,
+      "t": "#000000\n\n\n#00adef",
+      "f": 8
+    },
+    "\n:\n+\n\n\n\n\n\n\nB"
+  ],
+  [
+    {
+      "y": -0.625,
+      "c": "#878459",
+      "t": "#000000",
+      "a": 7,
+      "f": 6
+    },
+    "Strg",
+    {
+      "c": "#cccccc",
+      "a": 4,
+      "f": 8
+    },
+    "\nEsc\n#\n\n\n\n\n\n\nÜ",
+    {
+      "x": 13,
+      "t": "#000000\n\n\n#00adef"
+    },
+    "\n,\n;\n\n\n\n\n\n\nJ",
+    {
+      "c": "#878459",
+      "t": "#000000"
+    },
+    "\n=\n€\n\nRStrg\n\n\n\n\n- _"
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 2.5,
+      "c": "#a1a1a1",
+      "a": 0
+    },
+    "\n\n\n<i class='fa fa-rotate-right'></i>\n<i class='kb kb-Multimedia-Rewind-Start'></i>\n<i class='kb kb-Multimedia-FastForward-End'></i>\n\n\n\n<i class='kb kb-Multimedia-Play-Pause'></i>",
+    {
+      "x": 10
+    },
+    "\n\n\n<i class='fa fa-rotate-right'></i>\n<i class='kb kb-Multimedia-Volume-Down-2'></i>\n<i class='kb kb-Multimedia-Volume-Up-2'></i>\n\n\n\n<i class='kb kb-Multimedia-Mute-2'></i>"
+  ],
+  [
+    {
+      "rx": 4,
+      "ry": 8.175,
+      "y": -4.675000000000001,
+      "x": -0.5,
+      "c": "#878459",
+      "a": 4,
+      "f": 7
+    },
+    "\n<i class='fa fa-mouse-pointer'></i>2\n\n\nGUI\n\n\n\n\nGUI"
+  ],
+  [
+    {
+      "rx": 13,
+      "y": -4.675000000000001,
+      "x": -0.5,
+      "a": 7,
+      "f": 8
+    },
+    "<i class='kb kb-Unicode-DeleteRight-Big'></i>"
+  ],
+  [
+    {
+      "r": 15,
+      "rx": 4,
+      "y": -4.675000000000001,
+      "x": -0.5,
+      "a": 4,
+      "f": 6
+    },
+    "\n<i class='fa fa-mouse-pointer'></i><i class='kb kb-Arrows-Left'></i>\n\n\nAlt\n\n\n\n\nLAlt"
+  ],
+  [
+    {
+      "r": 30,
+      "y": -2,
+      "x": -0.5,
+      "f": 7
+    },
+    "\n<i class='fa fa-mouse-pointer'></i><i class='kb kb-Arrows-Right'></i>\n\n\nNavNum\n\n\n\n\nEsc"
+  ],
+  [
+    {
+      "x": -0.5,
+      "c": "#cccccc",
+      "p": "DSA SPACE",
+      "f": 8
+    },
+    "\n<i class='fa fa-mouse-pointer'></i><i class='kb kb-Arrows-Down'></i>\n\n\nSymbols"
+  ],
+  [
+    {
+      "r": 45,
+      "y": -2,
+      "x": -0.5,
+      "c": "#878459",
+      "p": "DSA",
+      "a": 7
+    },
+    "Sym\n\n\n\nSymbols"
+  ],
+  [
+    {
+      "x": -0.5,
+      "c": "#cccccc",
+      "t": ""
+    },
+    "⏎\n\n\n\nNavNum"
+  ],
+  [
+    {
+      "r": -45,
+      "rx": 13,
+      "y": -5.675000000000001,
+      "x": -0.5,
+      "c": "#878459"
+    },
+    "F5\n\n\n\nNavNum"
+  ],
+  [
+    {
+      "x": -0.5,
+      "c": "#cccccc"
+    },
+    "⏎\n\n\n\nSymbols"
+  ],
+  [
+    {
+      "r": -30,
+      "y": -2,
+      "x": -0.5,
+      "c": "#878459",
+      "t": "#000000"
+    },
+    "F5\n\n\n\nSymbols"
+  ],
+  [
+    {
+      "x": -0.5,
+      "c": "#cccccc",
+      "p": "DSA SPACE",
+      "a": 4
+    },
+    "\n0\n\n\nNavNum"
+  ],
+  [
+    {
+      "r": -15,
+      "y": -1,
+      "x": -0.5,
+      "c": "#878459",
+      "p": "DSA",
+      "a": 7
+    },
+    "<i class='kb kb-Unicode-BackSpace-DeleteLeft-Big'></i>"
+  ]
+]

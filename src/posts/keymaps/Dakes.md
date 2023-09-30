@@ -9,7 +9,7 @@ isAutoShiftEnabled: false
 isComboEnabled: false
 isSplit: true
 isTapDanceEnabled: false
-keybindings: []
+keybindings: [Gaming]
 keyboard: Kyria
 keyCount: 50
 keymapImage: Dakes.png

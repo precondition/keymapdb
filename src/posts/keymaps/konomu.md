@@ -8,11 +8,10 @@ hasRotaryEncoder: false
 isAutoShiftEnabled: false
 isComboEnabled: true
 isSplit: true
-isTapDanceEnabled: true
+isTapDanceEnabled: false
 keybindings: []
 keyboard: Corne
 keyCount: 21
-# FIXME/TODO: Image is broken as of 2022-05-24 :(
 keymapImage: konomu.png
 keymapUrl: https://github.com/konomu/qmk_firmware/tree/frogpad/keyboards/crkbd/keymaps/frogpad
 languages: [English]
