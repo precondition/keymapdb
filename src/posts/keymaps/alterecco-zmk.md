@@ -12,7 +12,7 @@ isTapDanceEnabled: false
 keybindings: [Vim]
 keyboard: Ahokore
 keyCount: 34
-keymapImage: https://cdn.discordapp.com/attachments/663573863480950808/885820678819962880/unknown.png
+keymapImage: alterecco-zmk.png
 keymapUrl: https://github.com/alterecco/ahokore-zmk-config
 languages: [English, Danish]
 layerCount: 5

@@ -154,7 +154,6 @@ In most cases, this should be an externally hosted image (e.g. imgur) but hostin
 For best results, make sure to use a big font size for legends and high contrast. When displaying a split keymap, minimise the horizontal distance between the two halves. Good examples include [Pnohty](https://keymapdb.com/keymaps/rayduck/), [datagrok's layout for the Mitosis](https://keymapdb.com/keymaps/datagrok/), [alterecco's Ahokore](https://keymapdb.com/keymaps/alterecco-zmk/), and [Seniply](https://keymapdb.com/keymaps/stevep99/). In particular, avoid screenshots of ASCII art. They aren't very pretty and are unreadable from the home page.
 
 ### Possible Values
-- "https://media.discordapp.net/attachments/663573863480950808/876552871309639780/unknown.png"
 - "https://i.ibb.co/RQZx2dY/default-kyria2.jpg"
 - precondition.jpg
 
