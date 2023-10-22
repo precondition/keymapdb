@@ -1121,6 +1121,34 @@
     },
     {
 
+        "url": "/keymaps/rytjens/",
+        "fileSlug": "rytjens",
+        "title": "Home row mods-free 34-key",
+        "keymapUrl": null,
+        "author": "rytjens",
+        "keymapImage": "https://i.imgur.com/RAvTfib.png",
+        "keyCount": 34,
+        "firmwares": ["ZMK"],
+        "keyboard": "Chocofi",
+        "baseLayouts": ["Colemak"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "Keymap for a custom 34-key split keyboard that doesn't use homerow or callum style mods.",
+        "OS": ["Windows"],
+        "keybindings": ["Spreadsheets"],
+        "writeup": "",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 4,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/alvaro_prieto/",
         "fileSlug": "alvaro_prieto",
         "title": "Hysp keymap",
