@@ -16,7 +16,7 @@ keymapImage: https://raw.githubusercontent.com/ferrance/dizave42/main/images/crk
 keymapUrl: https://github.com/ferrance/dizave42
 languages: [English]
 layerCount: 6
-OS: [MacOS,Windows,Linux]
+OS: [MacOS,Windows]
 stagger: columnar
 summary: Loosely based on Miryoku, optimized for OS-independent legal writing on mac and windows.
 title: dizave42
