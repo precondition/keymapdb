@@ -757,6 +757,34 @@
     },
     {
 
+        "url": "/keymaps/ferrance/",
+        "fileSlug": "ferrance",
+        "title": "dizave42",
+        "keymapUrl": "https://github.com/ferrance/dizave42",
+        "author": "ferrance",
+        "keymapImage": "https://raw.githubusercontent.com/ferrance/dizave42/main/images/crkbd-dizave42.jpg",
+        "keyCount": 42,
+        "firmwares": ["QMK"],
+        "keyboard": "Corne",
+        "baseLayouts": ["Colemak","QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "Loosely based on Miryoku, optimized for OS-independent legal writing on mac and windows.",
+        "OS": ["MacOS","Windows"],
+        "keybindings": null,
+        "writeup": "https://github.com/ferrance/dizave42/blob/main/readme.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 6,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": true,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/dovenyi/",
         "fileSlug": "dovenyi",
         "title": "dovenyi's Tormentor keymap",
