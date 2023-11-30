@@ -772,7 +772,7 @@
         "languages": ["English"],
         "summary": "Loosely based on Miryoku, optimized for OS-independent legal writing on mac and windows.",
         "OS": ["MacOS","Windows"],
-        "keybindings": null,
+        "keybindings": [],
         "writeup": "https://github.com/ferrance/dizave42/blob/main/readme.md",
         "hasRotaryEncoder": false,
         "hasLetterOnThumb": false,
