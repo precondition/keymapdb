@@ -9,7 +9,7 @@ isAutoShiftEnabled: false
 isComboEnabled: false
 isSplit: true
 isTapDanceEnabled: true
-keybindings:
+keybindings: []
 keyboard: Corne
 keyCount: 42
 keymapImage: https://raw.githubusercontent.com/ferrance/dizave42/main/images/crkbd-dizave42.jpg
