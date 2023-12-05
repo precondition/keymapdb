@@ -2801,6 +2801,34 @@
     },
     {
 
+        "url": "/keymaps/dickiedyce-corneish_zen/",
+        "fileSlug": "dickiedyce-corneish_zen",
+        "title": "Workman Corneish-Zen",
+        "keymapUrl": "https://github.com/dickiedyce/zmk-config-zen-2/blob/main/config/corneish_zen.keymap",
+        "author": "dickiedyce",
+        "keymapImage": "/assets/img/keymaps/dickiedyce-corneish_zen.png",
+        "keyCount": 42,
+        "firmwares": ["ZMK"],
+        "keyboard": "Corne",
+        "baseLayouts": ["Workman"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "A Workman-based Corneish-Zen, with two layers, making extreme use of tap-dance keys and some combos. Has a home-number row, and lower parens row.",
+        "OS": ["MacOS"],
+        "keybindings": [],
+        "writeup": null,
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 2,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": true,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/yhaliaw/",
         "fileSlug": "yhaliaw",
         "title": "yhaliaw Planck layout",
