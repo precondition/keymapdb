@@ -13,7 +13,7 @@ keybindings: [Vim, Emacs]
 keyboard: MiniDox
 keyCount: 36
 keymapImage: lehoff.png
-keymapUrl: https://github.com/qmk/qmk_firmware/blob/master/keyboards/maple_computing/minidox/keymaps/norman
+keymapUrl: https://github.com/qmk/qmk_firmware/blob/user-keymaps-still-present/keyboards/maple_computing/minidox/keymaps/norman
 languages: [English, Danish]
 layerCount: 4
 OS: [MacOS]
@@ -24,5 +24,5 @@ summary:
     - Navigation on left hand with lower layer (ESDF)
     - All thumb keys are hold/tap dual function keys
 title: MiniDox Norman Layout by LeHoff
-writeup: https://github.com/qmk/qmk_firmware/blob/master/keyboards/maple_computing/minidox/keymaps/norman/readme.md
+writeup: https://github.com/qmk/qmk_firmware/blob/user-keymaps-still-present/keyboards/maple_computing/minidox/keymaps/norman/readme.md
 ---

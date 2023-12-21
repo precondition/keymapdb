@@ -13,7 +13,7 @@ keybindings: []
 keyboard: Mitosis
 keyCount: 46
 keymapImage: datagrok.png
-keymapUrl: https://github.com/qmk/qmk_firmware/tree/master/keyboards/mitosis/keymaps/datagrok
+keymapUrl: https://github.com/qmk/qmk_firmware/tree/user-keymaps-still-present/keyboards/mitosis/keymaps/datagrok
 languages: [English]
 layerCount: 7
 OS: []
@@ -24,5 +24,5 @@ summary:
     - Symmetric layout of paired braces/brackets/slashes for easier memorization.
     - Arrows placed directly on home position
 title: datagrok's layout for the Mitosis
-writeup: https://github.com/qmk/qmk_firmware/blob/master/keyboards/mitosis/keymaps/datagrok/readme.md
+writeup: https://github.com/qmk/qmk_firmware/blob/user-keymaps-still-present/keyboards/mitosis/keymaps/datagrok/readme.md
 ---
