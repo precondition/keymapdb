@@ -2353,6 +2353,34 @@
     },
     {
 
+        "url": "/keymaps/t00mietum/",
+        "fileSlug": "t00mietum",
+        "title": "t00mietum Comfort Keyboard",
+        "keymapUrl": "https://github.com/t00mietum/keyboard/",
+        "author": "t00mietum",
+        "keymapImage": "/assets/img/keymaps/t00mietum.png",
+        "keyCount": 48,
+        "firmwares": ["QMK"],
+        "keyboard": "Planck",
+        "baseLayouts": ["t00mietum Comfort","QWERTY"],
+        "stagger": "ortholinear",
+        "isSplit": false,
+        "languages": ["English"],
+        "summary": "A bottom-up ergonomic redesign keyboard layout for QMK programmable keyboards. There were no sacred cows - not modifiers, not symbols ... only statistically validaded and human-tested comfort.",
+        "OS": ["Linux"],
+        "keybindings": [],
+        "writeup": "https://github.com/t00mietum/keyboard/blob/main/README.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 9,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/skychil/",
         "fileSlug": "skychil",
         "title": "The Kombol Layout",
