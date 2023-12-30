@@ -1,6 +1,6 @@
 ---
 author: t00mietum
-baseLayouts: [t00mietum Comfort, QWERTY]
+baseLayouts: [t00mietum, QWERTY]
 firmwares: [QMK]
 hasHomeRowMods: false
 hasLetterOnThumb: false
