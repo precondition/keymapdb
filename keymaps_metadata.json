@@ -2362,7 +2362,7 @@
         "keyCount": 48,
         "firmwares": ["QMK"],
         "keyboard": "Planck",
-        "baseLayouts": ["t00mietum Comfort","QWERTY"],
+        "baseLayouts": ["t00mietum","QWERTY"],
         "stagger": "ortholinear",
         "isSplit": false,
         "languages": ["English"],
