@@ -1,10 +1,10 @@
 ---
 
 title: rafaelromao's keyboard layout
-summary: A split keyboard layout optimized for Portuguese, English, working with numbers and software programming with VIM plugins. The number of keys can vary from 24 to 34.
+summary: A split keyboard layout optimized for Portuguese, English, working with numbers and software programming with VIM plugins. The number of keys can vary from 24 to 30.
 keymapUrl: https://github.com/rafaelromao/keyboards
 author: rafaelromao
-keymapImage: rafaelromao.png
+keymapImage: https://raw.githubusercontent.com/rafaelromao/keyboards/main/img/overview.png
 keyboard: Rommana
 keyCount: 24
 layerCount: 12
