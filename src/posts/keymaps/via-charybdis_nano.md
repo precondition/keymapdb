@@ -12,7 +12,7 @@ isTapDanceEnabled: false
 keybindings: []
 keyboard: Charybdis Nano
 keyCount: 36
-keymapImage: https://camo.githubusercontent.com/464ba8c8e2fb24935e3f1e0f8657c88ac516c452acb4fd7700a9c6cf475fea8f/68747470733a2f2f692e696d6775722e636f6d2f7548456e71454e2e706e67
+keymapImage: https://i.imgur.com/uHEnqEN.png
 keymapUrl: https://github.com/qmk/qmk_firmware/tree/user-keymaps-still-present/keyboards/bastardkb/charybdis/3x5/keymaps/via
 languages: [English]
 layerCount: 7
