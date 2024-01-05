@@ -15,7 +15,7 @@ keyCount: 34
 keymapImage: https://raw.githubusercontent.com/Lysquid/qmk_firmware/lysquid/keymap.svg
 keymapUrl: https://github.com/Lysquid/qmk_firmware
 languages: [French, English]
-layerCount: 6
+layerCount: 8
 OS: [Linux]
 stagger: columnar
 summary: A callum-style keymap optimized for French, English and code
