@@ -20,5 +20,5 @@ OS: [Linux]
 stagger: columnar
 summary: A callum-style keymap optimized for French, English and code
 title: Lysquid's keymap
-writeup: https://github.com/Lysquid/qmk_firmware
+writeup: https://github.com/Lysquid/qmk_firmware/blob/lysquid/README.md
 ---
