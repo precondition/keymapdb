@@ -1457,6 +1457,34 @@
     },
     {
 
+        "url": "/keymaps/Lysquid/",
+        "fileSlug": "Lysquid",
+        "title": "Lysquid's keymap",
+        "keymapUrl": "https://github.com/Lysquid/qmk_firmware",
+        "author": "Lysquid",
+        "keymapImage": "https://raw.githubusercontent.com/Lysquid/qmk_firmware/lysquid/keymap.svg",
+        "keyCount": 34,
+        "firmwares": ["QMK"],
+        "keyboard": "Ferris",
+        "baseLayouts": ["Erglace","AZERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["French","English"],
+        "summary": "A callum-style keymap optimized for French, English and code",
+        "OS": ["Linux"],
+        "keybindings": ["TWM"],
+        "writeup": "https://github.com/Lysquid/qmk_firmware/blob/lysquid/README.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 8,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/bingocaller/",
         "fileSlug": "bingocaller",
         "title": "MacOS standard 60% keymap with Vim-like arrows",
