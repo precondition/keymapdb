@@ -1,6 +1,6 @@
 ---
 author: trguhq
-baseLayouts: []
+baseLayouts: [Futhark, Colemak, Dvorak, QWERTY]
 firmwares: [QMK]
 hasHomeRowMods: false
 hasLetterOnThumb: false
