@@ -2073,6 +2073,34 @@
     },
     {
 
+        "url": "/keymaps/trguhq/",
+        "fileSlug": "trguhq",
+        "title": "Planck Unicode Rune",
+        "keymapUrl": "https://github.com/trguhq/planck_rune",
+        "author": "trguhq",
+        "keymapImage": "https://i.imgur.com/ocILTZ3.png",
+        "keyCount": 48,
+        "firmwares": ["QMK"],
+        "keyboard": "Planck",
+        "baseLayouts": ["Futhark","Colemak","Dvorak","QWERTY"],
+        "stagger": "ortholinear",
+        "isSplit": false,
+        "languages": ["Danish","English","Faroese","Icelandic","Norwegian","Swedish"],
+        "summary": "QMK Unicode Rune (Futhark) Layout for Planck and other 4x12 Ortho Keyboards",
+        "OS": ["Windows","MacOS","Linux"],
+        "keybindings": [],
+        "writeup": "https://github.com/trguhq/planck_rune/blob/main/readme.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 7,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/rayduck/",
         "fileSlug": "rayduck",
         "title": "Pnohty",
