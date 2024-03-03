@@ -18,7 +18,7 @@ languages: [English, Spanish]
 layerCount: 7
 OS: [Windows, MacOS, Linux]
 stagger: columnar
-summary: Miryoku-like layout for spanish/english progammers 
-title: Spanish/English Progamming Corne Keymap
+summary: Miryoku-like layout for spanish/english programmers 
+title: Spanish/English Programming Corne Keymap
 writeup: 
 ---
