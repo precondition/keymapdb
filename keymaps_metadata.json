@@ -2409,6 +2409,34 @@
     },
     {
 
+        "url": "/keymaps/isaacsa51/",
+        "fileSlug": "isaacsa51",
+        "title": "Spanish/English Programming Corne Keymap",
+        "keymapUrl": "https://github.com/isaacsa51/zmk-config-corne",
+        "author": "isaacsa51",
+        "keymapImage": "https://i.imgur.com/6bA40no.jpeg",
+        "keyCount": 42,
+        "firmwares": ["ZMK"],
+        "keyboard": "Corne",
+        "baseLayouts": ["Colemak"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English","Spanish"],
+        "summary": "Miryoku-like layout for spanish/english programmers",
+        "OS": ["Windows","MacOS","Linux"],
+        "keybindings": [],
+        "writeup": null,
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 7,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/t00mietum/",
         "fileSlug": "t00mietum",
         "title": "t00mietum Comfort Keyboard",
