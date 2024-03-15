@@ -2198,7 +2198,7 @@
         "stagger": "columnar",
         "isSplit": true,
         "languages": ["Portuguese","English"],
-        "summary": "A split keyboard layout optimized for Portuguese, English, working with numbers and software programming with VIM plugins. The number of keys can vary from 24 to 30.",
+        "summary": "A split keyboard layout optimized for Portuguese, English, working with numbers and software programming with VIM plugins.",
         "OS": ["MacOS","Windows"],
         "keybindings": ["Vim","Spreadsheets"],
         "writeup": "https://github.com/rafaelromao/keyboards/blob/main/readme.md",
