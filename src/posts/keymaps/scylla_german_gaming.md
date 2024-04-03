@@ -12,7 +12,7 @@ isTapDanceEnabled: false
 keybindings: [Gaming]
 keyboard: Scylla
 keyCount: 40
-keymapImage: https://camo.githubusercontent.com/0c81d981eb80ab84aefa6265be266ec6dff3aae1a457d999588bf4c6ccc51fb1/68747470733a2f2f692e696d6775722e636f6d2f30793933387247682e706e67
+keymapImage: https://i.imgur.com/0y938rGh.png
 keymapUrl: https://github.com/qmk/qmk_firmware/tree/user-keymaps-still-present/keyboards/bastardkb/scylla/keymaps/german_gaming
 languages: [German]
 layerCount: 6
