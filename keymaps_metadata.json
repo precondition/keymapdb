@@ -2450,7 +2450,7 @@
         "stagger": "ortholinear",
         "isSplit": false,
         "languages": ["English"],
-        "summary": "A bottom-up ergonomic redesign keyboard layout for QMK programmable keyboards. There were no sacred cows - not modifiers, not symbols ... only statistically validaded and human-tested comfort.",
+        "summary": "A bottom-up ergonomic redesign keyboard layout for QMK programmable keyboards. There were no sacred cows - not modifiers, not symbols ... only statistically validated and human-tested comfort.",
         "OS": ["Linux"],
         "keybindings": [],
         "writeup": "https://github.com/t00mietum/keyboard/blob/main/README.md",
