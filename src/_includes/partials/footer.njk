@@ -1,6 +1,10 @@
 <footer class="mt-20 px-10 py-8 bg-gray-200">
     <div class="max-w-5xl mx-auto text-gray-700 text-center">
-        <copyleft title="Copyleft" aria-label="Copyleft"></copyleft>
+        {# Copyleft SVG code taken from Wikimedia (https://upload.wikimedia.org/wikipedia/commons/8/8b/Copyleft.svg, upload date 2016 May 20 19:43) #}
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 980" class="inline max-h-4 mb-0.5 fill-current stroke-current text-gray-700" aria-labelledby="copyleftTitleID" role="img">
+            <title id="copyleftTitleID">Copyleft</title>
+            <circle cx="490" cy="490" r="440" fill="none" stroke-width="100"/><path d="M219,428H350a150,150 0 1 1 0,125H219a275,275 0 1 0 0-125z"/>
+        </svg>
         2023 <a href="{{ '/' | url }}" class="font-medium" target="_blank" rel="noopener noreferrer">{{ site.title }}</a>.
         Made by <a href="{{ maintainer.homepage | url }}" target="_blank" rel="noopener noreferrer">{{ maintainer.name }}</a>
         using <a href="https://www.11ty.dev" target="_blank" rel="noopener noreferrer">Eleventy</a> and <a href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer">Tailwind CSS</a>.
