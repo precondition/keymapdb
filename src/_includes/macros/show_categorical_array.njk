@@ -1,0 +1,3 @@
+{% macro showCategoricalArray(arr, placeholder) %}
+    {{ arr | join(", ") if arr | length > 0 else placeholder }}
+{% endmacro %}

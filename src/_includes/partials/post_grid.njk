@@ -1,3 +1,5 @@
+{% from "macros/show_categorical_array.njk" import showCategoricalArray %}
+
 {%- set lazyImage = "data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%201%201'%20height%3D'500'%20width%3D'960'%20style%3D'background-color%3Argb(203%2C213%2C224)'%2F%3E" -%}
 {% for post in paged.posts %}
     {% if post.data.isSplit %}
@@ -21,11 +23,11 @@
                     <a class="text-gray-900 hover:text-gray-700" href="{{ post.url | url }}">{{ post.data.title }}</a>
                 </div>
                 <div class="my-5 flex flex-wrap justify-between">
-                    <p id="keyCount-table-cell-{{ post.data.fileSlug }}"   class="text-gray-700 mb-1">{{ post.data.keyCount }} keys</p>
-                    <p id="languages-table-cell-{{ post.data.fileSlug }}"  class="text-gray-700 mb-1 break-words text-right">{{ post.data.languages.join(", ") }}</p>
+                    <p id="keyCount-table-cell-{{ post.data.fileSlug }}"   class="text-gray-700 mb-1 max-w-2/5 ">{{ post.data.keyCount }} keys</p>
+                    <p id="languages-table-cell-{{ post.data.fileSlug }}"  class="text-gray-700 mb-1 max-w-3/5 break-words text-right">{{ showCategoricalArray(post.data.languages, "N/A") }}</p>
                     <div class="flexitems-break"></div>
-                    <p id="layerCount-table-cell-{{ post.data.layerCount }}" class="text-gray-700 mb-1">{{ post.data.layerCount }} layers</p>
-                    <p id="baseLayouts-table-cell-{{ post.data.fileSlug }}"  class="text-gray-700 mb-1 break-words text-right">{{ post.data.baseLayouts.join(", ") }}</p>
+                    <p id="layerCount-table-cell-{{ post.data.layerCount }}" class="text-gray-700 mb-1 max-w-2/5">{{ post.data.layerCount }} layers</p>
+                    <p id="baseLayouts-table-cell-{{ post.data.fileSlug }}"  class="text-gray-700 mb-1 max-w-3/5 break-words text-right">{{ showCategoricalArray(post.data.baseLayouts, "N/A") }}</p>
                 </div>
                 {% if post.data.summary -%}
                     {% if post.data.summary | isArray %}

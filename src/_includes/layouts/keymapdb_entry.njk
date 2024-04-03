@@ -8,17 +8,8 @@ isAutoShiftEnabled: false
 keybindings: []
 ---
 
-{% macro booleanToYesNo(bool) %}
-{%- if bool -%}
-    Yes ✅
-{%- else -%}
-    No ❌
-{%- endif -%}
-{% endmacro %}
-
-{% macro showCategoricalArray(arr, placeholder) %}
-    {{ arr | join(", ") if arr | length > 0 else placeholder }}
-{% endmacro %}
+{% from "macros/boolean_to_yes_no.njk" import booleanToYesNo %}
+{% from "macros/show_categorical_array.njk" import showCategoricalArray %}
 
 {% if isSplit %}
     {% set splitStatus = "Split" %}
