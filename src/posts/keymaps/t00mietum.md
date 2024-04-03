@@ -18,7 +18,7 @@ languages: [English]
 layerCount: 9
 OS: [Linux]
 stagger: ortholinear
-summary: "A bottom-up ergonomic redesign keyboard layout for QMK programmable keyboards. There were no sacred cows - not modifiers, not symbols ... only statistically validaded and human-tested comfort."
+summary: "A bottom-up ergonomic redesign keyboard layout for QMK programmable keyboards. There were no sacred cows - not modifiers, not symbols ... only statistically validated and human-tested comfort."
 title: t00mietum Comfort Keyboard
 writeup: https://github.com/t00mietum/keyboard/blob/main/README.md
 ---
