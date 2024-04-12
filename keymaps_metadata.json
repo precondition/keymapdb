@@ -785,6 +785,34 @@
     },
     {
 
+        "url": "/keymaps/dlip-engram/",
+        "fileSlug": "dlip-engram",
+        "title": "Dlip's 28 Key Engram Layout",
+        "keymapUrl": "https://github.com/dlip/qmk_firmware/tree/dlip/keyboards/tamatama/keymaps/engram",
+        "author": "dlip",
+        "keymapImage": "https://raw.githubusercontent.com/dlip/qmk_firmware/dlip/keyboards/tamatama/keymaps/engram/dlip's-28-key-engram-layout.png",
+        "keyCount": 28,
+        "firmwares": ["QMK"],
+        "keyboard": "tamatama",
+        "baseLayouts": ["Engram"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "A compact but full-featured and intuitive layout for programming and prose with chording for frequent words",
+        "OS": ["Windows","MacOS","Linux"],
+        "keybindings": [],
+        "writeup": "https://github.com/dlip/qmk_firmware/blob/dlip/keyboards/tamatama/keymaps/engram/README.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 5,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/dovenyi/",
         "fileSlug": "dovenyi",
         "title": "dovenyi's Tormentor keymap",
