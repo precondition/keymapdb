@@ -2913,6 +2913,34 @@
     },
     {
 
+        "url": "/keymaps/Wimads/",
+        "fileSlug": "Wimads",
+        "title": "Wimads' keymap for 3x5+3 split keyboards",
+        "keymapUrl": "https://github.com/Wimads/qmk_firmware/blob/master/keyboards/keycapsss/3w6_2040/keymaps/Wimads",
+        "author": "Wimads",
+        "keymapImage": "https://raw.githubusercontent.com/Wimads/qmk_firmware/master/keyboards/keycapsss/3w6_2040/keymaps/Wimads/keymapdb/Layers.png",
+        "keyCount": 36,
+        "firmwares": ["QMK"],
+        "keyboard": "3W6",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English","Dutch"],
+        "summary": "A split 3x5+3 layout, which is optimized for CAD and graphic usage. It utilizes a lot of combos, and no homerow mods, and only 3 layers. It also has a (combo based) mode for one handed operation. (image does not show combos, see write-up link instead!)",
+        "OS": ["Windows"],
+        "keybindings": ["Graphics/CAD"],
+        "writeup": "https://github.com/Wimads/qmk_firmware/blob/master/keyboards/keycapsss/3w6_2040/keymaps/Wimads/keymapdb/Wimads_keymapdb_writeup.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 6,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/wochap/",
         "fileSlug": "wochap",
         "title": "wochap's 3x5+2 corne layout",
