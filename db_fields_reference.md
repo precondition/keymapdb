@@ -193,6 +193,8 @@ For ease of use, the layer count slider is currently capped at 16 layers but if 
 
 When a variable amount of layers is available in a keymap, enter the minimum amount of layers.
 
+This has to reflect the actual amount of non-empty layers defined in the firmware, not just the amount of layers you use in a typical day. To give an example, if you've defined an “adjust/misc.“ layer containing only keycodes to change the RGB light settings and one keycode to put the keyboard in bootloader mode, you must count that layer as well.
+
 ### Possible Values
 - 1 (min)
 - 8
