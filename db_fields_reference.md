@@ -149,9 +149,18 @@ In case a keymap can be applied to multiple different keyboards with varying amo
 ## keymapImage (string)
 Link to a visual representation of the keymap in question. 
 
-In most cases, this should be an externally hosted image (e.g. imgur) but hosting the keymap image directly in the repo at `src/assets/img/keymaps/` may be considered.
+In most cases, this should be an externally hosted image but hosting the keymap image directly in the repo at `src/assets/img/keymaps/` may be considered.
 
 For best results, make sure to use a big font size for legends and high contrast. When displaying a split keymap, minimise the horizontal distance between the two halves. Good examples include [Pnohty](https://keymapdb.com/keymaps/rayduck/), [datagrok's layout for the Mitosis](https://keymapdb.com/keymaps/datagrok/), [alterecco's Ahokore](https://keymapdb.com/keymaps/alterecco-zmk/), and [Seniply](https://keymapdb.com/keymaps/stevep99/). In particular, avoid screenshots of ASCII art. They aren't very pretty and are unreadable from the home page.
+
+Make sure to use a *direct* link to the image. If opening the link in a new tab shows a user interface around the image, it is not a direct link.
+
+Examples:
+| Indirect ❌                                                   | Direct ✅                                                               |
+|---------------------------------------------------------------|-------------------------------------------------------------------------|
+| https://imgur.com/a/zNAoIWO                                   | https://i.imgur.com/6bA40no.jpeg                                        |
+| https://github.com/Lysquid/qmk_keymap/blob/lysquid/keymap.svg | https://raw.githubusercontent.com/Lysquid/qmk_keymap/lysquid/keymap.svg |
+
 
 ### Possible Values
 - "https://i.ibb.co/RQZx2dY/default-kyria2.jpg"
