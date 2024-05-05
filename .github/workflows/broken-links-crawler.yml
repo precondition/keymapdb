@@ -19,7 +19,7 @@ jobs:
       uses: ScholliYT/Broken-Links-Crawler-Action@v3.3.1
       with:
         website_url: "https://keymapdb.com"
-        exclude_url_prefix: 'https://'
+        exclude_url_prefix: '/assets'
         max_retries: 2
         max_depth: 2
         verbose: true
