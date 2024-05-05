@@ -16,7 +16,7 @@ jobs:
       uses: hmarr/debug-action@v1.0.0
     - name: Checking broken links
       id: check-broken-links
-      uses: ScholliYT/Broken-Links-Crawler-Action@v3
+      uses: ScholliYT/Broken-Links-Crawler-Action@v3.3.1
       with:
         website_url: "https://keymapdb.com"
         exclude_url_prefix: "https://keymapdb.com/assets/"
