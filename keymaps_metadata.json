@@ -141,6 +141,34 @@
     },
     {
 
+        "url": "/keymaps/theol0403/",
+        "fileSlug": "theol0403",
+        "title": "Anachron ZMK Config ⌛⌨️",
+        "keymapUrl": "https://github.com/theol0403/anachron-zmk-config",
+        "author": "theol0403",
+        "keymapImage": "https://github.com/theol0403/anachron-zmk-config/raw/master/assets/v1.2.0.png",
+        "keyCount": 34,
+        "firmwares": ["ZMK"],
+        "keyboard": "Rollow",
+        "baseLayouts": ["Graphite"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "Anachron is a keyboard layout designed for 34-key keyboards, implemented with ZMK. It aims to provide a fast, intuitive, and cohesive typing experience. It is similar to trilayer-based layouts such as callum or seniply, but provides a unique layer design and additional features taking advantage of ZMK. The implementation has been heavily inspired by the work of urob.",
+        "OS": ["Linux"],
+        "keybindings": ["Vim"],
+        "writeup": "https://github.com/theol0403/anachron-zmk-config/blob/master/README.md",
+        "hasRotaryEncoder": true,
+        "hasLetterOnThumb": false,
+        "layerCount": 5,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/andrewjrae/",
         "fileSlug": "andrewjrae",
         "title": "andrewjrae's QMK keymap for the SplitKB Kyria",
