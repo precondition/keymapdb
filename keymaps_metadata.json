@@ -1177,6 +1177,34 @@
     },
     {
 
+        "url": "/keymaps/godalming123/",
+        "fileSlug": "godalming123",
+        "title": "Godalming123's 30 key keymap",
+        "keymapUrl": "https://github.com/godalming123/qmk-keymap",
+        "author": "godalming123",
+        "keymapImage": "https://github.com/godalming123/qmk-keymap/raw/main/keymap.svg",
+        "keyCount": 30,
+        "firmwares": ["QMK"],
+        "keyboard": "Corne",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "A 30 key keymap designed for comfort, low cognitive load and speed.",
+        "OS": ["Windows","Linux"],
+        "keybindings": ["Vim","Helix"],
+        "writeup": ,
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": true,
+        "layerCount": 2,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/rytjens/",
         "fileSlug": "rytjens",
         "title": "Home row mods-free 34-key",
