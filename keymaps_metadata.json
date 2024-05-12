@@ -1193,7 +1193,7 @@
         "summary": "A 30 key keymap designed for comfort, low cognitive load and speed.",
         "OS": ["Windows","Linux"],
         "keybindings": ["Vim","Helix"],
-        "writeup": ,
+        "writeup": "https://github.com/godalming123/qmk-keymap/blob/main/readme.md",
         "hasRotaryEncoder": false,
         "hasLetterOnThumb": true,
         "layerCount": 2,
