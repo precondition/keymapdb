@@ -20,4 +20,5 @@ OS: [Windows, Linux]
 stagger: columnar
 summary: "A 30 key keymap designed for comfort, low cognitive load and speed."
 title: "Godalming123's 30 key keymap"
+writeup: "https://github.com/godalming123/qmk-keymap/blob/main/readme.md"
 ---
