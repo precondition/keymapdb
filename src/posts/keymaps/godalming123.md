@@ -10,7 +10,7 @@ isComboEnabled: true
 isSplit: true
 isTapDanceEnabled: false
 keybindings: [Vim, Helix]
-keyboard: "42 Key Corne"
+keyboard: "Corne"
 keyCount: 30
 keymapImage: "https://github.com/godalming123/qmk-keymap/raw/main/keymap.svg"
 keymapUrl: "https://github.com/godalming123/qmk-keymap"
