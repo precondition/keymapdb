@@ -5,11 +5,11 @@ summary: A split keyboard layout optimized for Portuguese, English, working with
 keymapUrl: https://github.com/rafaelromao/keyboards
 author: rafaelromao
 keymapImage: https://raw.githubusercontent.com/rafaelromao/keyboards/main/img/overview.png
-keyboard: Rommana
+keyboard: Diamond
 keyCount: 24
-layerCount: 12
-firmwares: [QMK, ZMK]
-OS: ["MacOS", "Windows"]
+layerCount: 14
+firmwares: [ZMK]
+OS: ["MacOS"]
 keybindings: ["Vim", "Spreadsheets"]
 baseLayouts: ["Romak"]
 languages: ['Portuguese', 'English']
