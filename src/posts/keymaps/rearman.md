@@ -20,5 +20,5 @@ OS: [Windows, Linux]
 stagger: columnar
 summary: "Easy access to numpad/navpad, as well as combos for num-row and F-key row."
 title: rearman's Corne Layout
-writeup: ""
+writeup: "https://github.com/rearman/zmk-config/blob/master/README.md"
 ---
