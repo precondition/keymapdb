@@ -2297,6 +2297,34 @@
     },
     {
 
+        "url": "/keymaps/rearman/",
+        "fileSlug": "rearman",
+        "title": "rearman's Corne Layout",
+        "keymapUrl": "https://github.com/rearman/zmk-config/",
+        "author": "rearman",
+        "keymapImage": "https://raw.githubusercontent.com/rearman/zmk-config/master/corne.svg",
+        "keyCount": 42,
+        "firmwares": ["ZMK"],
+        "keyboard": "Corne",
+        "baseLayouts": ["Dvorak"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "Easy access to numpad/navpad, as well as combos for num-row and F-key row.",
+        "OS": ["Windows","Linux"],
+        "keybindings": [],
+        "writeup": "https://github.com/rearman/zmk-config/blob/master/README.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 3,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/reinier/",
         "fileSlug": "reinier",
         "title": "reinier's keymap for the Microdox and Moonlander",
