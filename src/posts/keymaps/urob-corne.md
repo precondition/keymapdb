@@ -12,21 +12,19 @@ isTapDanceEnabled: false
 keybindings: [Vim, TWM]
 keyboard: Corne
 keyCount: 34
-keymapImage: https://github.com/urob/zmk-config/raw/main/img/keymap.png
+keymapImage: https://raw.githubusercontent.com/urob/zmk-config/main/draw/keymap.png
 keymapUrl: https://github.com/urob/zmk-config
 languages: [English]
-layerCount: 8
+layerCount: 6
 OS: [Linux, Windows]
 stagger: columnar
 summary:
-- "Timer-less homerow mods"
-- "Combos replace symbol layer"
-- "Smart numbers and mouse layers auto-toggle off"
-- "Sticky shift on right thumb, double-tap activates caps-word"
-- "Arrow-cluster functions as <kbd>home</kbd>, <kbd>end</kbd>, <kbd>begin/end of document</kbd> on long press"
-- "Intuitive shift-actions: <code>, ;</code>,　<code>. :</code> and <code>? !</code>"
-- "Shift + space morphs: dot → space → sticky-shift"
-- "“Greek” layer for math (activated via combo)"
-title: urob's zmk-config for Corneish Zen and Advantage 360 pro
-writeup: https://github.com/urob/qmk_firmware/blob/master/keyboards/planck/keymaps/urob/readme.md
+- Timeless homerow mods
+- Combos replace symbol layer
+- Smart numbers and mouse layers auto-toggle off
+- Unicode math layer
+- Fully automated, nix-based local build environment
+- Base keymap + modular structure of extra keys used for various keyboards
+title: urob's zmk-config for 34+ key keyboards
+writeup: https://github.com/urob/zmk-config/blob/main/readme.md
 ---
