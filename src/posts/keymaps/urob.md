@@ -8,7 +8,7 @@ hasRotaryEncoder: false
 isAutoShiftEnabled: false
 isComboEnabled: true
 isSplit: true
-isTapDanceEnabled: false
+isTapDanceEnabled: true
 keybindings: [Vim, TWM]
 keyboard: Corne
 keyCount: 34
@@ -22,9 +22,9 @@ summary:
 - Timeless homerow mods
 - Combos replace symbol layer
 - Smart numbers and mouse layers auto-toggle off
-- Unicode math layer
+- Unicode math and international layers
 - Fully automated, nix-based local build environment
-- Base keymap + modular structure of extra keys used for various keyboards
-title: urob's zmk-config for 34+ key keyboards
+- Base keymap used for various keyboards using modular structure
+title: urob's keymap for 34+ key keyboards
 writeup: https://github.com/urob/zmk-config/blob/main/readme.md
 ---
