@@ -14,7 +14,7 @@ keyboard: Corne
 keyCount: 34
 keymapImage: https://raw.githubusercontent.com/urob/zmk-config/main/draw/keymap.png
 keymapUrl: https://github.com/urob/zmk-config
-languages: [English]
+languages: [English, German, Greek]
 layerCount: 6
 OS: [Linux, Windows]
 stagger: columnar
