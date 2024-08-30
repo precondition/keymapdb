@@ -785,6 +785,34 @@
     },
     {
 
+        "url": "/keymaps/DesyncTheThird/",
+        "fileSlug": "DesyncTheThird",
+        "title": "Desync's keymap",
+        "keymapUrl": "https://github.com/DesyncTheThird/corne-keymap/tree/main",
+        "author": "DesyncTheThird",
+        "keymapImage": "https://raw.githubusercontent.com/DesyncTheThird/corne-keymap/main/images/combined.png",
+        "keyCount": 42,
+        "firmwares": ["QMK"],
+        "keyboard": "Corne",
+        "baseLayouts": ["Graphite","QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "Keymap for the Corne keyboard, optimised for writing (La)TeX and C files.",
+        "OS": ["Windows"],
+        "keybindings": [],
+        "writeup": "https://github.com/DesyncTheThird/corne-keymap/blob/main/readme.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": true,
+        "layerCount": 13,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/ferrance/",
         "fileSlug": "ferrance",
         "title": "dizave42",
