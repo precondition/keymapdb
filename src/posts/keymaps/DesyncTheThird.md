@@ -16,7 +16,7 @@ keymapImage: https://raw.githubusercontent.com/DesyncTheThird/corne-keymap/main/
 keymapUrl: https://github.com/DesyncTheThird/corne-keymap/tree/main
 languages: English
 layerCount: 13
-OS: Windows
+OS: ["Windows"]
 stagger: columnar
 summary: Keymap for the Corne keyboard, optimised for writing (La)TeX and C files.
 title: Desync's keymap
