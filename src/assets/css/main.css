@@ -28,3 +28,7 @@ tbody tr:nth-child(odd) {
 tbody th {
     background-color: #f1f1f1;
 }
+
+image, img, svg {
+    color-scheme: light;
+}
