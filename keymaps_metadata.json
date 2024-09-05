@@ -2353,6 +2353,34 @@
     },
     {
 
+        "url": "/keymaps/grassfedreeve/",
+        "fileSlug": "grassfedreeve",
+        "title": "reeve's keymap for 26-30 keys",
+        "keymapUrl": "https://github.com/grassfedreeve/zmk-config-akohekohe",
+        "author": "grassfedreeve",
+        "keymapImage": "https://raw.githubusercontent.com/grassfedreeve/akohekohe/main/img/example_keymap.svg",
+        "keyCount": 26,
+        "firmwares": ["ZMK"],
+        "keyboard": "ʻākohekohe",
+        "baseLayouts": ["Aptmak"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "This is the layout I use on my 26 key split keyboard. Base Layer is Aptmak with quite a few combos, layers are activated by holding the thumb keys.",
+        "OS": ["Linux","Windows"],
+        "keybindings": [],
+        "writeup": "",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": true,
+        "layerCount": 4,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/reinier/",
         "fileSlug": "reinier",
         "title": "reinier's keymap for the Microdox and Moonlander",
