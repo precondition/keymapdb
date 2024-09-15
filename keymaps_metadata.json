@@ -2325,6 +2325,34 @@
     },
     {
 
+        "url": "/keymaps/ratoru/",
+        "fileSlug": "ratoru",
+        "title": "ratoru's keymaps for Kyria rev3 and Aurora Sweep",
+        "keymapUrl": "https://github.com/ratoru/qmk_keymap/tree/main",
+        "author": "ratoru",
+        "keymapImage": "/assets/img/keymaps/ratoru.webp",
+        "keyCount": 50,
+        "firmwares": ["QMK"],
+        "keyboard": "Kyria",
+        "baseLayouts": ["Colemak","QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "Inspired by Pascal Getreuer, these keymaps include efficient symbol layers based on character and bigram frequencies in programming languages. Features include Caps Word, dynamic and word selection macros, layer lock, RGB lighting, and “timeless” home row mods. Compiled via GitHub Actions.",
+        "OS": ["MacOS"],
+        "keybindings": ["Vim","Gaming"],
+        "writeup": "https://ratoru.com/blog/choose-the-right-base-layout",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 6,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": true,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/rearman/",
         "fileSlug": "rearman",
         "title": "rearman's Corne Layout",
