@@ -2633,6 +2633,34 @@
     },
     {
 
+        "url": "/keymaps/sennomo-stifluqz/",
+        "fileSlug": "sennomo-stifluqz",
+        "title": "StiFluQz layout for half Microdox",
+        "keymapUrl": "https://github.com/sennomo/qmk_firmware/tree/master/keyboards/boardsource/microdox/keymaps/sennomo",
+        "author": "sennomo",
+        "keymapImage": "https://www.sennomo.net/stifluqz/stifluqz.png",
+        "keyCount": 18,
+        "firmwares": ["QMK"],
+        "keyboard": "Microdox",
+        "baseLayouts": ["StiFluQz"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "Half of a Microdox for one-handed typing.",
+        "OS": ["Linux","Windows","MacOS"],
+        "keybindings": [],
+        "writeup": "https://www.sennomo.net/stifluqz/",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 6,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": true
+        
+    },
+    {
+
         "url": "/keymaps/t00mietum/",
         "fileSlug": "t00mietum",
         "title": "t00mietum Comfort Keyboard",
