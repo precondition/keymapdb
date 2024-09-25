@@ -1,7 +1,7 @@
 ---
 author: sennomo
-baseLayouts: [QWERTY] # the OS should expect QWERTY
-firmwares: QMK
+baseLayouts: [StiFluQz]
+firmwares: [QMK]
 hasHomeRowMods: false
 hasLetterOnThumb: false
 hasRotaryEncoder: false
