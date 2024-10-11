@@ -1,6 +1,6 @@
 ---
 author: minusfive
-baseLayouts: [Colemak, QWERTY]
+baseLayouts: [Colemak, Dvorak, QWERTY]
 firmwares: [ZMK]
 hasHomeRowMods: true
 hasLetterOnThumb: false
