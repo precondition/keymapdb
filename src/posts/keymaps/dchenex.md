@@ -18,7 +18,7 @@ languages: [English]
 layerCount: 4
 OS: [Windows]
 stagger: columnar
-summary: 4 layer Kyria layout combo heavy. Macros for (),[],{},<>,**, HomeshiftEnd. Macro for the first 3 pastes in Clipboard History. 2 Encoders with custom triggers per rotation. Modmorph Delete(shift:Backspace), Custom HoldTap ms for Win+L on right encoder. Hold/tap on num layer for F keys.
+summary: 4 layer Kyria layout combo heavy. Macros for (),[],{},&lt;&gt;,**, HomeshiftEnd. Macro for the first 3 pastes in Clipboard History. 2 Encoders with custom triggers per rotation. Modmorph Delete(shift:Backspace), Custom HoldTap ms for Win+L on right encoder. Hold/tap on num layer for F keys.
 title: dchenex Kyria layout
 writeup: # not mandatory
 ---
