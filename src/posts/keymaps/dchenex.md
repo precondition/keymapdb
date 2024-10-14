@@ -12,7 +12,7 @@ isTapDanceEnabled: false
 keybindings: [Graphics/CAD]
 keyboard: Kyria
 keyCount: 50
-keymapImage: https://github.com/user-attachments/assets/c328c739-d2cb-4cf2-a8df-c2e2a926c70f
+keymapImage: dchenex.webp
 keymapUrl: https://github.com/dchenex/zmk-config/tree/master/config
 languages: [English]
 layerCount: 4
