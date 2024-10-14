@@ -729,6 +729,34 @@
     },
     {
 
+        "url": "/keymaps/dchenex/",
+        "fileSlug": "dchenex",
+        "title": "dchenex Kyria layout",
+        "keymapUrl": "https://github.com/dchenex/zmk-config/tree/master/config",
+        "author": "dchenex",
+        "keymapImage": "/assets/img/keymaps/dchenex.webp",
+        "keyCount": 50,
+        "firmwares": ["ZMK"],
+        "keyboard": "Kyria",
+        "baseLayouts": ["QWERTY","Gallium"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "4 layer Kyria layout combo heavy. Macros for (),[],{},&lt;&gt;,**, HomeshiftEnd. Macro for the first 3 pastes in Clipboard History. 2 Encoders with custom triggers per rotation. Modmorph Delete(shift:Backspace), Custom HoldTap ms for Win+L on right encoder. Hold/tap on num layer for F keys.",
+        "OS": ["Windows"],
+        "keybindings": ["Graphics/CAD"],
+        "writeup": null,
+        "hasRotaryEncoder": true,
+        "hasLetterOnThumb": false,
+        "layerCount": 4,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/default-kyria/",
         "fileSlug": "default-kyria",
         "title": "Default Kyria keymap",
