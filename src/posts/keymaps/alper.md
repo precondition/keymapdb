@@ -14,6 +14,6 @@ title: "Alper's Contra Layout"
 isSplit: False
 stagger: ortholinear
 summary: 
-keymapUrl: https://github.com/alper/qmk_firmware/tree/master/keyboards/contra/keymaps/alper
-writeup: https://github.com/alper/qmk_firmware/tree/master/keyboards/contra/keymaps/alper/readme.md
+keymapUrl: https://github.com/qmk/qmk_firmware/tree/user-keymaps-still-present/keyboards/contra/keymaps/alper
+writeup: https://github.com/qmk/qmk_firmware/tree/user-keymaps-still-present/keyboards/contra/keymaps/alper/readme.md
 ---
