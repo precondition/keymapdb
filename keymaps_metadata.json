@@ -2344,9 +2344,9 @@
         "writeup": "https://github.com/rafaelromao/keyboards/blob/main/readme.md",
         "hasRotaryEncoder": false,
         "hasLetterOnThumb": false,
-        "layerCount": 14,
+        "layerCount": 32,
         "hasHomeRowMods": true,
-        "isTapDanceEnabled": true,
+        "isTapDanceEnabled": false,
         "isComboEnabled": true,
         "isAutoShiftEnabled": false
         
