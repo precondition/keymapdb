@@ -120,7 +120,7 @@ The particular keyboard for which this keymap is designed.
 
 First, check the keyboards drop-down list to see if your keyboard isn't already in the list, in which case you should just copy the existing name.
 
-If your keyboard hasn't been added yet to keymapDB, use the keyboard name that makes the most sense. Don't include manufacturer and/or revision number and/or MCU type in the keyboard name unless it's necessary for disambiguation between similarly named keyboards with differing physical keyboard layouts.
+If your keyboard hasn't been added yet to keymapDB, use the keyboard name that makes the most sense. Don't include the manufacturer name or a revision number or the MCU type in the keyboard name unless it's necessary for disambiguation between similarly named keyboards with differing physical keyboard layouts/geometries.
 
 Examples:
 | Correct | Incorrect | Incorrect |
