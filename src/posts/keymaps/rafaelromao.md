@@ -7,7 +7,7 @@ author: rafaelromao
 keymapImage: https://raw.githubusercontent.com/rafaelromao/keyboards/main/img/overview.png
 keyboard: Diamond
 keyCount: 24
-layerCount: 14
+layerCount: 32
 firmwares: [ZMK]
 OS: ["MacOS"]
 keybindings: ["Vim", "Spreadsheets"]
@@ -17,7 +17,7 @@ isSplit: True
 stagger: columnar
 hasHomeRowMods: True
 hasLetterOnThumb: False
-isTapDanceEnabled: True
+isTapDanceEnabled: False
 isComboEnabled: True
 isAutoShiftEnabled: False
 writeup: https://github.com/rafaelromao/keyboards/blob/main/readme.md
