@@ -12,7 +12,7 @@ isTapDanceEnabled: true
 keybindings: []
 keyboard: Ferris
 keyCount: 34
-keymapImage: https://github.com/ulounge/zmk-urchin/blob/master/assets/images/My_Uchin.drawio.svg
+keymapImage: https://raw.githubusercontent.com/ulounge/zmk-urchin/refs/heads/master/assets/images/My_Uchin.drawio.svg
 keymapUrl: https://github.com/ulounge/zmk-urchin
 languages: [French, English]
 layerCount: 7
