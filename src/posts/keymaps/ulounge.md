@@ -2,7 +2,7 @@
 author: ulounge
 baseLayouts: [Ergo-L]
 firmwares: [ZMK]
-hasHomeRowMods: true
+hasHomeRowMods: false
 hasLetterOnThumb: false
 hasRotaryEncoder: false
 isAutoShiftEnabled: false
