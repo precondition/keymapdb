@@ -208,6 +208,7 @@ The operating system(s) used by the keymap author, sorted in descending order of
 - ["Windows"]
 - ["MacOS", "Windows"]
 - ["Linux"]
+- ["Windows", "Android"]
 
 ## stagger (categorical)
 The keyboard stagger for which the keymap is designed around. The effort grid can change from one stagger to another and so will an optimized keymap.

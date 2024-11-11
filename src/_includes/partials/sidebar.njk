@@ -127,7 +127,7 @@
 
 <fieldset class="flex flex-col">
     <legend>OS</legend>
-    {% for OS in ["Windows", "MacOS", "Linux"] %}
+    {% for OS in ["Windows", "MacOS", "Linux", "Android"] %}
         <label class="inline-flex items-center mt-3">
             <input type="checkbox" name="OS" value="{{ OS }}" 
             onclick="updatePostGrid(this)" class="keymap-filter form-checkbox h-5 w-5 text-gray-600">

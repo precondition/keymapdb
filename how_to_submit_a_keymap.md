@@ -30,7 +30,7 @@ keymapImage:
 keymapUrl:
 languages: # [English, Spanish, ...]
 layerCount:
-OS: # [Windows, MacOS, Linux]
+OS: # [Windows, MacOS, Linux, Android]
 stagger: # row or columnar or ortholinear
 summary: # Short summary of max. 60 words
 title:
