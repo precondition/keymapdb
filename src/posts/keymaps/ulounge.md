@@ -18,7 +18,7 @@ languages: [French, English]
 layerCount: 7
 OS: ["Windows", "Android"]
 stagger: columnar
-summary: "See write up link for more info." 
+summary: "Keymap designed to balance French and English typing efficiency. Thumb-operated sticky, tap-dance and hold-tap layers provide quick access to accents, shortcuts, callum-style mods, and media controls. See write up link for more info." 
 title: Ergo-L (French, English) layout for 34 keys Urchin
 writeup: https://github.com/ulounge/zmk-urchin/blob/master/README.md
 ---
