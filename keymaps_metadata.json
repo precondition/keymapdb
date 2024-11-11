@@ -981,6 +981,34 @@
     },
     {
 
+        "url": "/keymaps/ulounge/",
+        "fileSlug": "ulounge",
+        "title": "Ergo-L (French, English) layout for 34 keys Urchin",
+        "keymapUrl": "https://github.com/ulounge/zmk-urchin",
+        "author": "ulounge",
+        "keymapImage": "https://raw.githubusercontent.com/ulounge/zmk-urchin/refs/heads/master/assets/images/My_Uchin.drawio.svg",
+        "keyCount": 34,
+        "firmwares": ["ZMK"],
+        "keyboard": "Ferris",
+        "baseLayouts": ["Ergo-L"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["French","English"],
+        "summary": "Keymap designed to balance French and English typing efficiency. Thumb-operated sticky, tap-dance and hold-tap layers provide quick access to accents, shortcuts, callum-style mods, and media controls. See write up link for more info.",
+        "OS": ["Windows","Android"],
+        "keybindings": [],
+        "writeup": "https://github.com/ulounge/zmk-urchin/blob/master/README.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 7,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": true,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/bpruitt_goddard/",
         "fileSlug": "bpruitt_goddard",
         "title": "Ergodox EZ Layout by bpruitt-goddard",
