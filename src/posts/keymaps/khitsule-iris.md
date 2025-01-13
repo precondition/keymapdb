@@ -13,12 +13,12 @@ keybindings: [Gaming]
 keyboard: Iris
 keyCount: 56
 keymapImage: khitsule-iris.png
-keymapUrl: https://github.com/khitsule/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/khitsule
+keymapUrl: https://github.com/qmk/qmk_firmware/tree/user-keymaps-still-present/keyboards/keebio/iris/keymaps/khitsule
 languages: ['English']
 layerCount: 5
 OS: [Windows]
 stagger: columnar
 summary: 
 title: "Iris Layout by Khitsule"
-writeup: https://github.com/khitsule/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/khitsule/readme.md
+writeup: https://github.com/qmk/qmk_firmware/blob/user-keymaps-still-present/keyboards/keebio/iris/keymaps/khitsule/readme.md
 ---
