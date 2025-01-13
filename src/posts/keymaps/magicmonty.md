@@ -12,7 +12,7 @@ keybindings: []
 keyboard: Clueboard 66%
 keyCount: 66
 keymapImage: magicmonty.png
-keymapUrl: https://github.com/magicmonty/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/magicmonty
+keymapUrl: https://github.com/qmk/qmk_firmware/tree/user-keymaps-still-present/keyboards/clueboard/66/keymaps/magicmonty
 languages: ['English']
 layerCount: 7
 OS: [Windows]
@@ -24,5 +24,5 @@ summary:
     - The TAB key works as TAB when tapped, and HYPER (CTRL + ALT + SHIFT + CMD) when held
     - Notably, it also contains a MIDI layer.
 title: "Layout of @magicmonty"
-writeup: https://github.com/magicmonty/qmk_firmware/tree/master/keyboards/clueboard/66/keymaps/magicmonty/readme.md
+writeup: https://github.com/qmk/qmk_firmware/tree/user-keymaps-still-present/keyboards/clueboard/66/keymaps/magicmonty/readme.md
 ---
