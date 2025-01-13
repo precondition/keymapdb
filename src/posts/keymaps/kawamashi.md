@@ -12,7 +12,7 @@ isTapDanceEnabled: false
 keybindings: []
 keyboard: ErgoDox
 keyCount: 68
-keymapImage: https://download.tuxfamily.org/dvorak/wiki/images/Pr%C3%A9sentation_FR-Godox.png
+keymapImage: kawamashi.webp
 keymapUrl: https://configure.ergodox-ez.com/ergodox-ez/layouts/wOl03/latest/0
 languages: [French]
 layerCount: 3
