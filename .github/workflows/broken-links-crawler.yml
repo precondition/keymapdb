@@ -24,4 +24,4 @@ jobs:
         exclude_url_prefix: "/assets,https://mechdb.net"
         max_retries: 2
         max_depth: 3
-        verbose: true
+        verbose: debug
