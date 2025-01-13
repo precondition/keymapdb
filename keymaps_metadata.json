@@ -2633,6 +2633,34 @@
     },
     {
 
+        "url": "/keymaps/shaykalyan/",
+        "fileSlug": "shaykalyan",
+        "title": "Shay Kalyan's Lily58",
+        "keymapUrl": "https://github.com/shaykalyan/qmk_firmware/blob/lily58-keymap-add-shaykalyan/keyboards/lily58/keymaps/shaykalyan/",
+        "author": "shaykalyan",
+        "keymapImage": "/assets/img/keymaps/shaykalyan.webp",
+        "keyCount": 58,
+        "firmwares": ["QMK"],
+        "keyboard": "Lily58",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "Taking the default keymap as my starting point, I started to tweak things almost immediately to fit my typing style and allow me to ease into a layout that isn't too far from a standard QWERTY keyboard. Build log available.",
+        "OS": ["Windows"],
+        "keybindings": [],
+        "writeup": "https://shaykalyan.com/blog/posts/2021/lily58-split-keyboard-build/",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 4,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/smt-minivan/",
         "fileSlug": "smt-minivan",
         "title": "smt's TV44 keymap",
