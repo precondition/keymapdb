@@ -13,7 +13,7 @@ keybindings: [Vim, TWM]
 keyboard: Ferris
 keyCount: 34
 keymapImage: https://raw.githubusercontent.com/waffle87/qmk.me/master/img/layout.svg
-keymapUrl: https://github.com/waffle87/qmk.me/tree/master/waffle
+keymapUrl: https://github.com/waffle87/qmk.me/
 languages: [English]
 layerCount: 4
 OS: [Linux]
