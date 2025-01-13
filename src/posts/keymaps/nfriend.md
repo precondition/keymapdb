@@ -13,7 +13,7 @@ keybindings: []
 keyboard: ErgoDox
 keyCount: 76
 keymapImage: nfriend.png
-keymapUrl: https://github.com/nfriend/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/nfriend
+keymapUrl: https://github.com/nfriend/qmk_firmware/tree/nfriend-ergodox-ez/keyboards/ergodox_ez/keymaps/nfriend
 languages: ['English']
 layerCount: 13
 OS: [MacOS, Windows]
@@ -25,5 +25,5 @@ summary:
     - Unicode emoji layer
     - “Windows” and “macOS” mode that makes all my keyboard shortcuts consistent across the two operating systems
 title: "nfriend's ErgoDox EZ configuration"
-writeup: https://github.com/nfriend/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/nfriend/readme.md
+writeup: https://github.com/nfriend/qmk_firmware/tree/nfriend-ergodox-ez/keyboards/ergodox_ez/keymaps/nfriend/readme.md
 ---
