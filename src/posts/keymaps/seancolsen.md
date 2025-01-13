@@ -12,8 +12,8 @@ isTapDanceEnabled: false
 keybindings: []
 keyboard: Corne
 keyCount: 36
-keymapImage: https://raw.githubusercontent.com/seancolsen/qmk_firmware/5fe07c086712f25f2b652aa269264aab8610732c/keyboards/crkbd/keymaps/colsen/diagram.png
-keymapUrl: https://github.com/seancolsen/qmk_firmware/tree/5fe07c086712f25f2b652aa269264aab8610732c/keyboards/crkbd/keymaps/colsen
+keymapImage: seancolsen.webp
+keymapUrl: # (link broke after what I assume is a rewrite of git history) https://github.com/seancolsen/qmk_firmware/tree/5fe07c086712f25f2b652aa269264aab8610732c/keyboards/crkbd/keymaps/colsen
 languages: [English]
 layerCount: 2
 OS: [Linux]
