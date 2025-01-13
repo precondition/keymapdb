@@ -2241,6 +2241,34 @@
     },
     {
 
+        "url": "/keymaps/aidancz/",
+        "fileSlug": "aidancz",
+        "title": "Planck Crab",
+        "keymapUrl": "https://github.com/aidancz/planck_crab",
+        "author": "aidancz",
+        "keymapImage": "/assets/img/keymaps/aidancz.webp",
+        "keyCount": 43,
+        "firmwares": ["QMK"],
+        "keyboard": "Planck",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "ortholinear",
+        "isSplit": false,
+        "languages": ["English"],
+        "summary": "A symmetrical layout for planck mit keyboard",
+        "OS": ["Linux"],
+        "keybindings": ["Vim"],
+        "writeup": "https://github.com/aidancz/planck_crab/blob/master/readme.org",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 4,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/trguhq/",
         "fileSlug": "trguhq",
         "title": "Planck Unicode Rune",
