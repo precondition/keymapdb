@@ -18,8 +18,10 @@ jobs:
       id: check-broken-links
       uses: ScholliYT/Broken-Links-Crawler-Action@v3.3.1
       with:
-        website_url: "https://keymapdb.com"
+        # We would need a high `max_depth` for the crawler to naturally find all the keymapdb pages but we do not want the crawler to go deep
+        # in unrelated websites, so in order to keep the `max_depth` low but the keymapdb page coverage high, we manually list them here.
+        website_url: "https://keymapdb.com,http://keymapdb.com/page/2/,http://keymapdb.com/page/3/,http://keymapdb.com/page/3/,http://keymapdb.com/page/4/,http://keymapdb.com/page/5/,http://keymapdb.com/page/6/,http://keymapdb.com/page/7/"
         exclude_url_prefix: "/assets,https://mechdb.net"
         max_retries: 2
-        max_depth: 2
+        max_depth: 3
         verbose: true
