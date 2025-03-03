@@ -12,7 +12,7 @@ isTapDanceEnabled: true
 keybindings: [Vim]
 keyboard: Corne
 keyCount: 46
-keymapImage: https://github.com/haraldkubota/static-files/blob/5f23e24eaa18bf1ff087ef41f7909e58bfc91d4f/corne/corne-v4.png
+keymapImage: https://raw.githubusercontent.com/haraldkubota/static-files/master/corne/corne-v4.png
 keymapUrl: https://github.com/haraldkubota/static-files/blob/5f23e24eaa18bf1ff087ef41f7909e58bfc91d4f/corne/
 languages: [English]
 layerCount: 4
