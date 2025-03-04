@@ -281,6 +281,34 @@
     },
     {
 
+        "url": "/keymaps/haraldkubota/",
+        "fileSlug": "haraldkubota",
+        "title": "Bracket Left",
+        "keymapUrl": "https://github.com/haraldkubota/static-files/blob/5f23e24eaa18bf1ff087ef41f7909e58bfc91d4f/corne/",
+        "author": "haraldkubota",
+        "keymapImage": "https://raw.githubusercontent.com/haraldkubota/static-files/master/corne/corne-v4.png",
+        "keyCount": 43,
+        "firmwares": ["QMK"],
+        "keyboard": "Corne",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "A 43 key ergonomic columnar layout for corne-style split keyboards. After weeks of changing the layout, this worked best for me.",
+        "OS": ["Linux","Windows"],
+        "keybindings": ["Vim"],
+        "writeup": "https://hkubota.wordpress.com/2025/02/23/split-keyboard-layout-updates/",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 4,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": true,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/brandonschlack/",
         "fileSlug": "brandonschlack",
         "title": "brandonschlack's Nightmare Keymap",
