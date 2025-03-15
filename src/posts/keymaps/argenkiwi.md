@@ -1,5 +1,5 @@
 ---
-author: Leandro M. Peralta (argenkiwi)
+author: argenkiwi
 baseLayouts: [QWERTY, Colemak, Dvorak]
 firmwares: [Kanata, keyd]
 hasHomeRowMods: true
