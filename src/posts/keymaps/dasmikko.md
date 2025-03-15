@@ -16,7 +16,7 @@ keymapImage: https://github.com/dasmikko/qmk_stuff/blob/main/images/kyria.png?ra
 keymapUrl: https://github.com/dasmikko/qmk_stuff
 languages: [Danish, English] # [English, Spanish, ...]
 layerCount: 8
-OS: [Windows, MacOS, Linux] # [Windows, MacOS, Linux]
+OS: [Linux, Windows] # [Windows, MacOS, Linux]
 stagger: columnar # row or columnar or ortholinear
 summary: "The keymap is a pretty basic, no crazy tap-dance mods or alike. It is very beginner friendly, and feel free to use it as a base. It uses Danish layout, so it includes ÆØÅ." # Short summary of max. 60 words
 title: dasmikko's Kyria QMK keymap
