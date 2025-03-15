@@ -687,7 +687,7 @@
         "isSplit": true,
         "languages": ["Danish","English"],
         "summary": "The keymap is a pretty basic, no crazy tap-dance mods or alike. It is very beginner friendly, and feel free to use it as a base. It uses Danish layout, so it includes ÆØÅ.",
-        "OS": ["Windows","MacOS","Linux"],
+        "OS": ["Linux","Windows"],
         "keybindings": ["Gaming"],
         "writeup": "https://github.com/dasmikko/qmk_stuff/blob/main/readme.md",
         "hasRotaryEncoder": false,
