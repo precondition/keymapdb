@@ -7,7 +7,7 @@ hasLetterOnThumb: false
 hasRotaryEncoder: false
 isAutoShiftEnabled: false
 isComboEnabled: true
-isSplit: true
+isSplit: false
 isTapDanceEnabled: false
 keybindings: []
 keyboard: ANSI
