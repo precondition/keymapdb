@@ -1,6 +1,6 @@
 ---
 author: lucordes
-baseLayouts: [Colemak-DH]
+baseLayouts: [Colemak]
 firmwares:  [ZMK]
 hasHomeRowMods: true
 hasLetterOnThumb: false
