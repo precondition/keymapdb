@@ -28,7 +28,6 @@ Oryx, Via and Vial firmwares all fall under the "QMK" umbrella.
 ### Possible Values
 - [QMK]
 - [ZMK]
-- [Kaleidoscope]
 - [KMonad]
 - [QMK, ZMK]
 

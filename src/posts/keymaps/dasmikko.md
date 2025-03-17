@@ -1,7 +1,7 @@
 ---
 author: dasmikko
 baseLayouts: [QWERTY] # [QWERTY, Colemak, Dvorak, ...]
-firmwares: [QMK] # [QMK, ZMK, Kaleidoscope, KMonad]
+firmwares: [QMK] # [QMK, ZMK, KMonad]
 hasHomeRowMods: false # true or false
 hasLetterOnThumb: false # true or false
 hasRotaryEncoder: false # true or false

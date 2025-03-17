@@ -1,7 +1,7 @@
 ---
 author: stevep99
 baseLayouts: [Colemak]
-firmwares: [QMK, KMonad, Kaleidoscope]
+firmwares: [QMK, KMonad]
 hasHomeRowMods: false
 hasLetterOnThumb: false
 hasRotaryEncoder: false

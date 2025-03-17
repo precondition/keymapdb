@@ -15,7 +15,7 @@ Examples: `week_end.md` and `week_end-one_handed.md` or `week_end-dactyl.md` and
 ---
 author:
 baseLayouts: # [QWERTY, Colemak, Dvorak, ...]
-firmwares: # [QMK, ZMK, Kaleidoscope, KMonad]
+firmwares: # [QMK, ZMK, KMonad]
 hasHomeRowMods: # true or false
 hasLetterOnThumb: # true or false
 hasRotaryEncoder: # true or false
