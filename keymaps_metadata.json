@@ -2696,7 +2696,7 @@
         "author": "stevep99",
         "keymapImage": "https://stevep99.github.io/seniply/gfx/seniply_us_matrix_all.png",
         "keyCount": 34,
-        "firmwares": ["QMK","KMonad","Kaleidoscope"],
+        "firmwares": ["QMK","KMonad"],
         "keyboard": "",
         "baseLayouts": ["Colemak"],
         "stagger": "columnar",
