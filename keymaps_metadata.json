@@ -1569,6 +1569,34 @@
     },
     {
 
+        "url": "/keymaps/argenkiwi/",
+        "fileSlug": "argenkiwi",
+        "title": "Kenkyo",
+        "keymapUrl": "https://github.com/argenkiwi/kenkyo",
+        "author": "argenkiwi",
+        "keymapImage": "https://raw.githubusercontent.com/argenkiwi/kenkyo/refs/heads/main/images/kenkyo.png",
+        "keyCount": 31,
+        "firmwares": ["Kanata","keyd"],
+        "keyboard": "ANSI",
+        "baseLayouts": ["QWERTY","Colemak"],
+        "stagger": "row",
+        "isSplit": false,
+        "languages": ["English","Spanish"],
+        "summary": "A layered keyboard layout designed to augment your keyboard's capabilities without altering or interfering with its default behaviour, so you can remain productive as you learn to use it.",
+        "OS": ["Windows","MacOS","Linux"],
+        "keybindings": [],
+        "writeup": "https://github.com/argenkiwi/kenkyo/blob/main/README.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 3,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/konomu/",
         "fileSlug": "konomu",
         "title": "konomu's one handed keyboard",
