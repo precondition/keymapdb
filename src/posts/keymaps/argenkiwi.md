@@ -1,6 +1,6 @@
 ---
 author: argenkiwi
-baseLayouts: [QWERTY, Colemak, Dvorak]
+baseLayouts: [QWERTY, Colemak]
 firmwares: [Kanata, keyd]
 hasHomeRowMods: true
 hasLetterOnThumb: false
