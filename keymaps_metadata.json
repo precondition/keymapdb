@@ -2801,6 +2801,34 @@
     },
     {
 
+        "url": "/keymaps/lucordes/",
+        "fileSlug": "lucordes",
+        "title": "Sweep International Keymap",
+        "keymapUrl": "https://github.com/lucordes/zmk-config-nomouse",
+        "author": "lucordes",
+        "keymapImage": "https://github.com/user-attachments/assets/3b3d65f9-8baa-4e73-9c62-1e845fa25314",
+        "keyCount": 33,
+        "firmwares": ["ZMK"],
+        "keyboard": "Ferris",
+        "baseLayouts": ["Colemak"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English","Italian","German"],
+        "summary": "Very easy efficient three layer keymap based on Colemake-DH adjusted for Italian/German.",
+        "OS": ["Windows","Linux","Android"],
+        "keybindings": [],
+        "writeup": "https://github.com/lucordes/zmk-config-nomouse/blob/master/README.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 12,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": true,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/t00mietum/",
         "fileSlug": "t00mietum",
         "title": "t00mietum Comfort Keyboard",
