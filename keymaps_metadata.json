@@ -2185,6 +2185,34 @@
     },
     {
 
+        "url": "/keymaps/ScriBanana/",
+        "fileSlug": "ScriBanana",
+        "title": "OptiCorne",
+        "keymapUrl": "https://github.com/ScriBanana/OptiCorne",
+        "author": "ScriBanana",
+        "keymapImage": "https://raw.githubusercontent.com/ScriBanana/OptiCorne/refs/heads/master/Illustrations/CorneOptimot.webp",
+        "keyCount": 42,
+        "firmwares": ["ZMK"],
+        "keyboard": "Corne",
+        "baseLayouts": ["Optimot"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["French","English"],
+        "summary": ["An easy-to-learn, mouse-friendly, Optimot-based Corne layout","Leverages Optimot and its driver for typing (many more character layers)","Relatively easy to swap with a regular keyboard","Designed to assist mouse use (right hand) and navigation"],
+        "OS": ["Linux","MacOS","Windows"],
+        "keybindings": ["Gaming"],
+        "writeup": "https://github.com/ScriBanana/OptiCorne/blob/master/README.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 4,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/pcoves/",
         "fileSlug": "pcoves",
         "title": "Pablo Coves' 32-key layout",
