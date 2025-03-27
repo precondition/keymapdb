@@ -18,7 +18,11 @@ languages: [French, English]
 layerCount: 4
 OS: [Linux, MacOS, Windows]
 stagger: columnar
-summary: An easy-to-learn, mouse-friendly, Optimot-based Corne layout
+summary:
+- An easy-to-learn, mouse-friendly, Optimot-based Corne layout
+- Leverages Optimot and its driver for typing (many more character layers)
+- Relatively easy to swap with a regular keyboard
+- Designed to assist mouse use (right hand) and navigation
 title: OptiCorne
 writeup: https://github.com/ScriBanana/OptiCorne/blob/master/README.md
 ---
