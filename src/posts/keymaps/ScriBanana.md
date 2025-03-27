@@ -9,7 +9,7 @@ isAutoShiftEnabled: false
 isComboEnabled: false
 isSplit: true
 isTapDanceEnabled: false
-keybindings: []
+keybindings: [Gaming]
 keyboard: Corne
 keyCount: 42
 keymapImage: https://raw.githubusercontent.com/ScriBanana/OptiCorne/refs/heads/master/Illustrations/CorneOptimot.webp
