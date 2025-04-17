@@ -5,14 +5,14 @@ firmwares: ["ZMK"]
 hasHomeRowMods: false
 hasLetterOnThumb: false
 hasRotaryEncoder: false
-isAutoShiftEnabled: false
+isAutoShiftEnabled: true
 isComboEnabled:  true
 isSplit: true
 isTapDanceEnabled: false
 keybindings:  [Vim, Gaming]
 keyboard: Corne
 keyCount: 42
-keymapImage: https://raw.githubusercontent.com/cyb3rkun/corneGLP/3957eef9b3f8513a18f294d8f3cb66a4d854d066/Layer_Guide.svg
+keymapImage: hhttps://raw.githubusercontent.com/cyb3rkun/corneGLP/ff8acac3be198fbb358532d1b587986caee8da4b/Layer_Guide.svgttps://raw.githubusercontent.com/cyb3rkun/corneGLP/b364b20c256525419ba3b4c99ffa72658ba096a8/Layer_Guide.svg
 keymapUrl: https://github.com/cyb3rkun/corneGLP
 languages:  [English]
 layerCount: 7
