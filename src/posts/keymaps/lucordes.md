@@ -18,7 +18,7 @@ languages:  [English, Italian, German]
 layerCount: 12
 OS: [Windows, Linux, Android]
 stagger: columnar
-summary: Very easy efficient three layer keymap based on Colemake-DH adjusted for Italian/German.
+summary: Very easy efficient three layer keymap based on Colemak-DH adjusted for Italian/German.
 title: Sweep International Keymap
 writeup: https://github.com/lucordes/zmk-config-nomouse/blob/master/README.md
 ---
