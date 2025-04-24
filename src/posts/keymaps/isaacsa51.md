@@ -12,7 +12,7 @@ isTapDanceEnabled: false
 keybindings: []
 keyboard: Corne
 keyCount: 42
-keymapImage: https://i.imgur.com/6bA40no.jpeg
+keymapImage: https://raw.githubusercontent.com/isaacsa51/zmk-config-corne/refs/heads/master/keymap.png
 keymapUrl: https://github.com/isaacsa51/zmk-config-corne
 languages: [English, Spanish]
 layerCount: 7
