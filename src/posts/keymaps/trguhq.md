@@ -12,7 +12,7 @@ isTapDanceEnabled: false
 keybindings: []
 keyboard: Planck
 keyCount: 48
-keymapImage: "https://i.imgur.com/ocILTZ3.png"
+keymapImage: trguhq.webp
 keymapUrl: "https://github.com/trguhq/planck_rune"
 languages: [Danish, English, Faroese, Icelandic, Norwegian, Swedish] 
 layerCount: 7

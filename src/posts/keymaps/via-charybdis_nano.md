@@ -13,7 +13,7 @@ keybindings: []
 keyboard: Charybdis Nano
 keyCount: 36
 keymapImage: https://i.imgur.com/uHEnqEN.png
-keymapUrl: https://github.com/qmk/qmk_firmware/tree/user-keymaps-still-present/keyboards/bastardkb/charybdis/3x5/keymaps/via
+keymapUrl: via-charybdis_nano.webp
 languages: [English]
 layerCount: 7
 OS: []

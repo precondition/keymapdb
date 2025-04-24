@@ -12,7 +12,7 @@ isTapDanceEnabled: false
 keybindings: []
 keyboard: Helix
 keyCount: 32
-keymapImage: https://i.imgur.com/S1Dw3XW.jpg
+keymapImage: MakotoKurauchi-helix_froggy.webp
 keymapUrl: https://github.com/qmk/qmk_firmware/tree/user-keymaps-still-present/keyboards/helix/rev2/keymaps/froggy
 languages: [Japanese, English]
 layerCount: 5
