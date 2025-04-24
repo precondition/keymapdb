@@ -19,6 +19,6 @@ layerCount: 10
 OS: [Windows, MacOS, Linux]
 stagger: columnar
 summary: Spanish/English focused for Tiling WM with heavy use of combos for symbols, layer for JetBrain's IDES and OS Switching for tilde usage for the vowels. Featuring TFT Display and a Cirque Trackpad to switch from mouse movements to scroll.
-title: Spanish/English Kyria with Cirque Trackpad and OS Toggler.
+title: Spanish/English Kyria with Cirque Trackpad and OS Toggler
 writeup: 
 ---
