@@ -9,7 +9,7 @@ isAutoShiftEnabled: false
 isComboEnabled: true
 isSplit: true
 isTapDanceEnabled: true
-keybindings: []
+keybindings: [Vim]
 keyboard: Smallcat
 keyCount: 26
 keymapImage: https://github.com/smallwat3r/qmk-keymap/blob/main/images/keymap.png
