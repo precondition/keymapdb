@@ -4,7 +4,7 @@ baseLayouts: [smallcat]
 firmwares: [QMK]
 hasHomeRowMods: true
 hasLetterOnThumb: false
-hasRotaryEncoder:false
+hasRotaryEncoder: false
 isAutoShiftEnabled: false
 isComboEnabled: true
 isSplit: true
