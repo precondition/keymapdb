@@ -12,7 +12,7 @@ isTapDanceEnabled: true
 keybindings: [Vim]
 keyboard: Smallcat
 keyCount: 26
-keymapImage: https://github.com/smallwat3r/qmk-keymap/blob/main/images/keymap.png
+keymapImage: https://raw.githubusercontent.com/smallwat3r/qmk-keymap/refs/heads/main/images/keymap.png
 keymapUrl: https://github.com/smallwat3r/qmk-keymap
 languages: [English]
 layerCount: 9
