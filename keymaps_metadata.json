@@ -2806,7 +2806,7 @@
         "title": "Smallcat",
         "keymapUrl": "https://github.com/smallwat3r/qmk-keymap",
         "author": "smallwat3r",
-        "keymapImage": "https://github.com/smallwat3r/qmk-keymap/blob/main/images/keymap.png",
+        "keymapImage": "https://raw.githubusercontent.com/smallwat3r/qmk-keymap/refs/heads/main/images/keymap.png",
         "keyCount": 26,
         "firmwares": ["QMK"],
         "keyboard": "Smallcat",
