@@ -2,7 +2,7 @@
 author: smallwat3r
 baseLayouts: [smallcat]
 firmwares: [QMK]
-hasHomeRowMods: true
+hasHomeRowMods: false
 hasLetterOnThumb: false
 hasRotaryEncoder: false
 isAutoShiftEnabled: false
