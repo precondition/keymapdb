@@ -2801,6 +2801,34 @@
     },
     {
 
+        "url": "/keymaps/smallcat/",
+        "fileSlug": "smallcat",
+        "title": "Smallcat",
+        "keymapUrl": "https://github.com/smallwat3r/qmk-keymap",
+        "author": "smallwat3r",
+        "keymapImage": "https://github.com/smallwat3r/qmk-keymap/blob/main/images/keymap.png",
+        "keyCount": 26,
+        "firmwares": ["QMK"],
+        "keyboard": "Smallcat",
+        "baseLayouts": ["smallcat"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "The Smallcat is a minimalist keyboard with just 26 keys, designed to reduce finger strain and minimize movement—especially for the pinky fingers. To compensate for the limited number of keys, it relies heavily on combo inputs. Using very light switches is recommended, making the typing experience especially comfortable.",
+        "OS": ["MacOS"],
+        "keybindings": ["Vim"],
+        "writeup": null,
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 9,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": true,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/smt-minivan/",
         "fileSlug": "smt-minivan",
         "title": "smt's TV44 keymap",
