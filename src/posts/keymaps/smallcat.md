@@ -15,7 +15,7 @@ keyCount: 26
 keymapImage: https://github.com/smallwat3r/qmk-keymap/blob/main/images/keymap.png
 keymapUrl: https://github.com/smallwat3r/qmk-keymap
 languages: [English]
-layerCount: 5
+layerCount: 9
 OS: [MacOS]
 stagger: ortholinear
 summary: QMK keymap for Smallcat
