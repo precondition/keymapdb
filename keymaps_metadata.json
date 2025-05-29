@@ -1569,6 +1569,34 @@
     },
     {
 
+        "url": "/keymaps/justinmklam/",
+        "fileSlug": "justinmklam",
+        "title": "justinmklam's Corne Keyboard Layout",
+        "keymapUrl": "https://github.com/justinmklam/corne-keyboard",
+        "author": "justinmklam",
+        "keymapImage": "https://raw.githubusercontent.com/justinmklam/corne-keyboard/refs/heads/main/keymap_drawer/keymap.svg",
+        "keyCount": 46,
+        "firmwares": ["QMK"],
+        "keyboard": "Corne",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "A 46-key split layout optimized for vim-centric software development on macOS.",
+        "OS": ["MacOS","Linux"],
+        "keybindings": ["Vim"],
+        "writeup": "https://www.justinmklam.com/posts/2025/05/corne-keyboard/",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 4,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": true,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/jwon/",
         "fileSlug": "jwon",
         "title": "jwon's Programmer Dvorak",
