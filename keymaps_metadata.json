@@ -2479,7 +2479,7 @@
         "isSplit": true,
         "languages": ["English","French"],
         "summary": "This keymap uses Colemak-DH for its alpha base with the addition of common French accented keys in direct access and dead keys for the less common ones. For use in English, French, and programming. Notably, home row mods are used, as well as tap dance and combos.",
-        "OS": ["Linux"],
+        "OS": ["Linux","Windows"],
         "keybindings": ["Vim"],
         "writeup": "https://github.com/precondition/dactyl-manuform-keymap/blob/main/readme.md",
         "hasRotaryEncoder": false,
