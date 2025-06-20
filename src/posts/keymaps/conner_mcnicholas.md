@@ -10,7 +10,7 @@ isComboEnabled: true
 isSplit: true
 isTapDanceEnabled: true
 keybindings: []
-keyboard: Ferris Sweep
+keyboard: Ferris
 keyCount: 34
 keymapImage: https://i.imgur.com/vGhDeYD.png
 keymapUrl: https://github.com/conner-mcnicholas/FinalFerrisKey34
