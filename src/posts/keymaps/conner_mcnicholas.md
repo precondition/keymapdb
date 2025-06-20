@@ -1,7 +1,7 @@
 ---
 author: conner-mcnicholas
-baseLayouts: QWERTY
-firmwares: QMK
+baseLayouts: [QWERTY]
+firmwares: [QMK]
 hasHomeRowMods: true
 hasLetterOnThumb: false
 hasRotaryEncoder: false
@@ -14,7 +14,7 @@ keyboard: Ferris Sweep
 keyCount: 34
 keymapImage: https://i.imgur.com/vGhDeYD.png
 keymapUrl: https://github.com/conner-mcnicholas/FinalFerrisKey34
-languages: English
+languages: [English]
 layerCount: 5
 OS: [Windows, Linux]
 stagger: columnar
