@@ -12,8 +12,8 @@ isTapDanceEnabled: false
 keybindings: []
 keyboard: Japanese Apple KeyBoard
 keyCount: 35
-keymapImage: https://raw.githubusercontent.com/peterjc/kana-chording-ke/main/hands-down-on-jis-macbook.jpeg
-keymapUrl: https://github.com/peterjc/kana-chording-ke/blob/main/hands-down-on-jis-macbook.md
+keymapImage: https://codeberg.org/peterjc/kana-chording-ke/media/branch/main/hands-down-on-jis-macbook.jpeg
+keymapUrl: https://codeberg.org/peterjc/kana-chording-ke/src/branch/main/hands-down-on-jis-macbook.md
 languages: ["English"]
 layerCount: 2
 OS: ["MacOS"]
