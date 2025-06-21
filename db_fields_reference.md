@@ -25,11 +25,14 @@ The keyboard firmwares the keymap is made for.
 
 Oryx, Via and Vial firmwares all fall under the "QMK" umbrella.
 
+Software mappings are also allowed here, e.g. "kanata", "Karabiner-Elements", or "keyd". You can list more than one.
+
 ### Possible Values
 - [QMK]
 - [ZMK]
 - [KMonad]
 - [QMK, ZMK]
+- [kanata, Karabiner-Elements]
 
 ## hasHomeRowMods (bool)
 Indicates whether the keymap uses home row mods.
