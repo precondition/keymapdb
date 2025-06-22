@@ -1093,6 +1093,34 @@
     },
     {
 
+        "url": "/keymaps/conner_mcnicholas/",
+        "fileSlug": "conner_mcnicholas",
+        "title": "Final Ferriskey XXXIV",
+        "keymapUrl": "https://github.com/conner-mcnicholas/FinalFerrisKey34",
+        "author": "conner-mcnicholas",
+        "keymapImage": "https://i.imgur.com/vGhDeYD.png",
+        "keyCount": 34,
+        "firmwares": ["QMK"],
+        "keyboard": "Ferris",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": ["A minimalist keymap offering all standard keyboard functionality plus quality-of-life luxuries - all with just 34 keys. Tapping thumb keys covers core operators: Escape, Space, Backspace, and Enter, while 5 layers are accessible upon holding and bilateral combos facilitating layer-locking.  Layers include:","0|Base (QWERTY)","1|Symbols","2|Numpad/Function Keys","3|Navigation (full mouse functionality)","4|Macros"],
+        "OS": ["Windows","Linux"],
+        "keybindings": [],
+        "writeup": "https://github.com/conner-mcnicholas/FinalFerrisKey34/blob/main/README.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 5,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": true,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/vvhg1/",
         "fileSlug": "vvhg1",
         "title": "Fisk keymap",
