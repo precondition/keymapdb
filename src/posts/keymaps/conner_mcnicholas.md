@@ -18,7 +18,8 @@ languages: [English]
 layerCount: 5
 OS: [Windows, Linux]
 stagger: columnar
-summary: A minimalist keymap offering all standard keyboard functionality plus quality-of-life luxuries - all with just 34 keys. Tapping thumb keys covers core operators: Escape, Space, Backspace, and Enter, while 5 layers are accessible upon holding and bilateral combos facilitating layer-locking.  Layers include:
+summary: 
+  - "A minimalist keymap offering all standard keyboard functionality plus quality-of-life luxuries - all with just 34 keys. Tapping thumb keys covers core operators: Escape, Space, Backspace, and Enter, while 5 layers are accessible upon holding and bilateral combos facilitating layer-locking.  Layers include:"
   - 0|Base (QWERTY)
   - 1|Symbols
   - 2|Numpad/Function Keys
