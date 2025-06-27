@@ -12,7 +12,7 @@ isTapDanceEnabled: true
 keybindings: []
 keyboard: Ferris
 keyCount: 34
-keymapImage: https://i.imgur.com/fHP6VaG.png # updated with revised vertical image
+keymapImage: https://i.imgur.com/fHP6VaG.png # uploaded with an imgur account, see PR #83
 keymapUrl: https://github.com/conner-mcnicholas/FinalFerrisKey34
 languages: [English]
 layerCount: 5
