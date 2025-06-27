@@ -1,6 +1,6 @@
 ---
 author: peterjc
-baseLayouts: ["QWERTY"]
+baseLayouts: ["New Stickney"]
 firmwares: ["Karabiner-Elements"]
 hasHomeRowMods: false
 hasLetterOnThumb: false
