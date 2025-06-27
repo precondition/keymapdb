@@ -10,7 +10,7 @@ isComboEnabled: true
 isSplit: false
 isTapDanceEnabled: false
 keybindings: []
-keyboard: Japanese Apple KeyBoard
+keyboard: Japanese Apple Keyboard
 keyCount: 35
 keymapImage: https://codeberg.org/peterjc/kana-chording-ke/raw/branch/main/hands-down-on-jis-macbook/hands-down-on-jis-macbook.jpeg
 keymapUrl: https://codeberg.org/peterjc/kana-chording-ke/src/branch/main/hands-down-on-jis-macbook/
