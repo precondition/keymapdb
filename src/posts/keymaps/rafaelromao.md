@@ -20,5 +20,5 @@ hasLetterOnThumb: False
 isTapDanceEnabled: False
 isComboEnabled: True
 isAutoShiftEnabled: False
-writeup: https://github.com/rafaelromao/keyboards/blob/main/readme.md
+writeup: https://rafaelromao.github.io/keyboards/
 ---
