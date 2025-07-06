@@ -1,5 +1,5 @@
 ---
-author: "Toshihiko Ooka (大岡俊彦)"
+author: "Toshihiko Ōoka (大岡俊彦)"
 baseLayouts: [Naginata]
 firmwares: [QMK, ZMK, Karabiner-Elements]
 hasHomeRowMods: false
