@@ -19,6 +19,6 @@ layerCount: 3
 OS: [Windows, MacOS, Linux]
 stagger: ortholinear
 summary: "Kana-based Japanese system for ergonomic keyboards with thumbs-keys, or traditional keyboards with spacebar used as shift. Dakuten (or handakuten) are combos with other hand's index-finger home (or bottom) row. Combos with ya/yu/yo give compound kana (yōon, at most three keys). Punctuation, navigation, and macros are on layers. Currently v16 (2025). Multiple community implementations exist."
-title: "Naginata (薙刀式)"
+title: "Naginata style (薙刀式)"
 writeup: http://oookaworks.seesaa.net/article/456099128.html
 ---
