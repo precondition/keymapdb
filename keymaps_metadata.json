@@ -2185,6 +2185,34 @@
     },
     {
 
+        "url": "/keymaps/naginata/",
+        "fileSlug": "naginata",
+        "title": "Naginata style (薙刀式)",
+        "keymapUrl": "https://github.com/eswai/qmk_userspace/tree/main/users/naginata_v16",
+        "author": "Toshihiko Ōoka (大岡俊彦)",
+        "keymapImage": "https://oookaworks.up.seesaa.net/image/E89699E58880E5BC8Fv16E6A0BCE5AD90-thumbnail2.jpg",
+        "keyCount": 31,
+        "firmwares": ["QMK","ZMK","Karabiner-Elements"],
+        "keyboard": "ANSI",
+        "baseLayouts": ["Naginata"],
+        "stagger": "ortholinear",
+        "isSplit": true,
+        "languages": ["Japanese"],
+        "summary": "Kana-based Japanese system for ergonomic keyboards with thumbs-keys, or traditional keyboards with spacebar used as shift. Dakuten (or handakuten) are combos with other hand's index-finger on the home (or bottom) row. Combos with ya/yu/yo give compound kana (yōon, at most three keys). Punctuation, navigation, and macros are on layers. Currently v16 (2025). Multiple community implementations exist.",
+        "OS": ["Windows","MacOS","Linux"],
+        "keybindings": null,
+        "writeup": "http://oookaworks.seesaa.net/article/456099128.html",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 3,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/nerdypepper/",
         "fileSlug": "nerdypepper",
         "title": "nerdypepper's programming layout for the Ferricy",
