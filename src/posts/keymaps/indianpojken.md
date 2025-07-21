@@ -17,7 +17,7 @@ keymapUrl: https://github.com/indianpojken/qmk-config/tree/main/ferris
 languages: [English, Swedish]
 layerCount: 4
 OS: [Windows]
-stagger: ortholinear
+stagger: columnar
 summary: One shot modifiers using a mix of Callum & Seniply
 title: Caliply
 writeup: ""
