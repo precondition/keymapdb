@@ -393,6 +393,34 @@
     },
     {
 
+        "url": "/keymaps/indianpojken/",
+        "fileSlug": "indianpojken",
+        "title": "Caliply",
+        "keymapUrl": "https://github.com/indianpojken/qmk-config/tree/main/ferris",
+        "author": "indianpojken",
+        "keymapImage": "https://raw.githubusercontent.com/indianpojken/qmk-config/refs/heads/main/ferris/visualization.png",
+        "keyCount": 34,
+        "firmwares": ["QMK"],
+        "keyboard": "Ferris",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English","Swedish"],
+        "summary": "One shot modifiers using a mix of Callum & Seniply",
+        "OS": ["Windows"],
+        "keybindings": [],
+        "writeup": "",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 4,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/callum_oakley/",
         "fileSlug": "callum_oakley",
         "title": "callum's keymap",
