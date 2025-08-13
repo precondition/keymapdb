@@ -10,7 +10,7 @@ isComboEnabled: false
 isSplit: true
 isTapDanceEnabled: false
 keybindings: []
-keyboard: ["Kinesis Advantage360 Pro"]
+keyboard: "Kinesis Advantage360 Pro"
 keyCount: 36
 keymapImage: https://raw.githubusercontent.com/mkovaxx/phalanx36-for-Adv360-Pro/refs/heads/main/assets/layout.png
 keymapUrl: https://github.com/mkovaxx/phalanx36-for-Adv360-Pro
