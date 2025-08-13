@@ -2521,6 +2521,34 @@
     },
     {
 
+        "url": "/keymaps/mkovaxx-phalanx/",
+        "fileSlug": "mkovaxx-phalanx",
+        "title": "Phalanx 36",
+        "keymapUrl": "https://github.com/mkovaxx/phalanx36-for-Adv360-Pro",
+        "author": "mkovaxx",
+        "keymapImage": "https://raw.githubusercontent.com/mkovaxx/phalanx36-for-Adv360-Pro/refs/heads/main/assets/layout.png",
+        "keyCount": 36,
+        "firmwares": ["ZMK"],
+        "keyboard": "Kinesis Advantage360 Pro",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "A layout that eliminates lateral finger movement.",
+        "OS": ["MacOS"],
+        "keybindings": [],
+        "writeup": "https://github.com/mkovaxx/phalanx36-for-Adv360-Pro/blob/main/README.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 3,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/aidancz/",
         "fileSlug": "aidancz",
         "title": "Planck Crab",
