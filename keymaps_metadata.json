@@ -3193,6 +3193,34 @@
     },
     {
 
+        "url": "/keymaps/valdirjunior011/",
+        "fileSlug": "valdirjunior011",
+        "title": "Temper - wireless-only mechanical keyboard",
+        "keymapUrl": "https://github.com/valdirjunior011/zmk-config-temper/tree/main/boards/shields/temper",
+        "author": "valdirjunior011",
+        "keymapImage": "https://raw.githubusercontent.com/valdirjunior011/zmk-config-temper/main/keymap_img/temper.svg",
+        "keyCount": 36,
+        "firmwares": ["ZMK"],
+        "keyboard": "Temper",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "This is a split, wireless-only mechanical keyboard. Include battery pads, power switches for wireless use, Displays",
+        "OS": ["MacOS"],
+        "keybindings": ["Vim"],
+        "writeup": "https://github.com/valdirjunior011/zmk-config-temper/blob/main/README.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 5,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/skychil/",
         "fileSlug": "skychil",
         "title": "The Kombol Layout",
