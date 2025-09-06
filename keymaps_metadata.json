@@ -62,7 +62,7 @@
         "title": "AlaaSaadAbdo's ZMK keymap for 30-key wireless Battoota",
         "keymapUrl": "https://github.com/AlaaSaadAbdo/zmk-config",
         "author": "AlaaSaadAbdo",
-        "keymapImage": "https://raw.githubusercontent.com/AlaaSaadAbdo/zmk-config/master/layout.png",
+        "keymapImage": "https://raw.githubusercontent.com/AlaaSaadAbdo/zmk-config/master/layout.svg",
         "keyCount": 30,
         "firmwares": ["ZMK"],
         "keyboard": "Battoota",
