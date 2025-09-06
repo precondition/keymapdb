@@ -12,7 +12,7 @@ isTapDanceEnabled: false
 keybindings: []
 keyboard: Hummingbird
 keyCount: 30
-keymapImage: https://github.com/jcmkk3/zmk-config/raw/main/images/keymap.svg
+keymapImage: https://github.com/jcmkk3/zmk-config/raw/main/keymap-drawer.svg
 keymapUrl: https://github.com/jcmkk3/zmk-config
 languages: [English]
 layerCount: 4
