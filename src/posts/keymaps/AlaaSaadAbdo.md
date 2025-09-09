@@ -12,7 +12,7 @@ isTapDanceEnabled: false
 keybindings: []
 keyboard: Battoota
 keyCount: 30
-keymapImage: https://raw.githubusercontent.com/AlaaSaadAbdo/zmk-config/master/layout.png
+keymapImage: https://raw.githubusercontent.com/AlaaSaadAbdo/zmk-config/master/layout.svg
 keymapUrl: https://github.com/AlaaSaadAbdo/zmk-config
 languages: [Arabic, English]
 layerCount: 8
