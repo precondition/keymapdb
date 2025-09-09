@@ -1,6 +1,34 @@
 [
     {
 
+        "url": "/keymaps/ShamalLakshan/",
+        "fileSlug": "ShamalLakshan",
+        "title": "36-QWERTY-Tap-Switch-Keymap",
+        "keymapUrl": "https://github.com/ShamalLakshan/36-QWERTY-Tap-Switch-Keymap",
+        "author": "ShamalLakshan",
+        "keymapImage": "https://raw.githubusercontent.com/ShamalLakshan/36-QWERTY-Tap-Switch-Keymap/refs/heads/main/images/preview.png",
+        "keyCount": 36,
+        "firmwares": ["ZMK"],
+        "keyboard": "BGKeeb",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "My 36-key QWERTY split keymap with tap-only layer switching, no home-row holds, and combos for essential keys. ",
+        "OS": ["Windows","MacOS","Linux","Android"],
+        "keybindings": [],
+        "writeup": "https://blog.shamallakshan.com/2025/09/06/writeups/keymap/36-qwerty-tap-switch-keymap/",
+        "hasRotaryEncoder": true,
+        "hasLetterOnThumb": false,
+        "layerCount": 6,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/kkga/",
         "fileSlug": "kkga",
         "title": "A keyboard layer system for 34 keys",
