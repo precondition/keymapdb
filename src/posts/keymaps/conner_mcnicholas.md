@@ -11,7 +11,7 @@ isSplit: true
 isTapDanceEnabled: true
 keybindings: []
 keyboard: Ferris
-keyCount: 34ddzd
+keyCount: 34
 keymapImage: https://i.imgur.com/tdYlJkt.png # image reflects latest changes
 keymapUrl: https://github.com/conner-mcnicholas/FinalFerrisKey34
 languages: [English]
