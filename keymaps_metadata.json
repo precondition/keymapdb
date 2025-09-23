@@ -3562,7 +3562,7 @@
         "title": "waffle's keymap",
         "keymapUrl": "https://github.com/waffle87/qmk.me/",
         "author": "waffle87",
-        "keymapImage": "https://raw.githubusercontent.com/waffle87/qmk.me/master/img/layout.svg",
+        "keymapImage": "https://raw.githubusercontent.com/waffle87/qmk.me/master/util/layout.svg",
         "keyCount": 34,
         "firmwares": ["QMK","ZMK"],
         "keyboard": "Ferris",
