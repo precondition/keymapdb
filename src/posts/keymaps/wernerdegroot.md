@@ -20,5 +20,5 @@ OS: ["MacOS"]
 stagger: row
 summary: "Layout with two goals: to restrict as much as possible to the 30 alpha keys plus the spacebar, and to stay as close to QWERTY as possible to not mess with muscle memory and allow easy transition to traditional keyboards."
 title: wernerdegroot's layout
-writeup: https://github.com/wernerdegroot/karabiner-elements
+writeup: https://github.com/wernerdegroot/karabiner-elements/blob/main/README.md
 ---
