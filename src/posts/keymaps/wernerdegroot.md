@@ -10,7 +10,7 @@ isComboEnabled: false
 isSplit: false
 isTapDanceEnabled: false
 keybindings: ["Vim"]
-keyboard: Any standard (staggered) keyboard
+keyboard: ANSI
 keyCount: 35
 keymapImage: https://raw.githubusercontent.com/wernerdegroot/karabiner-elements/refs/heads/main/keyboard-layout.png
 keymapUrl: https://github.com/wernerdegroot/karabiner-elements
