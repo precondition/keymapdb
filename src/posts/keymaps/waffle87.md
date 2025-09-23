@@ -12,7 +12,7 @@ isTapDanceEnabled: true
 keybindings: [Vim, TWM]
 keyboard: Ferris
 keyCount: 34
-keymapImage: https://raw.githubusercontent.com/waffle87/qmk.me/master/img/layout.svg
+keymapImage: https://raw.githubusercontent.com/waffle87/qmk.me/master/util/layout.svg
 keymapUrl: https://github.com/waffle87/qmk.me/
 languages: [English]
 layerCount: 4
