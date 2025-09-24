@@ -9,7 +9,7 @@ isAutoShiftEnabled: false
 isComboEnabled: true
 isSplit: true
 isTapDanceEnabled: false
-keybindings: # [Vim, Emacs, Kakoune, Graphics/CAD, TWM, Spreadsheets, Gaming]
+keybindings: [] # [Vim, Emacs, Kakoune, Graphics/CAD, TWM, Spreadsheets, Gaming]
 keyboard: ANSI
 keyCount: 31
 keymapImage: https://oookaworks.up.seesaa.net/image/E89699E58880E5BC8Fv16E6A0BCE5AD90-thumbnail2.jpg
