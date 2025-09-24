@@ -2256,7 +2256,7 @@
         "languages": ["Japanese"],
         "summary": "Kana-based Japanese system for ergonomic keyboards with thumbs-keys, or traditional keyboards with spacebar used as shift. Dakuten (or handakuten) are combos with other hand's index-finger on the home (or bottom) row. Combos with ya/yu/yo give compound kana (yōon, at most three keys). Punctuation, navigation, and macros are on layers. Currently v16 (2025). Multiple community implementations exist.",
         "OS": ["Windows","MacOS","Linux"],
-        "keybindings": null,
+        "keybindings": [],
         "writeup": "http://oookaworks.seesaa.net/article/456099128.html",
         "hasRotaryEncoder": false,
         "hasLetterOnThumb": false,
