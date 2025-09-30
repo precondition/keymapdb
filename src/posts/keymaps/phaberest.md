@@ -9,7 +9,7 @@ isAutoShiftEnabled: false
 isComboEnabled: true
 isSplit: true
 isTapDanceEnabled: true
-keybindings: ["Vim"]
+keybindings: ["Vim", "Gaming"]
 keyboard: Corne
 keyCount: 42
 keymapImage: https://raw.githubusercontent.com/phaberest/qmk_firmware/main/keyboards/crkbd/keymaps/phaberest/keymap.svg
@@ -22,3 +22,4 @@ summary: This keymap features dual QWERTY/Colemak-DH layouts with a lot of combo
 title: phaberest's corne
 writeup: https://github.com/phaberest/qmk_firmware/blob/main/readme.md
 ---
+
