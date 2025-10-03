@@ -2549,6 +2549,34 @@
     },
     {
 
+        "url": "/keymaps/phaberest/",
+        "fileSlug": "phaberest",
+        "title": "phaberest's corne",
+        "keymapUrl": "https://github.com/phaberest/qmk_firmware/tree/main/keyboards/crkbd/keymaps/phaberest",
+        "author": "phaberest",
+        "keymapImage": "https://raw.githubusercontent.com/phaberest/qmk_firmware/main/keyboards/crkbd/keymaps/phaberest/keymap.svg",
+        "keyCount": 42,
+        "firmwares": ["QMK"],
+        "keyboard": "Corne",
+        "baseLayouts": ["QWERTY","Colemak"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "This keymap features dual QWERTY/Colemak-DH layouts with a lot of combos for symbols and brackets on both layouts, bitwise F-key input using binary combinations, OLED displays, trackpoint integration, and a gaming layer with chat mode for seamless transitions.",
+        "OS": ["MacOS"],
+        "keybindings": ["Vim","Gaming"],
+        "writeup": "https://github.com/phaberest/qmk_firmware/blob/main/readme.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 7,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": true,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/mkovaxx-phalanx/",
         "fileSlug": "mkovaxx-phalanx",
         "title": "Phalanx 36",
