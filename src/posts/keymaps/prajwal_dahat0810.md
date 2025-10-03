@@ -10,16 +10,15 @@ isComboEnabled: true
 isSplit: true
 isTapDanceEnabled: true
 keybindings: [Vim, Emacs, Kakoune, Graphics/CAD, TWM, Spreadsheets, Gaming]
-keyboard: [Kyria , Corne , Dactyl Manuform 5x6 , Clueboard 66%]
-keyCount:
+keyboard: [Kyria, Corne, Dactyl Manuform 5x6, Clueboard 66%]
+keyCount: 42
 keymapImage:
 keymapUrl:
 languages: [English, Spanish, French, Greek, Russian, Japanese]
-layerCount:
+layerCount: 6
 OS: [Windows, MacOS, Linux, Android]
-stagger: row or columnar or ortholinear
-summary:  Multi-layout split keyboard setup tested on Kyria, Corne, Dactyl Manuform, and Clueboard. Combines multiple firmwares, layers, and bindings for coding, design, and gaming, with multilingual support.
+stagger: columnar
+summary: Multi-layout split keyboard setup tested on Kyria, Corne, Dactyl Manuform, and Clueboard. Combines multiple firmwares, layers, and bindings for coding, design, and gaming, with multilingual support.
 title: "Prajwal Dahat's Multi-layout Split Keyboard Setup"
-writeup: # not mandatory
+writeup:
 ---
-
