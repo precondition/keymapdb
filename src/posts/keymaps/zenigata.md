@@ -3,7 +3,7 @@ author: OneDeadKey
 baseLayouts: [QWERTY, Colemak, Ergo-L, BÉPO, AZERTY, Optimot]
 firmwares: [kanata, QMK]
 hasHomeRowMods: true
-hasLetterOnThumb: true
+hasLetterOnThumb: false
 hasRotaryEncoder: false
 isAutoShiftEnabled: false
 isComboEnabled: false
