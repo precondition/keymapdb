@@ -10,7 +10,7 @@ isComboEnabled: false
 isSplit: false
 isTapDanceEnabled: false
 keybindings: [] # [Vim]
-keyboard: Corne
+keyboard: ISO
 keyCount: 33
 keymapImage: https://raw.githubusercontent.com/OneDeadKey/arsenik/main/img/all.svg
 keymapUrl: https://github.com/OneDeadKey/arsenik
