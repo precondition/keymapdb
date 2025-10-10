@@ -9,7 +9,7 @@ isAutoShiftEnabled: false
 isComboEnabled: false
 isSplit: true
 isTapDanceEnabled: false
-keybindings: # [Vim]
+keybindings: [] # [Vim]
 keyboard: Corne
 keyCount: 33
 keymapImage: https://raw.githubusercontent.com/OneDeadKey/arsenik/main/img/all.svg
