@@ -7,7 +7,7 @@ hasLetterOnThumb: true
 hasRotaryEncoder: false
 isAutoShiftEnabled: false
 isComboEnabled: false
-isSplit: true
+isSplit: false
 isTapDanceEnabled: false
 keybindings: [] # [Vim]
 keyboard: Corne
