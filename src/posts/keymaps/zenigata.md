@@ -1,5 +1,5 @@
 ---
-author: zenigata
+author: OneDeadKey
 baseLayouts: [QWERTY, Colemak, Ergo-L, BÉPO, AZERTY, Optimot]
 firmwares: [kanata, QMK]
 hasHomeRowMods: true
