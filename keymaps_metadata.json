@@ -253,6 +253,34 @@
     },
     {
 
+        "url": "/keymaps/zenigata/",
+        "fileSlug": "zenigata",
+        "title": "Arsenik",
+        "keymapUrl": "https://github.com/OneDeadKey/arsenik",
+        "author": "OneDeadKey",
+        "keymapImage": "https://raw.githubusercontent.com/OneDeadKey/arsenik/main/img/all.svg",
+        "keyCount": 33,
+        "firmwares": ["kanata","QMK"],
+        "keyboard": "ISO",
+        "baseLayouts": ["QWERTY","Colemak","Ergo-L","BÉPO","AZERTY","Optimot"],
+        "stagger": "row",
+        "isSplit": false,
+        "languages": ["French","English","Spanish"],
+        "summary": "Download a ready-to-use Arsenik configuration for Kanata, and enjoy your regular features that were normally only accessible to a programmable keyboard: Angle mod, Mod-taps, Home Row Mods, Symbols layer or Navigation layer.",
+        "OS": ["Linux","MacOS","Windows"],
+        "keybindings": [],
+        "writeup": "https://github.com/OneDeadKey/arsenik/blob/main/README.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 7,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/ARTSEY/",
         "fileSlug": "ARTSEY",
         "title": "ARTSEY",
