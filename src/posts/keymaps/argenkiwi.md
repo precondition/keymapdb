@@ -1,7 +1,7 @@
 ---
 author: argenkiwi
 baseLayouts: [QWERTY, Colemak]
-firmwares: [Kanata, keyd]
+firmwares: [kanata, keyd]
 hasHomeRowMods: true
 hasLetterOnThumb: false
 hasRotaryEncoder: false
