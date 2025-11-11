@@ -1772,7 +1772,7 @@
         "author": "argenkiwi",
         "keymapImage": "https://raw.githubusercontent.com/argenkiwi/kenkyo/refs/heads/main/images/kenkyo.png",
         "keyCount": 31,
-        "firmwares": ["Kanata","keyd"],
+        "firmwares": ["kanata","keyd"],
         "keyboard": "ANSI",
         "baseLayouts": ["QWERTY","Colemak"],
         "stagger": "row",
