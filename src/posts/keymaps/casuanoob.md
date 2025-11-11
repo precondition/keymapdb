@@ -18,7 +18,7 @@ languages: [English]
 layerCount: 16
 OS: ["Windows", "MacOS"]
 stagger: columnar
-summary: "The layout has near 100% coverage of all the keys present on a standard 100% ANSI keyboard keyboard in the span of 6 layers and 4 thumb keys without using Layer Taps or Mod Taps.
+summary: "The layout has near 100% coverage of all the keys present on a standard 100% ANSI keyboard in the span of 6 layers and 4 thumb keys without using Layer Taps or Mod Taps.
 
 The base layer is Aptmak, with V, Q, and Z, on combos as an adaptation to allow support on 30 key layouts."
 title: casuanoob's layout for BastardKB boards (and other 3x5+2)
