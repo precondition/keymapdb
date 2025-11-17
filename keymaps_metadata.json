@@ -454,7 +454,7 @@
         "title": "Caliply",
         "keymapUrl": "https://github.com/indianpojken/qmk-config/tree/main/ferris",
         "author": "indianpojken",
-        "keymapImage": "https://raw.githubusercontent.com/indianpojken/qmk-config/refs/heads/main/ferris/visualization.png",
+        "keymapImage": "https://raw.githubusercontent.com/indianpojken/qmk-config/refs/heads/main/ferris/assets/visualization.png",
         "keyCount": 34,
         "firmwares": ["QMK"],
         "keyboard": "Ferris",
