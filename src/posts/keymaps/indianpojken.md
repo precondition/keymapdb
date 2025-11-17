@@ -12,7 +12,7 @@ isTapDanceEnabled: false
 keybindings: []
 keyboard: Ferris
 keyCount: 34
-keymapImage: https://raw.githubusercontent.com/indianpojken/qmk-config/refs/heads/main/ferris/visualization.png
+keymapImage: https://raw.githubusercontent.com/indianpojken/qmk-config/refs/heads/main/ferris/assets/visualization.png
 keymapUrl: https://github.com/indianpojken/qmk-config/tree/main/ferris
 languages: [English, Swedish]
 layerCount: 4
