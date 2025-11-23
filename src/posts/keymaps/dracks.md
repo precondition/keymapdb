@@ -1,5 +1,5 @@
 ---
-author:
+author: Dracks
 baseLayouts: [QWERTY]
 firmwares: [QMK]
 hasHomeRowMods: true
