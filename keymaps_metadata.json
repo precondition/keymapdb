@@ -1065,6 +1065,34 @@
     },
     {
 
+        "url": "/keymaps/dracks/",
+        "fileSlug": "dracks",
+        "title": "Draconian",
+        "keymapUrl": "https://github.com/Dracks/keyboard-draft-viewer/tree/main/qmk",
+        "author": "Dracks",
+        "keymapImage": "https://raw.githubusercontent.com/Dracks/keyboard-draft-viewer/157a79c62c98fd8008710732d4fd90f1330ac203/images/base-layer-image.png",
+        "keyCount": 34,
+        "firmwares": ["QMK"],
+        "keyboard": "Ferris",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["Spanish"],
+        "summary": "I created the keymap inspired by Frank Noirot's keymap, but it ended up being a completely new keymap, based on my “pain points” in my every day work. Also important to notice, I'm using mouseless on Mac.",
+        "OS": ["Linux","MacOS"],
+        "keybindings": ["Vim"],
+        "writeup": "",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 6,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/duckyb/",
         "fileSlug": "duckyb",
         "title": "duckyb's Ferris Sweep ZMK Configuration",
