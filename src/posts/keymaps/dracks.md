@@ -18,7 +18,7 @@ languages:  [Spanish]
 layerCount: 6
 OS: [Linux, MacOS]
 stagger: columnar
-summary: Quick access to all simbols.
+summary: I created the keyboard inspired on frank_noirot keyboard, but it ended being a complettly new keyboard, based on my "pain points" on my every day work (well, only 2 weeks since I've got the ferris). Also important to notice, I'm using mouseless on Mac.
 title: Draconian
-writeup: I created the keyboard inspired on frank_noirot keyboard, but it ended being a complettly new keyboard, based on my "pain points" on my every day work (well, only 2 weeks since I've got the ferris). Also important to notice, I'm using mouseless on Mac. 
+writeup: ""
 ---
