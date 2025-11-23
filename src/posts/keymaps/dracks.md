@@ -12,7 +12,7 @@ isTapDanceEnabled: false
 keybindings: [Vim]
 keyboard: Ferris
 keyCount: 34
-keymapImage: https://github.com/Dracks/keyboard-draft-viewer/blob/157a79c62c98fd8008710732d4fd90f1330ac203/images/base-layer-image.png
+keymapImage: https://raw.githubusercontent.com/Dracks/keyboard-draft-viewer/157a79c62c98fd8008710732d4fd90f1330ac203/images/base-layer-image.png
 keymapUrl: https://github.com/Dracks/keyboard-draft-viewer/tree/main/qmk
 languages:  [Spanish]
 layerCount: 6
