@@ -1765,6 +1765,34 @@
     },
     {
 
+        "url": "/keymaps/justinmklam-karabiner/",
+        "fileSlug": "justinmklam-karabiner",
+        "title": "justinmklam's Layers for Standard Keyboards",
+        "keymapUrl": "https://gist.github.com/justinmklam/3e389a6e06820ffaec1c2dea8381357b",
+        "author": "justinmklam",
+        "keymapImage": "https://www.justinmklam.com/posts/2025/11/remapping-standard-keyboard/layer-extend.png",
+        "keyCount": 78,
+        "firmwares": ["Karabiner-Elements","keyd"],
+        "keyboard": "ANSI",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "row",
+        "isSplit": false,
+        "languages": ["English"],
+        "summary": "A minor change for a familiar layout to introduce additional layers in a standard keyboard.",
+        "OS": ["MacOS","Linux"],
+        "keybindings": ["Vim"],
+        "writeup": "https://www.justinmklam.com/posts/2025/11/remapping-standard-keyboard/",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 3,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": true,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/jwon/",
         "fileSlug": "jwon",
         "title": "jwon's Programmer Dvorak",
