@@ -1,7 +1,7 @@
 ---
 author: justinmklam
 baseLayouts: [QWERTY]
-firmwares: [Karabiner-Elements, Keyd]
+firmwares: [Karabiner-Elements, keyd]
 hasHomeRowMods: false
 hasLetterOnThumb: false
 hasRotaryEncoder: false
