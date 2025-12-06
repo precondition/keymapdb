@@ -10,7 +10,7 @@ isComboEnabled: true
 isSplit: false
 isTapDanceEnabled: true
 keybindings: [Vim]
-keyboard: Apple Keyboard
+keyboard: ANSI
 keyCount: 78
 keymapImage: https://www.justinmklam.com/posts/2025/11/remapping-standard-keyboard/layer-extend.png
 keymapUrl: https://gist.github.com/justinmklam/3e389a6e06820ffaec1c2dea8381357b
