@@ -1,5 +1,5 @@
 ---
-author:
+author: justinmklam
 baseLayouts: [QWERTY]
 firmwares: [Karabiner-Elements, Keyd]
 hasHomeRowMods: false
