@@ -1,6 +1,6 @@
 ---
 author: ToyKeeper
-baseLayouts: [Dvorak, QWERTY, Colemak, Undvorak]
+baseLayouts: [Dvorak, QWERTY, Colemak]
 firmwares: [Kanata]
 hasHomeRowMods: false
 hasLetterOnThumb: false
