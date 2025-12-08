@@ -5,7 +5,7 @@ firmwares: [Kanata]
 hasHomeRowMods: false
 hasLetterOnThumb: false
 hasRotaryEncoder: false
-isAutoShiftEnabled: true
+isAutoShiftEnabled: false
 isComboEnabled: true
 isSplit: false
 isTapDanceEnabled: false
