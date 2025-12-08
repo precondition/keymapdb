@@ -3529,6 +3529,34 @@
     },
     {
 
+        "url": "/keymaps/toykeeper-kanata_k400plus/",
+        "fileSlug": "toykeeper-kanata_k400plus",
+        "title": "ToyKeeper's Kanata keymap for Logitech K400+",
+        "keymapUrl": "https://github.com/ToyKeeper/kanata-logitech-k400plus",
+        "author": "ToyKeeper",
+        "keymapImage": "https://raw.githubusercontent.com/ToyKeeper/kanata-logitech-k400plus/trunk/tk-k400%2B.png",
+        "keyCount": 82,
+        "firmwares": ["Kanata"],
+        "keyboard": "Logitech K400+",
+        "baseLayouts": ["Dvorak","QWERTY","Colemak"],
+        "stagger": "row",
+        "isSplit": false,
+        "languages": ["English"],
+        "summary": "A cheap wireless keyboard+mouse for media PCs.  It sucks, but you can make it suck less with Kanata.  Fixes some hardware issues and adds quality-of-life features and extra core layouts.  Designed to be customized easily; includes example configs and scripts.",
+        "OS": ["Linux"],
+        "keybindings": [],
+        "writeup": "https://github.com/ToyKeeper/kanata-logitech-k400plus/blob/trunk/readme.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 7,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/fculpo/",
         "fileSlug": "fculpo",
         "title": "Tweaked keymap for Redox",
