@@ -6,7 +6,7 @@ hasHomeRowMods: false
 hasLetterOnThumb: false
 hasRotaryEncoder: false
 isAutoShiftEnabled: false
-isComboEnabled: true
+isComboEnabled: false
 isSplit: false
 isTapDanceEnabled: false
 keybindings: []
