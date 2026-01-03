@@ -1,6 +1,6 @@
 ---
 author: CowboyVang
-baseLayouts: [Colemak-DH]
+baseLayouts: [Colemak]
 firmwares: [QMK]
 hasHomeRowMods: false
 hasLetterOnThumb: false
