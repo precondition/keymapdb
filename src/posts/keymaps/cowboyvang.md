@@ -10,7 +10,7 @@ isComboEnabled: true
 isSplit: true
 isTapDanceEnabled: false
 keybindings: [Vim]
-keyboard: Boardsource Unicorne
+keyboard: Unicorne
 keyCount: 42
 keymapImage: https://raw.githubusercontent.com/CowboyVang/unicorne-keymap/main/images/layer-0-base.svg
 keymapUrl: https://github.com/CowboyVang/unicorne-keymap
