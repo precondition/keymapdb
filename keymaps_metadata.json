@@ -2829,6 +2829,34 @@
     },
     {
 
+        "url": "/keymaps/CowboyVang/",
+        "fileSlug": "CowboyVang",
+        "title": "qmk-unicorne-colemak-dh",
+        "keymapUrl": "https://github.com/CowboyVang/unicorne-keymap",
+        "author": "CowboyVang",
+        "keymapImage": "https://raw.githubusercontent.com/CowboyVang/unicorne-keymap/main/images/layer-0-base.svg",
+        "keyCount": 42,
+        "firmwares": ["QMK"],
+        "keyboard": "Unicorne",
+        "baseLayouts": ["Colemak"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "Colemak-DH keymap with Pure Space thumb, 14 combos for common keys, Key Overrides for bracket pairs, selective Auto Shift, Space Cadet parentheses, and System Orchestrator F-keys for macro automation.",
+        "OS": ["macOS"],
+        "keybindings": ["Vim"],
+        "writeup": "https://github.com/CowboyVang/unicorne-keymap/blob/main/README.md",
+        "hasRotaryEncoder": true,
+        "hasLetterOnThumb": false,
+        "layerCount": 3,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": true
+        
+    },
+    {
+
         "url": "/keymaps/rafaelromao/",
         "fileSlug": "rafaelromao",
         "title": "rafaelromao's keyboard layout",
