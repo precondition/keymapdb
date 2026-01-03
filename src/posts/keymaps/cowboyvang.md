@@ -9,7 +9,7 @@ isAutoShiftEnabled: true
 isComboEnabled: true
 isSplit: true
 isTapDanceEnabled: false
-keybindings: []
+keybindings: [Vim]
 keyboard: Boardsource Unicorne
 keyCount: 42
 keymapImage: https://raw.githubusercontent.com/CowboyVang/unicorne-keymap/main/images/layer-0-base.svg
