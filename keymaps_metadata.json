@@ -212,7 +212,7 @@
         "languages": ["English"],
         "summary": "This is my QMK Kyria keymap, it has some nifty features and an interesting base layer.\nThe base alpha layer I use is a modified RSTHD, which has some interesting (perhaps dubious), choices. To understand my thought process you can read my Keymap Logs.",
         "OS": ["Linux"],
-        "keybindings": ["Vim","Emacs","TWM","Gaming"],
+        "keybindings": ["Vim","TWM","Gaming"],
         "writeup": "https://github.com/andrewjrae/kyria-keymap/blob/master/README.org",
         "hasRotaryEncoder": false,
         "hasLetterOnThumb": true,
