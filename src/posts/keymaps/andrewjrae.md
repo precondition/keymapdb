@@ -9,7 +9,7 @@ isAutoShiftEnabled: false
 isComboEnabled: true
 isSplit: true
 isTapDanceEnabled: false
-keybindings: [Vim, Emacs, TWM, Gaming]
+keybindings: [Vim, TWM, Gaming]
 keyboard: Kyria
 keyCount: 46
 keymapImage: https://github.com/andrewjrae/kyria-keymap/raw/master/images/kyria.png
