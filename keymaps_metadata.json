@@ -225,6 +225,34 @@
     },
     {
 
+        "url": "/keymaps/anymak/",
+        "fileSlug": "anymak",
+        "title": "anymak:END",
+        "keymapUrl": "https://github.com/rpnfan/Anymak",
+        "author": "rpnfan",
+        "keymapImage": "https://rpnfan.github.io/keyboard-heaven/images/anymak-end.png",
+        "keyCount": 32,
+        "firmwares": ["kanata"],
+        "keyboard": "Corne",
+        "baseLayouts": ["anymak:END","Colemak","QWERTY","Graphite"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English","German","Dutch"],
+        "summary": "anymak:END is a full system combining a custom alpha layout with an ergonomic layer/modifier framework. The Anymak approach emphasizes one-shot mods, bottom-row mods, SpaceFN (hold space for nav layer with arrows, copy/paste, etc.), and symbol layers. It maintains consistent fingering across standard row-stagger, columnar, and split ergonomic keyboards, avoids uncomfortable positions and prioritizes inward rolls and calm finger flow.",
+        "OS": ["Windows","MacOS","Linux"],
+        "keybindings": [],
+        "writeup": "https://rpnfan.github.io/keyboard-heaven",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 3,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": true,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/archydragon/",
         "fileSlug": "archydragon",
         "title": "archydragon's multilingual layout for Lily58 keyboard",
