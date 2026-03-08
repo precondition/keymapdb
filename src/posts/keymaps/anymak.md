@@ -1,7 +1,7 @@
 ---
 author: rpnfan
 baseLayouts: ["anymak:END", "Colemak", "QWERTY","Graphite"]  # [QWERTY, Colemak, Dvorak, ...]
-firmwares: [kanata] # [QMK, ZMK, KMonad]
+firmwares: [Kanata] # [QMK, ZMK, KMonad, Kanata]
 hasHomeRowMods: false # true or false
 hasLetterOnThumb: false # true or false
 hasRotaryEncoder: false # true or false
