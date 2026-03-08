@@ -232,7 +232,7 @@
         "author": "rpnfan",
         "keymapImage": "https://rpnfan.github.io/keyboard-heaven/images/anymak-end.png",
         "keyCount": 32,
-        "firmwares": ["kanata"],
+        "firmwares": ["Kanata"],
         "keyboard": "Corne",
         "baseLayouts": ["anymak:END","Colemak","QWERTY","Graphite"],
         "stagger": "columnar",
