@@ -18,7 +18,7 @@ languages: [English, German]
 layerCount: 12
 OS: [Linux]
 stagger: columnar
-summary: "34-key Ferris Sweep keymap on Hands Down Vibranium with an alpha thumb. Magic keys finish whole words from context (b+magic → because, t+magic → tion); adaptive keys rewrite same-finger bigrams into rolls (n+r → ng, l+r → ll). QMK firmware generated from markdown tables, packed into flash via a custom 4/8-bit codec."
+summary: "34-key Ferris Sweep keymap on Hands Down Vibranium with an alpha thumb. Magic keys finish whole words from context (b+magic → because); adaptive keys rewrite same-finger bigrams into rolls (n+r → ng, l+r → ll). Low finger travel, in-roll bias, arrows reachable from the home row. No home-row mods — timing-robust, no tap-vs-hold misfires."
 title: zeitlinger's Magic Keyboard
 writeup: https://github.com/zeitlinger/keyboard/blob/main/blog/2026-06-13-magic-keyboard.md
 ---
