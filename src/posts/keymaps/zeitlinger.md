@@ -11,7 +11,7 @@ isSplit: true
 isTapDanceEnabled: false
 keybindings: []
 keyboard: Ferris Sweep
-keyCount: 34
+keyCount: 28
 keymapImage: https://raw.githubusercontent.com/zeitlinger/keyboard/main/keymap.svg
 keymapUrl: https://github.com/zeitlinger/keyboard
 languages: [English]
