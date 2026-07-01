@@ -10,7 +10,7 @@ isComboEnabled: true
 isSplit: true
 isTapDanceEnabled: false
 keybindings: []
-keyboard: Ferris Sweep
+keyboard: Ferris
 keyCount: 28
 keymapImage: https://raw.githubusercontent.com/zeitlinger/keyboard/main/keymap.svg
 keymapUrl: https://github.com/zeitlinger/keyboard
