@@ -3977,6 +3977,34 @@
     },
     {
 
+        "url": "/keymaps/zeitlinger/",
+        "fileSlug": "zeitlinger",
+        "title": "zeitlinger's Magic Keyboard",
+        "keymapUrl": "https://github.com/zeitlinger/keyboard",
+        "author": "zeitlinger",
+        "keymapImage": "https://raw.githubusercontent.com/zeitlinger/keyboard/main/keymap.svg",
+        "keyCount": 28,
+        "firmwares": ["QMK"],
+        "keyboard": "Ferris",
+        "baseLayouts": ["Hands Down"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English","German"],
+        "summary": "34-key Ferris Sweep keymap on Hands Down Vibranium with an alpha thumb. Magic keys finish whole words from context (b+magic → because); adaptive keys rewrite same-finger bigrams into rolls (n+r → ng, l+r → ll). Low finger travel, in-roll bias, arrows reachable from the home row. No home-row mods — timing-robust, no tap-vs-hold misfires.",
+        "OS": ["Linux"],
+        "keybindings": [],
+        "writeup": "https://github.com/zeitlinger/keyboard/blob/main/blog/2026-06-13-magic-keyboard.md",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": true,
+        "layerCount": 12,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/zzkt/",
         "fileSlug": "zzkt",
         "title": "zzkt's emacs-centric keymap for the crkbd",
