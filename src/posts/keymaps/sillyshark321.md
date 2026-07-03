@@ -18,7 +18,7 @@ languages: [English]
 layerCount: 3
 OS: [Windows]
 stagger: columnar
-summary: An uber-practical Corne layout for general use, targeted for people switching between row-staggered and ergonomic keyboards. If you don't want a high learning curve getting used to your new Corne keyboard, this is for you.
+summary: An uber-practical Corne layout for general use, targeted for people switching between row-staggered and ergonomic keyboards. If you don't want a high learning curve getting used to your new Corne keyboard, this is for you!
 title: SharkSplit Layout
 writeup: 
 ---
