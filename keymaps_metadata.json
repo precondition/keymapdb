@@ -3165,6 +3165,34 @@
     },
     {
 
+        "url": "/keymaps/sillyshark321/",
+        "fileSlug": "sillyshark321",
+        "title": "SharkSplit Layout",
+        "keymapUrl": "https://github.com/sillyshark321/SharkSplit-Layout",
+        "author": "sillyshark321",
+        "keymapImage": "https://raw.githubusercontent.com/sillyshark321/SharkSplit-Layout/main/img/layout.png",
+        "keyCount": 42,
+        "firmwares": ["QMK"],
+        "keyboard": "Corne",
+        "baseLayouts": ["Colemak"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "An uber-practical Corne layout for general use, targeted for people switching between row-staggered and ergonomic keyboards. If you don't want a high learning curve getting used to your new Corne keyboard, this is for you!",
+        "OS": ["Windows"],
+        "keybindings": ["Gaming"],
+        "writeup": null,
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 3,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/shaykalyan/",
         "fileSlug": "shaykalyan",
         "title": "Shay Kalyan's Lily58",
