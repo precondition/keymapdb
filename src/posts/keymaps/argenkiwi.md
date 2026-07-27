@@ -12,7 +12,7 @@ isTapDanceEnabled: false
 keybindings: []
 keyboard: ANSI
 keyCount: 31
-keymapImage: https://raw.githubusercontent.com/argenkiwi/kenkyo/refs/heads/main/images/kenkyo.png
+keymapImage: https://raw.githubusercontent.com/argenkiwi/kenkyo/refs/heads/main/images/kenkyo.webp
 keymapUrl: https://github.com/argenkiwi/kenkyo
 languages: [English, Spanish]
 layerCount: 3
