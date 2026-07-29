@@ -1854,7 +1854,7 @@
         "title": "Kenkyo",
         "keymapUrl": "https://github.com/argenkiwi/kenkyo",
         "author": "argenkiwi",
-        "keymapImage": "https://raw.githubusercontent.com/argenkiwi/kenkyo/refs/heads/main/images/kenkyo.png",
+        "keymapImage": "https://raw.githubusercontent.com/argenkiwi/kenkyo/refs/heads/main/images/kenkyo.webp",
         "keyCount": 31,
         "firmwares": ["Kanata","keyd"],
         "keyboard": "ANSI",
