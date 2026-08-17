@@ -13,7 +13,7 @@ keybindings: [Emacs]
 keyboard: ErgoDash
 keyCount: 68
 keymapImage: src/assets/img/keymaps/marcoXbresciani.png
-keymapUrl: ""
+keymapUrl: "https://codeberg.org/marcoXbresciani/pages/src/branch/main/other"
 languages: [Italian]
 layerCount: 10
 OS: [Windows]
