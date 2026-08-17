@@ -10,7 +10,7 @@ isComboEnabled: false
 isSplit: true
 isTapDanceEnabled: false
 keybindings: [Emacs]
-keyboard: ErgoDashmarco
+keyboard: ErgoDash
 keyCount: 68
 keymapImage: src/assets/img/keymaps/marcoXbresciani.png
 keymapUrl: ""
