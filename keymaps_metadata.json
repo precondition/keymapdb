@@ -1009,6 +1009,34 @@
     },
     {
 
+        "url": "/keymaps/marcoXbresciani/",
+        "fileSlug": "marcoXbresciani",
+        "title": "Develop-It",
+        "keymapUrl": "https://codeberg.org/marcoXbresciani/pages/src/branch/main/other",
+        "author": "marcoXbresciani",
+        "keymapImage": "/assets/img/keymaps/src/assets/img/keymaps/marcoXbresciani.png",
+        "keyCount": 68,
+        "firmwares": ["QMK"],
+        "keyboard": "ErgoDash",
+        "baseLayouts": ["QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["Italian"],
+        "summary": "A developer-ready Italian layout for an ErgoDash, on Windows, also with Emacs accented letters",
+        "OS": ["Windows"],
+        "keybindings": ["Emacs"],
+        "writeup": "https://marcoxbresciani.codeberg.page/keyboards/ergodash/current.html",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": false,
+        "layerCount": 10,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/ferrance/",
         "fileSlug": "ferrance",
         "title": "dizave42",
