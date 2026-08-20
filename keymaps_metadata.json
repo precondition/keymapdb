@@ -1014,7 +1014,7 @@
         "title": "Develop-It",
         "keymapUrl": "https://codeberg.org/marcoXbresciani/pages/src/branch/main/other",
         "author": "marcoXbresciani",
-        "keymapImage": "/assets/img/keymaps/src/assets/img/keymaps/marcoXbresciani.png",
+        "keymapImage": "/assets/img/keymaps/marcoXbresciani.png",
         "keyCount": 68,
         "firmwares": ["QMK"],
         "keyboard": "ErgoDash",
