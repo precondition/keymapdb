@@ -17,7 +17,7 @@
         "summary": "My 36-key QWERTY split keymap with tap-only layer switching, no home-row holds, and combos for essential keys. ",
         "OS": ["Windows","MacOS","Linux","Android"],
         "keybindings": [],
-        "writeup": "https://blog.shamallakshan.com/2025/09/06/writeups/keymap/36-qwerty-tap-switch-keymap/",
+        "writeup": "https://blog.shamallakshan.com/2025/09/05/writeups/keymap/36-qwerty-tap-switch-keymap/",
         "hasRotaryEncoder": true,
         "hasLetterOnThumb": false,
         "layerCount": 6,
