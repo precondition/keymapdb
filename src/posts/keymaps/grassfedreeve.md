@@ -1,6 +1,6 @@
 ---
 author: grassfedreeve
-baseLayouts: ["Aptmak"]
+baseLayouts: ["Finch"]
 firmwares: [ZMK] 
 hasHomeRowMods: true
 hasLetterOnThumb: true
@@ -16,9 +16,9 @@ keymapImage: "https://raw.githubusercontent.com/grassfedreeve/akohekohe/main/img
 keymapUrl: "https://github.com/grassfedreeve/zmk-config-akohekohe"
 languages: [English]
 layerCount: 4
-OS: ["Linux", "Windows"]
+OS: ["Linux"]
 stagger: columnar
-summary: This is the layout I use on my 26 key split keyboard. Base Layer is Aptmak with quite a few combos, layers are activated by holding the thumb keys.
-title: reeve's keymap for 26-30 keys
+summary: This is the layout I use on my 26 key split keyboard. Base Layer is my own layout Finch with quite a few combos, layers are activated by holding the thumb keys. HRM shift on pinky is not used outside of keyboard shortcuts, combo sticky shift is used for typing.
+title: reeve's keymap for 26 keys
 writeup: ""
 ---
