@@ -4008,7 +4008,7 @@
         "url": "/keymaps/dickiedyce-corneish_zen/",
         "fileSlug": "dickiedyce-corneish_zen",
         "title": "Workman Corneish-Zen",
-        "keymapUrl": "https://github.com/dickiedyce/zmk-config-zen-2/blob/main/config/corneish_zen.keymap",
+        "keymapUrl": "https://github.com/dickiedyce/zmk-zen-2025/blob/main/config/corneish_zen.keymap",
         "author": "dickiedyce",
         "keymapImage": "/assets/img/keymaps/dickiedyce-corneish_zen.png",
         "keyCount": 42,
