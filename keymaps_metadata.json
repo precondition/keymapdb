@@ -1541,6 +1541,34 @@
     },
     {
 
+        "url": "/keymaps/sunaku/",
+        "fileSlug": "sunaku",
+        "title": "Glorious Engrammer",
+        "keymapUrl": "https://github.com/sunaku/glove80-keymaps",
+        "author": "sunaku",
+        "keymapImage": "https://raw.githubusercontent.com/sunaku/glove80-keymaps/main/README/base-layer-diagram-Enthium.png",
+        "keyCount": 70,
+        "firmwares": ["ZMK"],
+        "keyboard": "Glove80",
+        "baseLayouts": ["Enthium","Dvorak","Colemak","QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "Enthium-based (with Dvorak, Colemak, and QWERTY alternates) Miryoku-style keymap with tamed home row mods, layer locking, dedicated gaming/cursor/mouse layers, a programming-focused symbol layer refined over a decade, and Unicode/Emoji world layers.",
+        "OS": ["Linux","Windows","MacOS"],
+        "keybindings": ["Vim","Gaming"],
+        "writeup": "https://sunaku.github.io/moergo-glove80-keyboard.html",
+        "hasRotaryEncoder": false,
+        "hasLetterOnThumb": true,
+        "layerCount": 32,
+        "hasHomeRowMods": true,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": true,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/godalming123/",
         "fileSlug": "godalming123",
         "title": "Godalming123's 30 key keymap",
