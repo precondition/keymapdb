@@ -12,7 +12,7 @@ isTapDanceEnabled: false
 keybindings: []
 keyboard: Japanese Apple Keyboard
 keyCount: 35
-keymapImage: https://codeberg.org/peterjc/kana-chording-ke/raw/branch/main/hands-down-on-jis-macbook/hands-down-on-jis-macbook.jpeg
+keymapImage: peterjc-hands_down_promethium.webp
 keymapUrl: https://codeberg.org/peterjc/kana-chording-ke/src/branch/main/hands-down-on-jis-macbook/
 languages: ["English"]
 layerCount: 2
