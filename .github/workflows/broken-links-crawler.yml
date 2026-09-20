@@ -20,8 +20,16 @@ jobs:
       with:
         website_url: "https://keymapdb.com"
         exclude_url_prefix: "/assets,https://mechdb.net"
-        max_retries: 2
-        # The crawler stops going deeper once it leaves the keymapdb domain 
+        # reddit.com and github.com/user-attachments block scripted clients
+        # outright (403), regardless of retries or user agent, so they're
+        # permanent false positives for this crawler.
+        exclude_url_contained: "reddit.com,github.com/user-attachments"
+        # Avoid tripping GitHub's rate limiting (429) by not hammering the
+        # same host with many parallel requests.
+        connect_limit_per_host: 2
+        max_retries: 4
+        max_retry_time: 60
+        # The crawler stops going deeper once it leaves the keymapdb domain
         # so it won't accidentally crawl the whole web even if you put -1.
-        max_depth: -1 
+        max_depth: -1
         verbose: true
