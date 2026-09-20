@@ -1574,7 +1574,7 @@
         "title": "Hands Down Promethium (Pico mod) on Japanese Apple Keyboard",
         "keymapUrl": "https://codeberg.org/peterjc/kana-chording-ke/src/branch/main/hands-down-on-jis-macbook/",
         "author": "peterjc",
-        "keymapImage": "https://codeberg.org/peterjc/kana-chording-ke/raw/branch/main/hands-down-on-jis-macbook/hands-down-on-jis-macbook.jpeg",
+        "keymapImage": "/assets/img/keymaps/peterjc-hands_down_promethium.webp",
         "keyCount": 35,
         "firmwares": ["Karabiner-Elements"],
         "keyboard": "Japanese Apple Keyboard",
