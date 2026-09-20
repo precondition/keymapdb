@@ -12,7 +12,7 @@ isTapDanceEnabled: true
 keybindings: [Vim, TWM]
 keyboard: Corne
 keyCount: 34
-keymapImage: https://raw.githubusercontent.com/urob/zmk-config/main/draw/keymap.png
+keymapImage: urob.svg
 keymapUrl: https://github.com/urob/zmk-config
 languages: [English, German, Greek]
 layerCount: 6
@@ -26,5 +26,5 @@ summary:
 - Fully automated, nix-based local build environment
 - Base keymap used for various keyboards using modular structure
 title: urob's keymap for 34+ key keyboards
-writeup: https://github.com/urob/zmk-config/blob/main/readme.md
+writeup: https://github.com/urob/zmk-config/blob/main/README.md
 ---
