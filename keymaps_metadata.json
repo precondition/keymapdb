@@ -3249,6 +3249,34 @@
     },
     {
 
+        "url": "/keymaps/wheredoesyourmindgo/",
+        "fileSlug": "wheredoesyourmindgo",
+        "title": "Serenity",
+        "keymapUrl": "https://github.com/wheredoesyourmindgo/serenity-qmk",
+        "author": "wheredoesyourmindgo",
+        "keymapImage": "/assets/img/keymaps/wheredoesyourmindgo.png",
+        "keyCount": 42,
+        "firmwares": ["QMK","Karabiner-Elements"],
+        "keyboard": "Corne",
+        "baseLayouts": ["Serenity","QWERTY"],
+        "stagger": "columnar",
+        "isSplit": true,
+        "languages": ["English"],
+        "summary": "https://serenity-layout.fyi — An optimized alternative alpha layout that keeps weak fingers home and puts the vowels on one hand. Ships as QMK firmware for the Corne, Planck, HHKB and more, with stackable one-shot mods and Num/Nav, Symbol, Mouse and OS layers, plus a Karabiner-Elements version for any Mac keyboard.",
+        "OS": ["MacOS"],
+        "keybindings": [],
+        "writeup": "https://serenity-layout.fyi",
+        "hasRotaryEncoder": true,
+        "hasLetterOnThumb": false,
+        "layerCount": 9,
+        "hasHomeRowMods": false,
+        "isTapDanceEnabled": false,
+        "isComboEnabled": false,
+        "isAutoShiftEnabled": false
+        
+    },
+    {
+
         "url": "/keymaps/sillyshark321/",
         "fileSlug": "sillyshark321",
         "title": "SharkSplit Layout",
